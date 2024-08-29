@@ -1,0 +1,18 @@
+{
+  "model": "phi3",
+  "parameters": {
+    "mirostat": 2,
+    "mirostat_eta": 0.08,
+    "mirostat_tau": 2.5,
+    "num_ctx": 4096,
+    "repeat_last_n": 32,
+    "repeat_penalty": 1.7,
+    "temperature": 0.85,
+    "seed": 42,
+    "stop": "stop_sequence",
+    "tfs_z": 1.2,
+    "num_predict": 80,
+    "top_k": 40,
+    "top_p": 0.9
+  }
+}
