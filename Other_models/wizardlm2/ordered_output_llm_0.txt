@@ -1,0 +1,115 @@
+0:  StartEvent - The procurement process **is triggered** by a purchase requisition being created.
+3: 1. Subprocess 1 - Supplier Selection & Evaluation
+
+2. Subprocess 2 - Contract Negotiation & Finalization
+20: 1. Function - 'Review Requisition, The purchase requisition is reviewed for compliance and necessary information.'
+2. Event - 'Requisition Approved, The purchase requisition is approved to proceed with the procurement process.'
+3. Function - 'Initiate Supplier Search, A search for potential suppliers based on the requisition details is initiated.'
+4. Event - 'Suppliers Identified, Potential suppliers are identified and a list is prepared for further evaluation.'
+5. Function - 'Evaluate Suppliers, The identified suppliers are evaluated based on criteria such as price, quality, and delivery time.'
+6. Event - 'Supplier Selected, A supplier is selected from the evaluated list to fulfill the purchase requisition.'
+34: Function - "Create Purchase Requisition"
+Event - "Purchase Requisition Created"
+Function - "Validate Vendor Data"
+Event - "Vendor Data Validated"
+Function - "Check Inventory Levels"
+Event - "Inventory Levels Checked"
+Function - "Issue Purchase Order"
+Event - "Purchase Order Issued"
+Function - "Receive Goods/Services"
+Event - "Goods/Services Received"
+Function - "Process Invoice"
+Event - "Invoice Processed"
+35: 1. Subprocess 1 - Supplier Selection & Evaluation
+
+2. Subprocess 2 - Price Negotiation & Approval
+
+3. Subprocess 3 - Purchase Order Generation
+
+4. Subprocess 4 - Goods Receipt & Inspection
+
+5. Subprocess 5 - Payment Processing
+
+6. Subprocess 6 - Performance Review & Feedback Loop
+
+7. Subprocess 7 - Contract Management & Renewal
+
+8. Subprocess 8 - Inventory Management & Control
+
+Each subprocess represents a distinct phase within the procurement process, and together they form a comprehensive event-driven workflow for efficient procurement management in an international company.
+56: 1. **Event -** "Purchase requisition created is approved,"
+   
+2. **Function -** "The system initiates a supplier selection process,"
+   
+3. **Event -** "Supplier is selected and confirmed for procurement."
+53: 1. **Event - "A purchase requisition is created"**- This event signifies the initiation of the procurement process, triggered when an employee within the company submits a formal request for the acquisition of goods or services.
+
+2. **Function - "The procurement department reviews the requisition and approves it for further action"**- In this function, the procurement team examines the purchase requisition to ensure it adheres to company policies and budget constraints before proceeding with the purchasing process.
+
+3. **Event - "The approved requisition is forwarded to the supplier selection subprocess"** (assuming the third event maintains the parallel structure and represents the outcome of the second function)- Upon approval, the validated purchase requisition is passed on to the next stage in the procurement process, where potential suppliers are evaluated and selected.
+50: 1. Event - "Purchase requisition created is detected by the system,"
+   Function - "The system initiates a vendor selection process,"
+   
+2. Event - "Vendor candidates are identified by the system,"
+   Function - "The procurement team evaluates the vendors based on predefined criteria,"
+   
+3. Event - "A vendor is selected and a purchase order is generated."
+61: 1. **Event - Purchase Requisition Created-**
+   A purchase requisition is generated and submitted, triggering the initiation of the procurement process in the passive voice (NOUN AUX VERB NOUN).
+
+2. **Function - Evaluate Suppliers-**
+   The company assesses potential suppliers based on criteria such as price, quality, and reliability, selecting the most suitable one in the active voice (NOUN VERB NOUN).
+
+3. **Event - Price Negotiation Conducted-**
+   Price negotiation takes place between the buyer and the chosen supplier, resulting in a tentative agreement on terms and costs in the passive voice (NOUN AUX VERB NOUN).
+
+4. **Function - Approve Negotiated Price-**
+   The procurement team reviews the negotiated price and either accepts or rejects it, formalizing the purchase terms in the active voice (NOUN VERB NOUN).
+62: 1. Subprocess 1 - Supplier Selection & Evaluation
+
+2. Subprocess 2 - Requisition Approval Workflow
+
+Note- In an actual event-driven process chain, these subprocesses would be designed to handle specific tasks within the procurement process, such as evaluating potential suppliers or obtaining necessary approvals for the purchase requisition. Each name is concise and reflects a distinct aspect of the procurement workflow.
+72: 1. Event - A purchase requisition is created (NOUN AUX BEEN CREATED)
+2. Function - The system validates the requisition (NOUN VERB validates the requisition)
+3. Event - The procurement process is approved (NOUN AUX IS APPROVED) for the requisition
+4. Function - The company initiates a vendor selection (NOUN VERB selects a vendor) based on the approved requisition
+68:  Event - Purchase Requisition Created- A purchase requisition, instigated by a business unit, is formally documented in the company's procurement system, triggering the subsequent workflow within the procurement process chain.
+
+Function - Evaluate Supplier Proposals- The procurement team reviews and assesses proposals submitted by potential suppliers, comparing their offers based on criteria such as price, quality, delivery time, and service conditions to select the most suitable supplier for the purchase requisition.
+73: Event - Purchase requisition created triggers procurement process in passive voice (NOUN AUX VERB NOUN), where 'purchase requisition' is the stimulus, 'is triggered' is the state or condition, and 'procurement process' is the subject undergoing the action.
+59: 1. Function - 'Order Initiation - The company places an order with the supplier based on the purchase requisition.'
+2. Event - 'Purchase Requisition Approval - The purchase requisition is approved by the procurement department.'
+3. Function - 'Supplier Confirmation - The supplier confirms receipt of the order and provides a quotation or invoice.'
+24: 1. Subprocess 1 - Review & Approval of Requisition
+
+2. Subprocess 2 - Supplier Selection & Negotiation
+
+3. Subprocess LOOP - Iterative Quote Collection & Evaluation (to be closed in the future)
+
+4. Subprocess 4 - Purchase Order Generation
+
+5. Subprocess 5 - Goods Receipt & Inspection
+
+6. Subprocess 6 - Payment Processing
+
+7. Subprocess 7 - Post-Purchase Analysis & Reporting
+
+8. Subprocess 8 - Contract Renegotiation & Management (if applicable)
+32: Event - 'Purchase requisition created, is being processed'
+25: Function - 'Purchase Requisition Created'- A purchase requisition is generated and submitted to initiate the procurement process.
+
+Event - 'Requisition Review & Approval Initiated'- The procurement team begins reviewing and approving the newly created purchase requisition, ensuring it aligns with company policies and budget constraints.
+11: 1. **Function** - 'Procurement Agent initiates Supplier Selection & Evaluation'
+   
+2. **Event** - 'Supplier proposals are received and assessed'
+
+3. **Function** - 'Contract Specialist begins Contract Negotiation & Finalization'
+
+4. **Event** - 'Contract terms are agreed upon by the supplier'
+18: 1. **Function - 'Receive Requisition'** - A function where the procurement department receives and validates the purchase requisition created by a department requesting goods or services.
+
+2. **Event - ‘Approve Requisition’** - An event where the procurement manager approves the received requisition, indicating that the company should proceed with fulfilling the order based on the specified requirements.
+
+3. **Function - 'Initiate Supplier Search'** - A function where the procurement department initiates a search for potential suppliers capable of fulfilling the approved requisition, using databases or contacting known vendors.
+1:  EndEvent - Procurement process has been completed

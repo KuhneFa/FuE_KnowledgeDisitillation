@@ -1,0 +1,72 @@
+0: **StartEvent - Procurement request received by central procurement team via digital platform.**
+3: **Subprocess 1 - Supplier pre-qualification assessment**
+**Subprocess 2 - Market research and cost analysis**
+20: **Function - Procurement request details validated**
+**Event - Validation report generated**
+**Function - Procurement team notified**
+**Event - Notification email sent**
+**Function - Digital platform updated**
+**Event - Procurement request status changed to 'Validated'**
+34: **Function -** Central procurement team receives notification of procurement request through digital platform.
+**Event -** Procurement request received by central procurement team via digital platform.
+**Function -** Central procurement team assigns the request to relevant procurement specialist.
+**Event -** Procurement request assigned to procurement specialist.
+**Function -** Procurement specialist retrieves required supplier data from central repository.
+**Event -** Supplier data retrieved.
+**Function -** Procurement specialist assesses supplier capabilities and past performance.
+**Event -** Supplier assessment completed.
+**Function -** Procurement specialist generates a shortlist of potential suppliers.
+35: Subprocess 1 - Purchase order creation
+Subprocess 2 - Supplier selection
+Subprocess 3 - Budget approval
+Subprocess 4 - Contract negotiation
+56: **Contract Negotiation**
+
+- **Event -** Contract draft prepared by central procurement team based on request details.
+- **Function -** Procurement team reviews and validates draft contract against established criteria.
+- **Event -** Contract finalized and signed by authorized representatives.
+53: **Budget Approval**
+
+* **Event -** Budget proposal submitted by regional procurement managers via digital platform.
+* **Function -** Central procurement team reviews and assesses budget proposal.
+* **Event -** Budget approval granted or rejected by central procurement team.
+50: **Supplier selection-**
+
+Event - Supplier data received from external database 
+Function - Automated assessment of supplier capabilities based on predefined criteria 
+Event - Shortlisted suppliers notified via email
+61: **Event -** Purchase order template downloaded from central procurement repository.
+**Function -** System automatically assigns purchase order number.
+**Event -** Relevant supplier details extracted from supplier master data.
+**Function -** Automated generation of purchase order document with details.
+62: Subprocess 1 - Supplier pre-qualification review completed
+Subprocess 2 - Market research and competitive analysis initiated
+72: **Event - Market research assignment issued**
+**Function - Research team receives detailed market analysis parameters**
+**Event - Research data retrieved from external sources**
+**Function - Data is consolidated and analyzed by research team**
+68: **Event -** Procurement request details transmitted to external supplier database for preliminary assessment.
+**Function -** Supplier records are updated with latest prequalification information.
+73: **Event - Procurement request data validated by central procurement team**
+
+Function - Central procurement team verifies authenticity and completeness of data submitted through digital platform.
+59: **Function -** Central procurement team validates digital platform data.
+**Event -** Digital platform sends procurement request data to central procurement team.
+**Function -** Central procurement team assigns procurement request to appropriate team.
+24: Subprocess 1 - Supplier selection initiated
+Subprocess 2 - Market research commenced
+32: **Event - Market research request received.**
+**Function - Market research team receives market research request from central procurement team via digital platform.**
+25: **Event - Supplier selection request received.**
+
+**Function - New supplier selection request is created in central repository.**
+11: **Supplier prequalification assessment Subprocess-**
+
+**Function -** Supplier data collected from online platform.
+**Event -** Supplier information is automatically uploaded to central repository.
+**Function -** Predefined criteria assessed against supplier data.
+**Event -** Qualified suppliers receive notification via email.
+18: **Function -** Central procurement team verifies the completeness of the request data.
+**Event -** Request data is automatically uploaded to central procurement system.
+**Function -** Confirmation email is sent to the requestor with request status and ID.
+1: **EndEvent - Procurement order finalized and released by central procurement team**

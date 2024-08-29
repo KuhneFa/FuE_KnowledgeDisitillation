@@ -1,0 +1,71 @@
+0: **StartEvent - Procurement request received by central purchasing department from various business units via electronic portal.**
+3: **Subprocess 1 - Business Unit Approval Request**
+**Subprocess 2 - Commodity Expertise Review**
+20: **Function -** Central purchasing department validates procurement request data.
+**Event -** Data validation completed successfully.
+**Function -** Notification sent to requesting business unit regarding data validation status.
+**Event -** Business unit receives notification.
+**Function -** Procurement request assigned to appropriate purchasing manager.
+**Event -** Procurement request assigned.
+34: **Function -** Central purchasing department receives procurement request data from electronic portal.
+**Event -** Procurement request data received by central purchasing department from various business units via electronic portal.
+**Function -** Data validation of procurement request details.
+**Event -** Procurement request data validated.
+**Function -** Generation of procurement request document.
+**Event -** Procurement request document generated.
+**Function -** Routing of procurement request to appropriate supplier selection team.
+**Event -** Procurement request routed to appropriate supplier selection team.
+**Function -** Supplier selection process initiated.
+35: **Subprocess 1 - Request evaluation**
+**Subprocess 2 - Supplier selection**
+**Subprocess 3 - Price negotiation**
+**Subprocess 4 - Contract finalization**
+56: **Event -** Procurement request data captured in central repository.
+**Function -** System validates data integrity and completeness.
+**Event -** Validation results communicated back to business units.
+53: **Event - Procurement request electronically transmitted to central purchasing system.**
+**Function - Central purchasing system validates procurement request data.**
+**Event - Validation results displayed on electronic portal.**
+50: **Event -** Procurement request electronically transmitted to central purchasing system database.
+**Function -** System validates received procurement request data for completeness and consistency.
+**Event -** Validation results displayed on central purchasing department portal for review.
+61: **Request Evaluation**
+
+- Event - Procurement request data received by central purchasing department from business units
+- Function - Validation of procurement request data completeness and consistency
+- Event - Confirmation of data completeness received from business units
+- Function - Assignment of procurement request to responsible team
+62: **Subprocess 1 - Manual assessment of request** 
+**Subprocess 2 - Automated assessment of request**
+72: **Event - Procurement request electronically validated by central purchasing department**
+**Function - Business unit contact details are retrieved from central repository**
+**Event - Retrieval confirmation received from central purchasing department**
+**Function - Electronic portal displays confirmation message to business unit**
+68: **Subprocess 2- Automated assessment of request**
+
+**Event -** Request details electronically transmitted to assessment software.
+**Function -** Automated algorithms analyze request data and categorize items for procurement.
+73: **Event - Procurement request electronically validated by central purchasing department.**
+
+**Function - Central purchasing department assigns unique procurement ID to request.**
+59: **Function -** Central purchasing department verifies procurement request completeness and accuracy.
+**Event -** Procurement request data is electronically transmitted to central purchasing department.
+**Function -** Confirmation email is sent to business units regarding receipt and completeness of procurement request.
+24: **Subprocess 1 - Request analysis**
+**Subprocess LOOP - Procurement order generation**
+32: **Event - Procurement request received by central purchasing department from various business units via electronic portal.**
+
+Function - Central purchasing department receives procurement requests electronically from various business units.
+25: **Event - Procurement request received by central purchasing department from various business units via electronic portal.**
+
+**Function - Business units submit procurement requests electronically, triggering the process chain.**
+11: **Business Unit Approval Request Subprocess-**
+
+**1. Function-** Business units review request details and confirm item availability.
+**2. Event-** Confirmation received from business units regarding item availability.
+**3. Function-** Central purchasing department verifies item details and availability with suppliers.
+**4. Event-** Supplier confirmation received regarding item availability.
+18: **Function -** Purchase requisition data extracted from electronic portal.
+**Event -** Electronic portal receives procurement requests from various business units.
+**Function -** Procurement request data sent to central purchasing department for processing.
+1: **EndEvent - Procurement order finalized and sent to suppliers**

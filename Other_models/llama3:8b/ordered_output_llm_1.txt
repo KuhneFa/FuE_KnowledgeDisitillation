@@ -1,0 +1,126 @@
+0: StartEvent - Purchase Order Request is issued for Goods and Services.
+3: Here are the answers-
+
+**StartEvent - Purchase Order Request is issued for Goods and Services**
+
+**Subprocess 1 - Sourcing Requirements Definition**
+**Subprocess 2 - Contract Negotiation Preparation**
+20: Here are the descriptions of the process elements-
+
+Function - Purchase Order Request is processed by Procurement Team
+Event - Goods and Services Requirements are reviewed passively.
+Function - Requested Items are catalogued accurately
+Event - Goods and Services Catalogue is updated automatically.
+Function - Supplier Selection Criteria are evaluated carefully
+Event - Suppliers for Goods and Services are shortlisted quietly.
+34: Here are the process elements-
+
+Function - Request Preparation
+StartEvent - Purchase Order Request is issued for Goods and Services.
+Function - Supplier Search
+Event - Supplier Options Received
+Function - Quote Evaluation
+Event - Best Quote Selected
+Function - Purchase Order Generation
+Event - Purchase Order Sent to Supplier
+Function - Payment Terms Agreement
+
+Note- The event descriptions are in passive voice, following the pattern "NOUN AUX VERB NOUN", while the function descriptions are in active voice, following the pattern "NOUN VERB NOUN".
+35: StartEvent - Purchase Order Request is issued for Goods and Services
+
+Subprocess 1 - Supplier Selection
+Subprocess 2 - Contract Negotiation
+Subprocess 3 - PO Creation
+Subprocess 4 - Catalog Management
+56: Here are the elements for the Catalog Management subprocess-
+
+Event - Product Information is updated
+Function - Master Data Maintenance is performed
+Event - Product Classification is confirmed
+53: Here are the descriptions for the subprocess PO Creation-
+
+Event - Purchase Order Details are gathered
+Function - Create Purchase Order Record is processed
+Event - Purchase Order Number is assigned
+50: Here are the events and functions of the subprocess Contract Negotiation-
+
+Event - Contract Terms and Conditions are reviewed
+Function - Counteroffers are formulated with suppliers
+Event - Revised contract agreement is sent to stakeholders
+61: Here are the events and functions of the subprocess Supplier Selection-
+
+Event - Supplier Profiles are retrieved
+Function - Suppliers are evaluated based on criteria
+Event - Suitable Suppliers are identified
+Function - Shortlisted Suppliers are contacted
+62: Here are the answers-
+
+**StartEvent -** Purchase Order Request is issued for Goods and Services
+
+**Subprocess 1 -** Alternative Suppliers Identification Process
+**Subprocess 2 -** Material Master Data Maintenance Procedure
+72: Here are the descriptions for the 4 process elements-
+
+StartEvent - Purchase Order Request is issued for Goods and Services.
+Event - Goods and Services information is gathered.
+Function - Procurement Manager receives Goods and Services details.
+Event - Supplier List is compiled.
+Function - Procurement Team checks Supplier List.
+68: Here are the answers-
+
+StartEvent - Purchase Order Request is issued for Goods and Services.
+Event - Goods and Services information is received
+Function - Receipt Processing is performed
+73: Here are the answers-
+
+StartEvent - Purchase Order Request is issued for Goods and Services.
+Event - Information has been requested for Goods and Services.
+
+Please let me know if you need further assistance!
+59: Here are the descriptions of the subprocess StartEvent - Purchase Order Request is issued for Goods and Services-
+
+Function -
+Goods Requirements Specification is created manually.
+
+Event -
+Purchase Requisition is reviewed and approved.
+
+Function -
+Purchase Order Template is generated automatically.
+24: Here are the answers-
+
+StartEvent - Purchase Order Request is issued for Goods and Services
+
+Subprocess 1 - Vendor Identification
+Subprocess 2 - Contract Negotiation LOOP - Supply Chain Verification
+32: Here are the described process elements-
+
+Event - Purchase Order Request is issued for Goods and Services
+Function - Conduct Contract Negotiation LOOP Supply Chain Verification
+    - Verify Supplier Information
+    - Review Contract Terms
+    - Request Price Quote
+    - Evaluate Bid Response
+    - Award Contract to Successful Bidder
+25: Here are the events and functions for the subprocess "Vendor Identification"-
+
+Event - Vendor Information Received from Public Databases.
+Function - Review Potential Vendors to Ensure Compliance with Requirements.
+
+Note- These elements are part of the repeating subprocess "Vendor Identification" in the procurement process.
+11: Here are the descriptions for the subprocess-
+
+Function - Requirements Document is drafted
+Event - Sourcing Strategy Options are presented
+Function - Negotiation Terms and Conditions are prepared
+Event - Contract Templates are reviewed
+18: Here are the process elements-
+
+Function - Request is created for Goods and Services.
+Event - Information has been received about Purchase Order Request.
+Function - Purchase Order Request is approved or rejected.
+1: Here are the answers-
+
+**StartEvent -** Purchase Order Request is issued for Goods and Services
+
+**EndEvent -** Payment has been settled to Vendors

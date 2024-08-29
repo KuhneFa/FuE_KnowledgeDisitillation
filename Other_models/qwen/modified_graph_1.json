@@ -1,0 +1,917 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "b48ba85d-571c-457f-a980-2128fa5012b4",
+            "label": "StartEvent- Procurement Process of an International Company",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "4cb80fc8-5b46-4201-841a-9e4fdf18ff3f",
+            "label": "EndEvent - Procurement Process of an International Company",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "6"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Function, Event, Function, Event",
+            "id": "8"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "9"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "10"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "11"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Function - Procurement Process of an International Company",
+            "id": "12"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Event - Purchase Order Received and Rejected",
+            "id": "13"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Function - Purchase Order Preparation",
+            "id": "14"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Event - Purchase Order Prepared and Approved",
+            "id": "15"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Event- StartEvent- Procurement Process of an International Company",
+            "id": "16"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Function- Procure\u539f\u6750\u6599",
+            "id": "17"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "Function- Evaluate quality and compliance with specifications",
+            "id": "18"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event - Payment Prepared and Approved",
+            "id": "20"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "21"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "23"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "24"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event",
+            "id": "25"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function - Payment Preparation",
+            "id": "27"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function, Event, Function, Event, Function, Event, Function, Event, Function",
+            "id": "28"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event, Function, Event, Function, Event, Function, Event, Function, Event, Function",
+            "id": "29"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function, Event, Function, Event, Function, Event, Function, Event, Function",
+            "id": "30"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event, Function, Event, Function, Event, Function, Event, Function, Event, Function",
+            "id": "31"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event",
+            "id": "32"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "34"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "35"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "40"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "42"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "43"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "44"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Here is a breakdown of the 4 process elements-",
+            "id": "45"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "1. Event- Procurement Process of an International Company",
+            "id": "46"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Description- This event represents the start of the procurement process of an international company.",
+            "id": "47"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function  -  ' OR  'Event  -  '",
+            "id": "48"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "49"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "50"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "StartEvent- Procurement Process of an International Company",
+            "id": "51"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Event- StartEvent- Procurement Process of an International Company",
+            "id": "52"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function- Procure goods from suppliers.",
+            "id": "53"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "StartEvent- Procurement Process of an International Company",
+            "id": "54"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function- Negotiate Prices with Suppliers and Negotiate Terms and Conditions with Customers",
+            "id": "55"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function- Purchase Goods from Suppliers and Deliver Goods to Customers",
+            "id": "56"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Sorry, I cannot generate an answer as you have specified that the answer should consist of exactly 3 process elements in this order- Function, Event, Function. However, you have also specified that the answer cannot contain any elements that have already been mentioned. Additionally, you have specified that all words and phrases should be separated by whitespace characters. Lastly, you have specified that each element cannot exceed a maximum of 80 symbols.",
+            "id": "57"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "58"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "59"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "2. Function- Review Request",
+            "id": "61"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "62"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "65"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "StartEvent- Procurement Process of an International Company",
+            "id": "67"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Function- Purchase Supplies from Local Vendor",
+            "id": "68"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "'Event, Function, Event, Function'",
+            "id": "69"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Event- Negotiate Terms with International Supplier",
+            "id": "70"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Function- Receive Offer and Accept Agreement",
+            "id": "71"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Event- Submit Finalized Purchase Order to International Supplier",
+            "id": "72"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "StartEvent- Procurement Process of an International Company",
+            "id": "73"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "3",
+            "key": "geid_20_6"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "3",
+            "target": "8",
+            "key": "geid_20_7"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "3",
+            "target": "12",
+            "key": "geid_20_12"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "6",
+            "target": "16",
+            "key": "geid_20_17"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "8",
+            "target": "9",
+            "key": "geid_20_8"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "9",
+            "target": "10",
+            "key": "geid_20_9"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "10",
+            "target": "11",
+            "key": "geid_20_10"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "11",
+            "target": "6",
+            "key": "geid_20_11"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "12",
+            "target": "13",
+            "key": "geid_20_13"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "13",
+            "target": "14",
+            "key": "geid_20_14"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "14",
+            "target": "15",
+            "key": "geid_20_15"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "15",
+            "target": "27",
+            "key": "geid_20_29"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "16",
+            "target": "17",
+            "key": "geid_20_18"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "17",
+            "target": "18",
+            "key": "geid_20_19"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "18",
+            "target": "1",
+            "key": "geid_20_20"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "source": "20",
+            "target": "21",
+            "key": "geid_20_22"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "21",
+            "target": "28",
+            "key": "geid_20_31"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "23",
+            "target": "42",
+            "key": "geid_20_49"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "2. Subprocess 2  3. Subprocess LOOP  4. Subprocess 5  5. Subprocess 6  6. Subprocess 7  Note These names are generated randomly and may not be unique or previously mentioned.",
+            "source": "24",
+            "target": "25",
+            "key": "geid_20_26"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "24",
+            "target": "32",
+            "key": "geid_20_36"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "source": "25",
+            "target": "21",
+            "key": "geid_20_28"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "27",
+            "target": "20",
+            "key": "geid_20_30"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "28",
+            "target": "29",
+            "key": "geid_20_32"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "29",
+            "target": "30",
+            "key": "geid_20_33"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "30",
+            "target": "31",
+            "key": "geid_20_34"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "31",
+            "target": "23",
+            "key": "geid_20_35"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "32",
+            "target": "6",
+            "key": "geid_20_37"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "source": "34",
+            "target": "35",
+            "key": "geid_20_39"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Procurement Process of an International Company2. Subprocess 2  Procurement Process of an International Company3. Subprocess 3  Procurement Process of an International Company4. Subprocess 4  Procurement Process of an International Company",
+            "source": "35",
+            "target": "45",
+            "key": "geid_20_53"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "35",
+            "target": "48",
+            "key": "geid_20_57"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "35",
+            "target": "51",
+            "key": "geid_20_61"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "35",
+            "target": "54",
+            "key": "geid_20_65"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "40",
+            "target": "57",
+            "key": "geid_20_69"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "42",
+            "target": "43",
+            "key": "geid_20_50"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "43",
+            "target": "44",
+            "key": "geid_20_51"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "44",
+            "target": "34",
+            "key": "geid_20_52"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "45",
+            "target": "46",
+            "key": "geid_20_54"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "46",
+            "target": "47",
+            "key": "geid_20_55"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "47",
+            "target": "61",
+            "key": "geid_20_80"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "48",
+            "target": "49",
+            "key": "geid_20_58"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "49",
+            "target": "50",
+            "key": "geid_20_59"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "50",
+            "target": "40",
+            "key": "geid_20_60"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "51",
+            "target": "52",
+            "key": "geid_20_62"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "52",
+            "target": "53",
+            "key": "geid_20_63"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "53",
+            "target": "40",
+            "key": "geid_20_64"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "54",
+            "target": "55",
+            "key": "geid_20_66"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "55",
+            "target": "56",
+            "key": "geid_20_67"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "56",
+            "target": "40",
+            "key": "geid_20_68"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "57",
+            "target": "58",
+            "key": "geid_20_70"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "58",
+            "target": "59",
+            "key": "geid_20_71"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "59",
+            "target": "24",
+            "key": "geid_20_72"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "source": "61",
+            "target": "62",
+            "key": "geid_20_74"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Purchase Supplies from Local Vendor",
+            "source": "62",
+            "target": "67",
+            "key": "geid_20_81"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Negotiate Terms with International Supplier",
+            "source": "62",
+            "target": "69",
+            "key": "geid_20_84"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "65",
+            "target": "73",
+            "key": "geid_20_89"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "67",
+            "target": "68",
+            "key": "geid_20_82"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "68",
+            "target": "65",
+            "key": "geid_20_83"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "69",
+            "target": "70",
+            "key": "geid_20_85"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "70",
+            "target": "71",
+            "key": "geid_20_86"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "71",
+            "target": "72",
+            "key": "geid_20_87"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "72",
+            "target": "65",
+            "key": "geid_20_88"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "73",
+            "target": "40",
+            "key": "geid_20_90"
+        }
+    ]
+}

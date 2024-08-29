@@ -1,0 +1,126 @@
+0: StartEvent- Procurement Process of an International Company
+3: Subprocess 1 -采购流程
+Subprocess 2 -供应商管理
+Subprocess 3 -合同执行
+Subprocess 4 -索赔处理
+Subprocess 5 -质量审计
+Subprocess 6 -项目管理
+Subprocess 7 -财务分析
+Subprocess 8 -市场调研
+20: Function - Procurement Process of an International Company
+
+Event - Purchase Order Received and Rejected
+
+Function - Purchase Order Preparation
+
+Event - Purchase Order Prepared and Approved
+
+Function - Payment Preparation
+
+Event - Payment Prepared and Approved
+
+Function - Disbursement Preparation
+
+Event - Disbursement Prepared and Approved
+
+Function - Inventory Management
+34: Function, Event, Function, Event, Function, Event, Function, Event, Function
+
+Event, Function, Event, Function, Event, Function, Event, Function, Event, Function
+
+Function, Event, Function, Event, Function, Event, Function, Event, Function
+
+Event, Function, Event, Function, Event, Function, Event, Function, Event, Function
+35: 1. Subprocess 1 - Procurement Process of an International Company
+2. Subprocess 2 - Procurement Process of an International Company
+3. Subprocess 3 - Procurement Process of an International Company
+4. Subprocess 4 - Procurement Process of an International Company
+56: StartEvent- Procurement Process of an International Company
+
+Function- Negotiate Prices with Suppliers and Negotiate Terms and Conditions with Customers
+
+Function- Purchase Goods from Suppliers and Deliver Goods to Customers
+53: StartEvent- Procurement Process of an International Company
+
+Event- StartEvent- Procurement Process of an International Company
+
+Function- Procure goods from suppliers.
+
+Event- Function- Procure goods from suppliers.
+
+Function- Verify quality standards and compliance with regulations.
+
+Event- Function- Verify quality standards and compliance with regulations.
+50: Function  -  ' OR  'Event  -  '
+61: Here is a breakdown of the 4 process elements-
+
+1. Event- Procurement Process of an International Company
+   Description- This event represents the start of the procurement process of an international company.
+2. Function- Review Request
+   Description- This function represents the stage where a request to review a product, service, or solution is being considered.
+3. Event- Negotiation Meeting
+   Description- This event represents the stage where two or more parties are negotiating a product, service, or solution.
+4. Function- Decision Making
+   Description- This function represents the stage where an individual, group of individuals, or organization is making a decision about a product, service, or solution.
+
+Note that these descriptions are purely for illustrative purposes and should not be used as literal descriptions of events or functions in a real-world procurement process.
+62: Subprocess 1 - Purchase Supplies from Local Vendor
+Subprocess 2 - Negotiate Terms with International Supplier
+72: 'Event, Function, Event, Function'
+Event- Negotiate Terms with International Supplier
+Function- Receive Offer and Accept Agreement
+Event- Submit Finalized Purchase Order to International Supplier
+Function- Verify Purchase Order Content and Deliver Products
+Event- Close Purchase Process with International Supplier
+Function- Document Finalized Purchase Order Details and Close Transaction
+68: StartEvent- Procurement Process of an International Company
+
+Function- Purchase Supplies from Local Vendor
+73: StartEvent- Procurement Process of an International Company
+
+Event Procurement Process of an International Company
+
+Function Procure raw materials from suppliers
+
+Function Review and select suppliers based on quality, price, delivery time, etc.
+
+Function Negotiate with selected suppliers to determine the best contract terms.
+
+Function Confirm order details with customer to ensure accuracy.
+
+Function Send purchase orders and other relevant documents to suppliers.
+
+Function Receive responses and updates from suppliers regarding status of orders.
+
+Function Keep track of order status and communicate any issues or concerns to customer.
+59: Sorry, I cannot generate an answer as you have specified that the answer should consist of exactly 3 process elements in this order- Function, Event, Function. However, you have also specified that the answer cannot contain any elements that have already been mentioned. Additionally, you have specified that all words and phrases should be separated by whitespace characters. Lastly, you have specified that each element cannot exceed a maximum of 80 symbols.
+24: 1. Subprocess 1 - 
+2. Subprocess 2 - 
+
+3. Subprocess LOOP - 
+
+4. Subprocess 5 - 
+
+5. Subprocess 6 - 
+
+6. Subprocess 7 - 
+
+Note- These names are generated randomly and may not be unique or previously mentioned.
+32: Event
+
+Explanation-
+
+This is an event-driven process chain about a procurement process of an international company. This event represents the occurrence of an event within the procurement process.
+
+Note- This is just one example of how this event could be used to drive a process chain. The actual details of how this event can be used to drive a process chain will depend on the specific requirements and constraints of the procurement process in question.
+25: Event
+
+Function - 
+
+Event -
+11: Function, Event, Function, Event
+18: Event- StartEvent- Procurement Process of an International Company
+Function- Procure原材料
+Function- Evaluate quality and compliance with specifications
+Function- Arrange shipment and logistics to deliver materials to the customer's site.
+1: EndEvent - Procurement Process of an International Company

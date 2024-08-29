@@ -1,0 +1,125 @@
+0: StartEvent - Purchase Order Request is submitted by Supplier.
+3: StartEvent - Purchase Order Request is submitted by Supplier
+
+Branches-
+
+Subprocess 1 - Supplier Verification
+Subprocess 2 - PO Details Verification
+20: Here are the 6 process elements of the subprocess PO Details Verification-
+
+Function - Verify Purchase Order Details
+Event - PO Details are verified successfully
+Function - Check Supplier Information
+Event - Supplier Information is checked successfully
+Function - Validate Purchase Order Total
+Event - Purchase Order Total is validated successfully
+Function - Confirm Purchase Order Details
+Event - Purchase Order Details are confirmed
+34: Here are the process elements-
+
+Function - Verify Supplier Details
+Event - Purchase Order Request is submitted by Supplier
+Function - Check Product Availability
+Event - Product Availability is confirmed
+Function - Calculate Purchase Order Total
+Event - Purchase Order Total is calculated
+Function - Review and Approve Purchase Order
+Event - Purchase Order is reviewed and approved
+Function - Create Purchase Order
+Event - Purchase Order is created
+Function - Send Purchase Order to Supplier
+35: Here are the answers-
+
+**StartEvent -** Purchase Order Request is submitted by Supplier
+
+**Subprocess 1 -** Supplier Verification and Onboarding
+**Subprocess 2 -** Purchase Order Review and Validation
+**Subprocess 3 -** Request for Quotation and Bidding
+**Subprocess 4 -** Contract Negotiation and Finalization
+56: Here are the process elements for the subprocess StartEvent - Purchase Order Request is submitted by Supplier-
+
+Event - Purchase Order Request is verified for completeness
+Function - Request data is extracted from Supplier's database
+Event - Request data is transmitted to Purchase Order System
+53: Here are the 3 process elements for the subprocess "StartEvent - Purchase Order Request is submitted by Supplier"-
+
+Event - Information is received from Supplier
+Function - Order Processing starts
+Event - Purchase Order is verified by Procurement Team
+50: StartEvent - The Purchase Order Request is submitted by Supplier.
+Function - Supplier provides Purchase Order details.
+Event - Purchase Order details are verified.
+61: StartEvent - Purchase Order Request is submitted by Supplier.
+Event - Request is received by Receiving Department.
+Function - Goods are inspected by Quality Control.
+Event - Defects are reported by Quality Control.
+Function - Defects are documented by Receiving Department.
+62: Here are the answers-
+
+**StartEvent - Purchase Order Request is submitted by Supplier**
+
+**Subprocess 1 - Alternate Sourcing - Alternative Sourcing Process**
+**Subprocess 2 - Change Request - Change Request Process**
+72: Here are the process elements for the subprocess-
+
+Event - Purchase Order Request is verified automatically
+Function - System checks for duplicates and errors
+Event - Purchase Order Request is found valid
+Function - Purchase Order Data is extracted and stored
+68: Here are the requested process elements-
+
+Event - Change Request is verified
+Function - Re-evaluate Supplier
+
+Note- I've generated the elements according to the part-of-speech tags provided, and made sure they are not the same as the starting event or any previously mentioned elements. Let me know if you need anything else!
+73: Here is the output for the starting event-
+
+StartEvent - Event - Purchase Order Request is received 
+
+Let me know when you're ready to proceed with the next element!
+59: Here are the process elements-
+
+Function - Purchase Order Information is retrieved
+Event - Purchase Order Request is submitted by Supplier
+Function - Supplier Details are verified
+24: Here are the answers-
+
+**StartEvent - Purchase Order Request is submitted by Supplier**
+
+**Subprocess 1 - Order Validation**
+**Subprocess 2 - Supplier Verification**
+
+Let me know if you need anything else!
+32: Here are the process elements-
+
+Event - Supplier submits Purchase Order Request
+Function - Review and Validate Purchase Order Request
+
+Please note that these elements are part of the initial event-driven process chain about a procurement process of an international company, starting with StartEvent - Purchase Order Request is submitted by Supplier.
+25: Here are the descriptions for the events and functions-
+
+Event - Order Receipt- Supplier's purchase order request is received by the procurement team.
+
+Function - Validate PO Details- The procurement team verifies the purchase order details against the company's procurement policies.
+
+Event - Verify Supplier Information- The procurement team verifies the supplier's information, including their identity and credentials.
+
+Function - Check Supplier Credentials- The procurement team checks the supplier's credentials, such as their certification and compliance with industry standards.
+
+Event - PO Details Updated- The procurement team updates the purchase order details based on the validation and verification results.
+
+Note- Since there are no more than 1 element,
+11: Here are the subprocess elements for Supplier Verification-
+
+Function - Verify Supplier Documents
+Event - Documents are verified by Team
+Function - Check Supplier Reputation
+Event - Reputation is checked by Database
+18: Here are the requested process elements-
+
+Function - Purchase Order Request is processed by Administrator
+Event - Order Details are verified
+Function - Purchase Order Request is checked for completeness
+1: StartEvent - Purchase Order Request is submitted by Supplier
+
+EndEvent - Contract has been approved by Procurement Department

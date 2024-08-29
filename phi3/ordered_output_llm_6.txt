@@ -1,0 +1,258 @@
+0: StartEvent - Order placed
+3: Subprocess 1 - Supplier Selection-
+
+Subprocess 2 - Documentation and Compliance Checking
+20: Event - Order_Accepted
+
+Event - Compliance_Report_Generated
+
+Function - Receive_Documentation
+
+Function - Verify_Compliance
+
+Function - Archive_Documentation
+
+Function - Issue_NonConformity_Alert
+
+Event - Documentation_Submitted
+
+Event - NonConformity_Detected
+
+Event - Compliance_Check_Completed
+
+Event - Alert_Acknowledged
+
+Event - Checklist_Approved
+
+Event - Processing_Document
+
+Event - Audit_Log_Recorded
+
+Event - Regulatory_Criteria_Checked
+
+Event - Signature_Validated
+
+Function - Initiate_Subprocesses
+
+Event - Documentation_Parsed
+
+Event - Compliance_Threshold_Reached
+
+Event - NonConformity_Resolved
+
+Event - Subprocess_Completed
+
+Event - Decision_Made
+
+Event - Signature_Verified
+
+Event - Documents_Classified
+
+Function - Manage_Subprocesses
+
+Event - Compliance_Decision_Implemented
+
+Event - Processing_Document_Stored
+
+Event - Checklist_Applied
+
+Event - NonConformity_Investigation_Started
+
+Event - Signature_Authenticated
+
+Function - Coordinate_Subprocesses
+34: Event - OrderPlaced\n
+Function - ProcessInitiated\n
+Event - SupplierSelected\n
+Function - ContactSupplier\n
+Event - QuotationReceived\n
+Function - AnalyzeQuotation\n
+Event - AcceptanceDecided\n
+Function - MakeProcurementDecision\n
+Event - PurchaseOrderGenerated\n
+Function - CreatePurchaseOrder\n
+35: 1. Subprocess 1 - Quality Check Received
+
+2. Subprocess 2 - Compliance Verification
+
+3. Subprocess 3 - Logistics Coordination
+
+4. Subprocess 4 - Payment Processing
+56: Function - Receive_Order(StartEvent)
+
+Event - OrderPlacedByCustomer
+
+Function - ProcessOrdersParallelly(OrderPlacedByCustomer)
+
+Event - OrderReceivedInSystem
+
+Event - InvoiceCreatedForEachProduct
+
+Event - PurchaseAgreementSigned
+
+Event - PaymentConfirmed
+53: Event - Received_order_placed(noun)
+Function - Initiate_procurement(verb) OrderPlaceSubProcesses(noun)
+Event - Parallel_execution_started(noun)
+
+Event - Materials_selected(noun)
+Function - Select_materials_vendor(verb) VendorSelectionProcess(noun)
+Event - Supplier_notified(noun)
+Function - Notify_suppliers(verb) NotificationSubProcesses(noun)
+Event - Order_confirmation(noun)
+Function - Confirm_order_details(verb) OrderConfirmationSubProcesses(noun)
+50: Event - Documents are received
+Function - Initiate verification procedure
+Event - Supplier is contacted
+
+Event - Payment terms are agreed upon
+Function - Select vendor based on criteria
+Event - Quotation details are provided
+Function - Issue purchase order
+
+Event - Order confirmation is sent
+Function - Track shipment process
+61: Function - ValidateQualityCheckPassed
+
+Function - VerifyComplianceStandardsMet
+
+Event - ReceiptConfirmation2Arrives
+
+Event - InvoiceIssuedForPaymentProcessing
+
+-Give the output in the following format- Event - 'generated event', Function - 'generated function'
+62: Subprocess 1 - Quality Check Subprocess 2 - Supplier Selection
+
+-----
+72: Event - OrderPlacedAux
+
+Function - InitiateProcurement
+
+Event - ProcurementStarted
+
+Function - IdentifySuppliers
+
+Event - BidReceivedParallel1
+
+Function - EvaluateBidsParallel1
+
+Event - BidReceivedParallel2
+
+Function - EvaluateBidsParallel2
+
+Event - SelectionMade
+
+Function - FinalizeContracts
+68: Function - ReviewPurchaseOrderVerified
+
+Event - PurchaseOrderReceived
+
+Function - SelectSupplier
+
+Event - QualityStandardSetPassed
+
+Function - EvaluateSupplierOffer
+
+Event - OfferAccepted
+
+Function - ConfirmDeliverySchedule
+
+Event - DeliveryConfirmed
+
+Function - IssuePurchaseOrder
+73: Function - VerifyOrder
+
+VerifyOrder - Confirm 'order' existence, Check 'company' credentials, Validate 'purchase terms'.
+
+
+Event - OrderPlaced
+
+OrderPlaced - Acknowledge receipt of order, Trigger procurement initiation, Initiate parallel subprocesses.
+59: Event - Order_placed
+
+Function - Receive_order_confirmation
+
+Event - Supplier_selection
+
+
+Event - Payment_authorization
+
+Function - Choose_payment_method
+
+Event - Invoice_generation
+
+Function - Prepare_invoice_document
+24: Subprocess %1% - Vendor Selection-
+
+Subprocess %2% - Payment Processing-
+
+
+For 'Vendor Selection', a loop could represent the iterative process of selecting vendors from different regions or evaluating multiple proposals to ensure compliance with international standards and regulations before finalizing.
+
+
+For 'Payment Processing', this subprocess would handle the actual transfer of funds, but it wouldn't inherently require looping through events as described in your instruction for a start event context.
+32: Function - ProcessExecution - Activates procurement protocols in response to Order placed event
+
+Event - RequestPlaced - Initiated after an order is processed, triggering supplier selection
+
+Event - SupplierSelectionRequested - Triggered by the need for a new supplier following an order request
+25: Function - Initiate_Procurement - Send_Order - Receive_Purchase_Details  
+
+Event - Order_Confirmation  
+
+Event - Purchase_Agreement_Signed  
+
+Event - Goods_Received_Notification  
+
+Function - Verify_Supplier_Credentials  
+
+Function - Issue_Procurement_Contract  
+
+Event - Payment_Authorized  
+
+Event - Invoice_Issued
+11: Event - OrdersReceived
+
+Event - SupplierProposalsGathered
+
+Function - AssessVendorQuality
+
+Function - EvaluateSupplyChainReliability
+18: Event - Order PlacedInitiated
+
+Function - StartConditionCheck
+
+Function - DocumentPrepareAndSign
+
+Event - PurchaseRequestAcknowledged
+
+Event - VendorSelectionConfirmed
+
+Event - GoodsReceivedNotification
+
+Event - PaymentProcessingStarted
+
+Event - OrderCompletedConfirmationGiven
+
+Event - AuditLogUpdated
+
+Function - ProcessOrderDetailsExtracted
+
+Function - ValidatePurchaseRequest
+
+Function - SelectVendor
+
+Event - PurchaseAgreementFormed
+
+Function - SignPurchaseAgreement
+
+Event - ReceiveGoodsShipmentConfirmed
+
+Function - InitiatePaymentProcess
+
+Function - FinalizeOrderCompletion
+
+Event - ComplianceVerificationInitiated
+
+Event - SystemNotificationDispatchedToRelevantParties
+1: EndEvent - Confirmation Received Event

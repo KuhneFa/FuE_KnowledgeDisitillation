@@ -1,0 +1,99 @@
+0: StartEvent - Request for Quotation has been issued.
+3: Subprocess 1 - Vendor Selection Process
+Subprocess 2 - Quotation Analysis Process
+20: Here are the requested process elements for the Quotation Analysis Process-
+
+Function - Quotation Requirements are reviewed
+Event - Quotations have been evaluated
+Function - Quotation Criteria are applied
+Event - Non-compliant Quotations are removed
+Function - Quotation Scores are calculated
+Event - Top-rated Quotations are selected
+34: Here are the 9 process elements-
+
+Function - Prepare Quotation Document- Prepare a standardized quotation document for vendors to respond to.
+Event - Request for Quotation Issued- A request for quotation has been issued to potential vendors.
+
+Function - Send Request to Vendors- Send the quotation request to a list of pre-selected vendors.
+Event - Quotations Received- Quotations from vendors have been received.
+
+Function - Evaluate Vendor Responses- Evaluate the received quotations from vendors based on pre-defined criteria.
+Event - Quotation Evaluation Complete- The quotation evaluation process is complete.
+
+Function - Select Best Quote- Select the best quotation based on the evaluation
+35: StartEvent - Request for Quotation has been issued
+
+Subprocess 1 - Vendor Response Evaluation
+Subprocess 2 - Product Research Analysis
+Subprocess 3 - Pricing Negotiation Preparation
+Subprocess 4 - Alternative Supplier Exploration
+56: Here are the process elements for the subprocess Alternative Supplier Exploration-
+
+Event - Alternative suppliers are being researched
+Function - Supplier profiles are created and evaluated
+Event - Alternative suppliers have been identified
+53: Here are the requested elements for the subprocess Pricing Negotiation Preparation-
+
+Event - Pricing data has been extracted
+Function - Analyze price structures for suppliers
+Event - Supplier offers have been received
+50: Here are the process elements for the subprocess Product Research Analysis-
+
+Event - Product information has been analyzed
+Function - Product specifications are determined
+Event - Technical requirements have been documented
+61: Here are the process elements for the subprocess Vendor Response Evaluation-
+
+Event - Quotations from vendors have been received
+Function - Evaluations are performed
+Event - Responses are analyzed
+Function - Relevant information is documented
+62: Phi3- StartEvent - Request for Quotation has been issued
+
+Subprocess 1 - Alternative Supplier Search
+Subprocess 2 - Direct Manufacturer Contact
+72: Here are the elements for the subprocess Direct Manufacturer Contact-
+
+Event - Purchase Order has been prepared 
+Function - Request specifications from Direct Manufacturer 
+Event - Product Information has been obtained 
+Function - Confirm product meets requirements
+68: Here are the responses-
+
+Event - Supplier data is collected
+Function - Contact information is gathered from suppliers.
+73: Here are the answers-
+
+Event - Quotation has been received 
+
+Let me know when you're ready to move on to the next elements!
+59: Here are the process elements for the subprocess "StartEvent - Request for Quotation has been issued"-
+
+Function - Supplier Information is gathered
+Event - Quotes are collected
+Function - Vendor List is reviewed
+24: Here are the two subprocesses-
+
+Subprocess 1 - Vendor Selection
+Subprocess 2 - Product Evaluation LOOP - Supplier Verification
+32: Here are the elements-
+
+Event - Supplier Verification Request Received quietly issued quotation.
+Function - Review Supplier Information carefully analyze verify.
+
+Note- These elements are part of the Product Evaluation LOOP subprocess, which is potentially repeating, meaning it may need to be revisited or re-executed based on certain conditions.
+25: Here are the requested process elements-
+
+Event - Vendor Quote Received new quote submitted by supplier
+Function - Review Vendor Quote assess and evaluate submitted quote
+11: Here are the events and functions of the subprocess Vendor Selection Process-
+
+Function - Potential Vendors are evaluated.
+Event - List of eligible Vendors has been identified.
+Function - Shortlisted Vendors are contacted.
+Event - All Vendors have been contacted.
+18: StartEvent - 
+Function - Purchase Order Template is prepared
+Event - Request for Quotation has been approved
+Function - Supplier List is retrieved
+1: EndEvent - Contract has been finalized

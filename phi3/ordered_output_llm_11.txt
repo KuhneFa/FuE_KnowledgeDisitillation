@@ -1,0 +1,216 @@
+0: StartEvent - Materials are ordered by procurement team
+3: Subprocess 1 - Vendor Selection-
+
+Subprocess 2 - Quality Assurance Checks-
+20: Event - Received Inspection Request
+
+Function - Generate Quality Assurance Checklist
+
+Event - Begin Materials Examination
+
+Function - Conduct Initial Visual Inspection
+
+Event - Signal Passing Items
+
+Function - Document Compliance Evidence
+34: Event - OrderPlaced [Materials are ordered]
+
+Function - ReviewOrder [The order is reviewed]
+
+Event - ConfirmationSent [Confirmation is sent]
+
+Function - ApproveOrder [The order is approved]
+
+Event - DeliveryNotice [Delivery notice issued]
+
+Function - TrackShipment [Tracking of shipment initiated]
+
+Event - InvoiceGenerated [Invoice generated]
+
+Function - ReceivePayment [Receiving payment completed]
+
+Event - StockAdjusted [Stock level adjusted]
+35: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Risk Assessment
+
+Subprocess 3 - Compliance Checking
+
+Subprocess 4 - Contract Negotiation
+
+
+These four branches focus on different stages of the procurement process. Supplier Evaluation is dedicated to assessing potential suppliers, while Risk Assessment deals with identifying and mitigating risks in sourcing materials. Compliance Checking ensures that all activities align with legal standards and internal policies. Contract Negotiation involves finalizing terms of the procurement contracts before material delivery.
+56: Function - Evaluate suppliers thoroughly
+
+Event - Negotiation agreement reached
+
+Function - Assess risks associated with material sourcing
+
+Event - Compliance standards verified
+
+Function - Finalize contract terms decisively
+
+Event - Contract signed by procurement team
+53: Function - Validate Materials
+
+Event - Compliance Verification
+
+Event - Documentation Generation
+50: Function - Identify risk factors  
+
+Event - Risk assessment initiated  
+
+Function - Evaluate material quality  
+
+Event - Potential hazard recognized  
+
+Function - Analyze supplier reliability  
+
+Event - Contingency plan devised
+61: Function - 'Evaluate Supplier Credentials'
+
+Function - 'Assess Quality Assurance Procedures'
+
+Event - 'Credential Documents Received'
+
+Event - 'Quality Audit Initiated'
+
+
+- Function - Evaluate Supplier Credentials- The procurement team actively reviews the submitted supplier credentials to ensure they meet the company's standards.
+
+- Function - Assess Quality Assurance Procedures- The process involves a thorough investigation of the supplier's quality control measures and assurance procedures.
+
+- Event - Credential Documents Received- This is when the procurement team receives all necessary documentation related to the potential suppliers.
+
+- Event - Quality Audit Initiated- The initiation of a formal inspection process aimed at verifying the supplier's adherence to quality benchmarks and protocols.
+62: Subprocess 1 - Supplier Evaluation- Assessing potential suppliers' reliability and compliance with international standards.
+
+Subprocess 2 - Risk Management- Identifying, assessing, and mitigating procurement risks associated with international transactions.
+72: Function - "Risk Analysis Performed"
+
+Event - "Threat Identified"
+
+Function - "Mitigation Plan Formulated"
+
+Event - "Approval Granted"
+68: Function - EvaluateMaterialsReceived evaluates received materials against criteria
+
+Event - SupplierApprovedSupplier assigned with compliance status
+
+Function - AssessCompliance checks suppliers' adherence to standards
+
+Event - ComplianceReport generated detailing compliance findings
+
+Function - SelectBestSupplier selects the most suitable supplier based on evaluation
+73: Function - StartProcurementRequest - Initiates procurement procedure
+
+Event - OrderPlaced - Documents material order placement
+
+Event - MaterialOrderedReceived - Confirms receipt of material orders
+
+Function - EvaluateSuppliers - Assesses supplier quality and offers
+
+Event - SupplierSelected - Decides on the preferred supplier for materials
+
+Event - OrderProcessingStarted - Begins processing of procurement order
+59: Event - OrderFormSubmitted
+
+Function - ValidateOrderDetails
+
+Event - MaterialsReceived
+
+Event - SupplierSelected
+
+Event - PaymentTermsAgreed
+
+Function - CoordinateLogistics
+
+Function - ManageContract
+
+Event - DeliveryScheduled
+
+Function - MonitorDeliveryStatus
+
+Event - InspectionComplete
+
+Function - UpdateInventorySystem
+
+Event - ApprovalReceived
+24: Subprocess 1 - Supplier Selection-
+
+Subprocess 2 - Compliance Review-
+
+Subprocess LOOP - Contract Management-
+32: Event - ReceiptOfDocument
+
+Event - ApprovalSignatureObtained
+
+Function - ReviewComplianceStandards
+
+Function - SignContracts
+
+Function - VerifySupplierQualifications
+
+Function - DocumentReviewCompletion
+
+Function - ComplianceCheckPassed
+
+Function - ContractAgreementFinalized
+
+Event - StartOfNewLoops
+
+Event - LoopsEnded
+25: Function - Selecting suppliers  
+
+Event - StartSupplierSelection  
+
+Function - Evaluating proposals  
+
+Event - ProposalReceived  
+
+Function - Negotiating terms  
+
+Event - TermsNegotiationComplete  
+
+Function - Finalizing contract  
+
+Event - ContractSigned
+11: Event - 'Material Order Received'
+
+Function - 'Assess Vendors Based On Quotation'
+
+Event - 'Vendor Shortlisted'
+
+Function - 'Evaluate Vendor Reliability And Capacity'
+
+Event - 'Contract Signed With Selected Vendor'
+18: Event - OrderPlaced
+
+Function - CreateOrderRequest
+
+Event - MaterialReceived
+
+Function - ConfirmMaterialDelivery
+
+Event - PaymentIssued
+
+Function - FinalizePayment
+
+Event - QualityCheckPassed
+
+Function - ApproveBatchForUse
+
+Event - ComplianceReportGenerated
+
+Function - EnsureRegulatoryCompliance
+
+Event - InvoiceSentToProcurementTeam
+
+Function - LogPurchaseDetails
+
+Event - ContractTermsVerified
+
+Function - ValidateSupplierAgreement
+1: EndEvent - Delivered Materials Auxiliary Past Participle noun
+
+-------------------------

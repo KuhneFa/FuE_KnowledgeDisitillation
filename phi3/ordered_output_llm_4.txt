@@ -1,0 +1,239 @@
+0: StartEvent - Order is placed by customer for goods
+3: Subprocess 1 - Supplier Evaluation- Vetting potential suppliers based on criteria like cost, quality, and delivery time.
+
+Subprocess 2 - Regulatory Compliance Check- Ensuring all orders comply with international trade laws and regulations.
+20: Event - OrderReceiptVerbComplianceCheckStarted
+
+Function - ComplianceAnalysisPerforming
+
+Event - RegulatoryLawsReviewed
+
+Function - NonComplianceRiskAssessed
+
+Event - DocumentationAuditComplete
+
+Function - ActionsTakenResolutionProposed
+
+Event - OrderVerifiedCompliant
+34: Event - InvoiceGenerated
+
+Function - GenerateInvoice()
+
+Event - OrderConfirmationSent
+
+Function - SendOrderConfirmation(orderId)
+
+Event - PurchaseAgreedByCustomer
+
+Function - ConfirmPurchase(customerAcceptance)
+
+Event - GoodsReceivedAtWarehouse
+
+Function - ReceiveGoods(warehouseId, orderDetails)
+
+Event - PaymentProcessingStarted
+
+Function - InitiatePayment(orderId, customerInfo)
+
+Event - OrderFulfilledStatusUpdated
+
+Function - UpdateOrderStatus(status, fulfillmentDate)
+35: Subprocess 1 - QualityAssuranceCheck- Assess product standards.
+
+Subprocess 2 - LegalComplianceVerify- Ensure legal requirements met.
+
+Subprocess 3 - SupplierEvaluation- Rate suppliers on performance.
+
+Subprocess 4 - CustomsClearanceLiaison- Coordinate with customs authorities.
+56: Function - VerifyDocumentationSubmitRequestToCustomsAuthorities
+
+Event - DocumentReceivedCustomsClearanceApplication
+
+Event - AuthorizationGrantedCustomsEntry
+
+Function - InitiateInvestigationCheckForComplianceRequirements
+
+Function - LiaiseWithLocalCustomsRegulatoryBodyEstablishClearanceCriteria
+
+Function - MonitorClearanceProgressReportToInternalStakeholders
+53: Function - DetermineSupplierList  
+
+Event - SupplierEvaluationInitiated  
+
+Event - SupplierRateAssessmentCompleted  
+
+Event - PerformanceMetricsReceived  
+
+Event - EvaluationResultsCompiled  
+
+Event - TopRankedSuppliersIdentified  
+
+Function - CommunicateWithTopSuppliers  
+
+Function - ConductNegotiationsWithSelectedSuppliers  
+
+Function - FinalizeContractsAndAgreements  
+
+Event - SupplierEvaluationStarted  
+
+Event - EvaluationProcessEnded
+50: Function - ValidateDocumentFormat
+
+Event - ComplianceVerificationRequest
+
+Event - DocumentReceived
+
+
+Function - ReviewLegalRequirements
+
+Event - LegalCheckInitiated
+
+Event - ComplianceStatusReported
+
+
+Function - ApplyCorrectiveActions
+
+Event - NonComplianceIdentified
+
+Event - CorrectiveActionImplemented
+61: Function - Analyze product standards
+
+Event - Assessment report received
+
+Function - Perform quality tests
+
+Event - Product sample obtained
+
+- response- Event - QualityAssuranceCheck started
+
+Function - Review product specifications
+
+Event - Test results compiled
+
+Function - Evaluate conformity to standards
+62: Subprocess 1 - Invoicing Subprocess 2 - Supplier Selection
+
+- Invoicing- Manage billing and payment processing post-order fulfillment.
+
+- Supplier Selection- Evaluate potential suppliers based on criteria like cost, quality, reliability, and compliance to determine the best match for procurement needs.
+72: Function - 'ProcurementTask' / Performs 'InitiateGoodsOrderProcess'  
+
+Event - 'PurchaseRequisitionForged'  
+
+Event - 'AuditConfirmationGiven'  
+
+Event - 'SupplierSelectionFinalized'
+68: Function - Evaluate_criteria_suppliers
+
+Function - Select_best_supplier
+
+Event - Receive_order_confirmation
+
+Event - Generate_invoice
+
+Event - Issue_payment
+
+Function - Process_billing_details
+
+Function - Confirm_compliance
+
+Event - Supplier_delivery_confirmed
+73: Function - ValidateOrder
+
+Function - GeneratePurchaseRequest
+
+Event - OrderReceived
+
+Event - PurchaseRequestIssued
+
+Event - GoodsDelivered
+
+Event - PaymentProcessing
+59: Event - OrderPlacedByCustomer
+
+Function - ValidateOrderDetails
+
+Event - PaymentProcessed
+
+
+'StartEvent - An order is received from a customer, indicating readiness for procurement.'
+
+'ValidateOrderDetails - The system verifies the accuracy and completeness of the order details.'
+
+'PaymentProcessed - Financial transactions are executed to secure payment for the goods ordered.'
+24: Subprocess 1 - Supplier Selection-
+
+Subprocess LOOP - Compliance Check-
+
+- Answer- Subprocess 2 - Payment Processing
+
+- Answer- Subprocess LOOP - Risk Assessment
+32: Function - ProcessDefinition - "ValidateOrder"
+
+Event - StartEvent - "GoodsPurchaseRequestReceived"
+
+Event - Event - "ProductListSubmitted"
+
+Event - CheckingProcess - "ComplianceCheckPassed"
+
+Event - InvoiceGenerated - "InvoiceNumberAssigned"
+
+Function - EventHandling - "ApproveOrderForProcurement"
+25: Function - ComplianceCheckAnswer
+
+Function - PaymentProcessingAnswer
+
+Event - RiskAssessmentInitiated
+
+Event - SupplierEvaluated
+
+Event - ComplianceVerified
+
+Event - PaymentAuthorized
+
+Event - RisksIdentified
+
+Event - MitigationPlansFormed
+
+Event - SelectionConfirmed
+
+Event - OrderPlaced
+
+Event - RiskAcceptance
+
+Event - ProcurementCompleted
+11: Event - StartEvent_OrderPlaced
+
+Event - EvaluationStarted
+
+Function - InitiateSupplierScreening
+
+Event - SupplierQualityAssessed
+
+Function - SelectTopCandidates
+
+Event - DeliveryTimeEvaluated
+
+Function - FinalizeSupplierSelection
+
+Event - OrderPlaced_Acceptance
+
+Function - ConfirmPurchaseAgreement
+18: Event - "Invoice Received"
+
+Event - "Order Confirmation Sent"
+
+Function - "Validate Order Details"
+
+Function - "Process Payment"
+
+Function - "Dispatch Goods"
+
+Event - "Supplier Notification Issued"
+
+Function - "Quality Check Performed"
+
+Event - "Shipping Arranged"
+
+Event - "Delivery Confirmed"
+1: EndEvent - Product Received Notification (NOUN AUX VERB NOUN)

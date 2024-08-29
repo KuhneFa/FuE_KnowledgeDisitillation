@@ -1,0 +1,105 @@
+0:  StartEvent - Order placed by client
+3:  Subprocess 1 - Vendor selection, Subprocess 2 - Documentation and approvals
+20:  Event - Request generated
+Function - System verifies order
+Event - Vendor selected
+Function - Quotation requested
+Event - Quotation received
+Function - Purchase order issued
+34:  Function - RequestForPurchase  
+Event - PurchaseOrderGenerated  
+Function - ConfirmOrder  
+Event - OrderConfirmationReceived  
+Function - OrderPlaced  
+Event - PaymentInstructionsSent  
+Function - PaymentProcessing  
+Event - PaymentProcessed  
+Function - DeliveryScheduled  
+Event - DeliveryConfirmationReceived
+35:  Subprocess 1 - Order confirmation received
+Subprocess 2 - Supplier selection completed
+Subprocess 3 - Contract signed
+Subprocess 4 - Payment processed
+56:  Event - Payment received notification
+Function - Payment authorization processed
+Event - Payment confirmed
+solution- Event - Invoice issued
+Function - Payment approved
+Event - Payment authorized
+53:  Event - Agreement is drafted
+Function - Draft contract prepares and sends
+Event - Agreement is accepted
+50:  Event - Contract awarded  
+Function - Supplier evaluates proposals  
+Event - Contract signed
+61:  Event - Confirmation received  
+Function - Process initiates  
+Event - Confirmation acknowledged  
+Function - Validation of order details
+
+- output- Event - Confirmation received  
+- output- Function - Process initiates  
+- output- Event - Confirmation acknowledged  
+- output- Function - Validation of order details
+62:  Subprocess 1 - Supplier selection 
+Subprocess 2 - Shipment tracking
+72:  Event - Invoice generated
+Function - Generate invoice
+Event - Shipment confirmed
+Function - Confirm shipment
+Event - Delivery status updated
+Function - Update delivery status
+68:  Event - Supplier request received
+Function - Evaluate supplier proposals
+73:  Event - Document signed by supplier  
+Function - System processes document verification
+59:  Function - Payment process initiated
+
+Event - Order confirmed by system
+
+Function - Procurement team contacted
+24:  Subprocess 1 - Request for quotation
+Subprocess 2 - Supplier evaluation
+32:  Function - DefineSupplierEvaluationCriteria
+Event - SupplierRequested
+Event - SupplierEvaluationInitiated
+Event - SupplierEvaluationCompleted
+Event - SupplierEvaluationResultsReceived
+Function - EvaluateSupplierQuality
+Function - SelectSupplierBasedOnEvaluation
+Function - OrderPlaced
+Event - SupplierEvaluationRepeatedRequested
+Event - SupplierEvaluationRepeatedInitiated
+Event - SupplierEvaluationRepeatedCompleted
+Event - SupplierEvaluationResultsReceivedAgain
+
+25:  Event - Client Approval Received
+Event - Quotation Received
+Function - Send RequestForQuotation
+Function - Evaluate Quotations
+Function - SelectBestQuotation
+Event - BestQuotationAwarded
+11:  Function - Vendor contacted
+Event - Vendor selected
+Function - Documents prepared
+Event - Approvals granted
+support- Function - Inquiry sent
+Event - Vendor proposed
+Function - Contract drafted
+Event - Review initiated
+Function - Terms negotiated
+Event - Agreement signed
+Function - Payment arranged
+Event - Confirmation received
+Function - Compliance checked
+Event - Order fulfilled
+Function - Delivery scheduled
+Event - Invoice generated
+Function - Receipt issued
+Function - Audit performed
+Event - Compliance verified
+Function - Payment processed
+18:  Function - Vendor contacted
+Event - Order received
+Function - Payment processed
+1:  EndEvent - Goods delivered to the facility

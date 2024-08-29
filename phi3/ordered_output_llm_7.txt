@@ -1,0 +1,271 @@
+0: StartEvent - Products are requisitioned
+3: Subprocess 1 - Vendor Evaluation, Subprocess 2 - Documentation and Approvals
+
+
+These two parallel branches can address different aspects of procurement; evaluating potential vendors and handling the necessary paperwork and formal approvals respectively.
+20: Event - RequisitionReceived  
+
+Function - AssessRequirements  
+
+Event - RequestsSubmitted  
+
+Function - AllocateResources  
+
+Event - QuotationsAwaited  
+
+Function - EvaluateBids  
+
+Event - AcknowledgementGiven
+34: Event - RequestInitiation
+Event - RequisitionReceived
+Function - ValidateRequirements
+Event - ApprovalGranted
+Function - CreateProcurementRequest
+Event - TenderIssued
+Event - ProcurementAwarded
+Function - ConfirmPurchaseOrder
+Event - GoodsDelivered
+Event - InvoiceSubmitted
+Function - VerifyCompliance
+35: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Compliance Review
+
+Subprocess 3 - Order Management
+
+Subprocess 4 - Payment Processing
+56: Function - ReceivePaymentRequest
+
+ExecuteAuthorizePayment
+
+IssuePaymentConfirmation
+
+Event - PaymentRequestSubmitted
+
+Function - ProcessAuthorization
+
+Event - AuthorizationGranted
+
+Event - ConfirmationSent
+
+Event - PaymentProcessingCompleted
+53: Function - Purchase Request Received  
+
+Event - Order Authorized  
+
+Event - Supplier Contacted  
+
+Event - Delivery Confirmed  
+
+Function - Place Order with Selected Supplier  
+
+Function - Issue Payment to Supplier upon Product Arrival  
+
+Function - Generate Invoice for Transaction
+50: Function - Receive Compliance Reports  
+
+Event - Review Initiation  
+
+Event - Non-compliance Identification  
+
+
+Function - Verify Documents  
+
+Event - Compliance Check Completion  
+
+Event - Decision on Next Steps  
+
+
+Function - Update Records  
+
+Event - Process Termination
+61: Function - Initiate_Evaluation - Assign_evaluators - Conduct_evaluation
+
+Event - EvaluationStart
+
+Function - Analyze_supplier_proposals
+
+Event - ProposalReceived
+
+Function - Select_top_suppliers
+
+Event - SupplierChosen
+62: Subprocess 1 - Supplier Evaluation- Assessing potential suppliers based on criteria like cost, quality, and reliability.
+
+Subprocess 2 - Risk Management- Identifying and mitigating risks associated with international procurement such as currency fluctuations or political instability.
+72: Function - Assess potential risks
+
+Event - Identification report generated
+
+Function - Develop mitigation strategies
+
+Event - Strategy implementation approved
+
+Function - Review risk management effectiveness
+
+Event - Evaluation completed
+
+Function - Communicate results to stakeholders
+
+Event - Stakeholder meeting held
+
+Function - Monitor ongoing risks
+
+Event - Risk status updated
+68: Function - EvaluatePotentialSuppliers
+
+Function - SelectTopCandidates
+
+Event - RequisitionAccepted
+
+Event - SupplierAssessmentCompleted
+
+Event - TopCandidatesSelected
+
+Event - ContractNegotiationInitiated
+
+Event - OrderPlaced
+
+Event - ProductDeliveryReceived
+73: Function - CreateRequisitionRequest
+
+Verb - Initiates
+
+Noun - RequisitionRequest
+
+
+Event - QualityCheckInitiated
+
+Auxiliary Verb - Is
+
+Noun - Check
+
+Verb - Conducted
+
+Noun - Products
+
+
+Function - EvaluateSupplierBid
+
+Verb - Determines
+
+Noun - BestOffer
+
+
+Event - MatchingCriteriaApplied
+
+Auxiliary Verb - Has
+
+Noun - Criteria
+
+Verb - BeenSet
+
+Noun - Bids
+
+
+Function - ApproveRequisition
+
+Verb - ResultsIn
+
+Noun - Request
+
+
+Event - PaymentProcessed
+
+Auxiliary Verb - Is
+
+Noun - Transaction
+
+Verb - Completed
+
+Noun - Invoice
+
+
+Event - ShipmentOrdered
+
+Verb - LeadsTo
+
+Noun - Order
+
+Function - CoordinateWithLogistics
+
+Verb - Sets
+
+Noun - DeliverySchedule
+59: Function - Assess Requisition Validity
+
+Event - Request Form Received
+
+Function - Approve Procurement
+
+
+Event - Supplier Shortlisted
+
+Function - Negotiate Contract Terms
+
+Event - Order Placed
+
+
+Event - Payment Instructions Sent
+
+Function - Process Invoice Dispatch
+
+Event - Goods Received Confirmation
+
+Function - Perform Quality Check
+24: Subprocess 1 - Product Evaluation- Reviewing supplier bids based on quality, cost, and delivery terms.
+
+Subprocess 2 - Contract Negotiation- Engaging with selected suppliers to finalize purchase agreements.
+
+Subprocess LOOP - Risk Assessment- Regularly assessing global market risks affecting product supply chains.
+32: Function - NegotiationGoal Achieve contract terms
+
+Event - RiskDetectedRisk identified
+
+Event - ContractDraftedContract prepared
+
+Event - SupplierEngagedSupplier contacted
+
+Event - AgreementSignedAgreement finalized
+
+Event - MarketAnalyzedMarket conditions assessed
+
+Function - AnalysisConduct market analysis
+25: Function - Product Evaluation Initiated
+
+Event - Bid Received
+
+Event - Supplier Selected
+
+Function - Quality Assessed
+
+Function - Cost Analysis Performed
+
+Function - Delivery Terms Reviewed
+
+Event - Decision Made
+
+Event - Approval Granted
+
+Event - Order Placed
+
+Event - Payment Scheduled
+11: Event - Products_ReceivedByEvaluationTeam
+
+Function - EvaluateVendorsPerformance
+
+Event - DocumentsPreparedForApproval
+
+Function - SubmitDocumentToReviewBoard
+18: Event - Products are requisitioned by department managers
+
+Function - Requisition_Process - Verify requisition details - Log request in system
+
+Event - Approval received from procurement committee
+
+Function - Vendor evaluation - Select potential suppliers based on criteria
+
+Event - Supplier selected for product sourcing
+
+Function - Place_Order function - Issue purchase order to chosen supplier
+1: EndEvent - Demand Fulfillment Achieved ACTION Products Requisitioned ENOUGH VERB POSITION

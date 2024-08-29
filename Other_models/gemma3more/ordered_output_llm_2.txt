@@ -1,0 +1,73 @@
+0: **StartEvent - Procurement request received by central purchasing team from various business units via electronic procurement platform.**
+3: **Subprocess 1 - Supplier identification and qualification**
+**Subprocess 2 - Commodity requirement analysis**
+20: **Function -** Central purchasing team validates procurement request data.
+**Event -** Data validation report generated.
+**Function -** System sends email notification to business units regarding data validation status.
+**Event -** Email notification received.
+**Function -** Procurement team reviews data validation report.
+**Event -** Procurement team confirms or requests data correction.
+34: **Function -** Central purchasing team receives procurement request data via electronic procurement platform.
+**Event -** Procurement request received by central purchasing team from various business units via electronic procurement platform.
+**Function -** Data is validated and completeness checks are performed.
+**Event -** Validation and completeness check results are available.
+**Function -** Procurement requirements are identified and assigned to appropriate suppliers.
+**Event -** Supplier assignment information is recorded.
+**Function -** Supplier selection process is initiated.
+**Event -** Supplier selection results are available.
+**Function -** Procurement order is generated and released to the chosen supplier.
+35: Subprocess 1 - Procurement request validation
+Subprocess 2 - Supplier search and selection
+Subprocess 3 - Cost and contract negotiation
+Subprocess 4 - Procurement order creation
+56: **Event - Procurement request data validated by central purchasing team.**
+**Function - Procurement order creation logic triggered based on validated data.**
+**Event - New procurement order generated and assigned to responsible procurement specialist.**
+53: **Cost and contract negotiation-**
+
+- **Event -** Purchase requisition reviewed by cost experts for preliminary cost estimation.
+- **Function -** Cost experts collaborate with procurement team to refine cost estimates and identify potential savings.
+- **Event -** Revised cost estimates presented to business unit for approval.
+50: **Supplier search and selection**
+
+**Event -** Supplier database updated with new market research findings.
+**Function -** Procurement team searches and filters potential suppliers based on predefined criteria.
+**Event -** Shortlisted supplier profiles are sent for review to relevant business units.
+61: **Event - Procurement request reviewed by central purchasing team**
+**Function - Validation rules applied to procurement request data**
+**Event - Validation results displayed on electronic procurement platform**
+**Function - Confirmation of procurement request details by business unit**
+62: **Subprocess 1 - Preliminary assessment of procurement request** 
+**Subprocess 2 - Routing of procurement request to relevant suppliers**
+72: **Event -** Procurement request data is automatically extracted from electronic platform.
+**Function -** Validation of procurement request data against predefined criteria.
+**Event -** Validation results are displayed on electronic platform.
+**Function -** Notification sent to relevant stakeholders regarding the procurement request status.
+68: **Event - Procurement request assessed by central purchasing team for completeness and feasibility.**
+**Function - Relevant supplier information is retrieved from internal database based on procurement request details.**
+73: **Event - Procurement request data electronically validated by central purchasing team.**
+
+**Function - Procurement request data is assigned to responsible procurement specialists.**
+59: **Function -** Central purchasing team validates procurement request details.
+**Event -** Procurement request data is automatically uploaded to central procurement system.
+**Function -** Automated email notification is sent to relevant stakeholders regarding received request.
+24: **Subprocess 1 -** Procurement request analysis
+**Subprocess LOOP -** Procurement request routing to business units
+**Subprocess 2 -** Supplier selection and negotiation
+32: **Event - Procurement request received by central purchasing team from various business units via electronic procurement platform.**
+
+- Business units submit procurement requests electronically through the platform.
+- Central purchasing team receives the requests via the platform.
+25: **Event - Procurement request received by central purchasing team from various business units via electronic procurement platform.**
+
+The central purchasing team receives a procurement request from various business units through the electronic procurement platform.
+11: **Supplier identification and qualification-**
+
+**Function -** Central purchasing team assesses supplier data from electronic procurement platform.
+**Event -** Supplier data received electronically from platform.
+**Function -** Shortlisted suppliers are identified based on predefined criteria.
+**Event -** Supplier shortlist generated and shared with relevant stakeholders.
+18: **Function -** Central purchasing team validates procurement request data.
+**Event -** Procurement request data is automatically uploaded to central procurement system.
+**Function -** Automated notification sent to relevant stakeholders regarding received procurement request.
+1: **EndEvent - Procurement order finalized and approved by relevant stakeholders**

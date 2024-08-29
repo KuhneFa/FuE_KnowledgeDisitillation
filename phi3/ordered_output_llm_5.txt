@@ -1,0 +1,238 @@
+0: StartEvent - Products are ordered
+3: Subprocess 1 - Supplier Negotiation-
+
+Subprocess 2 - Logistics Coordination-
+20: Event - ReceivedOrderConfirmation  
+
+Function - ValidateProductAvailability  
+
+Event - ProductInventoryChecked  
+
+Function - CoordinateShippingRoutes  
+
+Event - ShippingPlanCreated  
+
+Event - CustomsClearanceApproval  
+
+Event - DeliveryScheduled  
+
+Event - TrackingNoticeSent  
+
+Event - OrderFulfillmentCompleted
+34: Event - PurchaseOrderReceived
+
+Function - ValidatePurchaseOrder
+
+Event - PaymentConfirmed
+
+Function - IssuePaymentInvoice
+
+Event - InventoryChecked
+
+Function - UpdateStockLevels
+
+Event - DeliveryScheduled
+
+Function - CoordinateWithLogistics
+
+Event - ProductReceived
+
+Function - InspectProductQuality
+35: Subprocess 1 - Quality Assurance Check
+
+Subprocess 2 - Legal Compliance Review
+
+Subprocess 3 - Supplier Selection Process
+
+Subprocess 4 - International Logistics Coordination
+56: Function - IdentifyOrderDestination(destinationCountry)  
+
+Event - OrderPlacedByInternationalClient()  
+
+Event - DestinationDecidedForShipment()  
+
+Function - ArrangeTransportContracts(company, destinations)  
+
+Function - TrackShipmentsInTransit(shipmentId)  
+
+Event - ShipmentsArrivedAtPort()  
+
+Event - CustomsClearanceCompleted(shipmentId)
+53: Function - ValidateOrders - ConfirmSupplierList
+
+Event - RequestReceivedByProcurementDepartment
+
+Event - SupplierEvaluationComplete
+
+ResponseEvent - ShortlistedSupplierSelected
+
+DecisionEvent - FinalSupplierChosen
+
+AssessmentFunction - AnalyzeSupplierRiskFactors
+
+ReviewFunction - ReviewPastPerformanceHistory
+
+NegotiationEvent - TermsAndConditionsAgreedUpon
+
+ApprovalEvent - SupplierContractSigned
+
+FeedbackEvent - FeedbackProvidedToProcurementTeam
+
+EvaluationEvent - SupplierComplianceVerified
+
+DeliveryEvent - GoodsReceivedConfirmation
+50: Function - Validate_Regulations(LegalComplianceChecker, OrderDetails)
+Event - RegulationVerificationRequested(OrderID)
+Event - ComplianceOutcomeDetermined(ProductLine, NonCompliantStatus)
+
+-Give the task you will perform. be precise.
+-Explain steps clearly to achieve the task.
+-Provide text examples for each step if necessary.
+
+
+Task- Outline a detailed process flow for the Legal Compliance Review subprocess within an event driven procurement system, ensuring that all events and functions are described using the specified elements in passive and active voice respectively, without reusing any of the previously mentioned elements.
+
+
+1. Define 'Event' by creating specific noun phrases representing instances where legal compliance is checked for each order. The phrase should be in the passive form.
+
+2. Define 'Function' by crafting action-oriented verbs and objects that describe activities within the subprocess, presented actively.
+
+3. Combine an 'Event' with a corresponding 'Function' to illustrate how they interact in the process flow.
+
+4. Provide additional 'Event' instances related to legal compliance checks without reusing prior elements.
+
+5. Supplement the 'Functions' with further activities that are typically involved in legal compliance reviews, still avoiding previous examples and maintaining active voice.
+ Written Summary-
+
+In an event-driven procurement process, the Legal Compliance Review subprocess is a critical component ensuring adherence to international laws and regulations. The function of this subprocess can be outlined as follows-
+
+Function - Initiate_ComplianceReview(LegalOversightAgent, OrderDetails)
+Event - RegulatoryEvaluationRequested(OrderID)
+Event - ComplianceStatusAchieved(ProductLine, StatusCode)
+
+By initiating a compliance review, the Legal Oversight Agent examines an order's details against pertinent regulations. When regulatory evaluation is requested for a specific order ID, it triggers the legal compliance check process. Once the product line has been assessed for compliance, a status code reflecting whether or not the standards are met is determined and recorded.
+61: Function - Conduct Inspection
+
+Event - Order Received
+
+Function - Verify Product Quality
+
+Event - Test Outcome Reported
+
+
+'Process Elements Description-
+
+Event - 'Order Received'- The passive action where products are ordered by customers, signifying the initiation of a procurement process.
+
+Function - 'Conduct Inspection'- An active step involving an inspector actively examining the goods for conformity to standards and specifications.
+
+Event - 'Test Outcome Reported'- A passive occurrence where results from quality tests on products are documented, indicating a potential outcome of a Quality Assurance Check subprocess.
+
+Function - 'Verify Product Quality'- An active function in which quality assurance specialists actively verify if the products meet predefined criteria for acceptance or rejection.
+62: Subprocess 1 - Inventory Check- Verify available stock levels.
+
+Subprocess 2 - Supplier Evaluation- Assess potential suppliers' reliability and costs.
+72: Function - Assess Suppliers
+
+Function - Evaluate Reliability
+
+Function - Determine Costs
+
+Event - OrderPlaced
+
+Event - PotentialSupplierSelected
+
+Event - SupplierEvaluated
+
+Event - EvaluationCompleted
+
+Event - CostsDetermined
+
+Event - DecisionMade
+
+Event - SupplierContractSigned
+
+Event - ProductsDelivered
+
+Event - PurchaseOrderIssued
+
+Event - OrderConfirmedWithSupplier
+
+Event - NegotiationStarts
+
+Function - AnalyzeSupplierQuality
+68: Function - StockLevelDeterminationChecks current stock levels against predefined thresholds to identify shortages or surplus.
+
+Event - OrderReceivedIdentifies an incoming order requesting product procurement.
+
+Function - SupplierSelectionEvaluates potential suppliers based on criteria such as price, reliability, and quality assurance to choose the best match for order fulfillment.
+73: Event - OrderExecutionRequest - A task is initiated to fulfill product orders received by the company.
+
+Function - StartProductOrdersProcess - The procurement process begins as products are ordered, triggering subsequent actions.
+59: Function - ReceiveOrderRequest(orderID)
+
+Event - OrderPlacedNoun
+
+Function - InitiateProcurementAuxVerbProductListNoun
+
+
+'ReceiveOrderRequest' is a function that starts the process, where 'orderID' identifies the specific order. 'OrderPlacedNoun' represents an event indicating the placement of an order. 'InitiateProcurementAuxVerbProductListNoun' describes another function to begin procurement with a list of products involved.
+24: Subprocess 1 - Supplier Evaluation- Selecting vendors based on criteria such as cost, quality, and reliability.
+
+Subprocess 2 - Inventory Management- Monitoring stock levels to ensure adequate supply without overstocking.
+
+Subprocess LOOP - Contract Renegotiation- Periodically reviewing agreements with suppliers for potential renegotiations.
+32: Function - Review Contracts  
+
+Event - Order Received  
+
+Event - Stock Level Checked  
+
+Event - Supplier Contacted  
+
+Event - Renegotiation Agreement Reached
+25: Event - OrderPlaced
+
+Event - VendorSelected
+
+Function - EvaluateSupplier
+
+Function - SelectVendor
+
+Function - AssessQuality
+
+Function - CompareCosts
+
+Function - CheckReliability
+
+Function - ApproveVendor
+
+Event - DeliveryReceived
+
+Event - ContractSigned
+11: Event - Agreement Reached (by negotiation between supplier and company)
+
+Function - Initiate Supplier Negotiation (Company engages in discussions with potential suppliers)
+
+Event - Offer Accepted (offer from a supplier is accepted by the purchasing department)
+
+Function - Evaluate Supplier Bids (Purchasing team assesses and compares bids received from various suppliers)
+18: Event - OrderPlacedNounAuxVerbProduct
+
+Function - ValidateOrdersNounVerbCheck
+
+Event - PaymentProcessedNounAuxVerbInvoice
+
+
+Event - ProductsOrderedNounVerbParallelStarted
+
+Function - SelectVendorsNounVerbEvaluate
+
+Function - IssuePurchaseOrderNounVerbCreate
+
+Event - DeliveryNotifiedNounAuxVerbProductArrived
+
+Event - InvoiceIssuedNounAuxVerbCompanyConfirmed
+
+Event - SupplierCoordinatedNounAuxVerbLogistics
+1: EndEvent - Orders Finalized Auxiliary Received Products Noun

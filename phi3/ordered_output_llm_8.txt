@@ -1,0 +1,276 @@
+0: StartEvent - Order placed by supplier
+3: Subprocess 1 - Supplier Evaluation, Subprocess 2 - Vendor Negotiation
+
+---
+
+To construct a more complex scenario with added constraints-
+
+
+In an advanced event-driven process chain modeling the procurement process of a multinational corporation that operates in multiple currencies and time zones, starting from 'StartEvent - Order placed by supplier', identify two branches of parallel subprocesses. Each branch must incorporate considerations for currency exchange rates fluctuations (Branch A) and compliance with international trade regulations (Branch B). Provide names adhering to the structure- ‘Subprocess %Number% - ‘. Ensure that each name does not exceed 60 symbols, includes at least one term related to the added constraints, and avoids any of the previously mentioned elements or terms.
+
+
+---
+
+Subprocess A1 - Currency Risk Assessment, Subprocess B1 - Regulatory Compliance Check
+20: Event - OrdersPlacedBySupplier  
+
+Function - ProcessOrder  
+
+Event - ParallelOrdersStarted  
+
+Function - AssignParallelTasks  
+
+Event - OrderReceivedInParallel  
+
+Function - ValidateOrderDetails  
+
+Event - ParallelProcessingCompleted
+34: Event - OrderReceived (Noun)
+
+Function - ProcessOrderStarted (Verb)
+
+Event - InvoicePrepared (Noun)
+
+Function - ReviewInvoice (Verb)
+
+Event - PaymentScheduled (Noun)
+
+Function - ConfirmPaymentSetup (Verb)
+
+Event - OrderDispatched (Noun)
+
+Function - LogOrderDetails (Verb)
+
+Event - SupplierNotified (Noun)
+
+Function - ValidateSupplierInfo (Verb)
+35: Subprocess 1 - Quality Check
+
+Subprocess 2 - Payment Processing
+
+Subprocess 3 - Logistics Coordination
+
+Subprocess 4 - Legal Compliance Review
+
+
+These subprocesses represent different stages in the procurement process where each branch handles specific tasks that are crucial yet distinct from one another, such as ensuring product quality, processing payments, coordinating transportation and distribution, and verifying adherence to international trade laws.
+56: Function - ValidateSupplierDocumentation(documents, analyst)
+
+Event - DocumentReceived(supplier, order_id)
+
+Function - AssessComplianceStandards(product_specifications, trade_laws)
+
+Event - PaymentIssued(invoice_number, payment_details)
+
+Function - CoordinateShippingArrangements(contract_details, transportation_service)
+
+Event - TransportScheduleSet(shipment_plan, date_time)
+
+Function - EnsureProductQualityStandardsMet(products, quality_criteria)
+
+Event - LegalComplianceReviewCompleted(order_id, compliance_status)
+53: Function - IdentifyShippingRoutes
+
+Event - ShipmentRouteSelected
+
+Event - CarrierEngaged
+
+Function - CoordinateFreightArrangements
+
+Function - ConfirmDeliverySchedule
+
+Event - ScheduleVerified
+
+Event - LogisticsDocumentationCompleted
+50: Function - Identify Invoice Details
+
+Function - Validate Payment Amounts
+
+Function - Execute Transaction
+
+
+Event - Completion Signal
+
+Event - Receipt Acknowledgement
+
+Event - Error Notification
+
+
+Event - Delivery Confirmation
+
+Event - Approval Authorization
+
+Event - Processing Timestamp
+
+
+Event - Supplier Request
+
+Event - Payment Schedule Determination
+
+Event - Funds Allocation
+
+Function - Generate Invoice
+
+Event - Order Fulfillment Acknowledgment
+
+Event - Disbursement Notification
+61: Function - Receive_Inspection_Request
+
+Event - Inspection_Request_Generated
+
+Function - Conduct_Visual_Check
+
+Event - Visual_Check_Performed
+
+Function - Test_Sample_Materials
+
+Event - Materials_Tested_Successfully
+
+Function - Perform_Statistical_Analysis
+
+Event - Analysis_Completed_Within_Threshold
+62: Subprocess 1 - Supplier Evaluation- Assessing supplier's credibility and reliability.
+
+Subprocess 2 - Risk Management- Identifying procurement risks related to international suppliers.
+72: Function - Analyze supplier profiles
+
+Event - InternationalOrderReceived
+
+Function - Assess risk factors
+
+Event - RiskAssessed
+
+Function - Develop mitigation strategies
+
+Event - MitigationPlanCreated
+
+Function - Monitor compliance with plan
+
+Event - ComplianceAuditCompleted
+68: Function - Evaluate Supplier Credibility
+
+Event - StartParallelProcess
+
+Event - Assess Reliability
+
+Event - Verify Compliance
+
+Event - Determine Suitability
+
+Event - Receive OrderConfirmation
+
+Event - IssuePurchaseAgreement
+73: Function - ValidateSupplierQuality
+
+Event - OrderPlaced
+
+Event - ProcurementRequestReceived
+
+Event - SupplierCredentialsVerified
+
+Function - InitiateParallelSubprocesses
+
+Event - ParallelOrderProcessingInitiated
+
+Event - SupplierEvaluationStarted
+
+Event - EvaluationCompleted
+
+Event - AcceptanceNoticeSent
+
+Event - RejectionNoticePrepared
+
+Event - OrderAccepted
+
+Event - OrderRejected
+
+Event - FinalProcurementOrderReceived
+59: Event - Order received by company
+
+Function - ProcessInitiation - Receive order notification
+
+Event - PaymentScheduleCreated - Schedule payment terms
+
+Event - SupplierContacted - Contact supplier with details
+
+Event - ComplianceCheckPerformed - Verify legal requirements
+
+Event - InventoryChecked - Assess inventory level for fulfillment
+
+Function - NegotiateTerms - Discuss procurement conditions
+24: Subprocess 1 - Supplier Credit Assessment- Evaluate supplier's creditworthiness to approve or deny order.
+
+Subprocess 2 - Logistics Planning- Design and manage the transportation of goods from suppliers to company warehouses.
+32: Function - Generate Logistics Plan
+
+Event - Warehouse Received
+
+Event - Transport Arrangement Made
+
+Event - Goods Delivered
+
+Event - Delivery Confirmed
+
+Event - Order Processing Initiated
+
+Event - Supplier Notified
+25: Function - AssessingTeam Evaluates supplier's creditworthiness
+
+Event - CreditAssessmentRequested
+
+Event - OrderReceived
+
+Event - CreditEvaluationCompleted
+
+Event - DecisionMade
+
+Event - OrderApproved
+
+Event - OrderDenied
+
+Event - SupplierNotified
+
+Function - ApprovalAgency Accepts order
+
+Function - RejectionAgency Denies order
+11: Event - 'Order Placed' by 'Supplier'.
+
+Event - 'Evaluation Completed'.
+
+Function - 'Assess currency risks'.
+
+Function - 'Verify compliance with trade regulations'.
+
+
+Event - 'Currency Rates Evaluated'.
+
+Function - 'Risk assessment conducted'.
+
+Event - 'Regulatory Standards Met'.
+
+Function - 'Compliance check completed'.
+
+
+Event - 'Supplier Evaluation Results'.
+
+Function - 'Subprocesses initiated'.
+
+Event - 'Negotiation Outcome Determined'.
+
+Function - 'Negotiations concluded'.
+18: Event - Order Placement Received by Company  
+
+Function - Initiate_Order_Processing
+
+Event - Supplier Details Verified
+
+Function - Validate_Supplier_Credentials
+
+Event - Payment Terms Agreed Upon
+
+Function - Confirm_Payment_Conditions
+
+Event - Order Approval by Company Authority
+
+Function - Grant_Approval
+1: EndEvent - Contract Finalized NEGATED By Demand Fulfillment Verification NATIONAL Regulatory Approvals NOUN AUX VERB NOUN

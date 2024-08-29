@@ -1,0 +1,220 @@
+0: StartEvent - Ordering received
+3: Subprocess 1 - Vendor Evaluation, Subprocess 2 - Payment Processing
+
+----------
+20: Event - Incoming_Order_Received
+
+Function - Process_Initiation
+
+Event - Order_Verification_Started
+
+Function - Confirm_Purchase_Details
+
+Event - Supplier_Selection_Begins
+
+Function - Evaluate_Supplier_Quotes
+
+Event - Purchase_Agreement_Finalized
+
+Event - Invoice_Issued
+34: Event - Request approval submitted
+
+Function - Approver reviews request
+
+Event - Purchase order generated
+
+Function - Procurement manager creates PO
+
+Event - Vendor contacted
+
+Function - Sales representative reaches out to vendor
+
+Event - Quote requested from vendor
+
+Function - Accountant compiles quote details
+
+Event - Price negotiation initiated
+
+Function - Negotiator communicates with vendor
+
+Event - Supplier selected
+
+Function - Procurement team selects supplier
+
+Event - Delivery schedule established
+
+Function - Logistics coordinator plans delivery dates
+35: 1. Subprocess 1 - Supplier Evaluation
+
+2. Subprocess 2 - Vendor Selection
+
+3. Subprocess 3 - Order Processing
+
+4. Subprocess 4 - Contract Management
+56: Function - ProcessDefinitionInitiation
+
+ProcessDefinitionInitiation(StartEvent) -> SubprocessActivation(ParallelOrderingSubprocesses)
+
+
+Event - OrderReceivingPassive
+
+OrderReceivingPassive occurs when an order is received by the company's international procurement department.
+
+
+Function - ParallelExecutionOrchestration
+
+ParallelExecutionOrchestration -> SubprocessCompletionWaiting(Subprocess_1), SubprocessCompletionWaiting(Subprocess_2), SubprocessCompletionWaiting(Subprocess_3)
+
+
+Event - SupplierSelectionInitiatedPassive
+
+SupplierSelectionInitiatedPassive happens after the parallel subprocesses have commenced.
+53: Function - Receive_Order - Initiates procurement cycle  
+
+Event - Ordering_Document - Arrives at company's office  
+
+Event - Document_Verification - Undergoes initial check for authenticity and completeness  
+
+function - Evaluate_Vendor_Options - Assesses potential suppliers based on criteria like cost, reliability, and location  
+
+event - Vendor_Selection_Communication - Information about the chosen vendor is sent to relevant departments  
+
+function - Prepare_Purchase_Requisition - Drafts a formal request for buying materials or services from the selected vendor  
+
+event - Requisition_Approval - Gains authorization from necessary management levels within the company
+50: Event - ReceiptNotificationInitiated
+Function - InitiateProcurementProcess
+Event - PaymentPrepared
+
+Event - QuotationReceived
+Function - VerifySupplierQuality
+
+Event - ShipmentScheduled
+Function - ConfirmDeliveryDate
+
+Event - ProcurementDocumentationSubmitted
+Function - SecureAgreementTerms
+61: Function - Initiate EvaluationOfSuppliers  
+
+Event - CompletionOfEvaluationReportReceived  
+
+Function - SelectVendorBasedOnCriteria  
+
+Event - VendorSelectionProcessFinalized
+62: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Market Analysis
+
+
+These alternative subprocesses could involve assessing potential suppliers' reliability and cost-effectiveness (Supplier Evaluation) or analyzing different market trends to identify the best purchasing strategies (Market Analysis).
+72: Function - Gather DataOnEvent - Market Research InitiatedFunction - Assess Supplier ReliabilityOnEvent - Cost Analysis ConductedFunction - Identify Purchasing Strategy
+
+Event - Decision MadeOnFunction - Finalize PurchasePlan
+
+Event - Supplier SelectionInitiatedFunction - Compare PricesAndQuality
+
+Event - Market Trends ObservedFunction - Develop Negotiation Tactics
+
+Event - Procurement OrderedFunction - Validate Contract Terms
+68: Event - StartEventReceivedByInternationalCompany
+
+Function - EvaluateSupplierCriteria
+
+Event - SupplierEvaluationStarted
+
+Function - AssessQualityOfGoods
+
+Event - CompareSupplierPerformance
+
+Function - DetermineBestSupplier
+
+Event - BestSupplierSelected
+
+Function - CommunicateSelectionToProcurementTeam
+73: Function - Receive_Order_Details - Collects order specifications  
+
+Event - Ordering_Received_Event - Triggered by new purchase request  
+
+Event - Documentation_Started_Event - Initiated to record procurement details  
+
+Function - Validate_Supplier_List_Function - Checks suppliers' availability and credentials
+59: Event - Ordering_received_process_initiation  
+
+Function - Process_triggerer  
+
+Function - Subprocess_execution_controller  
+
+Event - Parallel_subprocesses_activation  
+
+Function - Synchronization_checkpoint_creator  
+
+Event - Divergence_resolution_approach
+24: Subprocess 1 - Vendor Selection-
+
+Subprocess 2 - Payment Authorization-
+32: Function - ProcessDefinition - "Create Authorization Request"
+
+Event - "Authorization Received"
+
+Function - Action - "Submit Payment Details"
+
+Function - Result - "Payment Approval Status Generated"
+
+Event - "Payment Duly Made"
+
+Event - "Payment Rejected"
+25: Function - OrderPlaced
+
+Event - RequestSent
+
+Event - OfferReceived
+
+Event - VendorSelected
+
+Event - ContractSigned
+
+Event - DeliveryScheduled
+
+
+Function - EvaluateQuotes
+
+Function - SelectVendor
+
+Function - NegotiateTerms
+
+Function - ConfirmSelection
+
+Function - IssuePurchaseOrder
+
+Function - TrackDelivery
+
+function - MonitorCompliance
+
+Event - SupplierEvaluated
+11: Event - OrderingReceivedParallelizedVendorEvaluated
+
+Function - EvaluateContractsCompareQualityCheckCatalogSelection
+
+Event - PaymentProcessedParallelizedInitiated
+
+Function - ValidatePaymentsAuthorizeTransactionsCalculateDiscounts
+18: Event - Order received by system (AUX)
+
+Function - System verifies order authenticity (NOUN)
+
+Event - Purchase request generated (VERB NOUN)
+
+Event - Supplier contact initiated (NOUN AUX VERN)
+
+Function - Company selects supplier based on criteria (NOUN VERB NOUN)
+
+Event - Goods dispatched by supplier (VERB NOUN)
+
+Function - Company schedules goods pickup (NOUN VERB NOUN)
+
+Event - Pickup confirmed by logistics team (VERB NOUN AUX)
+
+Event - Invoice sent to purchaser (VERB NOUN)
+
+Event - Purchaser acknowledges receipt (AUX VERN)
+1: EndEvent - ConfirmationReceivedAcknowledgementOrderProcessedVerb

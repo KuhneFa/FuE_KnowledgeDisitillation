@@ -1,0 +1,304 @@
+0: StartEvent - Order is placed by buyer
+3: Subprocess 1 - QuotationRequest- Initiates negotiation process with suppliers.
+
+Subprocess 2 - PaymentAuthorization- Handles approval and issuance of payment to chosen supplier.
+20: Event - OrderReceivedBySupplier
+Event - PaymentRequested
+Function - EvaluateApprovalCriteria
+Event - AuthorizationGranted
+Function - ProcessPaymentDetails
+Event - InvoiceIssued
+Event - PaymentConfirmed
+Event - DispatchInvoiceToAccounting
+Function - SendNotificationToStakeholders
+Event - PaymentDenied
+Event - IssueDiscountRefund
+
+(Note- The above elements are crafted to fit the given constraints and types, but some descriptions may be slightly abbreviated for brevity.)
+34: Event - OrderReceived (Passive)  
+Function - ValidateOrder  
+Event - CheckStockLevels  
+Function - PlaceInventoryRequest  
+Event - ApprovalReached (Passive)  
+Function - GeneratePurchaseOrder  
+Event - PaymentTermsVerified (Passive)  
+Function - SchedulePayment  
+Event - DeliveryNoticeSent (Passive)  
+Function - CoordinateShipment
+35: Subprocess 101- Procurement Planning
+Subprocess 102- Supplier Selection
+Subprocess 103- Purchase Order Creation
+Subprocess 104- Contract Negotiation
+56: Function - ValidateOrderRequest
+
+Event - OrderPlacedSignal
+
+Event - PaymentAgreementReceived
+
+Event - SupplierSelectionNotified
+
+Event - ProcurementTermsConfirmed
+
+Function - IssueSupplierQuotations
+
+Function - EvaluateSupplierQuotations
+
+Function - FinalizeProcurementContract
+
+Event - OrderAcceptedSignal
+
+Event - ContractExecutedNotification
+
+Event - PurchaseOrderCreated
+
+Event - GoodsReceivedConfirmation
+53: Function - ValidateBuyerCredentials
+
+Verb - InitiateOrderProcessing
+
+Event - ProcurementRequestReceived
+
+
+Function - SelectSupplier
+
+Verb - ConfirmDeliverySchedule
+
+Event - SupplierSelectionFinalized
+
+
+Function - PreparePurchaseOrder
+
+Verb - IssuePaymentRequest
+
+Event - OrderPlacedByBuyer
+
+
+Function - TrackOrderShipment
+
+Verb - NotifyBuyerOfStatusUpdates
+
+Event - ShippingUpdateAcknowledged
+50: Function - 'ProcurementRequest'
+
+Verb - 'Initiates'
+
+Event - 'OrderPlacedByBuyer'
+
+
+Function - 'ProcessOrders'
+
+Verb - 'Executes'
+
+Event - 'ParallelSubprocessesEngaged'
+
+
+Function - 'SynchronizesResults'
+
+Verb - 'Aggregates'
+
+Event - 'ProcurementOutcomesDetermined'
+
+
+Event - 'DiscrepancyIdentified'
+
+Function - 'AlertsManagementTeam'
+
+Verb - 'Investigates'
+
+Event - 'ErrorResolutionInitiated'
+61: Event - OrderPlacedByBuyerAuxVerbInitiationEvent
+Function - ProcessingStartFunction
+Event - ParallelPathSelectionEvent
+Function - InitiateSubprocessesAction
+
+Event - BuyerNotificationReceivedFunction
+Function - SubprocessExecutionBeginAction
+Event - ValidationOutcomeDeterminedFunction
+Function - AdjustFlowControlAuxVerbBasedAction
+62: Subprocess 1 - Supplier Qualification
+
+Subprocess 2 - Contract Negotiation
+
+
+These alternative branches focus on evaluating potential suppliers before finalizing procurement and discussing terms of purchase with the chosen supplier, respectively.
+72: Function - EvaluatePotentialSuppliers
+
+Event - AgreementSigned
+
+Function - NegotiateContractTerms
+
+Event - SupplierSelected
+
+- response- Function - IdentifySupplierCandidates
+
+Event - ContractDraftingCommenced
+
+Function - FinalizeProcurementDetails
+
+Event - SupplierAgreementFinalized
+
+- response- Event - OrderPlacedByBuyer
+
+Function - InitiateParallelSubprocesses
+
+Event - EvaluationCompleted
+
+Function - BeginNegotiationProcess
+
+Event - NegotiationsConcluded
+
+Function - ConcludeProcurement
+
+Event - SupplierAgreementReached
+
+- response- Event - ProcurementStarted
+
+Function - PrepareSubprocessAlternatives
+
+Event - ContractNegotiationInitiated
+
+Function - AssessSupplierQuality
+
+Event - NegotiationsConcludedSuccessfully
+
+Function - AgreeOnPurchaseTerms
+
+Event - SubprocessCompleted
+
+- response- Event - SupplierShortlisted
+
+Function - ScheduleMeetingWithSuppliers
+
+Event - MeetingsHeld
+
+Function - DetermineBestOfferAcceptability
+
+Event - BestOfferReceived
+
+Function - AdjustProcurementPlanIfNecessary
+
+Event - ContractFinalized
+
+- response- Event - SupplierAgreementTermsProposed
+
+Function - ReviewSupplierAgreementDraft
+
+Event - DraftReviewed
+
+Function - IncorporateChangesIntoAgreement
+
+Event - AgreementReadyForSigning
+
+Function - SignContractWithSupplier
+
+Event - SupplyChainIntegrationStarted
+
+- response- Event - BuyerEvaluatesNeeds
+
+Function - CommunicateRequirementsToProcurementDepartment
+
+Event - RequirementsFulfilledBySuppliers
+
+Function - CompareSupplierProposals
+
+Event - SupplierSelectionDecisionMade
+
+Function - SignPurchaseContractWithChosenSupplier
+
+Event - ProcurementProcessEnds
+68: Function - AssessQualificationsCheck
+
+Function - QualifySupplier
+
+
+Event - SupplierEvaluationInitiated
+
+Event - CertificationReceivedFromAuthority
+
+Event - ContractAgreementFinalized
+
+Event - SupplierAccepted
+
+Event - QualityStandardsMet
+
+Event - PaymentProcessingStarted
+73: Function - ConfirmOrderReceived(buyer, order)
+
+Event - OrderPlaced()
+
+Event - OrderVerificationComplete()
+
+Event - PaymentProcessed()
+
+Event - InvoiceSentToSupplier()
+
+Event - SupplierResponseAcknowledged()
+
+Function - IssueInvoice(supplier_id, order)
+
+Function - VerifyPaymentDetails(order)
+59: Event - OrderPlacedByBuyerStarted
+
+Function - ProcessInitiationHandler
+
+Event - ParallelRoutingDecisionPoint
+
+Function - EvaluateParallelPaths
+
+Event - PathSelectedForExecution
+
+Function - InitiateSubprocesses
+
+Event - SubprocessCompletionNotificationReceived
+
+Function - TerminateAllSubprocessesExceptCompletedOnes
+24: Subprocess 1 - Invoice Review- Receives international purchase orders, validates against contracts and pricing agreements.
+
+Subprocess 2 - Supplier Audit- Conducts periodic checks on suppliers' compliance with company policies and quality standards.
+
+Subprocess LOOP - Contract Renewal Checklist- Periodically reviews contract terms for potential renewals, pending actions from last cycle.
+32: Event - OrderPlacedByBuyer
+
+Function - SupplierConductsChecks
+
+Event - ContractRenewalReviewed
+
+Function - AuditInitiatesSubprocessLoop
+
+Event - ComplianceCompromised
+
+Function - SubprocessTerminatesUponFindingIssues
+25: Function - Receive_InternationalOrder - Identifies and accepts international purchase orders from suppliers.
+
+Event - StartOrderPlaced - Indicates that a buyer has initiated procurement by placing an order.
+
+Event - InvoiceReceived - Marks the moment when invoices are sent for review after goods delivery.
+
+Function - ValidateInvoiceAgainstContracts - Checks international purchase orders against existing contracts and agreements to ensure compliance.
+
+Event - InvoiceReviewed - Signifies that an invoice has been thoroughly checked, validated, and is ready for further processing.
+
+Function - ApproveOrRejectInvoice - Decides the fate of a reviewed invoice by either approving or rejecting it based on validation outcomes.
+11: Event - 'Confirmation Received'
+
+Event - 'Quotation Sent'
+
+Function - 'Request Quotations'
+
+Function - 'Negotiate Terms and Prices'
+18: Event - OrderPlacedNounAuxVerbOrderNoun
+
+Function - VerifyIdentityNounVerbDeterminerOrderNoun
+
+Event - PaymentProcessedNounVerbPaymentNoun
+
+Function - AssignSupplierNounVerbAssignOrderNoun
+
+Event - PurchaseAgreementSignedNounAuxVerbSignPurchaseAgreementNoun
+
+Function - ManageDeliveryLogisticsNounVerbCoordinateShippingNoun
+
+Event - ComplianceCheckPassedNounVerbInspectComplianceNoun
+
+Function - UpdateInventoryLevelsVerbReduceDeterminerStockNoun
+1: EndEvent - Invoice Signed Auxiliary Verb By Receiver Noun Process Completion

@@ -1,0 +1,129 @@
+0:  StartEvent - Information received by vendor notification
+3:  Subprocess 1 - Invoice processing
+Subprocess 2 - Supplier evaluation
+20:  Function - Document compiled
+Event - Evaluation criteria assigned
+Function - Review conducted
+Event - Evaluation report generated
+Function - Recommendation made
+Event - Decision communicated
+34:  Function - RequestSent 
+
+Event - VendorNotificationReceived
+
+Function - ProcessStart
+
+Event - CheckAuthorization
+
+Function - InitiatePurchase
+
+Event - VendorConfirmationReceived
+
+Function - ValidateVendor
+
+Event - IssuePurchaseOrder
+
+Function - OrderAcknowledgment
+
+Event - TrackOrderShipment
+
+Event - VendorNotificationReceived
+
+Function - PurchaseReview
+
+Event - ReceiveGoodsDeliveryConfirmation
+
+Function - RepeatPurchase
+
+Event - VendorNotificationReceived
+
+Function -
+35:  Subprocess 1 - Purchase Request Initiation
+Subprocess 2 - Supplier Selection
+Subprocess 3 - Contract Negotiation
+Subprocess 4 - Order Fulfillment
+56:  Event - Order placed by client  
+Function - System checks supplier availability  
+Event - Confirmation sent to supplier  
+
+Event - Payment details verified  
+Function - System generates purchase order  
+Event - Purchase order sent to logistics
+53:  Event - Proposal presented by supplier
+Function - Supplier prepares contract offer
+Event - Contract offer reviewed by company representative
+
+Event - Terms and conditions negotiated
+Function - Company representative discusses terms with supplier
+Event - Agreement reached
+Function - Negotiators finalize contract agreement
+50:  Event - Proposal accepted by procurement manager
+Function - Procurement manager selects supplier based on evaluation criteria
+Event - Supplier details provided to purchasing department
+61:  Event - Request form submitted
+Function - Processing of request form
+Event - Approval received
+Function - Generation of purchase order
+62:  Subprocess 1 - Request Acknowledgement
+Subprocess 2 - Supplier Evaluation
+72:  Event - Notification of supplier performance  
+Function - Analyze supplier data  
+Event - Evaluation criteria met  
+Function - Select supplier  
+Event - Supplier evaluation completed  
+Function - Finalize procurement
+68:  Event - Acknowledgement received by vendor
+
+Function - Process initiates and sends acknowledgment to vendor
+73:  Event - Vendor order placed
+Function - Procurement team approves purchase order
+59:  Function - Contract is drafted  
+Event - Payment request is sent  
+Function - Procurement decision is made
+24:  Subprocess 1 - Request processing
+Subprocess 2 - Approval verification
+32:  Event - Notification received
+Event - Approval requested
+Event - Verification completed
+Function - Initiate verification process
+Function - Perform verification checks
+Function - Log verification outcome
+Event - Approval granted
+Event - Approval denied
+Event - Reverification triggered
+Event - Final verification completed
+25:  Function - 'Receive Purchase Order'
+Event - 'Purchase Order Acknowledgement'
+Event - 'Request Process Initiation'
+Event - 'Processing Completion'
+Event - 'Order Rejection'
+Event - 'Processing Repeat Request'
+Event - 'Order Approval'
+Event - 'Vendor Notification'
+Function - 'Check Order Validity'
+Function - 'Extract Order Details'
+Function - 'Send Confirmation to Customer'
+Function - 'Revise Order'
+Event - 'Error Handling'
+Function - 'Communicate with
+11:  Function - Validate invoice received
+
+Event - Invoice details presented
+
+Function - Approve/reject invoice
+
+Event - Approval notice issued
+18:  Event - Inquiry sent by buyer  
+Function - Process system generates purchase order
+
+Event - Payment details received  
+Function - Contract management updates payment schedule
+Support- In an event-driven process chain about a procurement process of an international company, starting with the event "Information received by vendor notification," the subprocess involves three distinct elements, each following the specified order of parts of speech tags.
+
+
+Event - Request received from supplier  
+Function - Requisition processing system generates requisition
+
+Event - Procurement request processed  
+Function - Contract administration appro
+1:  EndEvent - Order placed by buyer processed by supplier

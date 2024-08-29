@@ -1,0 +1,126 @@
+0: 🔁 StartEvent - The procurement process initiates when a product **is identified** for restocking.
+3: 1. Subprocess 1 - Vendor Selection & Evaluation
+  2. Subprocess 2 - Purchase Order Generation & Sending
+  3. Subprocess 3 - Inventory Management & Monitoring
+  4. Subprocess 4 - Payment Processing & Reconciliation
+  5. Subprocess 5 - Goods Receiving & Quality Control
+  6. Subprocess 6 - Internal Audit & Compliance Checks
+  7. Subprocess 7 - Supplier Performance Analysis
+  8. Subprocess 8 - Stock Restocking & Shelving Arrangements
+20: 1. Function - 'Order generation initiates the process of creating a purchase order based on the product requirements.'
+2. Event - 'A purchase order is automatically generated in the system upon fulfilling the order generation criteria.'
+3. Function - 'Vendor selection is performed by the procurement team to choose the appropriate supplier for the product.'
+4. Event - 'The system identifies a suitable vendor who has previously met the company's quality standards.'
+5. Function - 'Purchase order dispatched to the selected vendor, requesting them to supply the necessary products.'
+6. Event - 'The vendor receives the purchase order and confirms their understanding of the terms and product requirements.'
+34: 1. Function - 'Inventory Management System identifies a product as needing restocking.'
+2. Event - 'The procurement process is initiated.'
+3. Function - 'Purchasing Department activates the supplier selection protocol.'
+4. Event - 'A potential supplier is selected based on predefined criteria.'
+5. Function - 'Supplier sends a quote for the product to the company.'
+6. Event - 'The company receives and reviews the quote.'
+7. Function - 'Procurement team evaluates the quote against budget constraints.'
+8. Event - 'The procurement team approves or rejects the quote.'
+9. Function - 'Logistics coordinator arranges for the transportation of the product.'
+35: 1. Subprocess 1 - Supplier Evaluation
+
+2. Subprocess 2 - Purchase Requisition
+
+3. Subprocess 3 - Quotation Request & Analysis
+
+4. Subprocess 4 - Order Placement & Receiving
+56: 1. **Event - "Product identification confirmed in inventory system."**
+   The process begins when a product is identified as needing restocking and this information is recorded in the company's inventory management system.
+
+2. **Function - "Initiate vendor selection workflow.**
+   A predefined workflow is activated to identify suitable vendors capable of supplying the required products based on past performance, cost-effectiveness, and current market conditions.
+
+3. **Event - "Vendor selected for procurement."**
+   The system or procurement team finalizes the selection of a vendor who will be responsible for providing the necessary products to restock the inventory. This event triggers the subsequent steps in the procurement process, such as order placement and logistics coordination.
+53: 1. **Event - "Product Identified Triggered"**- This event marks the initiation of the procurement process when a specific product is identified as needing restocking within the company's inventory management system.
+   - NOUN AUX VERB NOUN in passive voice- "The product was identified for restocking."
+
+2. **Function - "Initiate Order Process"**- The function involves the system or personnel responsible for creating a new purchase order based on the product identified for restocking. This includes selecting suppliers, negotiating terms, and ensuring that the order is properly logged into the procurement system.
+   - NOUN VERB NOUN in active voice- "The procurement team initiates the order process."
+
+3. **Event - "Purchase Order Issued"**- This event signifies that a purchase order has been finalized and sent to the chosen supplier for the product identified earlier, marking the transition from the ordering phase to the actual procurement stage of the process.
+   - NOUN AUX VERB NOUN in passive voice- "A purchase order was issued to the supplier."
+50: 1. **Event -** "Product restocking initiated"
+   A concrete instance of a sentence structure with tags 'NOUN AUX VERB NOUN' in passive voice, indicating the start of the procurement process for restocking a product.
+
+2. **Function -** "Identify supplier and send purchase request"
+   A concrete instance of a sentence structure with tags 'NOUN VERB NOUN' in active voice, describing the action taken to locate a supplier and send them a formal request for purchasing products for restocking.
+
+3. **Event -** "Purchase request confirmed by supplier"
+   A concrete instance of a sentence structure with tags 'NOUN AUX VERB NOUN' in passive voice, signaling that the supplier has accepted the purchase request and is ready to proceed with the transaction.
+61: 1. Event - 'Product identified for restocking is detected'- A concrete instance of a NOUN AUX VERB NOUN in passive voice, indicating the triggering event where a product that needs to be restocked is recognized.
+
+2. Function - 'Initiate Supplier Evaluation Process'- A concrete instance of a NOUN VERB NOUN in active voice, referring to the action taken to evaluate potential suppliers based on predefined criteria.
+
+3. Event - 'Supplier selection completed'- A concrete instance of a NOUN AUX VERB NOUN in passive voice, signifying the completion of the supplier evaluation process and the selection of a supplier.
+
+4. Function - 'Send Purchase Requisition to Selected Supplier'- A concrete instance of a NOUN VERB NOUN in active voice, indicating the action of sending a formal request for the purchase of products to the chosen supplier.
+62: 1. Subprocess 1 - Vendor Selection- Identify and evaluate potential suppliers for the product.
+
+2. Subprocess 2 - Quotation Request- Send out requests for quotes to selected vendors.
+
+3. Subprocess 3 - Supplier Negotiation- Engage in price and terms negotiation with the chosen supplier(s).
+
+4. Subprocess 4 - Order Placement- Finalize the purchase order with the agreed-upon supplier.
+
+5. Subprocess 5 - Payment & Logistics Coordination- Handle payment arrangements and coordinate logistics for product delivery.
+
+6. Subprocess 6 - Receiving & Inspection- Inspect received goods for quality and completeness.
+
+7. Subprocess 7 - Inventory Update- Update the inventory system with the new stock levels.
+
+8. Subprocess 8 - Performance Review- Evaluate the vendor's performance and the procurement process efficiency for future improvements.
+72: 1. Event - "Product identification is confirmed for restocking."
+2. Function - "The procurement system initiates a search for suppliers."
+3. Event - "Suppliers are notified of the product restocking requirement."
+4. Function - "The procurement team evaluates supplier quotes and selects the most cost-effective option."
+68:  Event - 'Procurement Initiated'- A new requirement for product restocking is recognized, triggering the commencement of the procurement process.
+
+Function - 'Vendor Evaluation Conducted'- The company assesses and selects potential suppliers based on criteria such as reliability, cost, and quality.
+73: 
+
+Event - Product identified for restocking initiates procurement process in passive voice (NOUN AUX VERB NOUN), which triggers the subsequent steps in the event-driven chain.
+59: Function - 'Product Identifier triggers Restocking Process Initiation'
+Event - 'Restocking Requirement is Detected'
+Function - 'Initiate Supplier Outreach for Quotation'
+24: 1. Subprocess %1 - Vendor Selection- Identify potential suppliers for the product.
+
+2. Subprocess %2 - Price Negotiation- Finalize purchase terms with the selected supplier.
+
+Subprocess LOOP - Inventory Analysis- Continuously monitor and adjust inventory levels to optimize stock. This subprocess will be iterative and needs to be closed after reviewing its effectiveness.
+
+3. Subprocess %3 - Order Processing- Place the order with the chosen supplier, ensuring all details are correct.
+
+4. Subprocess %4 - Payment Handling- Manage payment transactions with suppliers securely.
+
+5. Subprocess %5 - Receiving and Inspection- Verify the received goods meet quality standards before restocking.
+32: 
+
+Function - 'Identify Product'- A function where the system or an employee identifies a product that needs restocking, triggering the procurement process.
+
+Event - 'Product Restocked'- An event that occurs when the identified product is successfully restocked in the inventory system.
+25: Event - Product identified, restocking initiated.
+
+Function - Purchase department triggers procurement process upon product identification.
+11: Function - 'Identify product requirements and evaluate vendor capabilities, leading to Vendor Selection.'
+Event - 'A product is identified for restocking, triggering the initiation of the procurement process.'
+
+Function - 'Generate and send a purchase order to the selected vendor based on requirements.'
+Event - 'The procurement process is formally initiated after the product requirements are determined.'
+
+Function - 'Record incoming goods and verify their quality against specifications.'
+Event - 'A purchase order is issued to a vendor following the selection process.'
+
+Function - 'Process payments to vendors upon successful receipt of goods and completion of quality control.'
+Event - 'The inventory is updated with new products received from the vendor.'
+18: 1. **Function** - "Check Inventory"- This function initiates the process by verifying the current stock levels of the product that needs restocking to determine if a procurement order should be placed.
+   
+2. **Event** - "Procurement Order Triggered"- The event occurs when the inventory check reveals that the stock for the specified product has fallen below the reorder point, automatically initiating a new procurement order.
+
+3. **Function** - "Generate Purchase Order"- This function creates and sends out a formal purchase order to the selected supplier, specifying the quantities, product details, and terms of the transaction.
+1:  EndEvent - Order has been placed for the product to be restocked.

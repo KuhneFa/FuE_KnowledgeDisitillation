@@ -1,0 +1,228 @@
+0: StartEvent - Text received for procurement initiated
+3: Subprocess 1 - Supplier Selection-
+
+Subprocess 2 - Procurement Documentation-
+20: Event - DocumentReceivedForProcurement
+
+Function - ValidateDocumentFormat
+
+Event - CheckDocumentCompleteness
+
+Function - CompileProcedureManual
+
+Event - ManualReviewedForErrors
+
+Function - IssueDocumentationPackage
+
+Event - PackageShippedToSupplier
+34: Event - Request form received  
+Function - Validate purchase requirements  
+Event - Vendor list generated  
+Function - Select vendor pre-qualified  
+Event - Procurement document drafted  
+Function - Review procurement document  
+Event - Document approved for issuance  
+Function - Issue procurement call for bids  
+Event - Bid proposal submitted   
+Function - Evaluate bid proposals  
+Event - Award contract to selected vendor  
+Function - Initiate payment process
+35: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Legal Compliance Check
+
+Subprocess 3 - Risk Analysis
+
+Subprocess 4 - Contract Management
+56: Function - Receive_Contract_Details
+
+Event - ContractSigned
+
+Event - Review_Contract_Terms
+
+Event - Signature_Approved
+
+Function - Negotiate_Pricing
+
+Function - Perform_Due_Diligence
+
+Function - Finalize_SupplierSelection
+53: Function - Identify potential suppliers
+
+Event - Risk assessment report received
+
+Event - Analysis method determined
+
+Function - Evaluate risks associated with each supplier
+
+Event - Risk levels categorized
+
+Event - Mitigation strategies proposed
+
+Event - Analytical review completed
+
+Event - Risk analysis outcome documented
+50: Function - ProcessActivateLegalComplianceCheck(RequestedProcurement)
+
+Event - ReceiptOfDocumentationForComplianceCheck
+
+Event - ComplianceVerificationCompletedByRegulatoryBody
+
+Event - NonComplianceIssuedWithNotice
+
+Event - ComplianceClearedOrFurtherActionRecommended
+
+Function - AnalyzeLegalRequirements(ProcurementRequest)
+
+Function - ReviewSubmittedDocumentation(ComplianceDocuments)
+
+Function - IssueComplianceNotificationToSupplier(NonCompliantInfo)
+
+Function - InitiateCorrectiveActionPlan(ClearedOrNonComplyingDetails)
+
+Event - LegalComplianceCheckStartedByProcurementManager
+
+Event - DocumentationForLegalReviewReceived
+
+Event - ComplianceAuditConductedAndReportGenerated
+
+Event - AuditFindingsPresentedToStakeholders
+61: Function - "Assess Supplier Capabilities"
+
+Event - "Evaluation Initiated"
+
+Event - "Criteria Defined"
+
+Function - "Score Suppliers"
+
+Answer-
+
+Event - "Evaluation Completed"
+
+Function - "Select Optimal Supplier"
+62: Subprocess 1 - Receive vendor quotes, Subprocess 2 - Evaluate supplier performance
+72: Function - Identify_procurement_requirements
+
+Event - Requirement_notification
+
+Event - Procurement_request_initiation
+
+Function - Select_vendor_options
+
+-output--
+
+Event - Text received for procurement initiated
+
+Function - Initiate_text_processing
+
+Event - Vendor_identification_started
+
+Function - Analyze_vendor_criteria
+
+Event - Supplier_selection_process_begun
+
+Function - Compare_vendors
+
+Event - Contract_negotiation_commenced
+
+Function - Evaluate_proposals
+
+Event - Procurement_agreement_signed
+
+Function - Processing_completion
+68: Function - ReceiveVendorQuotesProcess - InitiateProcurementRequest - SendRequestToSuppliers - AwaitResponses - GatherQuotationsEvent - EvaluateSubprocessTwo - AssessSupplierPerformance - IdentifyBestVendorEvent
+
+Event - ProcurementInitiationReceived - AnnounceProcuringActivity - ProcessCommencementSignaled
+
+Function - EvaluateSupplierHistory - ReviewPastInteractions - CompareHistoricalData - DetermineExistingReliability
+
+Event - BestVendorSelectionMade - ChoiceConfirmed - ProcurementDecisionFinalized
+73: Function - ReceiveProcurementInitiation
+
+Function - ValidateRequestDetails
+
+Function - SelectSupplier
+
+Event - ProcurementInitiationReceived
+
+Event - RequestValidationCompleted
+
+Event - SupplierSelectionFinalized
+
+Event - PurchaseOrderIssued
+
+Event - PaymentAuthorized
+59: Function - Process Initialization - InitializeProcurementProcess
+
+Event - RequestReceivedEvent - A TextRequestInitiatedNOUN is receivedA byProcurementManagerAUX
+
+Function - EvaluateSuppliers - AssessSupplierQualityNOUN andEvaluateCompetitiveOffersVERB procuredNOUNs
+
+Event - ApprovalGrantedEvent - An evaluationNOUN has been completedA with approvalverbed.
+
+Function - IssuePurchaseOrder - FinalizePurchaseOrderNOUN issuingAVariousVendorsAUX
+
+Event - ShipmentConfirmedEvent - A purchase orderNOUN is confirmedA for shipping byLogisticsManagerVERB
+
+Function - MonitorOrderProgress - TrackOrderStatusVERB andMonitorSupplierComplianceNOUN
+
+Event - ReceiveDeliveryNotification - DeliverynotificationNOUN for an orderNOUN has been receivedAUX
+24: Subprocess 1 - Product Sourcing- Researching suppliers and negotiating contracts.
+
+Subprocess 2 - Compliance Checking- Verifying international trade regulations compliance.
+32: Event - StartEvent - Initiation received  
+
+Function - ComplianceVerification - Checking international trade regulations compliance  
+
+Event - NonCompliantItemDetected - Item found non-compliant  
+
+Function - CorrectiveActionInitiated - Action taken to rectify non-compliance
+25: Function - ReceiveSupplierInformation
+
+Function - ExtractContractDetails
+
+Function - EvaluateSupplierRisk
+
+Event - StartProductSourcingSubprocess
+
+Event - IdentifyPotentialSuppliers
+
+Event - ConductInitialScreening
+
+Event - SelectTopSuppliers
+
+Event - ContactSelectedSuppliers
+
+Event - ReceiveProposalsFromSuppliers
+
+Event - ReviewProposals
+
+Event - NegotiateContractTerms
+
+Event - FinalizeSupplierSelection
+
+Event - SignNegotiationLetter
+
+Event - BeginDeliveryProcess
+
+Event - MonitorCompliance
+
+Event - CloseSubprocess
+11: Event - Document signed by supplier  
+Event - Supplier contract received  
+Function - Verify credibility  
+Function - Select and evaluate proposals  
+
+Event - Proposal review completed  
+Event - Supplier shortlisted  
+Function - Negotiate terms with potential suppliers  
+Function - Award bid to selected supplier
+18: Event - Initiation Notice Received
+
+Function - Process Activation
+
+Event - Request Approval Granted
+
+
+'Initiation Notice Received' is a passive event describing when procurement initiation communication is received, triggering the process. 'Process Activation' functions as an active initiator that starts the parallel subprocesses upon receiving this notice. 'Request Approval Granted' is another passive event indicating approval for procurement requests which may influence subsequent events and functions in the chain.
+1: EndEvent - Contracts Finalized (Auxiliary Verb- were, Noun- finalized, Noun- contracts)

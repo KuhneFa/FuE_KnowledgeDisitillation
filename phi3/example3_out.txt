@@ -1,0 +1,225 @@
+0: StartEvent - Goods are ordered
+3: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Risk Assessment
+20: Event - OrderCompletionReceived
+
+Function - AssessRisk
+
+Event - RiskAssessmentReportPrepared
+
+Function - IdentifyKeyRisks
+
+Event - RiskEvaluationPerformed
+
+Function - ImplementRiskMitigationStrategies
+
+Event - MitigationMeasuresApplied
+
+Event - FinalOrderConfirmed
+
+Event - ProcurementProcessEnded
+34: Event - OrderPlaced
+
+Function - InitiateInvoiceProcess
+
+Event - GoodsReceivedConfirmation
+
+Function - VerifySupplierQuality
+
+Event - PaymentRequested
+
+Function - ProcessPaymentRequest
+
+Event - DeliveryScheduled
+
+Function - OrganizeLogistics
+
+Event - OrderDeliveredAcknowledgment
+
+Function - UpdateStockLevels
+
+Event - SupplierNotified
+
+Function - MaintainSupplierRelationship
+35: Subprocess 1 - Quality Check
+
+Subprocess 2 - Supplier Negotiation
+
+Subprocess 3 - Legal Compliance Review
+
+Subprocess 4 - Logistics Coordination
+56: Function - Initiate ShipmentProcess
+
+Event - OrderConfirmationReceived
+
+Event - CustomsClearanceObtained
+
+Function - CoordinateWithTransportProviders
+
+Function - TrackShipmentsAndUpdateLogistics
+
+Function - CommunicateVendorInformation
+
+Event - SupplierSelectionFinalized
+
+Event - PackagingComplete
+
+Event - BillingConfirmed
+
+Event - GoodsArrivedAtPort
+53: Function - Review Checklist Prepared
+
+Event - Compliance Notification Received
+
+Event - Legal Approval Granted
+
+ai>
+Function - Documents Submitted For Assessment
+
+Event - Compliance Requirements Identified
+
+Event - Decision Made On Compliance
+50: Function - Identify potential suppliers
+
+Event - Supplier list received
+
+Event - Negotiation terms proposed
+
+function - Establish negotiation framework
+
+event - Initial contact made
+
+function - Evaluate supplier capabilities
+
+event - Agreement reached
+
+function - Arrange meeting schedules
+
+event - Contract drafted
+
+function - Finalize contract details
+
+Event - Supplier selected
+
+Function - Review supplier performance criteria
+
+Event - Negotiation terms accepted
+61: Event - ReceivedInspectionRequest
+Function - PerformQualityAssessment
+Event - CompletedQualityCheck
+Function - ApplyCorrectiveActions
+
+Event - InspectedGoodsReceived
+Function - VerifySupplierCompliance
+62: Subprocess 2 - Supplier Evaluation- Assessing suppliers' reliability and cost-effectiveness.
+
+Subprocess 3 - Contract Negotiation- Drafting contracts with favorable terms and conditions.
+72: Function - Identify potential suppliers  
+
+Event - Supplier list generated  
+
+Function - Evaluate contract proposals  
+
+Event - Proposal received and assessed  
+
+Function - Drafting of initial draft  
+
+Event - Initial terms agreed upon  
+
+Function - Review of final draft  
+
+Event - Finalized contract signed  
+
+Function - Monitor compliance with the contract
+68: Event - OrderReceived
+
+Function - EvaluateSuppliers
+
+
+Event - AssessmentComplete
+
+Function - RankSuppliers
+
+
+Event - SupplierSelected
+
+Function - NegotiateContracts
+
+
+Event - ContractSigned
+
+Function - OrderGoodsShipped
+
+
+Event - ShipmentArrives
+
+Function - VerifyQuality
+73: Event - OrderPlaced
+Event - SupplierNotification
+Function - ValidateOrderDetails
+Function - SelectVendor
+
+Event - PaymentAuthorized
+Function - IssueInvoice
+
+Event - DeliveryScheduled
+Function - ConfirmDeliveryTerms
+
+Event - GoodsReceived
+Event - InspectionReportPrepared
+Event - ComplianceVerified
+
+Event - DocumentationCompleted
+Function - ArchiveProcurementData
+59: Event - ReceiptOfOrderConfirmation
+
+Function - ValidatePurchaseOrders
+
+Event - DeliveryScheduleNotified
+
+
+'Received Order Confirmation' marks the initiation event where a formal acknowledgment of goods order is processed. 'Validate Purchase Orders' involves checking and approval processes to ensure all orders are legitimate and ready for procurement. 'Delivery Schedule Notified' signals when an actionable date has been set for delivering the ordered goods, indicating readiness to progress in the chain.
+24: Subprocess %1% - Quality Assurance Loop - Subprocess %2% - Documentation Review
+
+(Note- As instructed, 'LOOP' is not directly stated but implied in 'Quality Assurance Loop', and the documentation review is a separate mutually exclusive subprocess.)
+32: Function - OrderPlaced (Verb - Place, Noun - Order)
+
+Event - PurchaseRequestReceived (Noun - Request, Verb - Received, Noun - Purchase)
+
+Event - DeliveryScheduled (Noun - Schedule, Verb - Set, Noun - Delivery)
+
+Event - InvoiceGenerated (Noun - Invoice, Verb - Created, Noun - Document)
+
+Event - GoodsReceived (Noun - Goods, Verb - Arrived, Noun - Facility)
+25: Function - ApprovalRequest - Submit purchase order  
+
+Event - OrderConfirmation - Receive goods confirmation  
+
+Event - InventoryCheck - Verify stock levels  
+
+Function - GoodsReceived - Process received items  
+
+Function - PaymentProcessing - Authorize payment  
+
+Event - ShippingNotification - Get shipping details
+11: Event - OrderPlacedAuxVerbSupplierEvaluationNoun
+
+Function - InitiateProcurementProcessV1ConjunctionBeginSubprocess
+
+Event - EvaluationRequestedVerbStartEventNoCompareAdvSupplierList
+
+Function - AssessSupplierPerformanceV2VerbEndSubprocess
+18: Function - RequisitionFilled
+
+Event - OrderPlaced
+
+Function - PaymentProcessed
+
+
+RequisitionFilled - A requisition document is created indicating goods have been ordered and sent to suppliers.
+
+OrderPlaced - An order notification is generated, detailing the products requested and the quantity needed.
+
+PaymentProcessed - Financial transactions are initiated for payment of goods after verification and approval by procurement authorities.
+1: EndEvent - Supplies Delivered Auxiliary Verb To Receiving Department Noun

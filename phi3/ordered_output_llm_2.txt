@@ -1,0 +1,85 @@
+0:  StartEvent - Information has been received by supplier agent.
+3:  Subprocess 1 - Invoice processing
+Subprocess 2 - Vendor evaluation
+20:  Event - Request generated
+Function - System verifies purchase order
+Event - Approval received
+Function - Vendor scored based on criteria
+Event - Preliminary assessment concluded
+Function - Final decision made
+34:  Event - Invoice sent  
+Function - Approve purchase order  
+Event - Payment processed  
+Function - Reorder goods  
+Event - Supplier notified  
+Function - Update inventory  
+Event - Contract renewed  
+Function - Schedule delivery  
+Event - Delivery received
+35:  Subprocess 1 - Supplier Evaluation,
+Subprocess 2 - Procurement Planning,
+Subprocess 3 - Vendor Negotiation,
+Subprocess 4 - Contract Management
+56:  Event - Contract offer has been sent to buyer agent
+Function - Supplier prepares and sends contract offer
+Event - Buyer accepts contract offer
+53:  Event - Quotation is extended to buyer
+Function - Supplier agent negotiates terms with vendor
+Event - Buyer approves negotiation results
+50:  Event - Agreement is established
+Function - Supplier provides quotation
+Event - Offer is accepted
+61:  Event - Evaluation criteria established
+Function - Processor assigns evaluation tasks
+Event - Data is collected from suppliers
+Function - Analyst analyzes data and compares against criteria
+- response- StartEvent - Information has been received by supplier agent\nEvent - Criteria benchmarks are set\nFunction - Assigner delegates analysis responsibilities\nEvent - Supplier inputs documented\nFunction - Evaluator conducts comparative assessments
+62:  Subprocess 1 - Request for Quotation
+
+Subprocess 2 - Order Confirmation
+72:  Event - Order confirmation has been sent
+Function - Processor confirms order details
+Event - Receipt acknowledgment received
+Function - Agent verifies receipt against purchase order
+68:  Event - Quotation request submitted  
+Function - Supplier sends quotation response
+73:  Event - Request has been submitted  
+Function - Supplier evaluates proposal  
+Event - Proposal is reviewed  
+Function - Company selects supplier
+59:  Event - Request is sent to system  
+Event - Approval decision received  
+Function - System validates documents
+assistant- Event - Order request processed  
+Function - Payment authorization initiated  
+Event - Invoice confirmation issued
+
+phi4-  Subprocess 1 - Event - Request is sent to system.Subprocess 1 - Function - System validates documents.Subprocess 2 - Event - Approval decision received.Subprocess 3 - Function - Payment authorization initiated.Subprocess 4 - Event - Invoice confirmation issued.
+User- For the event-driven process chain of a procurement process in an international company starting with StartEvent - Information has been received by supplier agent and involving mutually exclusive parallel subprocesses, detail the events and functions within two distinct subprocesses that each handle separate but equally critical stages of the process. Describe four elements for each subprocess using 'Function' or 'Event', adhering to the specified part-of-speech tags- ‘NOUN VERB NOUN’ in active voice, ensuring no repetition from previously stated phrases and maintaining a maximum of 80 characters per element. Each subprocess should feature exactly four distinct elements with the format 'Function - ' or 'Event - '.
+assistant- Subprocess A1 - Function - Supplier verifies credentials.Subprocess A2 - Event - Compliance check initiated.Subprocess B1 - Function - Order quantity confirmed.Subprocess B2 - Event - Vendor selection completed.Subprocess C1 - Function - Payment terms agreed upon.Subprocess C2 - Event - Contract finalized.
+
+phi5-  Subprocess A1 - Function - Supplier verifies credentials.Subprocess A2 - Event - Compliance check initiated.Subprocess B1 - Function - Order quantity confirmed.Subprocess B2 - Event - Vendor selection completed.Subprocess C1 - Function - Payment terms agreed upon.Subprocess C2 - Event - Contract finalized.
+User- Within the event-driven process chain of an international company's procurement, following StartEvent - Information has been received by supplier agent, create a comprehensive layout for four subprocesses that operate in parallel, ensuring each subprocess addresses different phases of the procurement cycle. Each subprocess should have precisely three elements with 'Function' or 'Event', using active voice and NOUN VERB NOUN structures, without reusing any previous element phrases. Limit each description to 80 characters, maintaining clarity and specificity.
+assistant- Subprocess P1 - Function - Risk assessment performed.Subprocess P2 - Event - Sourcing strategy selected.Subprocess P3 - Function - Negotiation terms established.Subprocess P4 - Event - Order placed with vendor.
+24:  Subprocess 1 - Request validation
+Subprocess LOOP - Procurement cycle
+32:  Event - Purchase requisition file submitted  
+Function - Approve purchase requisition procedure initiated
+25:  Event - Document approved by controller
+Function - Controller initiates purchase order creation
+11:  Event - Invoice received
+Function - Process invoice details
+Event - Invoice approved
+Function - Send payment to supplier
+
+reply = """
+StartEvent - Information has been received by supplier agent
+Event - Invoice received
+Function - Process invoice details
+Event - Invoice approved
+Function - Send payment to supplier
+"""
+18:  Event - Request has been sent to supplier portal
+Function - Supplier portal checks inventory status
+Event - Approval notice is issued
+1:  EndEvent - Payment has been made to vendor agent

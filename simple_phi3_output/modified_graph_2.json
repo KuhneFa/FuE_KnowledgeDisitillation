@@ -1,0 +1,259 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "babd6a6e-821f-48cc-b37e-729ae9b7f16c",
+            "label": "StartEvent - Materials requisitioned",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "de58997f-43a1-4d85-87e1-01205e41426a",
+            "label": "EndEvent - Order placed",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "8d987e4d-b5f9-4918-9b09-03fb8d05b224",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "8d987e4d-b5f9-4918-9b09-03fb8d05b224",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "5"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d987e4d-b5f9-4918-9b09-03fb8d05b224",
+            "patternType": "AND",
+            "label": "Function - Approval granted",
+            "id": "7"
+        },
+        {
+            "type": "Function",
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "label": "Function - Payment processed",
+            "id": "9"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "10"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "12"
+        },
+        {
+            "type": "Event",
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "label": "Event - Requisition approved",
+            "id": "14"
+        },
+        {
+            "type": "Event",
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "label": "Event - Documents evaluated",
+            "id": "15"
+        },
+        {
+            "type": "Function",
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "label": "Function - Processor approves request",
+            "id": "16"
+        },
+        {
+            "type": "Function",
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "patternType": "OR",
+            "label": "Function - Approval granted Requestor",
+            "id": "18"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "19"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "22"
+        },
+        {
+            "type": "Event",
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "patternType": "OR",
+            "label": "Event - Contracts are initiated",
+            "id": "24"
+        },
+        {
+            "type": "Event",
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "patternType": "OR",
+            "label": "EndEvent1",
+            "id": "25"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "8d987e4d-b5f9-4918-9b09-03fb8d05b224",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "3",
+            "key": "geid_57010_4"
+        },
+        {
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "label": "Requisition Review",
+            "source": "3",
+            "target": "18",
+            "key": "geid_57010_26"
+        },
+        {
+            "patternId": "8d987e4d-b5f9-4918-9b09-03fb8d05b224",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "5",
+            "target": "1",
+            "key": "geid_57010_7"
+        },
+        {
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "7",
+            "target": "14",
+            "key": "geid_57010_13"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "patternType": "XOR",
+            "source": "9",
+            "target": "10",
+            "key": "geid_57010_9"
+        },
+        {
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Requisition Review",
+            "source": "10",
+            "target": "15",
+            "key": "geid_57010_15"
+        },
+        {
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "12",
+            "target": "5",
+            "key": "geid_57010_18"
+        },
+        {
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "14",
+            "target": "9",
+            "key": "geid_57010_14"
+        },
+        {
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "15",
+            "target": "16",
+            "key": "geid_57010_16"
+        },
+        {
+            "patternId": "6335c27b-0fcb-41c6-ae21-f1a72367d518",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "16",
+            "target": "12",
+            "key": "geid_57010_17"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "patternType": "OR",
+            "source": "18",
+            "target": "19",
+            "key": "geid_57010_20"
+        },
+        {
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Purchase Order Creation",
+            "source": "19",
+            "target": "24",
+            "key": "geid_57010_27"
+        },
+        {
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Vendor SelectionUser For Subprocess 1  Purchase Order Creation in the eventdriven process chain, give the names of 2 alternative end events in the format 'EndEvent  %Number%', with %Number% being the next consecutive number. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.Assistant EndEvent  1EndEvent  2User In Subprocess 2  Vendor Selection, provide 2 alternative events",
+            "source": "19",
+            "target": "25",
+            "key": "geid_57010_29"
+        },
+        {
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "22",
+            "target": "7",
+            "key": "geid_57010_31"
+        },
+        {
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "24",
+            "target": "22",
+            "key": "geid_57010_28"
+        },
+        {
+            "patternId": "1d44f82c-002f-456d-8054-aeea34c16570",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "25",
+            "target": "22",
+            "key": "geid_57010_30"
+        }
+    ]
+}

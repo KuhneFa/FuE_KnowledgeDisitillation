@@ -1,0 +1,115 @@
+0: StartEvent - Purchase Order Request is submitted by supplier NOUN AUX has VERB been VERB received.
+3: User- 
+
+Phi4- Subprocess 1 - Supplier Validation 
+Phi5- Subprocess 2 - PO Content Verification
+20: Here are the descriptions for the subprocess-
+
+Function - Supplier Information is verified
+Event - Purchase Order Request is processed
+Function - Payment Terms are checked
+Event - Suppliers are evaluated
+Function - Goods Receipt Note is generated
+Event - PO Acknowledgment is sent
+34: Here are the process elements-
+
+Function - Verify Supplier Information
+Event - Purchase Order Request is submitted by supplier NOUN AUX has VERB been VERB received.
+Function - Authenticate Supplier Credentials
+Event - Supplier Credentials VERB match company NOUN.
+Function - Review Purchase Order Details
+Event - Purchase order details NOUN verified and correct.
+Function - Generate Purchase Order Number
+Event - Unique purchase order number NOUN generated.
+Function - Create Purchase Order Document
+Event - Purchase order document NOUN created.
+Function - Send Purchase Order to Supplier
+Event - Purchase order sent to supplier NOUN successfully.
+Function - Track Purchase Order Status
+Event - Purchase order status VERB updated regularly.
+35: Here are the 4 branches of mutually exclusive subprocesses-
+
+Subprocess 1 - PO Validation
+Subprocess 2 - Supplier Onboarding
+Subprocess 3 - Item Classification
+Subprocess 4 - Requisition Approval
+56: Here are the descriptions for the subprocess Requisition Approval-
+
+Event - Request is reviewed
+Function - Approver verifies requirements
+Event - Decision is made
+53: Here are the descriptions for the subprocess Item Classification-
+
+Event - Item classification information is reviewed
+Function - Item Master Data is updated correctly
+Event - Item classification decision is made accurately
+50: Here are the descriptions for the subprocess Supplier Onboarding-
+
+Event - Supplier information is verified
+Function - Perform supplier validation checks
+Event - Supplier's creditworthiness is evaluated
+61: Here are the process elements for PO Validation-
+
+Event - Purchase Order Request is verified
+Function - PO Data is checked
+Event - Supplier Information is reviewed
+Function - Purchase Order is validated
+62: User- Subprocess 1 - Supplier Verification Process 
+User- Subprocess 2 - Alternative PO Source Identification
+72: Here are the descriptions for the subprocess elements-
+
+Event - Purchase Order is verified NOUN AUX has VERB been VERB received
+Function - Supplier Information is retrieved NOUN VERB Data
+Event - Purchase Order is validated NOUN AUX is VERB checked VERB correctly
+Function - Purchase Order is approved NOUN VERB Request
+68: Here are the two subprocess elements-
+
+Event - Supplier Information is verified
+Function - Verify Supplier Data
+
+
+Let me know if you'd like to proceed with the next steps in the process chain!
+73: Here are the descriptions for the process elements-
+
+Event - Purchase Order Request is verified
+
+
+Let me know if you'd like to proceed with the next step in the process chain!
+59: Here are the descriptions for the subprocess-
+
+Function - Purchase Order Data is validated
+Event - Duplicate Purchase Order Request is identified
+Function - Supplier Information is verified
+24: Phi4- Subprocess 1 - PO Verification Initiation
+Phi5- Subprocess 2 - Supplier Information Validation
+
+(Note- Phi is the prefix for the subprocess names, as per the provided format)
+32: Here are the process elements-
+
+Event - Purchase Order Request is submitted by supplier
+
+Function - Verify Supplier Information and Requirements
+
+
+Note- Since there's only 1 element in this order, I assume that's what you meant by "exactly 1 elements". If you need more information or clarification, please let me know!
+25: Here are the descriptions for each process element-
+
+Event - Supplier PO Request Submitted NOUN AUX has VERB been received.
+
+Function - Phi5 Supplier Information Validation Initiation NOUN VERB verify information.
+
+Supplier PO Request Submission is the event that starts the procurement process, while Phi5 Supplier Information Validation Initiation is the function that initiates the subprocess to validate supplier information.
+11: Phi5 Subprocess 2 - PO Content Verification-
+
+Function - Supplier Information is verified NOUN VERB information
+Event - Purchase Order Request details are reviewed NOUN AUX have VERB been VERB reviewed
+Function - Supplier Classification is determined NOUN VERB classification
+Event - Relevant documentation is updated NOUN AUX is VERB updated
+18: Here are the process elements-
+
+Function - Supplier Information is verified
+Event - Purchase Order Request details are checked
+Function - Order Verification Result is determined
+1: StartEvent - Purchase Order Request is submitted by supplier
+
+EndEvent - Contract has been finalized

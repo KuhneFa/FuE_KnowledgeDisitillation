@@ -1,0 +1,142 @@
+0:  StartEvent - Order has been placed by customer in international marketplace
+3:  Subprocess 1 - Sourcing Selection
+Subprocess 2 - Supplier Negotiation
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the first nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 1 - Market Analysis Initiated
+Node 2 - Vendor Shortlisting Completed
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the second nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 3 - Risk Assessment Executed
+Node 4 - Bid Evaluation Concluded
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the third nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 5 - Compliance Check Carried Out
+Node 6 - Contract Formation Finalized
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the fourth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 7 - Agreement Signing Happened
+Node 8 - Procurement Closed
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the fifth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 9 - Inventory Monitoring Ongoing
+Node 10 - Delivery Scheduling Set
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the sixth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 11 - Logistics Coordination Initiated
+Node 12 - Compliance Auditing Started
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the seventh nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 13 - Payment Processing Executed
+Node 14 - Feedback Loop Established
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the eighth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 15 - Performance Reporting System Engaged
+Node 16 - Process Optimization Analysis Ongoing
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the ninth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 17 - Risk Mitigation Plan Implemented
+Node 18 - Sustainability Standards Compliance Monitoring
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the tenth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 19 - Strategic Partnering Execution
+Node 20 - Cost Reduction Initiatives Ongoing
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the eleventh nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 21 - Data Analytics Application Deployed
+Node 22 - Knowledge Sharing Platform Activation
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the twelfth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotiation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 23 - Continuous Improvement Program Established
+Node 24 - Performance Enhancement Feedback Loop Integrated
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the thirteenth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotitation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 25 - Innovation Adoption Framework Implemented
+Node 26 - Procurement Lifecycle Management System Connected
+
+User- In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order has been placed by customer in international marketplace, provide names for the fourteenth nodes within Subprocess 1 - Sourcing Selection and Subprocess 2 - Supplier Negotitation. Prefix each name with 'Node %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations.
+Assistant- Node 27 - Supply Chain Collaboration Platform Activated
+Node 28 - Global Sourcing Strategy Alignment Executed
+20:  Event - StartEvent
+Function - OrderPlacedInMarketplace
+Event - SourcingSelectionStarted
+Function - SupplierNegotiationCommenced
+Event - PerformanceReportingActivated
+Function - ProcessOptimizationAnalyzed
+Event - RiskMitigationPlanEngaged
+Function - StrategicPartneringExecuted
+Event - CostReductionInitiativesLaunched
+Function - DataAnalyticsApplicationDeployed
+Event - KnowledgeSharingPlatformActivated
+Function - ContinuousImprovementProgramEstablished
+Event - InnovationAdoptionFrameworkInstalled
+Event - GlobalSourcingStrategyAligned
+
+Process Elements-
+- Function - ProcurementOrderInitialized
+- Event - OrderReceivedFromInternationalCustomer
+- Function - SupplierEvaluated
+- Event - NegotiationTermsNegotiated
+- Function - ContractSignedWithSupplier
+- Event - DeliveryScheduleEstablished
+34:  Event - Purchase order received  
+Function - System validates purchase details  
+Event - Approval granted  
+Function - Inventory checked and updated  
+Event - Supplier contacted  
+Function - Payment processed  
+Event - Goods shipped  
+Function - Delivery confirmed  
+Event - Contract signed
+35:  Subprocess 1 - Invoice approval
+Subprocess 2 - Supplier selection
+Subprocess 3 - Delivery confirmation
+Subprocess 4 - Payment processing
+56:  Event - Payment has been initiated by system
+Function - System verifies payment details and approves transaction
+Event - Invoice received from supplier
+53:  Event - Delivery has been confirmed to supplier
+Function - System verifies delivery confirmation
+Event - Supplier acknowledgment received
+50:  Event - Supplier identified
+Function - System evaluates suppliers
+Event - Shortlist created
+61:  Event - Invoice has been generated
+Function - System generates invoice
+Event - Approval request sent
+Function - Administrator approves invoice
+62:  Subprocess 1 - Invoice Approval
+
+Subprocess 2 - Supplier Selection
+72:  Event - Proposal is sent  
+Function - Evaluate proposals  
+Event - Best bid selected  
+Function - Negotiate terms
+68:  Event - Payment request has been submitted
+Function - System validates payment information
+73:  Event - Document has been generated
+
+Function - System checks inventory levels
+59:  Event - Order received
+
+Function - System validates order details
+
+Event - Approval granted
+
+Function - Supplier notified
+24:  Subprocess 1 - Order processing initiation
+
+Subprocess 2 - Supplier selection validation
+- output- "Supplier has been validated by process."
+32:  Event - Validation result has been issued
+Function - System validates supplier selection
+25:  Event - Document has been generated
+Function - System checks order details
+11:  Event - Supplier has been chosen  
+Function - Request_for_proposal sent  
+Event - Proposal received  
+Function - Evaluate_proposals conducted
+18:  Event - Requisition has been generated.
+Event - Approval has been received.
+Function - System validates requisition details.
+1:  EndEvent - Invoice has been issued to supplier

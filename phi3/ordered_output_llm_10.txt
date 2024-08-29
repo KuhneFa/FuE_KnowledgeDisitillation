@@ -1,0 +1,230 @@
+0: StartEvent - Order has been placed
+3: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Document Preparation
+20: Event - Received_Order_Document
+
+Function - Preparing_Invoice
+
+Event - Invoice_Preparation_Started
+
+Function - Review_Invoice_Details
+
+Event - Details_Reviewed
+
+Function - Finalize_Invoice
+
+Event - Invoice_Finalization_Signal
+34: Event - OrderPlacedNoun
+
+Function - ValidateOrderVerbCheck
+
+Event - SupplierSelectedNoun
+
+Function - ContactSupplierVerbInitiate
+
+Event - QuoteReceivedNoun
+
+Function - ReviewQuotationVerbProcess
+
+Event - PurchaseOrderCreatedNoun
+
+Function - IssuePurchaseOrderVerbComplete
+
+Event - DeliveryScheduledNoun
+
+Function - PlanDeliveryVerbOrganize
+35: Subprocess 1 - Supplier Evaluation
+
+Subprocess 2 - Contract Negotiation
+
+Subprocess 3 - Shipping Coordination
+
+Subprocess 4 - Compliance Verification
+56: Event - Verification Completed
+
+Function - Check Compliance Requirements
+
+Event - Compliance Rules Applied
+
+Event - Non-compliance Detected
+
+Function - Correct Non-compliances
+
+Function - Document Adjustment Made
+53: Function - PrepareShippingDetails
+
+Event - OrderConfirmed
+
+Event - CarrierSelected
+
+Event - PackagingComplete
+
+
+Function - IssueShippingLabel
+
+Event - TrackingNumberAssigned
+
+Function - ConfirmShipmentReady
+
+Event - ShipmentDepartureNoted
+50: Function - Arrange Negotiation Meeting  
+
+Event - PreparationPhaseBegins  
+
+Event - AgreementReached  
+
+Function - InitiateContractDiscussion  
+
+Function - ReviewTermsAndConditions  
+
+Function - FinalizeAgreementSigning
+61: Function - ValidateSupplierCriteria
+
+Function - GatherSupplierData
+
+Event - CompletionNotification
+
+Event - SupplierSelectionInitiated
+
+- Evaluate supplier against criteria
+
+- Collect necessary supplier information
+
+- Notify completion of evaluation
+
+- Initiate selection process for the chosen supplier
+62: Subprocess 1 - Supplier Evaluation- Assessing potential suppliers based on criteria like quality, cost, and reliability.
+
+Subprocess 2 - Contract Negotiation- Discussing terms and conditions with selected suppliers to finalize agreements.
+
+----
+72: Function - DetermineSuppliers - Select potential suppliers based on requirements and criteria\n
+Event - AgreementSigned - A contract is signed between company and supplier\n
+Function - ReviewTerms - Examine terms proposed by each supplier and make initial assessments\n
+Event - DiscussionHeld - Negotitations take place with a selected supplier to discuss terms and conditions\n
+68: Function - EvaluationCriteriaDetermined
+
+Function - AssessSuppliersQuality
+
+Event - StartOrderPlaced
+
+Event - SupplierEvaluatedReceived
+
+Event - DecisionMadeOnSupplier
+
+Event - ContractSignedWithSupplier
+73: Function - ProcessInitiation - StartProcurementProcess
+
+Event - OrderPlaced
+
+Event - SupplierSelectionStarted
+
+Event - BidReceived
+
+Event - SupplierEvaluated
+
+Event - PurchaseOrderCreated
+
+Event - DeliveryRequested
+
+Event - ShipmentConfirmed
+
+Function - ConfirmProcurementDetails
+
+Function - IssuePurchaseOrderToSupplier
+
+Function - ReceiveDeliveryNotice
+
+Function - ValidateReceivedGoods
+59: Event - StartOrderPlaced
+
+Function - InitiateProcurement
+
+Event - OrderConfirmationReceived
+
+Function - ValidateSupplierSelection
+
+Event - SupplierAgreementSigned
+
+Function - PrequalifyContractors
+
+Event - PaymentAuthorized
+
+Function - TrackOrderFulfillmentProgress
+24: Subprocess 1 - Vendor Selection-
+
+Subprocess 2 - Invoice Approval-
+32: Function - Generate_Invoice  
+
+Event - ApprovalRequest  
+
+Event - InvoiceReceived  
+
+Event - InvoiceApproved  
+
+Function - Verify_Invoice  
+
+Function - Send_APH  
+
+Function - Record_Decision  
+
+Event - DecisionMade
+25: Event - OrderPlaced
+
+Function - SelectVendor
+
+Event - VendorSelected
+
+Function - EvaluateQuality
+
+Event - QualityAssessed
+
+Function - NegotiateTerms
+
+Event - TermsNegotiated
+
+Event - PurchaseAgreementSigned
+
+Event - ProcessRepeatInitiated
+
+Function - ReevaluateVendors
+11: Event - OrderReceived_bySupplier
+
+Function - InitiateSupplierEvaluation
+
+Event - SupplierSelectionCriteriaSet
+
+Function - AssessQualityStandardsCompliance
+
+Event - EvaluationReportPrepared
+
+Event - DecisionOnSupplierMade
+
+Event - SupplierEngaged
+
+Event - ContractFinalized_withSupplier
+
+Function - MonitorPerformanceMetrics
+18: Event - OrderPlacedByCustomer  
+
+Event - PurchaseOrderReceived  
+
+Function - ValidatePurchaseOrder  
+
+Event - VendorSelectedForProcurement  
+
+Event - ProcurementTermsNegotiated  
+
+Function - InitiateVendorProposals  
+
+Event - ProposalsReceivedFromVendors  
+
+Function - EvaluateVendorProposals  
+
+Event - VendorSelectedAndContractSigned  
+
+Event - GoodsDeliveredToWarehouse  
+
+Function - CheckDeliveryCompliance
+1: EndEvent - ProcurementVerb CompletionNoun OrderPastTenseVerbSignedByCompanyLegalAuxiliaryDocument

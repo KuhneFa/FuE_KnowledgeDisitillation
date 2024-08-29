@@ -1,0 +1,917 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "b48ba85d-571c-457f-a980-2128fa5012b4",
+            "label": " StartEvent - The procurement process is triggered by a purchase requisition being created",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "4cb80fc8-5b46-4201-841a-9e4fdf18ff3f",
+            "label": " EndEvent - Procurement process has been completed",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "6"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "1. **Function** - 'Procurement Agent initiates Supplier Selection & Evaluation'",
+            "id": "8"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "2. **Event** - 'Supplier proposals are received and assessed'",
+            "id": "9"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "3. **Function** - 'Contract Specialist begins Contract Negotiation & Finalization'",
+            "id": "10"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "4. **Event** - 'Contract terms are agreed upon by the supplier'",
+            "id": "11"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "1. Function - 'Review Requisition, The purchase requisition is reviewed for compliance and necessary information.'",
+            "id": "12"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "2. Event - 'Requisition Approved, The purchase requisition is approved to proceed with the procurement process.'",
+            "id": "13"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "3. Function - 'Initiate Supplier Search, A search for potential suppliers based on the requisition details is initiated.'",
+            "id": "14"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "4. Event - 'Suppliers Identified, Potential suppliers are identified and a list is prepared for further evaluation.'",
+            "id": "15"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "1. **Function - 'Receive Requisition'** - A function where the procurement department receives and validates the purchase requisition created by a department requesting goods or services.",
+            "id": "16"
+        },
+        {
+            "type": "Event",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "2. **Event - \u2018Approve Requisition\u2019** - An event where the procurement manager approves the received requisition, indicating that the company should proceed with fulfilling the order based on the specified requirements.",
+            "id": "17"
+        },
+        {
+            "type": "Function",
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "patternType": "AND",
+            "label": "3. **Function - 'Initiate Supplier Search'** - A function where the procurement department initiates a search for potential suppliers capable of fulfilling the approved requisition, using databases or contacting known vendors.",
+            "id": "18"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "6. Event - 'Supplier Selected, A supplier is selected from the evaluated list to fulfill the purchase requisition.'",
+            "id": "20"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "21"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function - \"Check Inventory Levels\"",
+            "id": "23"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "24"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function - 'Purchase Requisition Created'- A purchase requisition is generated and submitted to initiate the procurement process.",
+            "id": "25"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "5. Function - 'Evaluate Suppliers, The identified suppliers are evaluated based on criteria such as price, quality, and delivery time.'",
+            "id": "27"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function - \"Create Purchase Requisition\"",
+            "id": "28"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event - \"Purchase Requisition Created\"",
+            "id": "29"
+        },
+        {
+            "type": "Function",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Function - \"Validate Vendor Data\"",
+            "id": "30"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event - \"Vendor Data Validated\"",
+            "id": "31"
+        },
+        {
+            "type": "Event",
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Event - 'Purchase requisition created, is being processed'",
+            "id": "32"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function - \"Receive Goods/Services\"",
+            "id": "34"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "35"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "40"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Event - \"Inventory Levels Checked\"",
+            "id": "42"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function - \"Issue Purchase Order\"",
+            "id": "43"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Event - \"Purchase Order Issued\"",
+            "id": "44"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "1. **Event - Purchase Requisition Created-**",
+            "id": "45"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "A purchase requisition is generated and submitted, triggering the initiation of the procurement process in the passive voice (NOUN AUX VERB NOUN).",
+            "id": "46"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "2. **Function - Evaluate Suppliers-**",
+            "id": "47"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "1. Event - \"Purchase requisition created is detected by the system,\"",
+            "id": "48"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "Function - \"The system initiates a vendor selection process,\"",
+            "id": "49"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "2. Event - \"Vendor candidates are identified by the system,\"",
+            "id": "50"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "1. **Event - \"A purchase requisition is created\"**- This event signifies the initiation of the procurement process, triggered when an employee within the company submits a formal request for the acquisition of goods or services.",
+            "id": "51"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "2. **Function - \"The procurement department reviews the requisition and approves it for further action\"**- In this function, the procurement team examines the purchase requisition to ensure it adheres to company policies and budget constraints before proceeding with the purchasing process.",
+            "id": "52"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "3. **Event - \"The approved requisition is forwarded to the supplier selection subprocess\"** (assuming the third event maintains the parallel structure and represents the outcome of the second function)- Upon approval, the validated purchase requisition is passed on to the next stage in the procurement process, where potential suppliers are evaluated and selected.",
+            "id": "53"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "1. **Event -** \"Purchase requisition created is approved,\"",
+            "id": "54"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "2. **Function -** \"The system initiates a supplier selection process,\"",
+            "id": "55"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "3. **Event -** \"Supplier is selected and confirmed for procurement.\"",
+            "id": "56"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "1. Function - 'Order Initiation - The company places an order with the supplier based on the purchase requisition.'",
+            "id": "57"
+        },
+        {
+            "type": "Event",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "2. Event - 'Purchase Requisition Approval - The purchase requisition is approved by the procurement department.'",
+            "id": "58"
+        },
+        {
+            "type": "Function",
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "label": "3. Function - 'Supplier Confirmation - The supplier confirms receipt of the order and provides a quotation or invoice.'",
+            "id": "59"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "The company assesses potential suppliers based on criteria such as price, quality, and reliability, selecting the most suitable one in the active voice (NOUN VERB NOUN).",
+            "id": "61"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "62"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "65"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Event - Purchase Requisition Created- A purchase requisition, instigated by a business unit, is formally documented in the company's procurement system, triggering the subsequent workflow within the procurement process chain.",
+            "id": "67"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Function - Evaluate Supplier Proposals- The procurement team reviews and assesses proposals submitted by potential suppliers, comparing their offers based on criteria such as price, quality, delivery time, and service conditions to select the most suitable supplier for the purchase requisition.",
+            "id": "68"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "1. Event - A purchase requisition is created (NOUN AUX BEEN CREATED)",
+            "id": "69"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "2. Function - The system validates the requisition (NOUN VERB validates the requisition)",
+            "id": "70"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "3. Event - The procurement process is approved (NOUN AUX IS APPROVED) for the requisition",
+            "id": "71"
+        },
+        {
+            "type": "Function",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "4. Function - The company initiates a vendor selection (NOUN VERB selects a vendor) based on the approved requisition",
+            "id": "72"
+        },
+        {
+            "type": "Event",
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "label": "Event - Purchase requisition created triggers procurement process in passive voice (NOUN AUX VERB NOUN), where 'purchase requisition' is the stimulus, 'is triggered' is the state or condition, and 'procurement process' is the subject undergoing the action.",
+            "id": "73"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "3",
+            "key": "geid_20_6"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Supplier Selection & Evaluation2. Subprocess 2  Contract Negotiation & Finalization",
+            "source": "3",
+            "target": "8",
+            "key": "geid_20_7"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "3",
+            "target": "12",
+            "key": "geid_20_12"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "6",
+            "target": "16",
+            "key": "geid_20_17"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "8",
+            "target": "9",
+            "key": "geid_20_8"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "9",
+            "target": "10",
+            "key": "geid_20_9"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "10",
+            "target": "11",
+            "key": "geid_20_10"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "11",
+            "target": "6",
+            "key": "geid_20_11"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "12",
+            "target": "13",
+            "key": "geid_20_13"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "13",
+            "target": "14",
+            "key": "geid_20_14"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "14",
+            "target": "15",
+            "key": "geid_20_15"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "15",
+            "target": "27",
+            "key": "geid_20_29"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "16",
+            "target": "17",
+            "key": "geid_20_18"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "17",
+            "target": "18",
+            "key": "geid_20_19"
+        },
+        {
+            "patternId": "1bddadd7-313d-42fe-8b86-5282351021cb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "18",
+            "target": "1",
+            "key": "geid_20_20"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "source": "20",
+            "target": "21",
+            "key": "geid_20_22"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "21",
+            "target": "28",
+            "key": "geid_20_31"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "23",
+            "target": "42",
+            "key": "geid_20_49"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "label": "Review & Approval of Requisition2. Subprocess 2  Supplier Selection & Negotiation3. Subprocess LOOP  Iterative Quote Collection & Evaluation (to be closed in the future)4. Subprocess 4  Purchase Order Generation5. Subprocess 5  Goods Receipt & Inspection6. Subprocess 6  Payment Processing7. Subprocess 7  PostPurchase Analysis & Reporting8. Subprocess 8  Contract Renegotiation & Management (if applicable)",
+            "source": "24",
+            "target": "25",
+            "key": "geid_20_26"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "24",
+            "target": "32",
+            "key": "geid_20_36"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "patternType": "LOOP",
+            "source": "25",
+            "target": "21",
+            "key": "geid_20_28"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "27",
+            "target": "20",
+            "key": "geid_20_30"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "28",
+            "target": "29",
+            "key": "geid_20_32"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "29",
+            "target": "30",
+            "key": "geid_20_33"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "30",
+            "target": "31",
+            "key": "geid_20_34"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "31",
+            "target": "23",
+            "key": "geid_20_35"
+        },
+        {
+            "patternId": "3ae553a2-02b7-4411-9694-4e6c6c5c46f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "32",
+            "target": "6",
+            "key": "geid_20_37"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "patternType": "XOR",
+            "source": "34",
+            "target": "35",
+            "key": "geid_20_39"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Supplier Selection & Evaluation2. Subprocess 2  Price Negotiation & Approval3. Subprocess 3  Purchase Order Generation4. Subprocess 4  Goods Receipt & Inspection5. Subprocess 5  Payment Processing6. Subprocess 6  Performance Review & Feedback Loop7. Subprocess 7  Contract Management & Renewal8. Subprocess 8  Inventory Management & ControlEach subprocess represents a distinct phase within the procurement process, and together they form a comprehensive eventdriven workflow for efficient procurement management in an international company.",
+            "source": "35",
+            "target": "45",
+            "key": "geid_20_53"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "35",
+            "target": "48",
+            "key": "geid_20_57"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "35",
+            "target": "51",
+            "key": "geid_20_61"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "35",
+            "target": "54",
+            "key": "geid_20_65"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "40",
+            "target": "57",
+            "key": "geid_20_69"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "42",
+            "target": "43",
+            "key": "geid_20_50"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "43",
+            "target": "44",
+            "key": "geid_20_51"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "44",
+            "target": "34",
+            "key": "geid_20_52"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "45",
+            "target": "46",
+            "key": "geid_20_54"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "46",
+            "target": "47",
+            "key": "geid_20_55"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "47",
+            "target": "61",
+            "key": "geid_20_80"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "48",
+            "target": "49",
+            "key": "geid_20_58"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "49",
+            "target": "50",
+            "key": "geid_20_59"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "50",
+            "target": "40",
+            "key": "geid_20_60"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "51",
+            "target": "52",
+            "key": "geid_20_62"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "52",
+            "target": "53",
+            "key": "geid_20_63"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "53",
+            "target": "40",
+            "key": "geid_20_64"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "54",
+            "target": "55",
+            "key": "geid_20_66"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "55",
+            "target": "56",
+            "key": "geid_20_67"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "56",
+            "target": "40",
+            "key": "geid_20_68"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "57",
+            "target": "58",
+            "key": "geid_20_70"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "58",
+            "target": "59",
+            "key": "geid_20_71"
+        },
+        {
+            "patternId": "369e032c-6686-4db3-8b6e-d5648825aa69",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "59",
+            "target": "24",
+            "key": "geid_20_72"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "patternType": "OR",
+            "source": "61",
+            "target": "62",
+            "key": "geid_20_74"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Supplier Selection & Evaluation2. Subprocess 2  Requisition Approval WorkflowNote In an actual eventdriven process chain, these subprocesses would be designed to handle specific tasks within the procurement process, such as evaluating potential suppliers or obtaining necessary approvals for the purchase requisition. Each name is concise and reflects a distinct aspect of the procurement workflow.",
+            "source": "62",
+            "target": "67",
+            "key": "geid_20_81"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "62",
+            "target": "69",
+            "key": "geid_20_84"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "65",
+            "target": "73",
+            "key": "geid_20_89"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "67",
+            "target": "68",
+            "key": "geid_20_82"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "68",
+            "target": "65",
+            "key": "geid_20_83"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "69",
+            "target": "70",
+            "key": "geid_20_85"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "70",
+            "target": "71",
+            "key": "geid_20_86"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "71",
+            "target": "72",
+            "key": "geid_20_87"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "72",
+            "target": "65",
+            "key": "geid_20_88"
+        },
+        {
+            "patternId": "01ed5d27-1679-415c-8dfa-8339f0ad5aaf",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "73",
+            "target": "40",
+            "key": "geid_20_90"
+        }
+    ]
+}
