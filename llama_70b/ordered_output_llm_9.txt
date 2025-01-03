@@ -1,0 +1,652 @@
+0: StartEvent - Order is being placed.
+3: Function - Purchase department creates order
+Event - Order details are being checked
+Function - Procurement team reviews order
+Event - Order is being approved
+Function - Order is sent to supplier
+Event - Supplier receives order confirmation
+Function - Supplier prepares order
+Event - Order status is being updated
+Function - Goods are being shipped
+Event - Goods are being received
+Function - Goods are being inspected
+Event - Inspection report is being generated
+Function - Payment is being processed
+4: Phi3: Subprocess 1 - Purchase Requisition Review
+Subprocess 2 - Supplier Contract Negotiation
+Subprocess 3 - Budget Allocation Check
+81: Event - Budget is being checked 
+ Function - Department allocates funds 
+ Event - Funds are being verified 
+ Function - Team reviews budget 
+ Event - Budget is being approved 
+ Function - Manager confirms allocation 
+ Event - Allocation is being notified 
+ Function - System updates records 
+ Event - Records are being synchronized
+63: Phi3: Subprocess 1 - Contract Review 
+Subprocess 2 - Budget Approval 
+Subprocess 3 - Vendor Evaluation 
+Subprocess 4 - Payment Terms Negotiation 
+Subprocess 5 - Logistics Arrangement 
+Subprocess 6 - Compliance Check 
+Subprocess 7 - Risk Assessment
+156: Function - Risk Manager evaluates supplier 
+Event - Supplier data is being analyzed 
+Function - Analyst checks compliance 
+Event - Compliance report is being generated 
+Function - Team reviews findings 
+Event - Review results are being discussed 
+Function - Specialist assesses risk level 
+Event - Risk level is being determined 
+Function - Expert provides recommendations 
+Event - Recommendations are being implemented 
+Function - Manager approves assessment
+319: Function - Supplier checks regulations 
+Event - Information is being verified 
+Function - Team reviews documents 
+Event - Compliance report is being generated 
+Function - Manager assesses risks 
+Event - Assessment is being finalized 
+Function - Team evaluates results 
+Event - Evaluation is being documented 
+Function - Manager decides on action 
+Event - Decision is being communicated 
+Function - Team implements measures 
+Event - Measures are being monitored
+495: Function - Team receives order 
+Event - Order is being checked 
+Function - Manager verifies order 
+Event - Order is being approved 
+Function - System generates PO 
+Event - PO is being sent 
+Function - Supplier receives PO 
+Event - PO is being confirmed 
+Function - Team prepares contract 
+Event - Contract is being reviewed 
+Function - Lawyer checks contract 
+Event - Contract is being signed 
+Function - System updates order 
+Event - Order is being updated 
+Function - Team monitors delivery 
+Event -
+496: Phi3: Subprocess 1 - Check Order for Completeness
+Subprocess 2 - Verify Supplier Information
+Subprocess 3 - Evaluate Order Value
+Subprocess 4 - Check for Existing Contracts
+Subprocess 5 - Determine Procurement Type
+Subprocess 6 - Assess Risk and Compliance
+Subprocess 7 - Identify Required Approvals
+Subprocess 8 - Check for Budget Availability
+Subprocess 9 - Determine Delivery Terms
+Subprocess 10 - Identify Relevant Regulations
+633: Event - Regulations are being reviewed 
+Function - Compliance Officer checks laws 
+Event - Laws are being analyzed 
+Function - Analyst identifies restrictions 
+Event - Restrictions are being documented 
+Function - Team Lead updates database 
+Event - Database is being updated 
+Function - IT Specialist verifies data 
+Event - Data is being verified 
+Function - Manager approves changes 
+Event - Changes are being approved 
+Function - Compliance Officer monitors regulations
+621: Event - Delivery terms are being requested 
+Function - Team determines delivery terms 
+Event - Delivery terms have been determined 
+Function - Team sends delivery terms 
+Event - Delivery terms are being reviewed 
+Function - Manager reviews delivery terms 
+Event - Delivery terms have been reviewed 
+Function - Manager approves delivery terms 
+Event - Delivery terms are being finalized 
+Function - Team finalizes delivery terms 
+Event - Delivery terms have been finalized 
+Function - Team sends finalized terms
+609: Event - Budget report is being generated 
+ Function - Accountant checks budget 
+ Event - Budget data are being updated 
+ Function - System updates budget status 
+ Event - Budget status is being verified 
+ Function - Manager reviews budget report 
+ Event - Budget report is being approved 
+ Function - Accountant confirms budget 
+ Event - Budget confirmation is being sent 
+ Function - System sends confirmation 
+ Event - Confirmation is being received 
+ Function - Manager receives confirmation
+597: Event - Budget has been checked 
+ Function - Manager reviews budget 
+ Event - Manager approval is pending 
+ Function - Employee sends request 
+ Event - Request has been received 
+ Function - Department head assesses request 
+ Event - Department head approval is granted 
+ Function - Team leader verifies approval 
+ Event - Approval is being verified 
+ Function - Approver confirms approval
+587: Event - Supplier information is being checked 
+Function - Compliance Officer reviews supplier data 
+Event - Compliance issues are being identified 
+Function - Compliance Officer assesses risk factors 
+Event - Risk assessment report is being generated 
+Function - Risk Manager evaluates risk assessment report 
+Event - Risk mitigation plan is being created 
+Function - Compliance Officer implements risk mitigation plan 
+Event - Compliance status is being updated 
+Function - Risk Manager monitors compliance status
+577: Event - Request is being analyzed 
+Function - Analyst checks requirements 
+Event - Requirements are being verified 
+Function - Team leader confirms details 
+Event - Details are being checked 
+Function - Procurement officer reviews contract 
+Event - Contract is being approved 
+Function - Manager signs agreement 
+Event - Agreement is being finalized 
+Function - Procurement type is being determined 
+Event - Procurement type is being confirmed 
+Function - Procurement type is being documented
+565: Event - Contract data is being retrieved 
+ Function - Team checks contract information 
+ Event - Contract terms are being analyzed 
+ Function - Analyst verifies contract conditions 
+ Event - Contract status is being updated 
+ Function - System updates contract details 
+ Event - Contract expiration date is being checked 
+ Function - Specialist reviews contract renewal 
+ Event - Contract renewal is being recommended 
+ Function - Manager decides on contract action
+555: Event - Order value is being checked
+Function - Procurement team checks order amount
+Event - Threshold value is being compared
+Function - System compares order amount to limit
+Event - Order value is being verified
+Function - Procurement manager verifies order details
+Event - Approval level is being determined
+Function - System determines required approval level
+Event - Approval workflow is being triggered
+Function - Procurement team triggers approval workflow
+545: Event - Supplier list is being checked 
+ Function - Team reviews supplier data 
+ Event - Data is being verified 
+ Function - Analyst updates supplier information 
+ Event - Information is being confirmed 
+ Function - Manager approves supplier list 
+ Event - Approval is being sent 
+ Function - System generates supplier code 
+ Event - Code is being assigned 
+ Function - Team creates supplier profile 
+ Event - Profile is being activated 
+ Function - System updates supplier database
+533: Event - Order details are being checked 
+Function - Procurement team verifies order information 
+Event - Order information is verified 
+Function - Procurement team checks order completeness 
+Event - Order completeness is checked 
+Function - Procurement team identifies missing items 
+Event - Missing items are identified 
+Function - Procurement team requests missing information 
+Event - Missing information is requested 
+Function - Procurement team receives missing information 
+Event - Missing information is received 
+Function - Procurement team reviews order completeness 
+Event -
+322: Event - Purchase request is being checked
+Function - Procurement team reviews purchase request
+Event - Purchase request is being approved
+Function - Manager signs purchase request
+Event - Supplier list is being retrieved
+Function - Procurement team searches supplier database
+Event - Supplier list is being filtered
+Function - Procurement team evaluates supplier options
+Event - Supplier is being selected
+Function - Procurement team contacts selected supplier
+Event - Order details are being confirmed
+Function - Procurement team negotiates order terms
+323: Phi3: Subprocess 1 - Order Analysis 
+ Subprocess LOOP - Goods Inspection and Quality Control 
+ Subprocess 2 - Payment Processing
+145: Event - Supplier has received order
+Function - Procurement team creates purchase requisition
+Event - Purchase requisition is being approved
+Function - Procurement team sends purchase order
+Event - Purchase order is being confirmed
+Function - Logistics team tracks shipment
+Event - Shipment is being delivered
+Function - Warehouse team receives goods
+Event - Goods are being inspected
+Function - Quality team checks product quality
+Event - Product quality is being reported
+Function - Procurement team updates order status
+Event -
+324: Event - Report is being written
+136: Function - Team creates plan 
+Event - Plan is being reviewed 
+Function - Manager checks budget 
+Event - Budget is being approved 
+Function - Employee books freight 
+Event - Freight is being arranged 
+Function - Specialist checks insurance 
+Event - Insurance is being verified 
+Function - Officer prepares documents 
+Event - Documents are being signed 
+Function - Agent sends documents 
+Event - Documents are being received 
+Function - Clerk archives documents
+123: Function - Payment terms are analyzed 
+Event - Proposal is being reviewed 
+Function - Counter proposal is sent 
+Event - Counter proposal is being evaluated 
+Function - Evaluation results are discussed 
+Event - Agreement is being reached 
+Function - Contract terms are defined 
+Event - Contract terms are being finalized 
+Function - Payment schedule is determined 
+Event - Payment schedule is being confirmed 
+Function - Final payment terms are documented
+112: Phi3: Function - Team evaluates suppliers
+ Event - Supplier list is being analyzed
+ Function - Department selects vendors
+ Event - Vendor selection is being confirmed
+ Function - Manager checks ratings
+ Event - Rating results are being displayed
+ Function - Team compares prices
+ Event - Price comparison is being finalized
+ Function - Department prepares contract
+ Event - Contract draft is being reviewed
+ Function - Manager signs agreement
+101: Function - Budget department checks request
+Event - Request is being reviewed
+Function - Budget team prepares report
+Event - Report is being sent
+Function - Manager examines document
+Event - Document is being approved
+Function - Budget team updates records
+Event - Records are being verified
+Function - Manager confirms budget
+92: Phi3: Function - Lawyer reviews contract
+Event - Contract is being checked
+Function - Team leader assigns task
+Event - Task is being assigned
+Function - Team leader reviews task
+Event - Task is being reviewed
+Function - Lawyer creates report
+Event - Report is being created
+Function - Team leader sends report
+Event - Report is being sent
+Function - Lawyer finalizes contract
+172: Event - Order form is being completed 
+ Function - Procurement department verifies order 
+ Event - Order form has been verified 
+ Function - Procurement team checks budget 
+ Event - Budget check is being conducted 
+ Function - Financial department approves budget 
+ Event - Budget has been approved 
+ Function - Procurement team selects supplier 
+ Event - Supplier is being selected 
+ Function - Procurement team negotiates terms 
+ Event - Terms are being negotiated 
+ Function - Procurement team creates contract 
+ Event - Contract has been created
+173: Phi3: Subprocess 1 - Local supplier selection 
+Subprocess 2 - Global supplier selection 
+Subprocess 3 - Goods inspection 
+Subprocess 4 - Payment terms negotiation 
+Subprocess 5 - Contract signing 
+Subprocess 6 - Customs clearance 
+Subprocess 7 - Invoicing and payment 
+Subprocess 8 - Goods transportation 
+Subprocess 9 - Inventory management
+303: Event - Stock level is being checked 
+ Function - Inventory manager checks inventory 
+ Event - Low stock level is detected 
+ Function - Inventory manager sends notification 
+ Event - Notification is being received 
+ Function - Procurement team reviews notification 
+ Event - Procurement team identifies need 
+ Function - Procurement team creates purchase order 
+ Event - Purchase order is being approved 
+ Function - Manager approves purchase order 
+ Event - Purchase order is approved 
+ Function - Inventory manager updates inventory 
+ Event - Inventory is being updated 
+ Function
+289: Event - Goods are being shipped 
+ Function - Logistics team checks documents 
+ Event - Goods are being loaded 
+ Function - Driver picks up goods 
+ Event - Vehicle is being inspected 
+ Function - Driver completes inspection form 
+ Event - Goods are being transported 
+ Function - Driver navigates route 
+ Event - Vehicle is being refueled 
+ Function - Driver pays for fuel 
+ Event - Goods are being unloaded 
+ Function - Warehouse team receives goods
+277: Event - Invoice is being generated 
+Function - Accountant checks invoice 
+Event - Invoice is being sent 
+Function - Clerk processes payment 
+Event - Payment is being received 
+Function - Accountant updates records 
+Event - Payment is being verified 
+Function - Manager approves payment 
+Event - Payment is being settled 
+Function - Accountant closes account
+267: Event - Goods are being inspected 
+ Function - Customs officer checks documents 
+ Event - Documents are being verified 
+ Function - System updates clearance status 
+ Event - Payment is being processed 
+ Function - Customs broker handles payment 
+ Event - Taxes are being calculated 
+ Function - System generates tax invoice 
+ Event - Invoice is being sent 
+ Function - Customs officer reviews invoice 
+ Event - Clearance is being granted 
+ Function - System updates shipment status
+378: Event - Contract has been approved 
+ Function - Lawyer reviews contract 
+ Event - Contract is ready for signing 
+ Function - Manager prepares contract 
+ Event - Signing date is scheduled 
+ Function - Secretary sends invitations 
+ Event - Invitations have been sent 
+ Function - Manager confirms attendees 
+ Event - Attendees have confirmed 
+ Function - Lawyer finalizes contract 
+ Event - Contract is finalized 
+ Function - Manager signs contract 
+ Event - Contract has been signed 
+ Function - Secretary files contract 
+ Event - Contract is filed
+355: Phi3: Subprocess 1 - Procurement Request Approval 
+ Subprocess 2 - Vendor Information Update 
+ Subprocess 3 - Order Confirmation Generation 
+ Subprocess 4 - Payment Terms Negotiation 
+ Subprocess 5 - Goods Inspection Arrangement 
+ Subprocess 6 - Customs Clearance Procedure 
+ Subprocess 7 - Inventory Management Update 
+ Subprocess 8 - Invoicing and Payment Processing
+484: Function - Procurement department checks order 
+Event - Order is being verified 
+Function - Procurement team updates order status 
+Event - Order status is being displayed 
+Function - Procurement manager reviews order 
+Event - Order is being approved 
+Function - Procurement team prepares purchase order 
+Event - Purchase order is being created 
+Function - Procurement team sends purchase order 
+Event - Purchase order is being received 
+Function - Procurement team tracks purchase order 
+Event - Purchase order is being processed
+472: Phi3: Function - Team conducts analysis
+Event - Risk report is being generated
+Function - Expert reviews findings
+Event - Assessment is being finalized
+Function - Committee makes decision
+Event - Recommendation is being sent
+Function - Manager evaluates options
+Event - Alternatives are being compared
+Function - Specialist gathers data
+Event - Information is being collected
+Function - Analyst creates model
+Event - Scenario is being simulated
+Function - Auditor checks compliance
+Event - Results are being verified
+458: Function - Team checks contract 
+Event - Contract is being reviewed 
+Function - Manager verifies regulations 
+Event - Regulations are being applied 
+Function - Auditor assesses risk 
+Event - Risk is being evaluated 
+Function - Specialist investigates supplier 
+Event - Supplier is being investigated 
+Function - Expert analyzes data 
+Event - Data is being analyzed 
+Function - Officer ensures compliance 
+Event - Compliance is being ensured 
+Function - Department monitors process 
+Event - Process is being monitored
+446: Function - Shipping company is selected 
+Event - Contract is being signed 
+Function - Transport route is planned 
+Event - Route is being confirmed 
+Function - Goods are being packaged 
+Event - Goods are being loaded 
+Function - Delivery date is set 
+Event - Delivery date is being announced 
+Function - Transport costs are calculated 
+Event - Costs are being approved 
+Function - Payment is being made 
+Event - Payment is being confirmed
+647: Phi4: Function - Payment team reviews contract
+Event - Contract terms are being analyzed
+Function - Payment team negotiates terms
+Event - Counteroffer is being received
+Function - Payment team evaluates offer
+Event - Evaluation results are being presented
+Function - Payment team discusses terms
+Event - Discussion results are being documented
+Function - Payment team proposes changes
+Event - Changes are being requested
+Function - Payment team clarifies doubts
+Event - Clarification is being provided
+Function - Payment team final
+691: Function - Purchasing department checks order 
+Event - Order is being verified 
+Function - Purchasing department sends order 
+Event - Order is being received 
+Function - Supplier reviews order 
+Event - Order is being confirmed 
+Function - Supplier prepares delivery 
+Event - Goods are being shipped 
+Function - Logistics department tracks delivery 
+Event - Delivery is being updated 
+Function - Logistics department receives delivery 
+Event - Goods are being inspected 
+Function - Quality assurance department checks goods 
+Event - Goods are being approved
+692: Phi3: Subprocess 1 - Domestic Procurement 
+ Subprocess 2 - International Procurement
+733: Event - Supplier data are being checked 
+ Function - Team verifies supplier information 
+ Event - Supplier details are being updated 
+ Function - Team updates supplier profile 
+ Event - Supplier status is being confirmed 
+ Function - Team confirms supplier status 
+ Event - Supplier information is being verified 
+ Function - Team verifies supplier details 
+ Event - Supplier verification is being completed 
+ Function - Team completes supplier verification
+723: Event - Invoice is being checked 
+ Function - Procurement team verifies documents 
+ Event - Supplier is being selected 
+ Function - Purchasing department sends request 
+ Event - Contract is being signed 
+ Function - Legal department reviews terms 
+ Event - Payment is being processed 
+ Function - Accounting team transfers funds 
+ Event - Goods are being delivered 
+ Function - Logistics team receives shipment 
+ Event - Delivery is being inspected 
+ Function - Quality control team checks items 
+ Event - Inspection is being documented 
+ Function - Quality control team
+650: Event - Request is being sent 
+Function - Purchasing department reviews request 
+Event - Request has been approved 
+Function - Purchasing department prepares order 
+Event - Order is being checked 
+Function - Compliance department reviews order 
+Event - Order has been confirmed 
+Function - Logistics department creates shipment 
+Event - Shipment is being prepared 
+Function - Warehouse staff packs goods 
+Event - Goods are being transported 
+Function - Forwarding company arranges transport 
+Event - Goods have been delivered 
+Function - Re
+651: Subprocess 1 - Domestic Procurement 
+ Subprocess LOOP - International Procurement with Multiple Suppliers
+434: Event - Purchase request has been approved 
+ Function - Procurement team reviews requirements 
+ Event - Requirements are being clarified 
+ Function - Procurement team sends request for quotation 
+ Event - Quotations are being received 
+ Function - Procurement team evaluates quotations 
+ Event - Best quotation is being selected 
+ Function - Procurement team negotiates terms 
+ Event - Terms are being finalized 
+ Function - Procurement team prepares contract 
+ Event - Contract is being reviewed 
+ Function - Procurement team obtains approval 
+ Event -
+652: Event - Quotation has been received.
+420: Function - Team assesses vendors 
+Event - List is being updated 
+Function - Manager checks list 
+Event - Report is being generated 
+Function - Analyst evaluates report 
+Event - Score is being calculated 
+Function - Specialist reviews score 
+Event - Recommendation is being made 
+Function - Expert verifies recommendation 
+Event - Decision is being finalized 
+Function - Officer documents decision 
+Event - Notification is being sent 
+Function - Coordinator updates records 
+Event - Status is being confirmed
+406: Function - Budget team reviews budget 
+Event - Budget report is being sent 
+Function - Budget manager checks budget 
+Event - Budget request is being approved 
+Function - Budget controller verifies budget 
+Event - Budget approval is being granted 
+Function - Budget team prepares budget 
+Event - Budget proposal is being submitted 
+Function - Budget manager sends budget 
+Event - Budget request is being received 
+Function - Budget controller evaluates budget 
+Event - Budget evaluation is being finalized 
+Function - Budget team finalizes budget 
+Event
+392: Function - Procurement team reviews order 
+Event - Request is being approved 
+Function - Vendor data is updated 
+Event - Information is being verified 
+Function - Order details are confirmed 
+Event - Confirmation is being sent 
+Function - Payment terms are negotiated 
+Event - Terms are being agreed 
+Function - Inspection is being arranged 
+Event - Goods are being inspected 
+Function - Clearance is being processed 
+Event - Documents are being cleared 
+Function - Inventory is being updated 
+Event - Payment is being processed
+255: Function - Purchaser sends request 
+Event - Request has been received 
+Function - Request is being verified 
+Event - Verification is being completed 
+Function - Verification result is being sent 
+Event - Result is being received 
+Function - Order is being prepared 
+Event - Order has been prepared 
+Function - Order is being checked 
+Event - Order is being approved 
+Function - Approval is being sent 
+Event - Approval has been received 
+Function - Order is being placed 
+Event - Order is being confirmed
+243: Event - Payment terms are being discussed 
+Function - Team negotiates payment schedule 
+Event - Payment schedule is being reviewed 
+Function - Manager checks payment terms 
+Event - Payment terms are being revised 
+Function - Team revises payment terms 
+Event - Revised payment terms are being approved 
+Function - Manager approves payment terms 
+Event - Payment terms are being finalized 
+Function - Team finalizes payment terms 
+Event - Final payment terms are being confirmed 
+Function - Manager confirms payment terms
+231: Event - Goods are being received 
+Function - Warehouse staff unpacks packages 
+Event - Packages are being inspected 
+Function - Quality control team checks contents 
+Event - Contents are being verified 
+Function - Warehouse staff updates records 
+Event - Records are being checked 
+Function - Quality control team reviews reports 
+Event - Reports are being analyzed 
+Function - Warehouse staff identifies discrepancies 
+Event - Discrepancies are being reported 
+Function - Quality control team resolves issues
+219: Event - Request is being received by department 
+ Function - Manager sends notification to team 
+ Event - Notification is being displayed on screen 
+ Function - Team reviews supplier database 
+ Event - Information is being extracted from database 
+ Function - Team creates supplier shortlist 
+ Event - Shortlist is being sent to manager 
+ Function - Manager evaluates supplier options 
+ Event - Evaluation is being shared with team 
+ Function - Team selects global supplier
+209: Event - Request is being sent 
+Function - Purchaser evaluates supplier 
+Event - Evaluation is being received 
+Function - Purchaser selects supplier 
+Event - Supplier is being informed 
+Function - Purchaser negotiates terms 
+Event - Terms are being agreed 
+Function - Purchaser confirms order 
+Event - Order is being confirmed 
+Function - Purchaser sends contract 
+Event - Contract is being signed 
+Function - Purchaser files contract
+41: Event - Order has been approved by manager 
+ Function - Procurement team reviews order 
+ Event - Review has been completed by team 
+ Function - Procurement team creates requisition 
+ Event - Requisition has been sent to supplier 
+ Function - Procurement team negotiates with supplier 
+ Event - Negotiation has been finalized with supplier 
+ Function - Procurement team creates purchase order 
+ Event - Purchase order has been sent to supplier 
+ Function - Supplier processes purchase order 
+ Event - Invoice has been received from supplier
+52: Event - Supplier list is being generated
+Function - Team evaluates suppliers
+Event - Supplier evaluation is being completed
+Function - System updates supplier scores
+Event - Supplier scores are being calculated
+Function - Manager reviews supplier scores
+Event - Supplier review is being finished
+Function - Department selects suppliers
+Event - Suppliers are being shortlisted
+Function - Team negotiates with suppliers
+Event - Negotiation is being finalized
+32: Event - Supplier list is being updated 
+ Function - Team reviews supplier profiles 
+ Event - Supplier profiles are being checked 
+ Function - Manager verifies supplier data 
+ Event - Supplier data is being validated 
+ Function - Analyst assesses supplier risk 
+ Event - Supplier risk is being evaluated 
+ Function - Committee selects local supplier 
+ Event - Local supplier is being notified 
+ Function - Officer sends notification letter 
+ Event - Notification letter is being received
+61: Function - Procurement team creates request 
+Event - Request is being processed 
+Function - Procurement team sends request 
+Event - Request is being approved 
+Function - Procurement team sends order 
+Event - Order is being confirmed 
+Function - Procurement team checks order 
+Event - Order is being received 
+Function - Procurement team verifies order
+1: EndEvent - Invoice is being paid.
