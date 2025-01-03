@@ -1,0 +1,693 @@
+0: StartEvent - The buyer has been authorized to place an order. 
+The answer is: StartEvent - The buyer has been authorized to place an order. 
+Let's go through the rest of the process description. 
+
+We have the following nodes:
+1. Receive Order Request
+2. Send Order Confirmation
+3. Receive Order Confirmation
+4. Send Goods
+5. Receive Goods
+6. Send Invoice
+7. Receive Invoice
+8. Receive Payment
+9. Send Order Request
+10
+18: Function - Order Request is processed 
+ Event - The goods have been shipped 
+ Function - Goods are stored 
+ Event - The invoice has been received 
+ Function - The payment has been verified 
+ Event - The storage location has been changed 
+ Function - The order has been updated 
+ Event - The buyer has been notified 
+ Function - The goods are packed 
+ Event - The payment has been rejected 
+ Function - The order is cancelled 
+ Event - The storage location has been updated  - The payment has been verified
+3: Subprocess 1 - Buyer Order Request Handling 
+ Subprocess 2 - Order Fulfillment 
+ Subprocess 3 - Invoice Processing 
+ Subprocess 4 - Payment Processing 
+ Subprocess 5 - Goods Dispatch 
+ Subprocess 6 - Goods Receipt 
+ Subprocess 7 - Goods Inspection 
+ Subprocess 8 - Goods Storage 
+ Subprocess 9 - Order Cancellation 
+ Subprocess 10 - Reorder 
+ Subprocess 11 - Goods Return 
+ Subprocess 12 - Goods
+89: Elements: Function - Order data is verified
+Event - Order is received
+Function - Purchase order is created
+Event - Goods are shipped
+Function - Packaging is prepared
+Event - Invoice is sent
+Function - Goods are stored
+Event - Goods are inspected
+Function - Goods are labeled
+Event - Goods are returned
+Function - Goods are sorted
+Event - Goods are stored
+Function - Goods are dispatched
+Event - Order is cancelled
+Function - Goods are unpacked
+Event - Goods are
+90: Subprocess 1 - Order Confirmation Process 
+Subprocess 2 - Goods Dispatch 
+Subprocess 3 - Invoice Validation 
+Subprocess 4 - Payment Processing 
+Subprocess 5 - Order Request Review 
+Subprocess 6 - Order Fulfillment 
+Subprocess 7 - Payment Reconciliation  Next 9 nodes 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+ User: In an event-driven process chain about a procurement process of an international
+327: ‘elements_string’ = ‘Payment Clearance Request, Process Payment, Goods Return Notice, Verify Return Goods, Credit Note Issuance, Update Credit Memo, Shipping Damage Report, Handle Shipping Issue, Payment Reversal Request’ 
+
+Event - Goods Return Notice has been sent
+Function - Payment is processed by bank
+Event - Credit Note Issuance has been completed
+Function - Return goods are verified by warehouse
+Event - Shipping Damage Report has been received
+Function - Credit memo is updated by
+311: Subprocess 1 - Parallel Goods Dispatch
+ Subprocess 2 - Parallel Invoice Verification
+ Subprocess 3 - Parallel Payment Processing
+ Subprocess 4 - Parallel Order Confirmation
+ Subprocess 5 - Parallel Goods Storage 
+ Lets go through the rest of the process description. 
+
+We have the following nodes
+1 Send Order Request
+2 Send Order Confirmation
+3 Receive Order Confirmation
+4 Send Goods
+5 Receive Goods
+6 Send Invoice
+7 Receive Invoice
+8 Receive Payment
+9 Send
+387: Function - Order details are processed by the logistics department 
+Event - The purchase order has been received 
+Function - The order is confirmed by the sales department 
+Event - The goods have been shipped 
+Function - The payment is verified by the accounting department 
+Event - The invoice has been sent 
+Function - The goods are stored in the warehouse 
+Event - The payment has been received 
+Function - The order is closed by the customer service 
+Event - The goods have been received  The answer is Function
+375: Function -  Order Request is processed 
+Event -  The goods have been received 
+Function -  Goods are stored 
+Event -  The invoice has been sent 
+Function -  Invoice is verified 
+Event -  The payment has been received 
+Function -  Payment is recorded 
+Event -  The order has been cancelled 
+Function -  Order is updated 
+Event -  The goods have been delivered 
+Function -  Goods are dispatched 
+Event -  The payment has been processed  StartEvent
+363: Function -  Order is created by the buyer 
+Event -  The goods have been ordered 
+Function -  The order is assigned to a sales representative 
+Event -  The sales representative has been informed 
+Function -  The sales representative contacts the supplier 
+Event -  The supplier has been contacted 
+Function -  The order is checked for completeness 
+Event -  The order has been checked 
+Function -  The order is prepared for shipping 
+Event -  The order has been prepared 
+Function
+351: Function - Order details are being extracted 
+ Event - The payment has been received 
+ Function - Invoice is being generated 
+ Event - The goods have been delivered 
+ Function - Payment is being verified 
+ Event - The order has been cancelled 
+ Function - Goods are being shipped 
+ Event - The invoice has been sent 
+ Function - The order is being fulfilled 
+ Event - The goods have been received 
+ Function - The order status is being updated 
+ Event - The payment has been processed 
+ Function - The order is
+337: Function - Goods are stored in warehouse 
+Event - The payment has been received 
+Function - Goods are packed by supplier 
+Event - The invoice has been verified 
+Function - Goods are shipped by carrier 
+Event - The payment is being processed 
+Function - Order is cancelled by buyer 
+Event - The goods have been received 
+Function - Goods are transported by logistics 
+Event - The goods are being dispatched 
+Function - Goods are delivered to customer 
+Event - The order has been cancelled 
+The answer is
+163: Function - Order is being created 
+Event - The invoice has been received 
+Function - Goods are being packed 
+Event - The payment has been processed 
+Function - Invoice is being sent 
+Event - The goods have been delivered 
+Function - Payment is being verified 
+Event - The order has been cancelled 
+Function - Order status is being updated 
+Event - The goods have been returned 
+Function - Return reason is being recorded 
+Event - The payment has been cleared 
+Function - Return status is being updated
+203: Event - Goods are received from warehouse
+ Function - Goods are packed by logistics
+ Event - Invoice is checked by accounting
+ Function - Goods are labeled by logistics
+ Event - Goods are shipped by logistics
+ Function - Goods are tracked by logistics
+ Event - Goods are delivered to customer
+ Function - Goods are inspected by quality control
+ Event - Payment is verified by accounting
+ Function - Goods are stored in warehouse
+ Event - Order is updated by system
+ Function - Goods are released by logistics
+ Event -
+189: Elements: Event - The order request has been received by the procurement team
+Function - The procurement team verifies the order request 
+Event - The order request has been checked for completeness
+Function - The procurement team verifies the order request details
+Event - The order request has been verified for accuracy
+Function - The procurement team reviews the order request for compliance
+Event - The order request has been reviewed for compliance
+Function - The procurement team checks the order request for approval
+Event - The order request has
+175: Event - Payment has been received 
+Function - Payment Service handles payment 
+ Event - Order has been cancelled 
+Function - Accounting handles payment 
+ Event - Goods are being stored 
+Function - Logistics stores goods 
+ Event - Credit card has been charged 
+Function - Bank processes payment 
+ Event - Goods are being shipped 
+Function - Shipping handles delivery 
+ Event - Invoice has been sent 
+Function - Accounting sends invoice 
+ Event - Goods are being received 
+Function - Logistics receives goods 
+ Event - Payment has been processed
+149: Event - Payment details have been received 
+Function - Invoice is verified 
+Event - Data has been checked 
+Function - Errors are identified 
+Event - Results have been sent 
+Function - Information is updated 
+Event - Documents have been processed 
+Function - Records are created 
+Event - Data has been validated 
+Function - Reports are generated 
+Event - Information has been updated 
+Function - Lists are maintained 
+Event - Records have been created 
+Function - Files are stored 
+Event - Errors have been identified
+135: Event - Goods are received by warehouse
+ Function - Goods are stored in the warehouse
+ Event - Goods are picked up by warehouse staff
+ Function - Goods are packed in boxes
+ Event - Boxes are labeled
+ Function - Boxes are sealed
+ Event - Boxes are shipped
+ Function - Boxes are tracked
+ Event - Boxes are delivered
+ Function - Boxes are inspected 
+ Event - Boxes are unpacked
+ Function - Boxes are put away 
+ Event - Boxes are verified
+ Function - Boxes are documented 
+The answer
+123: Event - Order confirmation is received
+Function - Order confirmation is sent to the supplier
+ Event - The order details are verified
+Function - The order details are checked against the contract
+ Event - The order is approved
+Function - The order is processed by the procurement team
+ Event - The order is released
+Function - The order is dispatched to the logistics team
+ Event - The order is tracked
+Function - The order status is updated in the system
+ Event - The order status is monitored
+Function
+43: Event - The order request has been received 
+Function - Send Goods to Warehouse 
+Event - The order confirmation has been received 
+Function - Generate Invoice 
+Event - The invoice has been received 
+Function - Update Stock Levels 
+Event - The goods have been received 
+Function - Print Label 
+Event - The payment has been received 
+Function - Notify Customer 
+Event - The stock levels have been updated 
+Function - Send Reminder 
+Event - The stock levels have been checked 
+Function - Check Payment Status
+218: Function - The procurement team verifies the order details
+Event - The order details have been verified
+Function - The order is checked for consistency
+Event - The order has been checked for consistency
+Function - The goods are packed according to the order
+Event - The goods have been packed according to the order
+Function - The invoice is created
+Event - The invoice has been created
+Function - The payment is processed
+Event - The payment has been processed
+Function - The order status is updated
+219: Subprocess 1 - Goods Shipment 
+ Subprocess 2 - Invoice Processing 
+ Subprocess 3 - Order Confirmation 
+ Subprocess 4 - Payment Verification 
+ Subprocess 5 - Procurement Rejection 
+ Lets go through the rest of the process description 
+
+We have the following nodes
+1 Receive Order Request
+2 Send Order Confirmation
+3 Receive Order Confirmation
+4 Send Goods
+5 Receive Goods
+6 Send Invoice
+7 Receive Invoice
+8 Receive Payment
+9 Send Order Request
+398: Event - Order request has been received 
+ Function - Request is evaluated 
+ Event - Documents have been checked 
+ Function - Supplier is selected 
+ Event - Prices have been compared 
+ Function - Contract is prepared 
+ Event - Contract has been signed 
+ Function - Terms are agreed 
+ Event - Payment terms have been defined 
+ Function - Delivery date is set 
+ Event - Delivery date has been confirmed 
+ Function - Goods are ordered 
+ Event - Goods have been ordered 
+ Function - Order is placed 
+ Event - Order has
+399: Subprocess 1 - Order Confirmation Delay 
+Subprocess 2 - Goods Return Policy 
+Subprocess 3 - Alternative Payment Method 
+Subprocess 4 - Urgent Order Request 
+Subprocess 5 - Purchase Order Review 
+Subprocess 6 - Credit Check Required 
+Subprocess 7 - Supplier Change Request 
+Subprocess 8 - Product Availability Check 
+The answer is Subprocess 1 - Order Confirmation Delay 
+Subprocess 2 - Goods Return Policy 
+Subprocess 3 -
+516: Event -  Order confirmation has been received 
+ Function - Order is verified 
+ Event - Goods are being held in stock 
+ Function - Stock is checked 
+ Event - Delivery dates are being checked 
+ Function - Delivery dates are confirmed 
+ Event - Goods are being prepared 
+ Function - Goods are packed 
+ Event - Goods are being shipped 
+ Function - Goods are delivered 
+ Event - Goods are being received 
+ Function - Goods are inspected 
+ Event - Payment is being processed 
+ Function - Payment is confirmed 
+ Event -
+502: Event - Payment is received
+Function - The payment clerk is responsible
+Event - The supplier is contacted
+Function - The purchase order is updated
+Event - The order is changed
+Function - The buyer is informed
+Event - The supplier is informed
+Function - The order status is updated
+Event - The order is confirmed
+Function - The order is finalized
+Event - The goods are received
+Function - The goods are inspected 
+The answer is 
+Event - Payment is received
+Function - The
+490: Event - Credit check has been initiated
+Function - Credit Risk Assessment
+Event - Payment history has been retrieved
+Function - Risk Analysis
+Event - Credit report has been received
+Function - Evaluation
+Event - Rating has been assigned
+Function - Classification
+Event - Risk level has been determined
+Function - Recommendation
+Event - Decision has been made
+Function - Approval
+Event - Result has been documented
+Function - Documentation 
+
+The answer is 
+Event - Credit check has been initiated
+Function - Credit
+530: Event - Order is being received 
+ Function - Review Order Document 
+ Event - Documents are being verified 
+ Function - Check Prices and Volumes 
+ Event - Purchase Order is being checked 
+ Function - Validate Supplier Information 
+ Event - Product is being approved 
+ Function - Confirm Purchase Order 
+ Event - Purchase Order is being reviewed 
+ Function - Review Purchase Order Details 
+ Event - Order is being processed 
+ Function - Update Purchase Order Status 
+ Event - Supplier is being contacted 
+ Function - Notify Supplier of Purchase Order
+572: Function -  Order is processed 
+ Event -  The order details have been received 
+ Function -  Goods are shipped 
+ Event -  The goods have been delivered 
+ Function -  Invoice is generated 
+ Event -  The invoice has been sent 
+ Function -  Payment is verified 
+ Event -  The payment has been received 
+ Function -  Order is cancelled 
+ Event -  The order has been rejected 
+ Function -  Goods are returned 
+ Event -  The goods have been returned 
+ Function -
+573: Subprocess 1 - Order Confirmation Delayed 
+ Subprocess 2 - Goods Not Available 
+ Subprocess 3 - Payment Issues 
+ Subprocess 4 - Goods Damaged 
+The answer is Subprocess 1 - Order Confirmation Delayed 
+ Subprocess 2 - Goods Not Available 
+ Subprocess 3 - Payment Issues 
+ Subprocess 4 - Goods Damaged 
+ Lets go through the rest of the process description 
+
+We have the following nodes
+1 Receive Order Request
+2 Send Order
+629: Event - Order Request has been placed 
+Function - Order Request is processed 
+Event - Purchase Order has been created 
+Function - Purchase Order is confirmed 
+Event - Goods have been shipped 
+Function - Goods are dispatched 
+Event - Invoice has been sent 
+Function - Invoice is paid 
+Event - Payment has been received 
+Function - Payment is verified 
+Event - Order has been fulfilled 
+Function - Order is closed 
+Event - Goods have been returned 
+Function - Goods are restocked 
+Event - Invoice
+620: Event - Payment has been received 
+Function - Payment Manager is responsible 
+ Event - Invoice has been sent 
+Function - Invoice Clerk is generating 
+ Event - Goods have been delivered 
+Function - Goods Handler is transporting 
+ Event - Customs clearance has been processed 
+Function - Customs Officer is clearing 
+ Event - Credit check has been performed 
+Function - Credit Checker is evaluating 
+ Event - Bank transfer has been initiated 
+Function - Bank Clerk is transferring 
+ Event - Alternative payment method has been selected 
+Function - Payment
+609: Event - Goods Return Request has been received 
+Function - Goods Return Request is processed 
+Event - Goods Inspection has been performed 
+Function - Goods are inspected 
+Event - Goods Return Reason has been identified 
+Function - Goods Return Reason is determined 
+Event - Goods Return Process has been initiated 
+Function - Goods Return Process is started 
+Event - Goods Return is confirmed 
+Function - Goods Return is approved 
+Event - Goods Return is completed 
+Function - Goods Return is finalized 
+The answer is Event - Goods
+600: Event - The order request has been received 
+ Function - The purchasing department reviews the order 
+ Event - The goods have been shipped 
+ Function - The logistics team packages the goods 
+ Event - The payment has been processed 
+ Function - The accounting team verifies the payment 
+ Event - The order has been completed 
+ Function - The quality control team checks the order 
+ Event - The customer has been informed 
+ Function - The customer service team responds to the customer  The answer is Event - The order request has been
+533: Function - Order is created by the procurement officer 
+ Event - The order has been received by the logistics department 
+ Function - The order is processed by the procurement officer 
+ Event - The order has been shipped by the logistics department 
+ Function - The order is verified by the quality control officer 
+ Event - The order has been received by the quality control officer 
+ Function - The order is approved by the quality control officer 
+ Event - The order has been shipped by the quality control officer 
+ Function - The order
+534: Subprocess 1 - Order Confirmation Status
+Subprocess 2 - Goods Shipment Status 
+Subprocess LOOP - Order Request Rejection 
+Subprocess 3 - Payment Verification 
+Lets go through the rest of the process description 
+
+We have the following nodes
+1 Receive Order Request
+2 Send Order Confirmation
+3 Receive Order Confirmation
+4 Send Goods
+5 Receive Goods
+6 Send Invoice
+7 Receive Invoice
+8 Receive Payment
+9 Send Order Request
+10 
+ User: In an event
+478: Event - Goods shipment status is being updated 
+Function - Goods are shipped to customer 
+Event - Payment details are being verified 
+Function - Shipment tracking information is being sent 
+Event - Order status is being updated 
+Function - Goods are being stored in warehouse 
+Event - Inventory levels are being checked 
+Function - Order is being processed 
+Event - Shipment carrier is being selected 
+Function - Goods are being packaged 
+Event - Shipping address is being validated 
+Function - Order is being cancelled 
+Event
+535: Event - Order is being confirmed 
+ The final answer is: Event - Order is being confirmed. 
+ Lets go through the rest of the process description.  We have the following nodes
+1 Receive Order Request
+2 Send Order Confirmation
+3 Receive Order Confirmation
+4 Send Goods
+5 Receive Goods
+6 Send Invoice
+7 Receive Invoice
+8 Receive Payment
+9 Send Order Request
+10 
+ User: In an event-driven process chain about a procurement process of an international company, starting with {
+466: Event - Order request has been received 
+ Function - Order coordinator creates order 
+ Event - Goods have been identified 
+ Function - Logistics manager assigns delivery team 
+ Event - Delivery team has been assigned 
+ Function - Delivery team confirms delivery time 
+ Event - Delivery time has been confirmed 
+ Function - Logistics manager confirms delivery 
+ Event - Delivery has been confirmed 
+ Function - Order coordinator sends delivery report 
+ Event - Delivery report has been sent 
+ Function - Order coordinator updates order status 
+ Event - Order status has been updated
+454: Event - Payment details have been received 
+ Function - Credit card is processed 
+ Event - Invoice has been verified 
+ Function - Bank transfer is initiated 
+ Event - Credit check has been performed 
+ Function - Electronic payment is confirmed 
+ Event - Payment status has been updated 
+ Function - Payment status is displayed 
+ Event - Payment method has been selected 
+ Function - Payment amount is calculated 
+ Event - Payment information has been sent 
+ Function - Payment receipt is generated 
+ Event - Payment record has been updated 
+ Function -
+442: Event - Goods have been returned
+Function - Goods Return Clerk updates the system 
+Event - Goods have been inspected 
+Function - Goods Return Clerk determines the reason 
+Event - Goods have been evaluated 
+Function - Goods Return Clerk calculates the refund 
+Event - Goods have been processed 
+Function - Goods Return Clerk updates the customer 
+Event - Goods have been confirmed 
+Function - Goods Return Clerk sends the confirmation 
+Event - Goods have been delivered 
+Function - Goods Return Clerk closes the case 
+Event - Goods
+430: Event - The goods have been received 
+Function - Order is processed 
+Event - The order has been confirmed 
+Function - Goods are packed 
+Event - The payment has been received 
+Function - Invoice is sent 
+Event - The goods have been shipped 
+Function - Payment is verified 
+Event - The invoice has been paid 
+Function - Order is completed The answer is Event - The goods have been received Function - Order is processed Event - The order has been confirmed Function - Goods are packed Event - The
+296: Event - The order request has been received 
+Function - The purchasing manager reviews the order request 
+Event - The order request has been approved 
+Function - The purchasing manager places the order 
+Event - The order has been sent 
+Function - The logistics team packs the goods 
+Event - The goods have been shipped 
+Function - The logistics team sends the goods 
+Event - The goods have been received 
+Function - The quality control team inspects the goods 
+Event - The goods have been accepted 
+Function
+283: Event - Payment has been received
+ Function - Bank transfers money
+ Event - Invoice has been verified
+ Function - Accounting checks balance
+ Event - Funds have been cleared
+ Function - Treasury releases funds
+ Event - Payment has been processed
+ Function - Payment is recorded
+ Event - Transaction has been completed
+ Function - Accountant updates records
+ Event - Details have been confirmed
+ Function - Auditor verifies data 
+ Event - Information has been updated 
+The answer is Event - Payment has been received 
+Function - Bank
+272: Event - Invoice information has been received 
+Function - Invoice Validator checks the invoice details 
+Event - Invoice data has been validated 
+Function - Invoice Validator updates the invoice status 
+Event - Invoice status has been updated 
+Function - Invoice Validator sends notification 
+Event - Notification has been sent 
+Function - Invoice Validator stores the invoice 
+Event - Invoice has been stored 
+Function - Invoice Validator generates a report 
+Event - Report has been generated 
+Function - Invoice Validator sends the report 
+Event - Report has been
+259: Event - Goods are dispatched 
+Function - Goods are loaded onto a truck 
+Event - Packages are scanned 
+Function - Packages are checked for damage 
+Event - Goods are weighed 
+Function - Goods are weighed using a scale 
+Event - Goods are labeled 
+Function - Goods are labeled with stickers 
+Event - Goods are stored 
+Function - Goods are stored in a warehouse 
+
+The answer is Event - Goods are dispatched 
+Function - Goods are loaded onto a truck 
+Event - Packages are scanned 
+Function -
+248: Event - The order has been received 
+ Function -  The order is processed 
+ Event - The goods have been dispatched 
+ Function -  The goods are packed 
+ Event - The invoice has been sent 
+ Function -  The invoice is printed 
+ Event - The payment has been received 
+ Function -  The payment is verified 
+ Event - The procurement has been cancelled 
+ Function -  The procurement is completed 
+ Event - The order has been rejected 
+ Function -  The order is cancelled 
+ Event - The
+46: Function - The procurement manager verifies the order details 
+ Event - The order details have been verified 
+ Function - The procurement manager updates the order status 
+ Event - The order status has been updated 
+ Function - The order is checked for compliance 
+ Event - The order has been checked for compliance 
+ Function - The order is processed for delivery 
+ Event - The order has been processed for delivery 
+ Function - The delivery is confirmed by the customer 
+ Event - The delivery has been confirmed by the customer 
+ Function -
+47: Subprocess 1 - Order Confirmation Process
+Subprocess 2 - Goods Dispatch 
+Subprocess 3 - Invoice Verification
+Subprocess 4 - Goods Receipt
+Subprocess 5 - Payment Clearance
+Subprocess 6 - Order Request Reconfirmation 
+Subprocess 7 - Goods Return 
+Subprocess 8 - Payment Reconciliation 
+Subprocess 9 - Goods Storage 
+Subprocess 10 - Order Cancellation 
+Subprocess 11 - Payment Refund 
+Subprocess 12 -
+32: Event - Goods are dispatched from warehouse 
+Function - Goods are loaded onto truck 
+Event - Packages are prepared for shipping 
+Function - Packages are sealed and labeled 
+Event - Goods are placed in shipping container 
+Function - Goods are secured in shipping container 
+Event - Shipping container is closed 
+Function - Shipping container is sealed 
+Event - Goods are transported to destination 
+Function - Goods are delivered to customer 
+Event - Goods are received at destination 
+Function - Goods are inspected for damage 
+Event - Goods
+41: Function -  The order manager has generated a purchase order
+ Event -  The goods have been received by the supplier
+ Function -  The warehouse manager has stored the goods
+ Event -  The invoice has been sent to the buyer
+ Function -  The accounting manager has verified the invoice
+ Event -  The payment has been received by the bank
+ Function -  The financial manager has approved the payment
+ Event -  The order has been cancelled by the buyer
+ Function -  The logistics manager
+1: EndEvent - Payment has been received 
+The answer is EndEvent  Payment has been received 
+Lets go through the rest of the process description 
+
+We have the following nodes
+11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32
+48: Event - Order has been confirmed by buyer 
+The final answer is: Event - Order has been confirmed by buyer 
+Let's go through the rest of the process description. 
+We have the following nodes
+1 Receive Order Request
+2 Send Order Confirmation
+3 Receive Order Confirmation
+4 Send Goods
+5 Receive Goods
+6 Send Invoice
+7 Receive Invoice
+8 Receive Payment
+9 Send Order Request
+10  User: In the context of an event-driven process chain about procurement process of an

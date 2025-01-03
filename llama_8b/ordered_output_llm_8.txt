@@ -1,0 +1,1329 @@
+0: StartEvent - Purchase requisition is being approved by the buyer.
+StartEvent -  The purchasing manager has received a request.
+StartEvent -  The purchase requisition is being checked.
+StartEvent -  The purchase requisition has been approved.
+StartEvent -  The purchasing manager has been informed.
+StartEvent -  The purchase order is being created.
+StartEvent -  The supplier has been selected.
+StartEvent -  The purchase order has been sent.
+StartEvent -  The goods have been
+3: Function - Purchase requisition is being reviewed by the team 
+Event - The payment details have been confirmed
+Function - The purchase requisition is being updated
+Event - The delivery terms have been agreed upon
+Function - The purchase requisition is being finalized
+Event - The purchase order has been dispatched
+Function - The purchase requisition is being printed
+Event - The goods are being inspected
+Function - The purchase requisition is being signed
+Event - The payment has been made
+Function - The
+4: Subprocess 1 - Approval of Purchase Requisition
+Subprocess 2 - Goods Selection
+Subprocess 3 - Purchase Order Creation
+Subprocess 4 - Supplier Selection
+Subprocess 5 - Purchase Order Sending
+Subprocess 6 - Requisition Rejection  StartEvent - The purchasing manager has received a request
+StartEvent - The purchase requisition is being checked
+StartEvent - The purchase requisition has been approved
+StartEvent - The purchasing manager has been informed
+Start
+156: Event - The purchase requisition is being rejected by the buyer
+Function - Rejection reason is determined by the buyer
+Event - The purchase requisition is being documented
+Function - Document is stored in the archive
+Event - The purchase requisition is being communicated
+Function - Notification is sent to the supplier
+Event - The purchase requisition is being withdrawn
+Function - Purchase order is cancelled
+Event - The purchase requisition is being archived
+Function - Document is deleted from the system
+Event
+157: Subprocess 1 - Supplier evaluation and selection
+Subprocess 2 - Purchase order creation and approval
+Subprocess 3 - Purchase requisition processing
+Subprocess 4 - Goods inspection and acceptance
+Subprocess 5 - Payment and invoicing
+Subprocess 6 - Purchase order cancellation
+Subprocess 7 - Goods return and refund
+Subprocess 8 - Contract negotiation and agreement
+Subprocess 9 - Inventory management and control
+Subprocess 10 - Procurement reporting and
+368: Event - The purchase order has been received by the purchasing manager
+Function - Procurement report is being generated
+Event - The procurement report has been sent to the management
+Function - Procurement data is being analyzed
+Event - The analysis results have been stored in the database
+Function - Procurement metrics are being calculated
+Event - The procurement metrics have been updated
+Function - Procurement dashboard is being displayed
+Event - The dashboard is being reviewed by the management
+Function - Procurement performance is
+369: Subprocess 1 - Supplier Selection Process
+Subprocess 2 - Goods Inspection Process
+Subprocess 3 - Purchase Order Creation Process
+Subprocess 4 - Request Handling Process
+Subprocess 5 - Requisition Approval Process
+ User: In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Purchase requisition is being approved by the buyer, with the subprocesses 
+Subprocess 1 - Supplier Selection Process
+Subprocess 2 - Goods
+442: Event - Purchase requisition is being reviewed
+ Function - Requisition Reviewer reviews the purchase requisition
+ Event - Request for information is being sent
+ Function - Buyer sends request for information to the supplier
+ Event - Information is being received
+ Function - Buyer receives information from the supplier
+ Event - Evaluation is being made
+ Function - Buyer evaluates the received information
+ Event - Decision is being made
+ Function - Buyer makes a decision
+ Event - Notification is being sent
+ Function - Buyer sends notification to
+592: Event - Request is being received
+Function - Request Handler sends acknowledgement
+Event - Information is being updated
+Function - Request Handler updates database
+Event - Request is being verified
+Function - Request Verifier checks validity
+Event - Information is being retrieved
+Function - Request Handler retrieves data
+Event - Request is being classified
+Function - Classifier assigns category
+Event - Information is being stored
+Function - Request Handler saves data
+Event - Request is being documented
+Function - Documenter creates record
+Event
+766: Function -  Purchase requisition is being processed by the team
+Event - The order has been received by the supplier
+Function - The purchasing manager is checking the budget
+Event - The goods have been delivered to the warehouse
+Function - The supplier is being contacted for clarification
+Event - The invoice has been paid by the bank
+Function - The goods are being inspected by the quality manager
+Event - The payment has been confirmed by the customer
+Function - The purchase order is being updated by the
+747: Subprocess 1 - Purchase Order Creation
+Subprocess 2 - Goods Delivery Planning
+Subprocess 3 - Supplier Selection Process
+Subprocess 4 - Purchase Requisition Verification
+Subprocess 5 - Logistics Coordination
+StartEvent   The purchasing manager has received a request
+StartEvent   The purchase requisition is being checked
+StartEvent   The purchase requisition has been approved
+StartEvent   The purchasing manager has been informed
+StartEvent   The purchase order is being created
+828: Function - The purchasing manager is responsible for
+ Event - The goods are being transported
+ Function - The warehouse manager is coordinating
+ Event - The purchase order is being processed
+ Function - The shipping costs are being calculated
+ Event - The goods have been received
+ Function - The inventory is being updated
+ Event - The supplier is being notified
+ Function - The purchasing manager is verifying
+ Event - The payment has been made
+ Function - The purchasing manager is documenting
+ Event - The process is being finalized
+816: Function -   Request is sent to the purchasing manager
+Event -   A report is being generated
+Function -   The data is being verified
+Event -   The information is received
+Function -   The discrepancies are being identified
+Event -   The supplier is selected
+Function -   The purchase order is being updated
+Event -   The goods are being delivered
+Function -  The stock is being checked
+Event -   The delivery is confirmed
+Function -   The payment is being processed
+886: Function - Supplier database is accessed by the buyer
+Event - Supplier profiles are being evaluated
+Function - Supplier profiles are compared by the buyer
+Event - Supplier rankings are being updated
+Function - Top-ranked suppliers are shortlisted by the buyer
+Event - Shortlisted suppliers are being contacted
+Function - Supplier quotes are analyzed by the buyer
+Event - Supplier offers are being compared
+Function - Best supplier offer is selected by the buyer
+Event - Supplier contract is being negotiated
+Function - Supplier contract is
+887: Subprocess 1 - Request validation and approval
+Subprocess 2 - Purchase order creation and sending
+Subprocess 3 - Goods inspection and acceptance
+Subprocess 4 - Supplier evaluation and selection
+Subprocess 5 - Payment and invoice processing 
+ User: In the event-driven process chain about procurement process of an international company, starting with StartEvent - Purchase requisition is being approved by the buyer, with the subprocesses
+Subprocess 1 - Request validation and approval
+Subprocess
+959: Event -   The payment information has been sent
+Function -   Payment Details are calculated
+Event -   The invoice has been received
+Function -   Invoice data is verified
+Event -   The payment has been confirmed
+Function -   Payment is processed
+Event -   The payment has been made
+Function -   Payment status is updated
+Event -   The invoice has been paid
+Function -   Payment confirmation is sent
+Event -   The payment is recorded
+Function -   Payment history is
+948: Event - Supplier information is being obtained
+Function - Supplier data is evaluated
+Event - The evaluation criteria is being defined
+Function - Supplier scores are calculated
+Event - The evaluation team has been formed
+Function - Supplier profiles are compared
+Event - The comparison results are being documented
+Function - Supplier performance is assessed
+Event - The assessment results are being reviewed
+Function - Supplier selection criteria are defined
+Event - The final selection is being made
+Function - Supplier is selected
+ Event: Supplier information
+937: Event - Goods are being inspected by the quality control team
+Function - Goods are verified for defects
+Event - Samples are being taken for further analysis
+Function - Samples are analyzed by laboratory staff
+Event - Results are being evaluated by the quality control team
+Function - Defects are documented by the quality control team
+Event - Goods are being stored in a secure location
+Function - Goods are labeled with a serial number
+Event - Goods are being transported to the warehouse
+Function - Goods are received
+926: Event - The purchase order is being created
+Function - PO creation team creates the purchase order
+Event - The PO creation team has been informed
+Function - PO creation team updates the PO
+Event - The PO data has been checked
+Function - PO creation team verifies the data
+Event - The PO has been saved
+Function - PO creation team saves the PO
+Event - The PO has been sent to the supplier
+Function - PO creation team sends the PO to the supplier
+Event - The
+915: Event - Request is being validated
+Function - Request validator is validating the request
+Event - Request is being checked
+Function - Request checker is checking the request
+Event - Request has been approved
+Function - Request approver is approving the request
+Event - Request is being reviewed
+Function - Request reviewer is reviewing the request
+Event - Request is being verified
+Function - Request verifier is verifying the request
+Event - Request is being confirmed
+Function - Request confirmer is confirming the request
+804: Function - Purchase requisition is being updated
+Event - The supplier has been contacted
+Function - Purchase order is being reviewed
+Event - The delivery date has been agreed
+Function - Payment terms are being negotiated
+Event - The purchase order has been received
+Function - Delivery address is being confirmed
+Event - The payment has been made
+Function - Goods are being inspected
+Event - The supplier has been notified
+Function - Documents are being prepared
+Event - The goods have been stored
+Function -
+790: Function - Freight cost is calculated
+Event - Goods delivery date is being determined
+Function - Packaging list is prepared
+Event - Warehouse staff has been informed
+Function - Goods are loaded
+Event - Goods are being transported
+Function - Goods are stored
+Event - Goods are being inspected
+Function - Goods are released
+Event - Goods are being dispatched
+Function - Goods are received
+Event - Goods are being delivered 
+ User: In an event-driven process chain about a procurement process of an international company
+778: Function - Purchase order template is being prepared by the clerk
+Event - The purchase order template has been sent to the buyer
+Function - Purchase order details are being updated by the clerk
+Event - The purchase order details have been verified by the buyer
+Function - Payment terms are being defined by the clerk
+Event - The payment terms have been agreed upon by the supplier
+Function - Shipping address is being updated by the clerk
+Event - The shipping address has been confirmed by the supplier
+Function -
+595: Function - The buyer is processing the purchase requisition
+Event - The purchase requisition is being reviewed
+Function - The purchasing manager is verifying the budget
+Event - The purchase requisition has been verified
+Function - The buyer is checking the supplier list
+Event - The supplier list is being updated
+Function - The purchasing manager is preparing the purchase order
+Event - The purchase order is being printed
+Function - The buyer is sending the purchase order
+Event - The purchase order has been sent
+596: Subprocess 1 - Procurement of goods from a local supplier
+Subprocess 2 - Procurement of goods from a foreign supplier
+Subprocess LOOP - Goods inspection and quality control
+Subprocess 3 - Procurement of goods with a long delivery time
+Subprocess 4 - Procurement of goods with a short delivery time
+Subprocess 5 - Purchase order cancellation and reissue
+Subprocess 6 - Procurement of goods with a variable delivery time
+Subprocess 7
+430: Event - Goods are being inspected by the quality control team
+Function - Quality control manager conducts inspection
+Event - Samples are being taken from the goods
+Function - Samples are sent to the laboratory
+Event - Samples are being tested in the laboratory
+Function - Laboratory technician performs the test
+Event - Test results are being evaluated by the quality control team
+Function - Quality control manager interprets the results
+Event - Goods are being cleared for shipment
+Function - Logistics manager clears the goods
+Event -
+597: Event - The goods are being delivered 
+Event - The goods are being received 
+Event - The goods are being stored 
+Event - The invoice is being sent 
+Event - The invoice is being checked 
+Event - The payment is being made 
+Event - The payment is being received 
+Event - The payment is being cleared 
+Event - The goods are being picked 
+Event - The goods are being packed 
+Event - The goods are being shipped 
+Event - The goods are being inspected 
+Event - The
+418: Event - Goods are being inspected
+Function - Quality control manager conducts inspection
+Event - Test results are being analyzed
+Function - Quality control manager interprets results
+Event - Defects are being identified
+Function - Quality control manager documents defects
+Event - Defects are being reported
+Function - Quality control manager reports defects
+Event - Goods are being accepted
+Function - Quality control manager accepts goods
+Event - Inspection report is being created
+Function - Quality control manager generates report
+Event - Report is
+408: Event - Purchase order is being created by the system
+Function - Order data is processed and validated
+Event - The data is being transmitted to the supplier
+Function - The supplier receives and acknowledges the order
+Event - The purchase order is being confirmed
+Function - The purchase order is updated and finalized
+Event - The status is being updated in the system
+Function - The purchase order is archived and stored
+Event - The purchase order is being printed
+Function - The printed purchase order is reviewed and
+398: Event - The purchase requisition is being reviewed
+Function - Request validation team validates the request
+Event - The request is being verified
+Function - Request validation team checks the request
+Event - The request has been validated
+Function - Request validation team confirms the request
+Event - The purchase order is being prepared
+Function - Request validation team prepares the purchase order
+Event - The request has been approved
+Function - Request validation team sends the purchase order
+Event - The purchase order has been received
+293: Event - The purchase requisition is being processed
+Function - Buyer confirms the purchase requisition
+Event - The purchase requisition has been validated
+Function - Purchaser is notified of the validation
+Event - The purchase requisition is being sent to the supplier
+Function - The purchase order is being created
+Event - The purchase requisition has been received
+Function - The supplier is being contacted
+Event - The purchase requisition is being approved
+Function - The purchase order is being processed
+Event
+282: Event - Inventory is being updated
+Function - Stock levels are updated
+Event - Goods are being stored
+Function - Goods are placed in warehouse
+Event - Stock levels are being checked
+Function - Stock levels are monitored
+Event - Goods are being moved
+Function - Goods are transported
+Event - Stock levels are being adjusted
+Function - Stock levels are recalculated
+Event - Inventory is being validated
+Function - Inventory is audited  StartEvent   The purchasing manager has received a request
+Start
+271: Event - Contract negotiation is being conducted by the supplier
+Function - Contract manager is negotiating the contract
+Event - Terms and conditions are being reviewed by the legal department
+Function - Legal experts are reviewing the contract terms
+Event - Proposals are being exchanged between the parties
+Function - Negotiators are exchanging offers
+Event - Counter proposals are being submitted by the supplier
+Function - Contract manager is responding to the counter proposals
+Event - Agreement is being reached by the parties
+Function - Negotiators are
+260: Event - Goods are being inspected
+Function - Goods Inspector inspects goods
+Event - Goods are being stored
+Function - Warehouse Staff stores goods
+Event - Goods are being unpacked
+Function - Warehouse Staff unpacks goods
+Event - Goods are being labeled
+Function - Labeling Machine labels goods
+Event - Goods are being tested
+Function - Quality Control Team tests goods
+Event - Goods are being certified
+Function - Certification Officer certifies goods
+Event - Goods are being documented
+Function -
+247: Event -   Request is being received by the purchasing manager
+Function -   Request validation is performed by the validator
+Event -   Request is being checked for completeness
+Function -   Request data is verified by the checker
+Event -   Request is being reviewed by the reviewer
+Function -   Request is assessed by the assessor
+Event -   Request is being approved by the approver
+Function -   Request status is updated by the updater
+Event -   Request is being sent to the supplier
+236: Event - Purchase order is being created by the system
+ Function - Payment data is being extracted
+ Event - Payment data has been sent to the bank
+ Function - Payment has been initiated
+ Event - Payment has been received by the bank
+ Function - Invoice has been verified
+ Event - Invoice has been received by the customer
+ Function - Payment has been confirmed
+ Event - Payment has been recorded in the system
+ User: In the event-driven process chain about procurement process of an international company, starting with
+227: Event - Supplier information is being gathered
+Function - Supplier Evaluation Team performs evaluation
+Event - Supplier lists are being prepared
+Function - Shortlisted suppliers are contacted
+Event - Supplier meetings are being scheduled
+Function - Key performance indicators are defined
+Event - Supplier presentations are being reviewed
+Function - Supplier selection criteria are determined
+Event - Supplier contracts are being drafted
+Function - Contract negotiations are conducted
+User: In an event-driven process chain about a procurement process of an international company, starting with Start
+218: Event - The goods have been received
+Function - Goods are inspected
+Event - Samples have been taken
+Function - Samples are analyzed
+Event - Results have been obtained
+Function - Results are evaluated
+Event - Defects have been found
+Function - Defects are reported
+Event - Goods have been rejected
+Function - Goods are re-inspected
+ Event - The goods have been received
+Function - Goods are inspected
+Event - Samples have been taken
+Function - Samples are analyzed
+Event -
+209: Event - The purchase order is being created
+Function - PO document is created
+Event - The PO data is being checked
+Function - Data is verified
+Event - The PO data has been validated
+Function - Data is confirmed
+Event - The PO is being printed
+Function - PO is printed
+Event - The PO has been signed
+Function - Document is signed
+Event - The PO is being scanned
+Function - Document is scanned
+Event - The PO has been uploaded
+Function - Document
+196: Event - Request is being processed by the system
+Function - Request Validator checks the completeness
+Event - Request details are being verified
+Function - Data Checker verifies the data
+Event - Request is being validated
+Function - Validator checks the format
+Event - Request is being reviewed
+Function - Reviewer checks the content
+Event - Request is being approved
+Function - Approver signs the document
+Event - Request is being updated
+Function - Updater saves the changes
+Event - Request is being logged
+100: Function - Order is placed with the supplier
+Event - The purchase requisition has been approved
+Function - Order details are being documented
+Event - The goods have been received
+Function - Goods are being inspected
+Event - The purchase order has been sent
+Function - Goods are being stored
+Event - The purchasing manager has been informed
+Function - Goods are being dispatched
+Event - The purchase requisition is being checked
+Function - Goods are being transported
+Event - The supplier has been selected
+88: Event -   The purchase order has been sent to the supplier 
+Function -  Purchase Order is sent via email
+Event -   The purchase order has been received by the supplier 
+Function -  Supplier confirms receipt of the purchase order
+Event -   The purchase order has been checked by the supplier 
+Function -  Supplier verifies purchase order details
+Event -   The purchase order has been confirmed by the supplier 
+Function -  Supplier confirms purchase order
+Event -   The purchase order has been updated
+74: Event - Supplier information is being gathered
+Function - The supplier database is updated
+Event - Supplier profiles are being evaluated
+Function - The best supplier is identified
+Event - Shortlisted suppliers are being contacted
+Function - The supplier's creditworthiness is assessed
+Event - Supplier offers are being compared
+Function - The most competitive offer is selected
+Event - The contract is being negotiated
+Function - The contract terms are agreed upon
+Event - The contract is being signed
+Function - The contract is
+64: Event - The purchase order is being created
+Function - Purchase order is issued by the purchasing manager
+Event - The purchase order details are being checked
+Function - Details are verified by the purchasing manager
+Event - The purchase order is being validated
+Function - Validation is performed by the system
+Event - The purchase order is being processed
+Function - Purchase order is processed by the system
+Event - The purchase order status is being updated
+Function - Status is updated by the system
+Event - The
+112: Event -   Goods specifications have been received
+Function -   Product features are being analyzed
+Event -   Alternative products have been listed
+Function -   Product comparisons are being made
+Event -   Supplier offers have been requested
+Function -   Supplier quotes are being evaluated
+Event -   Best offer has been selected
+Function -   Contract negotiations are being conducted
+Event -   Contract terms have been agreed
+Function -   Contract signature is being arranged
+Event -   Contract has been signed
+Function
+321: Function - The purchasing manager is responsible for the overall process
+Event - The purchase requisition is being verified
+Function - The purchasing manager checks the purchase requisition
+Event - The purchase requisition has been verified
+Function - The purchasing manager requests a quotation from suppliers
+Event - The quotation has been received
+Function - The purchasing manager compares the quotations
+Event - The best quotation has been selected
+Function - The purchasing manager orders the goods
+Event - The goods have been ordered
+Function -
+305: Subprocess 1 - Supplier Selection and Evaluation
+Subprocess 2 - Purchase Order Creation
+Subprocess 3 - Goods Receipt and Inspection
+StartEvent - The purchasing manager has received a request
+StartEvent - The purchase requisition is being checked
+StartEvent - The purchase requisition has been approved
+StartEvent - The purchasing manager has been informed
+StartEvent - The purchase order is being created
+StartEvent - The supplier has been selected
+StartEvent - The purchase order has been
+457: Event - Goods are being inspected by the quality manager
+Function - Goods are received from the supplier
+Event - The goods are being stored in a warehouse
+Function - Warehouse staff is responsible for the storage
+Event - The goods are being prepared for shipping
+Function - Packaging materials are provided by the supplier
+Event - The goods are being shipped to the customer
+Function - The shipping costs are paid by the customer
+Event - The goods are being delivered to the customer
+Function - The customer is
+458: Subprocess 1 - Supplier Selection and Approval
+Subprocess 2 - Purchase Order Creation and Validation
+Subprocess 3 - Procurement Budgeting and Forecasting
+Subprocess 4 - Inventory Management and Control
+Subprocess 5 - Goods Receipt and Inspection
+Subprocess 6 - Purchase Order Cancellation and Re-issuance
+Subprocess 7 - Supplier Performance Evaluation and Rating
+Subprocess 8 - Procurement Reporting and Analytics
+Subprocess 9 - Emergency Proc
+578: Event -   Purchase requisition is being cancelled by the buyer
+Function - Emergency team is handling the issue
+Event -   The emergency team has been informed
+Function - Emergency contact person is being contacted
+Event -   The supplier has been contacted
+Function - Emergency stock is being checked
+Event -   The emergency stock has been located
+Function - Emergency stock is being dispatched
+Event -   The emergency stock has been delivered
+Function - Emergency team is monitoring the delivery
+Event -   The
+653: Event - The report is being generated
+Function - Report is created by the data analyst
+Event - The data is being analyzed
+Function - Data is processed by the system
+Event - The dashboard is being updated
+Function - Dashboard is updated by the IT department
+Event - The metrics are being calculated
+Function - Metrics are calculated by the algorithm
+Event - The trends are being identified
+Function - Trends are identified by the data scientist
+Event - The insights are being extracted
+Function - Insights
+632: Subprocess 1 - Supplier selection procedure
+Subprocess 2 - Goods inspection process
+Subprocess 3 - Purchase order creation
+Subprocess 4 - Payment terms negotiation
+Subprocess 5 - Goods delivery coordination
+Subprocess 6 - Requisition validation
+Subprocess 7 - Order status monitoring
+ User: In the context of an event-driven process chain about procurement process of an international company, and starting with StartEvent - Purchase requisition is being approved by the buyer, provide
+733: Function - Purchase order is being created by the purchasing manager
+Event - Goods are being delivered to the warehouse
+Function - Order status is being monitored by the logistics team
+Event - Payment has been made to the supplier
+Function - Inventory levels are being updated automatically
+Event - Goods have been received by the warehouse
+Function - Stockouts are being reported to the purchasing manager
+Event - Delivery dates are being updated by the logistics team
+Function - Lead times are being analyzed by the supply chain team
+721: Event - Request for quotation is being sent to suppliers
+Function - Purchasing manager verifies supplier list
+Event - Supplier list is being checked for completeness
+Function - List is being sorted alphabetically
+Event - Supplier list is being updated
+Function - List is being saved to database
+Event - Supplier list is being printed
+Function - Purchasing manager verifies supplier data
+Event - Supplier data is being checked for correctness
+Function - Data is being updated if necessary
+Event - Supplier data is being stored
+709: Function - Freight forwarder is coordinating the shipment
+Event - Goods are being transported
+Function - Customs clearance is being processed
+Event - Goods are being cleared
+Function - Warehouse management is being executed
+Event - Goods are being stored
+Function - Inventory management is being updated
+Event - Goods are being registered
+Function - Stock report is being generated
+Event - Goods are being accounted for
+ StartEvent - Purchase requisition is being approved by the buyer
+StartEvent   The purchasing manager has received
+699: Function - Payment terms are defined by the accountant
+Event - Payment terms have been agreed upon
+Function - Payment terms are documented by the accountant
+Event - Payment terms have been reviewed
+Function - Payment terms are agreed upon by the buyer
+Event - Payment terms have been finalized
+Function - Payment terms are communicated to the supplier
+Event - Payment terms have been confirmed
+Function - Payment terms are checked by the auditor
+Event - Payment terms have been verified StartEvent - The purchasing manager has received
+840: Function -  Purchase order template is being filled
+Event -   Purchase order details are being received
+Function -  Purchase order data is being validated
+Event -    Purchase order is being verified
+Function -  Purchase order terms and conditions are being reviewed
+Event -    Purchase order is being finalized
+Function -  Purchase order is being updated
+Event -    Purchase order is being printed
+Function -  Purchase order is being archived
+Event -    Purchase order is being sent
+Function -
+971: Function - The purchasing manager is verifying the purchase requisition
+Event - A request has been received by the purchasing manager
+Function - The purchasing manager is checking the budget
+Event - A budget has been approved by the finance manager
+Function - The purchasing manager is calculating the costs
+Event - A cost has been estimated by the purchasing manager
+Function - The purchasing manager is selecting the supplier
+Event - A supplier has been selected by the purchasing manager
+Function - The purchasing manager is negotiating the terms
+1017: Function - The requisition is reviewed by the team
+ Event - The request has been received by the department
+ Function - The data is updated in the system
+ Event - The requisition has been checked by the team
+ Function - The supplier is contacted by the buyer
+ Event - The request has been verified by the manager
+ Function - The order is prepared by the staff
+ Event - The requisition has been validated by the department
+ Function - The goods are stored in the warehouse
+ Event -
+1018: Subprocess 1 - Procurement process initiation
+Subprocess 2 - Goods inspection and quality control
+Subprocess 3 - Supplier selection and evaluation
+Subprocess 4 - Purchase order creation and confirmation
+Subprocess 5 - Purchase order delivery and payment
+Subprocess 6 - Goods return and warranty claims
+Subprocess 7 - Purchase requisition cancellation  User: In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Purchase requisition
+1122: Event - The purchase requisition has been rejected
+Function - Buyer confirms the cancellation
+Event - The cancellation has been confirmed
+Function - The purchase order is cancelled
+Event - The goods have been returned
+Function - Supplier is notified
+Event - The purchase order has been deleted
+Function - Records are updated
+Event - The request has been cancelled
+Function - The system is updated
+Event - The purchase requisition has been deleted
+Function - The database is updated 
+ User: In an event
+1112: Event - Goods return request is being submitted
+ Function - Goods Return Clerk reviews claim
+ Event - Claim is being verified
+ Function - Goods Return Clerk contacts supplier
+ Event - Supplier has been contacted
+ Function - Goods Return Clerk assesses damage
+ Event - Damage assessment is being evaluated
+ Function - Goods Return Clerk creates report
+ Event - Report has been created
+ Function - Goods Return Clerk forwards report
+ Event - Report is being forwarded
+ Function - Goods Return Clerk closes claim
+ Event - Claim has been
+1100: Event - The purchase order is being received
+Function - Goods are being inspected
+Event - The goods are being stored
+Function - The goods are being packaged
+Event - The goods are being shipped
+Function - The goods are being delivered
+Event - The payment is being processed
+Function - The payment is being verified
+Event - The payment is being confirmed
+Function - The payment is being settled
+Event - The delivery is being confirmed
+Function - The delivery is being tracked
+Event - The
+1086: Event - The purchase order is being processed
+Function - PO data is being verified
+Event - The purchase order is being reviewed
+Function - Order details are being updated
+Event - The purchase order is being finalized
+Function - Order status is being updated
+Event - The purchase order is being confirmed
+Function - Confirmation notice is being sent
+Event - The purchase order is being archived
+Function - PO records are being maintained
+Event - The purchase order is being audited
+Function - Compliance is
+1076: Event - Supplier information has been gathered
+Function - Supplier database is being updated
+Event - Supplier information has been verified
+Function - Supplier evaluation criteria are being defined
+Event - Supplier evaluation team has been formed
+Function - Supplier evaluation process is being initiated
+Event - Supplier evaluation reports have been received
+Function - Supplier evaluation results are being analyzed
+Event - Supplier evaluation findings have been documented
+Function - Supplier evaluation recommendations are being provided
+Event - Supplier evaluation process has been completed
+Function - Supplier
+1158: Event - Goods are being inspected
+Function - Quality control officer examines the goods
+Event - Defects are being reported
+Function - Defects are documented
+Event - Goods are being certified
+Function - Certificate is issued
+Event - Goods are being stored
+Function - Goods are placed in warehouse
+Event - Goods are being labeled
+Function - Labels are printed
+Event - Goods are being shipped
+Function - Goods are loaded onto truck
+Event - Goods are being received
+Function - Goods are unloaded
+1138: Subprocess 1 - Procurement of goods
+Subprocess 2 - Supplier evaluation
+Subprocess 3 - Order preparation
+Subprocess 4 - Payment handling
+Subprocess 5 - Quality assurance
+User: In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Purchase requisition is being approved by the buyer
+StartEvent   The purchasing manager has received a request
+StartEvent   The purchase requisition is being checked
+StartEvent
+1213: Event -   Purchase requisition has been received by the purchasing manager
+ Function -   Purchase requisition is processed by the purchasing team
+ Event -   Inspection report has been created by the quality manager
+ Function -   Inspection report is reviewed by the purchasing team
+ Event -   Inspection results have been evaluated by the quality manager
+ Function -   Non-conforming goods are identified by the quality team
+ Event -   Corrective action plan has been implemented by the purchasing manager
+ Function -   Corrective
+1202: Event -   Invoice has been received
+Function -   Payment processor calculates
+Event -   Payment details have been verified
+Function -   Payment system updates
+Event -   Credit check has been performed
+Function -   Account manager confirms
+Event -   Payment method has been selected
+Function -   Payment processor initiates
+Event -   Payment status has been updated
+Function -   Payment system notifies
+Event -   Refund has been issued
+Function -   Account manager settles
+Event -
+1225: Event -   The purchase order is being received
+Function -  Order data is being checked
+Event -   The order data has been validated
+Function -  The supplier is being contacted
+Event -   The supplier has been contacted
+Function -  The delivery date is being agreed
+Event -   The delivery date has been agreed
+Function -  The payment terms are being discussed
+Event -   The payment terms have been agreed
+Function -  The delivery address is being confirmed
+Event -
+1226: Subprocess 1 - Supplier Selection
+Subprocess 2 - Purchase Requisition Review
+Subprocess 3 - Purchase Order Creation
+Subprocess 4 - Payment Processing
+Subprocess 5 - Goods Inspection
+Subprocess 6 - Logistics Coordination
+Subprocess 7 - Warranty Claim Handling
+Subprocess 8 - Return Merchandise Authorization
+Subprocess 9 - Compliance Verification 
+ User: In an event-driven process chain about a procurement process of an international company, starting with Start
+1349: Event - Purchase order is being verified
+Function - Compliance officer verifies documents
+Event - Certificate of origin is being checked
+Function - Customs officer clears goods
+Event - Import duty is being calculated
+Function - Tax consultant prepares invoice
+Event - Goods are being inspected
+Function - Quality control officer checks packaging
+Event - Packaging is being labeled
+Function - Logistics officer prepares shipment
+Event - Shipment is being dispatched
+Function - Delivery officer tracks order
+Event - Order is being fulfilled
+User:
+1338: Event - Return merchandise authorization is being processed
+Function - Return merchandise is analyzed
+Event - The customer has been contacted
+Function - Return reason is documented
+Event - The return merchandise is being inspected
+Function - Return merchandise is stored
+Event - The return merchandise has been received
+Function - Return merchandise is transported
+Event - The return merchandise is being packed
+Function - Return merchandise is labeled
+Event - The return merchandise has been shipped
+Function - Return merchandise is tracked
+Event - The return
+1327: Event - Warranty claim is being processed
+ Function - Warranty Claim Manager handles claim
+ Event - Information is being documented
+ Function - Documents are being prepared
+ Event - Claim is being verified
+ Function - Verification is being carried out
+ Event - Documents are being reviewed
+ Function - Review is being finalized
+ Event - Claim is being escalated
+ Function - Escalation is being handled
+ Event - Claim is being resolved
+ Function - Resolution is being implemented
+ Event - Claim is being closed
+ Function - Closure
+1316: Event - Goods are being transported
+Function - Transportation plan is created by the logistics team
+Event - Documents are being verified
+Function - Verification report is prepared by the quality team
+Event - Goods are being stored
+Function - Warehouse inventory is updated by the inventory team
+Event - Goods are being checked
+Function - Quality control report is prepared by the quality team
+Event - Goods are being released
+Function - Goods are dispatched by the shipping team
+Event - Goods are being received
+Function -
+1305: Event - Goods are being inspected for damage
+Function - Damage is detected by the inspector
+Event - Samples are being taken for analysis
+Function - Samples are being analyzed by the lab
+Event - Results are being reviewed by the inspector
+Function - Results are being documented by the clerk
+Event - Non-conforming goods are being identified
+Function - Non-conforming goods are being set aside
+Event - Conforming goods are being accepted
+Function - Goods are being stored in the warehouse
+Event -
+1360: Event - Payment is being processed
+Function - Invoice is created
+Event - Payment details are being verified
+Function - Payment method is determined
+Event - Payment is being authorized
+Function - Payment amount is calculated
+Event - Payment information is being updated
+Function - Payment status is updated
+Event - Payment confirmation is being sent
+Function - Payment record is created
+Event - Payment data is being stored
+Function - Payment history is recorded
+Event - Payment errors are being detected
+Function - Payment exceptions
+1361: Subprocess 1 - Purchase requisition approval
+Subprocess 2 - Purchase order creation
+Subprocess 3 - Supplier selection
+Subprocess 4 - Goods delivery and invoicing
+ User: In the event-driven process chain about a procurement process of an international company, starting with StartEvent - Purchase requisition is being approved by the buyer, with the subprocesses Subprocess 1 - Purchase requisition approval, Subprocess 2 - Purchase order creation, Subprocess 3 - Supplier
+1427: Event - The purchase order is being received by the logistics
+Function - Goods are stored in the warehouse
+Event - The goods are being transported to the warehouse
+Function - The goods are unpacked and counted
+Event - The goods are being inspected by the quality team
+Function - The goods are stored in the inventory
+Event - The invoice is being checked by the accounting team
+Function - The invoice is paid to the supplier
+Event - The payment is being confirmed by the supplier
+Function -
+1416: Event - Supplier list is being updated
+Function - Shortlist is created
+Event - Suppliers are being contacted
+Function - Quotes are received
+Event - Quotes are being evaluated
+Function - Supplier is selected
+Event - Supplier contract is being created
+Function - Contract terms are agreed
+Event - Contract is being signed
+Function - Payment terms are defined
+Event - Contract is being finalized
+Function - Contract is stored
+Event - Contract is being reviewed
+Function - Contract is updated
+Event - Contract
+1403: Event - The purchase order is being created
+Function - Purchase Order is created by the buyer
+Event - The purchase order details are being checked
+Function - Purchase details are verified by the procurement team
+Event - The purchase order is being updated
+Function - Order updates are implemented by the buyer
+Event - The purchase order is being printed
+Function - Purchase orders are printed by the printer
+Event - The purchase order is being reviewed
+Function - Order reviews are performed by the purchasing manager
+Event
+1390: Event - Purchase requisition is being reviewed by the procurement team
+Function - Buyer reviews purchase requisition
+Event - The purchase requisition is being evaluated
+Function - Buyer evaluates the purchase requisition
+Event - The purchase requisition is being assessed
+Function - Buyer assesses the purchase requisition
+Event - The purchase requisition is being verified
+Function - Buyer verifies the purchase requisition
+Event - The purchase requisition is being validated
+Function - Buyer validates the purchase requisition
+Event
+1292: Function - The purchasing manager verifies the request
+Event - The purchase requisition is being checked
+Function - The buyer verifies the request
+Event - The purchase requisition has been approved
+Function - The purchasing manager informs the buyer
+Event - The purchasing manager has been informed
+Function - The purchasing manager verifies the request
+Event - The purchase order is being created
+Function - The buyer verifies the request
+Event - The supplier has been selected
+Function - The purchasing manager informs the buyer
+Event
+1281: Event -   Supplier information is being received
+Function -   Supplier Profile is evaluated
+Event -   Supplier data is being verified
+Function -   Supplier Contact is updated
+Event -   Supplier is being shortlisted
+Function -   Supplier List is finalized
+Event -   Supplier proposal is being evaluated
+Function -   Supplier Negotiation is scheduled
+Event -   Supplier contract is being drafted
+Function -   Contract Terms are agreed upon
+Event -   Supplier agreement is being finalized
+Function -
+1270: Event - The purchase order document is being created
+Function - Purchase order form is filled out
+Event - The data is being checked
+Function - Data validation is performed
+Event - The data is being updated
+Function - Purchase order data is updated
+Event - The purchase order is being printed
+Function - Purchase order printout is generated
+Event - The purchase order is being saved
+Function - Purchase order is stored
+Event - The purchase order is being archived
+Function - Purchase order archive is
+1259: Event - Purchase requisition is being reviewed
+Function - Approval Committee is reviewing
+Event - Relevant information is being gathered
+Function - Purchase Clerk is collecting
+Event - Documents are being verified
+Function - Document Controller is checking
+Event - Compliance issues are being addressed
+Function - Risk Manager is resolving
+Event - Decision is being made
+Function - Approval Committee is deciding
+StartEvent   The purchasing manager has received a request
+StartEvent   The purchase requisition is being checked
+StartEvent
+1189: Function -   The purchasing manager generates a purchase requisition.
+Event -   The purchase requisition is being reviewed.
+Function -   The purchasing manager determines the budget.
+Event -   The supplier has been selected.
+Function -   The purchasing manager decides on the purchase order.
+Event -   The purchase order is being created.
+Function -   The purchasing manager checks the delivery time.
+Event -   The goods have been received.
+Function -   The purchasing manager checks the payment terms.
+Event -   The
+1178: Event - Supplier evaluation is being performed
+Function - Evaluation team assesses the supplier
+Event - Suppliers have been contacted
+Function - Supplier managers contact suppliers
+Event - Proposals have been received
+Function - Proposal evaluators evaluate the proposals
+Event - The best supplier is being selected
+Function - Procurement specialists select the best supplier
+Event - The supplier contract is being created
+Function - Contract managers create the supplier contract
+Event - The contract has been signed
+Function - Legal department signs the
+1169: Event - Goods are being received by the logistics department
+Function - Goods are transported to the warehouse
+Event - Documents are being processed by the accountant
+Function - Documents are verified for accuracy
+Event - Payments are being made to the supplier
+Function - Payments are settled with the bank
+Event - Goods are being inspected by the quality control
+Function - Goods are stored in the warehouse
+Event - Documents are being archived by the accountant
+Function - Documents are secured with a password
+Event - Goods
+1064: Function - The purchasing manager verifies the request
+Event - The approval is being recorded
+Function - The purchasing manager checks the budget
+Event - The request is being forwarded
+Function - The purchasing manager allocates funds
+Event - The supplier is being contacted
+Function - The purchasing manager creates a plan
+Event - The goods are being received
+Function - The purchasing manager tracks the order
+Event - The invoice is being processed
+Function - The purchasing manager updates the status
+Event - The payment is
+1052: Event - Purchase requisition is being verified by the purchasing manager
+Function - Purchase requisition is verified by the purchasing manager
+Event - Requisition details are being checked
+Function - Requisition details are checked by the purchasing manager
+Event - Purchase requisition is being validated
+Function - Purchase requisition is validated by the purchasing manager
+Event - Purchase requisition is being approved
+Function - Purchase requisition is approved by the buyer
+Event - Purchase requisition is being signed
+Function - Purchase
+974: Event - The purchase requisition is being checked by the procurement team
+Function - The procurement team is checking the purchase requisition
+Event - The purchase requisition has been checked by the procurement team
+Function - The procurement team has checked the purchase requisition
+Event - The purchase order is being created by the purchasing manager
+Function - The purchasing manager is creating the purchase order
+Event - The purchase order has been created by the purchasing manager
+Function - The purchasing manager has created the purchase order
+975: Subprocess 1 - Goods Inspection
+Subprocess 2 - Goods Packaging
+Subprocess 3 - Goods Shipping
+Subprocess 4 - Goods Storage
+Subprocess 5 - Goods Return
+Subprocess 6 - Goods Repair
+Subprocess LOOP - Goods Verification
+Subprocess 7 - Goods Documentation
+Subprocess 8 - Goods Labeling
+Subprocess 9 - Goods Warehousing
+Subprocess 10 - Goods Tracking
+Subprocess 11 - Goods Testing
+Subprocess
+843: Event - Goods are being packaged by the warehouse staff
+Function - Packaging machine is operated by the operator
+Event - Barcodes are being scanned by the warehouse staff
+Function - Label printer is used by the operator
+Event - Boxes are being labeled by the warehouse staff
+Function - Box is sealed by the operator
+Event - Boxes are being stacked by the warehouse staff
+Function - Forklift is operated by the driver
+Event - Boxes are being loaded by the warehouse staff
+Function - Warehouse is
+844: Subprocess 1 - Goods inspection and quality control
+Subprocess 2 - Goods receiving and storage
+Subprocess 3 - Purchase order creation and supplier selection
+Subprocess 4 - Purchase requisition approval and purchasing manager notification
+Subprocess 5 - Goods transportation and customs clearance
+Subprocess 6 - Purchase order sending and tracking
+Subprocess 7 - Goods delivery and acceptance
+Subprocess 8 - Goods return and warranty claims
+Subprocess LOOP - Goods packaging and labeling
+689: Event - Goods are being received by the warehouse team
+Function - Warehouse staff receive goods
+Event - Goods are being inspected by quality control
+Function - Quality control officers inspect goods
+Event - Goods are being stored in the warehouse
+Function - Warehouse staff store goods
+Event - Goods are being documented in the system
+Function - System administrators update database
+Event - Goods are being tracked in the system
+Function - System administrators monitor inventory
+Event - Goods are being restocked in the warehouse
+Function
+845: Event - Samples are being inspected
+Event - Goods are being checked
+Event - Products are being tested
+Event - Packages are being opened
+Event - Samples are being analyzed
+Event - Goods are being verified
+Event - Products are being certified
+Event - Samples are being examined
+Event - Goods are being examined
+Event - Packages are being checked
+Event - Products are being inspected
+Event - Samples are being verified
+Event - Goods are being tested
+Event - Products are being verified
+Event
+976: Event - Goods are being inspected
+Event - Samples are being tested
+Event - Goods are being stored
+Event - Samples are being analyzed
+Event - Samples are being documented
+Event - Goods are being rejected
+Event - Goods are being cleared
+Event - Goods are being packaged
+Event - Goods are being labeled
+Event - Goods are being dispatched
+Event - Goods are being released
+Event - Goods are being certified
+Event - Goods are being verified
+Event - Goods are being confirmed
+Event
+679: Function - Supplier evaluation team is evaluating suppliers
+Event - Supplier information is being collected
+Function - Evaluation criteria are being defined
+Event - Supplier data is being analyzed
+Function - Evaluation process is being standardized
+Event - Supplier ratings are being calculated
+Function - Evaluation results are being documented
+Event - Supplier selection is being finalized
+Function - Shortlisted suppliers are being contacted
+Event - Supplier agreements are being negotiated
+Function - Supplier contracts are being reviewed
+Event - Supplier performance is being monitored
+Function
+667: Event - Goods are being transported
+Function - Purchasing manager is coordinating
+Event - Purchase order is being processed
+Function - Goods are being stored
+Event - Invoice is being received
+Function - Payment is being processed
+Event - Goods are being inspected
+Function - Goods are being packed
+Event - Delivery note is being issued
+Function - Goods are being shipped
+Event - Goods are being received
+Function - Goods are being unpacked
+Event - Goods are being checked
+Function - Goods are
+567: Function - The buyer has sent the purchase requisition
+Event - The approval has been received
+Function - The requisition has been validated
+Event - The request has been processed
+Function - The buyer has checked the requisition
+Event - The information has been updated
+Function - The requisition has been confirmed
+Event - The document has been signed
+Function - The requisition has been finalized
+Event - The notice has been given
+Function - The requisition has been archived
+Event -
+556: Event -   Purchase requisition is being evaluated
+Function -   Evaluation is done by the purchasing manager
+Event -   Supplier data is being checked
+Function -   Supplier data is verified by the quality manager
+Event -   Quality of goods is being assessed
+Function -   Quality of goods is assessed by the quality control team
+Event -   Supplier's reliability is being assessed
+Function -   Supplier's reliability is assessed by the risk management team
+Event -   Supplier's performance is being rated
+545: Event -   Purchase requisition is being cancelled
+Function -   Cancellation request is sent to the purchasing manager
+Event -   Cancellation request is being processed
+Function -   Goods are being returned to the supplier
+Event -   Goods have been received by the supplier
+Function -   Purchase order is being reissued
+Event -   Purchase order is being checked
+Function -   Purchase order is being updated
+Event -   Purchase order is being reviewed
+Function -   Purchase order is being
+534: Event - Goods are being received by the warehouse
+ Function - Warehouse clerk inspects goods
+ Event - Goods are being stored in the warehouse
+ Function - Warehouse clerk updates inventory
+ Event - Goods are being unpacked by the warehouse staff
+ Function - Warehouse clerk verifies packaging
+ Event - Goods are being checked for damage
+ Function - Warehouse clerk documents defects
+ Event - Goods are being weighed by the scale
+ Function - Warehouse clerk records weight
+ Event - Goods are being put away in the warehouse
+ Function
+525: Event -   The inventory levels are being monitored
+Function -   Inventory clerk updates inventory records
+Event -   The inventory discrepancies are being reported
+Function -   Inventory clerk investigates discrepancies
+Event -   The inventory discrepancies are being verified
+Function -   Inventory clerk verifies inventory records
+Event -   The inventory levels are being updated
+Function -   Inventory clerk updates inventory levels
+Event -   The inventory records are being audited
+Function -   Inventory clerk audits inventory records
+Event -   The
+512: Event - Budget forecast is being created
+Function - Budget analyst creates forecast
+Event - Budget is being reviewed
+Function - Review team verifies budget
+Event - Budget is being adjusted
+Function - Budget analyst adjusts budget
+Event - Budget is being finalized
+Function - Review team finalizes budget
+Event - Budget is being approved
+Function - Manager approves budget
+Event - Budget is being communicated
+Function - Budget analyst distributes budget
+Event - Budget is being stored
+Function - IT department saves budget
+501: Event - Purchase order information is being processed
+Function - Purchase Order Creator is creating PO
+Event - Purchase order information is being verified
+Function - Purchase Order Validator is validating PO
+Event - Purchase order information is being updated
+Function - Purchase Order Updater is updating PO
+Event - Purchase order information is being reviewed
+Function - Purchase Order Reviewer is reviewing PO
+Event - Purchase order information is being finalized
+Function - Purchase Order Finalizer is finalizing PO
+Event - Purchase order information
+492: Event - Supplier information is being received
+Function - Supplier Profile is being created
+Event - Supplier data is being verified
+Function - Supplier Evaluation is being done
+Event - Supplier is being contacted
+Function - Supplier Contract is being negotiated
+Event - Supplier Contract is being finalized
+Function - Supplier Agreement is being signed
+Event - Supplier Performance is being monitored
+Function - Supplier Relationship is being maintained
+Event - Supplier Information is being updated
+StartEvent   The purchasing manager has received a request
+Start
+355: Function -   The buyer checks the purchase requisition requirements
+Event -   A purchase requisition has been submitted
+Function -   The buyer creates a purchase order
+Event -   A purchase order has been created
+Function -   The purchasing manager reviews the purchase order
+Event -   A purchase order has been reviewed
+Function -   The purchasing manager creates a contract
+Event -   A contract has been created
+Function -   The purchasing manager sends the contract to the supplier
+Event -
+343: Event - Supplier information is being received
+Function - Supplier evaluation team is evaluating
+Event - Tender documents are being sent
+Function - Supplier database is updated
+Event - Offers are being received
+Function - Offer comparison is performed
+Event - Shortlist is being created
+Function - Shortlist is verified
+Event - Final evaluation is being done
+Function - Best supplier is selected
+Event - Supplier contract is being prepared
+Function - Contract negotiation is initiated
+Event - Contract is being signed
+Function -
+331: Event - The goods are being delivered
+Function - Freight forwarder ships goods
+Event - The customs declaration is being prepared
+Function - Clerk prepares customs declaration
+Event - The customs declaration is being submitted
+Function - Customs officer reviews customs declaration
+Event - The goods are being cleared
+Function - Customs officer releases goods
+Event - The goods are being stored
+Function - Warehouse manager stores goods
+Event - The goods are being inspected
+Function - Quality control officer inspects goods
+Event - The
+115: Event - The purchase requisition is being checked by the quality manager
+Function - Purchase requisition is verified by the quality manager
+Event - The purchase requisition has been checked by the quality manager
+Function - Purchase requisition is verified by the quality manager
+Event - The purchase requisition has been verified by the quality manager
+Function - Purchase requisition is verified by the quality manager
+Event - The purchase requisition is being verified by the quality manager
+Function - Purchase requisition is verified
+116: Subprocess 1 - Request Validation
+Subprocess 2 - Purchase Order Creation
+Subprocess 3 - Supplier Selection
+Subprocess LOOP - Goods Inspection
+Subprocess 4 - Payment Processing
+Subprocess 5 - Inventory Management
+Subprocess 6 - Goods Delivery
+Subprocess 7 - Request Cancellation
+Subprocess 8 - Requisition Approval
+User: In the event-driven process chain about a procurement process of an international company, starting with StartEvent - Purchase requisition
+50: Event - The purchase order is being created
+Function - Purchase order is being prepared by the clerk
+Event - The data is being validated
+Function - The clerk validates the data
+Event - The purchase order is being updated
+Function - The clerk updates the purchase order
+Event - The purchase order is being saved
+Function - The clerk saves the purchase order
+Event - The purchase order is being checked
+Function - The clerk checks the purchase order
+Event - The purchase order is being verified
+117: Event - Information is being checked
+ Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event - Information is being checked
+Event
+38: Event - Purchase requisition is being processed
+Function - Purchase requisition checker is checking the purchase requisition
+Event - The purchase requisition is being reviewed
+Function - Reviewer is reviewing the purchase requisition
+Event - The purchase requisition is being updated
+Function - Update manager is updating the purchase requisition
+Event - The purchase requisition is being finalized
+Function - Finalizer is finalizing the purchase requisition
+Event - The purchase requisition is being verified
+Function - Ver
+110: Event -   Purchase requisition is being verified
+ Function -   Buyer verifies purchase requisition details
+ Event -   Purchase requisition is being updated
+ Function -   Buyer updates purchase requisition information
+ Event -   Purchase requisition is being forwarded
+ Function -   Buyer forwards purchase requisition to manager
+ Event -   Purchase requisition is being escalated
+ Function -   Manager escalates purchase requisition to buyer
+ Event -   Purchase requisition is being rejected
+ Function -   Buyer rejects purchase
+1: EndEvent - Goods have been delivered
+EndEvent - Purchase order has been confirmed
+EndEvent - Documents have been processed
+EndEvent - Contract has been signed
+EndEvent - Invoice has been received
+EndEvent - Goods have been received
+EndEvent - Purchase order has been cancelled
+EndEvent - Supplier has been paid
+EndEvent - Payment has been made
+EndEvent - Goods have been inspected
+EndEvent - Invoice has been paid
+EndEvent - Contract has been terminated
+End

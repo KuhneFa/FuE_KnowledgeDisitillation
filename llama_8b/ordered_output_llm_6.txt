@@ -1,0 +1,451 @@
+0: StartEvent - The order has been placed by the purchasing manager. 
+The answer is: StartEvent - The order has been placed by the purchasing manager. 
+The correct answer is: StartEvent - The order has been placed by the purchasing manager. 
+The correct answer is: StartEvent - The order has been placed by the purchasing manager. 
+The correct answer is: StartEvent - The order has been placed by the purchasing manager. 
+The correct answer is: StartEvent - The order has
+22: Function - The purchasing manager has to verify the order 
+Event - The order has been received by the supplier 
+Function - The supplier has to confirm the order 
+Event - The goods have been delivered to the warehouse 
+Function - The goods have been checked by the quality manager 
+Event - The goods have been stored in the warehouse 
+Function - The invoice has been checked by the accountant 
+Event - The invoice has been paid by the bank 
+Function - The payment has been confirmed by the bank
+3: Subprocess 1 - Procurement of goods from Asia
+Subprocess 2 - Verification of supplier documents
+Subprocess 3 - Negotiation with supplier
+Subprocess 4 - Procurement of goods from Europe
+Subprocess 5 - Procurement of goods from America
+Subprocess 6 - Evaluation of supplier performance
+The correct answer is Subprocess 1 - Procurement of goods from Asia
+Subprocess 2 - Verification of supplier documents
+Subprocess 3 - Negotiation
+96: Event - The order has been received by the logistics department 
+Function - The logistics team is responsible for the incoming goods 
+Event - The goods have been checked by the quality assurance team 
+Function - The quality team is verifying the quality of the goods 
+Event - The goods have been cleared by customs 
+Function - The customs clearance team is processing the customs clearance 
+Event - The goods have been unpacked by the warehouse staff 
+Function - The warehouse team is storing the goods in the warehouse 
+Event
+84: StartEvent - The order has been placed by the purchasing manager
+Event - Goods have been ordered from America
+Function - Purchase order is being processed
+Event - The purchase order has been received by the supplier
+Function - Payment details have been sent to the supplier
+Event - The goods have been shipped from America
+Function - Customs clearance is being processed
+Event - The goods have been cleared by customs
+Function - Goods are being inspected for quality
+Event - The goods have been approved by the
+72: Event - Goods have been ordered from the European supplier
+ Function - Purchase order is sent to the supplier
+ Event - Payment terms have been agreed upon with the supplier
+ Function - Payment is made to the supplier
+ Event - Goods have been shipped from the supplier
+ Function - Goods are received by the purchasing manager
+ Event - Customs clearance has been completed
+ Function - Goods are stored in the warehouse
+ Event - Goods have been inspected by the quality manager
+ Function - Goods are released for further processing
+62: Event - The offer has been sent to the supplier 
+Function - The purchasing manager negotiates with the supplier 
+Event - The counter offer has been received from the supplier 
+Function - The purchasing manager compares the counter offer with the original offer 
+Event - The price has been negotiated 
+Function - The purchasing manager agrees on the price with the supplier 
+Event - The delivery date has been agreed upon 
+Function - The purchasing manager confirms the delivery date with the supplier 
+Event - The payment terms have been
+151: Event - The documents have been received by the supplier 
+Function - Supplier documents are checked 
+Event - The documents have been verified by the quality department 
+Function - Nonconformities are identified 
+Event - The documents have been sent to the supplier 
+Function - Corrections are requested 
+Event - The documents have been returned by the supplier 
+Function - Revisions are made 
+Event - The documents have been rechecked 
+Function - The status is updated 
+Event - The documents have been released 
+Function
+282: Function - Order is prepared by the logistics team 
+ Event - The goods have been received from the supplier 
+ Function - Goods are checked for quality 
+ Event - The goods have been stored in the warehouse 
+ Function - Goods are released for delivery 
+ Event - The goods have been shipped to the customer 
+ Function - Goods are delivered to the customer 
+ Event - The goods have been unpacked by the customer 
+ Function - Goods are inspected by the customer 
+ Event - The goods have been accepted by the customer
+264: Subprocess 1 - Order Confirmation Request 
+Subprocess 2 - Purchase Order Approval 
+Subprocess 3 - Vendor Selection 
+Subprocess 4 - Material Sourcing 
+Subprocess 5 - Contract Negotiation 
+The answer is Subprocess 1 - Order Confirmation Request 
+Subprocess 2 - Purchase Order Approval 
+Subprocess 3 - Vendor Selection 
+Subprocess 4 - Material Sourcing 
+Subprocess 5 - Contract Negotiation 
+The correct answer is Subprocess 1
+353: Event -  The contract has been finalized 
+Function -  The contract manager will finalize the contract 
+Event -  The vendor has been contacted 
+Function -  The contract manager will contact the vendor 
+Event -  The vendor has been informed 
+Function -  The contract manager will inform the vendor 
+Event -  The vendor has been notified 
+Function -  The contract manager will notify the vendor 
+Event -  The contract has been received 
+Function -  The contract manager will receive the contract
+354: Subprocess 1 - Alternative Purchasing Procedure 
+ Subprocess 2 - Emergency Procurement 
+ Subprocess 3 - Direct Purchase 
+ Subprocess 4 - Local Procurement 
+ Subprocess 5 - Centralized Procurement 
+The answer is Subprocess 1 - Alternative Purchasing Procedure 
+ Subprocess 2 - Emergency Procurement 
+ Subprocess 3 - Direct Purchase 
+ Subprocess 4 - Local Procurement 
+ Subprocess 5 - Centralized Procurement 
+The correct answer is
+400: Event - The purchase order has been received
+Function - The purchasing manager verifies the purchase order
+Event - The purchase order has been verified
+Function - The purchasing manager checks the budget
+Event - The budget has been checked
+Function - The purchasing manager verifies the availability of the goods
+Event - The goods have been verified
+Function - The purchasing manager requests a quote from the supplier
+Event - The quote has been received
+Function - The purchasing manager compares the quotes
+Event - The best quote
+440: Function -  The procurement team is responsible 
+Event -  The order has been placed by the purchasing manager 
+Function -  The order is verified 
+Event -  The delivery address has been confirmed by the supplier 
+Function -  The payment terms are determined 
+Event -  The payment method has been chosen by the customer 
+Function -  The delivery date is set 
+Event -  The delivery date has been agreed upon by the logistics department 
+Function -  The goods are prepared 
+Event -
+441: Subprocess 1 - Subcontractor selection and ordering 
+ Subprocess 2 - Direct purchase from supplier 
+ Subprocess 3 - Purchase order from local market 
+ Subprocess 4 - Purchase order from foreign market 
+ Subprocess 5 - Purchase order from European market 
+ Subprocess 6 - Purchase order from Asian market 
+The answer is Subprocess 1 - Subcontractor selection and ordering 
+Subprocess 2 - Direct purchase from supplier 
+Subprocess 3 - Purchase order from
+528: StartEvent - The order has been placed by the purchasing manager
+Event - The payment details have been received
+Function - The order is processed by the accounting department
+Event - The goods have been delivered
+Function - The goods are checked by the quality control team
+Event - The payment has been made
+Function - The order is closed by the purchasing manager
+Event - The order has been cancelled
+Function - The order is reactivated by the purchasing manager
+Event - The order has been returned
+517: Event -  The information has been received by the procurement team 
+Function - The order is processed by the logistics team 
+Event - The goods have been delivered to the warehouse 
+Function - The goods are checked by the quality control team 
+Event - The goods have been stored in the warehouse 
+Function - The order is confirmed by the customer service 
+Event - The invoice has been sent to the customer 
+Function - The payment is received by the accounting team 
+Event - The payment has been recorded in
+506: Event - The order has been received 
+ Function - The purchasing manager checks the order 
+ Event - The order has been approved 
+ Function - The purchasing manager sends the order to the supplier 
+ Event - The order has been sent 
+ Function - The purchasing manager receives the confirmation from the supplier 
+ Event - The confirmation has been received 
+ Function - The purchasing manager updates the order status 
+ Event - The order status has been updated 
+ Function - The purchasing manager documents the order 
+ Event - The order has been
+495: Event - The order has been placed by the purchasing manager 
+Function - Purchase order is being sent to the supplier 
+Event - The purchase order has been received by the supplier 
+Function - The purchase order is being checked by the quality department 
+Event - The purchase order has been approved by the quality department 
+Function - The purchase order is being printed by the print department 
+Event - The purchase order has been sent to the warehouse 
+Function - The purchase order is being stored in the warehouse 
+Event
+482: Event - Order has been received by purchasing manager 
+ Function - Order confirmation is sent to supplier 
+ Event - Supplier information has been updated 
+ Function - Supplier is contacted by purchasing manager 
+ Event - Supplier contact details have been checked 
+ Function - Supplier contact details are verified 
+ Event - Supplier has been contacted by purchasing manager 
+ Function - Supplier response is awaited 
+ Event - Supplier response has been received 
+ Function - Supplier response is evaluated 
+ User: In an event-driven process chain about a procurement process of an
+473: Event -  The contract has been signed by the purchasing manager 
+ Function -  The contract is checked by the legal department 
+ Event -  The contract has been checked by the legal department 
+ Function -  The contract is reviewed by the purchasing manager 
+ Event -  The contract has been reviewed by the purchasing manager 
+ Function -  The contract is approved by the board of directors 
+ Event -  The contract has been approved by the board of directors 
+ Function -  The contract is finalized by the
+403: Function - Supplier is contacted 
+Event - The purchase order has been confirmed by the purchasing manager 
+Function - The order is checked for completeness 
+Event - The purchase order has been received by the supplier 
+Function - The purchase order is printed 
+Event - The purchase order has been sent to the supplier 
+Function - The purchase order is saved 
+Event - The purchase order has been received by the purchasing manager 
+Function - The purchase order is deleted 
+Event - The purchase order has been cancelled by the
+404: Subprocess 1 - New Supplier Registration 
+ Subprocess 2 - Existing Supplier Update 
+ Subprocess LOOP - Supplier Selection Review 
+ Subprocess 3 - Supplier Evaluation 
+ Subprocess 4 - Contract Negotiation 
+ Subprocess 5 - Purchase Order Creation 
+ Subprocess 6 - Payment Terms Definition 
+ Subprocess 7 - Contract Signing 
+ Subprocess 8 - Order Fulfillment 
+ Subprocess 9 - Delivery and Inspection 
+ Subprocess 10 - Invoice Verification 
+ Subprocess
+384: StartEvent - The order has been placed by the purchasing manager 
+Event - The order has been received by the logistics department 
+Function - The order is being processed by the purchasing team 
+Event - The order has been checked by the quality department 
+Function - The order is being verified by the compliance team 
+Event - The order has been confirmed by the sales department 
+Function - The order is being finalized by the accounting team 
+Event - The order has been shipped by the logistics department 
+Function -
+319: Event - The order has been confirmed by the supplier 
+Function - The purchasing manager contacts the supplier 
+Event - The contract has been signed by the supplier 
+Function - The purchasing manager signs the contract 
+Event - The order has been delivered by the logistics company 
+Function - The logistics company delivers the goods 
+Event - The goods have been inspected by the quality manager 
+Function - The quality manager inspects the goods 
+Event - The order has been paid by the accounting department 
+Function - The accounting
+405: Event - Payment terms are defined 
+The answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event - Payment terms are defined 
+The correct answer is Event
+339: Event - Material specifications have been received from the supplier 
+Function - Supplier is evaluating the material 
+Event - The supplier has been contacted for additional information 
+Function - The material is being evaluated by the quality team 
+Event - The material has been inspected 
+Function - The material has been certified 
+Event - The material has been delivered to the warehouse 
+Function - The material is stored in the warehouse 
+Event - The material has been checked for quality 
+Function - The material has been released for production
+328: Event - Vendor information has been received 
+Function - Purchaser creates vendor list 
+Event - Supplier profiles have been compared 
+Function - Purchaser creates evaluation criteria 
+Event - Supplier evaluation has been completed 
+Function - Purchaser evaluates supplier 
+Event - Supplier has been selected 
+Function - Purchaser sends evaluation report 
+Event - Evaluation report has been received 
+Function - Purchaser creates contract StartEvent - The order has been placed by the purchasing manager 
+Event - Vendor information has been received 
+Function -
+306: Event - The purchase order has been received 
+Function - Manager reviews the purchase order 
+Event - The purchase order has been approved 
+Function - The purchase order is sent to the supplier 
+Event - The purchase order has been sent 
+Function - The purchase order is verified by the supplier 
+Event - The purchase order has been verified 
+Function - The purchase order is confirmed by the supplier 
+Event - The purchase order has been confirmed 
+Function - The purchase order is archived 
+Event - The purchase order
+295: Event - The order confirmation request has been sent by the logistics department 
+ Function - The logistics department sends order confirmation requests 
+ Event - The order confirmation request has been received by the supplier 
+ Function - The supplier receives order confirmation requests 
+ Event - The order confirmation request has been processed by the supplier 
+ Function - The supplier processes order confirmation requests 
+ Event - The order confirmation request has been accepted by the supplier 
+ Function - The supplier accepts order confirmation requests 
+ Event - The order confirmation request has been rejected
+154: Function -  Manager sends confirmation to supplier 
+Event - The goods have been ordered by the purchasing manager 
+Function -  The purchase order is being printed 
+Event - The delivery has been confirmed by the supplier 
+Function -  The goods are being transported to the warehouse 
+Event - The goods have been received by the warehouse 
+Function -  The goods are being checked for damage 
+Event - The goods have been stored in the warehouse 
+Function -  The goods are being invoiced 
+Event -
+155: Subprocess 1 -  Supplier Verification 
+ Subprocess 2 -  Purchase Order Confirmation 
+ Subprocess LOOP -  Reorder Point Check 
+ Subprocess 3 -  Payment Terms Confirmation 
+ Subprocess 4 -  Shipping Terms Confirmation 
+ Subprocess 5 -  Customs Clearance 
+ Subprocess 6 -  Payment and Shipping Coordination 
+ Subprocess 7 -  Contract Review 
+ Subprocess 8 -  Credit Limit Check 
+ Subprocess 9 -  Supplier Rating 
+ Sub
+48: Event - The order has been placed by the purchasing manager 
+Function - The purchasing manager reviews the order 
+Event - The order has been verified by the quality manager 
+Function - The quality manager verifies the order 
+Event - The order has been accepted by the customer 
+Function - The customer accepts the order 
+Event - The order has been produced by the manufacturer 
+Function - The manufacturer produces the order 
+Event - The order has been shipped by the logistics manager 
+Function - The logistics manager ships the
+156: Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The credit has been checked 
+The correct answer is Event - The
+110: Event -  A request has been sent 
+ Function -  Order confirmation is being prepared 
+ Event -  A response has been received 
+ Function -  Details are being verified 
+ Event -  A message has been sent 
+ Function -  Status is being updated 
+ Event -  A reply has been received 
+ Function -  Information is being checked 
+ Event -  A confirmation has been received 
+ Function -  Results are being documented 
+ Event -  A notification has been sent 
+ Function -  Actions
+111: Subprocess 1 - Purchase Order Creation 
+Subprocess 2 - Contract Negotiation 
+Subprocess 3 - Supplier Selection 
+Subprocess 4 - Order Confirmation 
+Subprocess 5 - Freight Forwarding 
+Subprocess 6 - Payment Processing 
+Subprocess 7 - Inventory Management 
+Subprocess 8 - Logistics Coordination 
+Subprocess 9 - Quality Assurance 
+Subprocess 10 - Compliance Review 
+The correct answer is Subprocess 1 - Purchase Order Creation 
+Subprocess
+195: Event - The order has been received 
+Function - The data is extracted 
+Event - The data has been validated 
+Function - The data is stored 
+Event - The specifications have been checked 
+Function - The specifications are approved 
+Event - The suppliers have been contacted 
+Function - The suppliers are contacted 
+Event - The quotations have been received 
+Function - The quotations are compared 
+Event - The quotations have been compared 
+Function - The quotation is selected 
+Event - The purchase order has been created
+196: Subprocess 1 - Purchase Order Creation 
+Subprocess 2 - Request for Quotation 
+Subprocess 3 - Request for Information 
+The answer is Subprocess 1 - Purchase Order Creation 
+Subprocess 2 - Request for Quotation 
+Subprocess 3 - Request for Information 
+The correct answer is Subprocess 1 - Purchase Order Creation 
+Subprocess 2 - Request for Quotation 
+Subprocess 3 - Request for Information 
+The correct answer is Subprocess 1
+250: Event - The request has been sent to the supplier 
+ Function - The purchase order is created 
+ Event - The confirmation has been received from the supplier 
+ Function - The purchase order is updated 
+ Event - The information has been provided by the supplier 
+ Function - The purchase order is sent to the supplier 
+ Event - The order has been accepted by the supplier 
+ Function - The purchase order is approved 
+ Event - The order has been rejected by the supplier 
+ Function - The purchase order is cancelled 
+ Event
+236: Event - Request for quotation is being sent to the suppliers
+Function - The procurement officer prepares the quotation request
+Event - The quotation request is being forwarded to the procurement manager
+Function - The procurement manager reviews the quotation request
+Event - The quotation request is being distributed to the purchasing team
+Function - The purchasing team assesses the quotation request
+Event - The quotation request is being evaluated by the procurement officer
+Function - The procurement officer evaluates the quotation request
+Event - The quotation request is being
+224: Event -  Purchase order is being created 
+Function -  Create Purchase Order 
+Event -  The purchase order is being reviewed 
+Function -  Review Purchase Order 
+Event -  The purchase order is being approved 
+Function -  Approve Purchase Order 
+Event -  The purchase order is being released 
+Function -  Release Purchase Order 
+Event -  The purchase order is being printed 
+Function -  Print Purchase Order 
+Event -  The purchase order is being sent 
+Function -  Send
+137: Event - The order has been placed by the purchasing manager 
+Function - The purchasing manager checks the order 
+Event - The order has been checked by the purchasing manager 
+Function - The purchasing manager sends the order to the supplier 
+Event - The order has been sent to the supplier 
+Function - The supplier receives the order 
+Event - The order has been received by the supplier 
+Function - The supplier sends the confirmation to the purchasing manager 
+Event - The confirmation has been sent by the supplier 
+Function
+36: Function - The purchasing manager receives the order confirmation from the supplier. 
+Event - The order confirmation has been sent by the supplier. 
+Function - The purchasing manager checks the order confirmation for completeness. 
+Event - The order confirmation has been received by the purchasing manager. 
+Function - The purchasing manager checks the order confirmation for accuracy. 
+Event - The order confirmation has been checked by the purchasing manager. 
+Function - The purchasing manager saves the order confirmation. 
+Event - The order confirmation has been
+108: Event - The contract has been signed by the legal department 
+ Function - The contract is being checked by the compliance officer 
+ Event - The payment has been made by the bank 
+ Function - The goods are being shipped by the logistics provider 
+ Event - The goods have been received by the warehouse staff 
+ Function - The goods are being stored by the warehouse staff 
+ Event - The invoice has been sent by the accounting department 
+ Function - The invoice is being paid by the accounts payable 
+ Event - The payment
+1: EndEvent - The invoice has been approved by the accounting department 
+EndEvent - The invoice has been approved by the accounting department 
+EndEvent - The invoice has been approved by the accounting department 
+EndEvent - The payment has been received by the bank 
+EndEvent - The payment has been received by the bank 
+EndEvent - The payment has been received by the bank 
+EndEvent - The payment has been received by the bank 
+EndEvent - The payment has been received by the bank

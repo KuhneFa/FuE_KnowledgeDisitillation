@@ -1,0 +1,879 @@
+0: StartEvent - Purchasing has been authorized. 
+
+The final answer is: StartEvent - Purchasing has been authorized. 
+In the context of an event driven process chain about procurement process of an international company, provide a starting event. The starting event should be made up of concrete instances of the following part-of-speech tags: 'NOUN AUX VERB NOUN', and provide a sentence in passive voice, e.g. 'person has received information' or 'text is displayed'. Prefix your
+27: Function -  Purchase order is being created 
+Event -  Purchase order has been created 
+Function -  Documents are being prepared 
+Event -  Documents have been prepared 
+Function -  Tender is being issued 
+Event -  Tender has been issued 
+Function -  Bids are being evaluated 
+Event -  Bids have been evaluated 
+Function -  Contract is being negotiated 
+Event -  Contract has been negotiated 
+Function -  Purchase order is being updated 
+Event -  Purchase order has
+3: Subprocess 1 - Purchase Order Creation 
+ Subprocess 2 - Contract Negotiation 
+ Subprocess 3 - Procurement Request 
+ Subprocess 4 - Supplier Selection 
+ Subprocess 5 - Goods Receipt 
+ Subprocess 6 - Payment Processing 
+ Subprocess 7 - Inventory Management 
+ Subprocess 8 - Audit Control 
+
+The final answer is Subprocess 1 - Purchase Order Creation 
+ Subprocess 2 - Contract Negotiation 
+ Subprocess 3 - Procurement Request 
+ Sub
+257: Function - Request is made to the supplier 
+ Event - Payment has been received 
+ Function - Invoice is verified 
+ Event - Contract has been signed 
+ Function - Goods are shipped 
+ Event - Goods have been delivered 
+ Function - Goods are stored 
+ Event - Goods have been received 
+ Function - Goods are checked 
+ Event - Goods have been inspected 
+ Function - Goods are prepared 
+ Event - Goods have been packaged 
+ Function - Goods are dispatched 
+ Event - Goods have been shipped 
+
+The final answer is Function
+233: Subprocess 1 - Request for Quotation is sent 
+Subprocess 2 - Goods are ordered 
+Subprocess 3 - Suppliers are contacted 
+Subprocess 4 - Purchase order is created 
+Subprocess 5 - Goods are received 
+Subprocess 6 - Payment is made 
+Subprocess 7 - Supplier is selected 
+Subprocess 8 - Goods are inspected 
+Subprocess 9 - Contract is signed 
+Subprocess 10 - Return is processed 
+
+The final answer is Sub
+389: Function -  Request is created 
+ Event -  Return is processed 
+ Function -  Data is retrieved 
+ Event -  Information is received 
+ Function -  Details are verified 
+ Event -  Request is updated 
+ Function -  Information is stored 
+ Event -  Data is validated 
+ Function -  Request is sent 
+ Event -  Information is confirmed 
+ Function -  Details are updated 
+ Event -  Data is processed 
+ Function -  Request is approved 
+ Event -  Information is displayed 
+ Function
+433: Function -  Manager verifies supplier
+Event -  Supplier information has been received
+Function -  Manager reviews supplier
+Event -  Supplier information has been verified
+Function -  Manager approves supplier
+Event -  Supplier information has been reviewed
+Function -  Manager sends approval
+Event -  Supplier information has been approved
+Function -  Manager sends contract
+Event -  Contract has been sent
+Function -  Manager sends invoice
+Event -  Invoice has been sent
+Function -  Manager sends
+475: Function - Purchase order is created 
+Event - Purchase order has been received 
+Function - Payment details are verified 
+Event - Payment details have been checked 
+Function - Supplier is contacted 
+Event - Supplier has been contacted 
+Function - Product specifications are confirmed 
+Event - Product specifications have been confirmed 
+Function - Delivery date is set 
+Event - Delivery date has been set 
+Function - Goods are dispatched 
+Event - Goods have been dispatched 
+Function - Payment is made 
+Event - Payment has been made
+476: Subprocess 1 - Branch of Global Sourcing 
+ Subprocess 2 - International Procurement 
+ Subprocess 3 - Global Logistics 
+ Subprocess 4 - Contract Negotiation 
+ Subprocess 5 - Local Purchasing 
+ Subprocess 6 - Purchase Order Management 
+ Subprocess 7 - Supplier Selection 
+ Subprocess 8 - Goods Receipt 
+ Subprocess 9 - Invoice Processing 
+ Subprocess 10 - Customs Clearance  ### 
+ User: In an event-driven process chain about a
+615: Event - Request for goods has been sent 
+Function - Buyer orders goods 
+Event - Goods have been received 
+Function - Goods are inspected 
+Event - Inspection has been completed 
+Function - Goods are stored 
+Event - Goods have been ordered 
+Function - Goods are delivered 
+Event - Delivery has been confirmed 
+Function - Goods are released 
+Event - Goods have been released 
+Function - Goods are returned 
+
+The final answer is Event  Request for goods has been sent 
+Function  Buyer orders goods
+603: Event - Information has been received 
+ Function - Buyer creates order 
+ Event - Goods have been ordered 
+ Function - Supplier is contacted 
+ Event - Request has been sent 
+ Function - Goods are delivered 
+ Event - Goods have been delivered 
+ Function - Goods are inspected 
+ Event - Goods have been inspected 
+ Function - Goods are accepted 
+ Event - Goods have been accepted 
+ Function - Goods are stored 
+ Event - Goods have been stored 
+ Function - Goods are shipped 
+
+The final answer is Event  Information has
+591: Event - Procurement process has been initiated 
+ Function - Buyer creates a purchase order 
+ Event - Order details have been confirmed 
+ Function - Logistics manager prepares shipment 
+ Event - Shipment has been dispatched 
+ Function - Warehouse manager receives goods 
+ Event - Goods have been inspected 
+ Function - Quality manager checks quality 
+ Event - Quality report has been issued 
+ Function - Supplier is contacted 
+
+The final answer is Event  Procurement process has been initiated 
+ Function  Buyer creates a purchase order 
+ Event  Order
+581: Event - Request has been placed 
+ Function - Manager is assigning 
+ Event - Information has been received 
+ Function - Employee is evaluating 
+ Event - Decision has been made 
+ Function - Supplier is selected 
+ Event - Purchase order has been created 
+ Function - Employee is preparing 
+ Event - Order has been sent 
+ Function - Manager is verifying 
+ Event - Payment has been received 
+ Function - Employee is confirming 
+
+The final answer is Event  Request has been placed 
+ Function  Manager is assigning 
+ Event  Information
+569: Event - Request has been sent 
+Function - Buyer contacts supplier 
+Event - Quote has been received 
+Function - Buyer evaluates quote 
+Event - Order has been placed 
+Function - Supplier ships goods 
+Event - Goods have been delivered 
+Function - Goods are inspected 
+Event - Payment has been made 
+Function - Buyer updates database 
+Event - Contract has been terminated 
+Function - Supplier is informed 
+
+The final answer is Event  Request has been sent 
+Function  Buyer contacts supplier 
+Event  Quote has
+559: Event - Request for quotation has been submitted
+Function - Manager reviews the quotations
+Event - The quotations have been evaluated
+Function - The best quotation is selected
+Event - The quotation has been accepted
+Function - The contract is negotiated
+Event - The contract has been signed
+Function - The purchase order is issued
+Event - The purchase order has been received
+Function - The goods are inspected
+Event - The goods have been stored
+Function - The payment is made 
+The final answer is Event
+547: Event -  Order has been placed 
+ Function -  Purchase Manager verifies 
+ Event -  Documents have been received 
+ Function -  Purchase Manager orders 
+ Event -  Information has been confirmed 
+ Function -  Purchase Manager signs 
+ Event -  Payment has been made 
+ Function -  Purchase Manager delivers 
+ Event -  Goods have been delivered 
+ Function -  Purchase Manager checks 
+ Event -  Quality has been inspected 
+ Function -  Purchase Manager reports 
+
+The final answer is Event  Order has been
+535: Event - Request has been submitted 
+Function - Manager approves request 
+Event - Order has been placed 
+Function - Warehouse receives goods 
+Event - Goods have been received 
+Function - Goods are stored 
+Event - Goods are inspected 
+Function - Goods are shipped 
+Event - Goods have been delivered 
+Function - Invoice is issued 
+Event - Payment has been made 
+Function - Payment is recorded 
+
+The final answer is Event - Request has been submitted 
+Function - Manager approves request 
+Event - Order has been
+627: Event - Purchase orders have been sent
+ Function - Purchaser is placing
+ Event - Receipts have been received
+ Function - Receiving clerk is processing
+ Event - Goods have been delivered
+ Function - Goods are being stored
+ Event - Payment has been made
+ Function - Accountant is verifying
+ Event - Goods have been inspected
+ Function - Inspector is evaluating
+ Event - Receipt has been confirmed
+ Function - Clerk is filing
+ Event - Inspection report has been completed
+ Function - Manager is approving
+628: Subprocess 1 - Contract negotiation begins 
+ Subprocess 2 - Goods inspection starts 
+ Subprocess 3 - Payment terms are agreed 
+ Subprocess 4 - Goods delivery is scheduled 
+ Subprocess 5 - Invoice verification process starts 
+ Subprocess 6 - Payment request is sent 
+ Subprocess 7 - Goods are received 
+ Subprocess 8 - Warranty period is defined 
+
+The final answer is Subprocess 1 - Contract negotiation begins 
+ Subprocess 2 - Goods inspection starts
+740: Event - Information has been received 
+Function - Buyer selects supplier 
+Event - Quotation has been sent 
+Function - Purchaser evaluates quotation 
+Event - Order has been placed 
+Function - Logistics prepares shipment 
+Event - Goods have been delivered 
+Function - Quality control checks goods 
+Event - Invoice has been received 
+Function - Accountant settles invoice 
+Event - Payment has been made 
+
+The final answer is Event  Information has been received Function  Buyer selects supplier Event  Quotation has been sent Function
+756: Event -  Purchasing has been approved 
+ Function -  Manager approves purchase order 
+ Event -  Contract has been sent 
+ Function -  Document is printed 
+ Event -  Supplier has been informed 
+ Function -  Letter is dispatched 
+ Event -  Payment has been scheduled 
+ Function -  Invoice is created 
+ Event -  Goods have been delivered 
+ Function -  Product is received 
+ Event -  Invoice has been received 
+ Function -  Payment is verified 
+ Event -  Payment has been made
+757: Subprocess 1 - Purchasing Team has been informed 
+ Subprocess 2 - Request for Quotation has been sent 
+
+The final answer is Subprocess 1 - Purchasing Team has been informed Subprocess 2 - Request for Quotation has been sent 
+In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following partofspeech tags NOUN AUX VERB NOUN and provide
+784: Event - Request has been received 
+ Function - Purchasing Officer reviews 
+ Event - Specifications have been confirmed 
+ Function - Request for Quotation is sent 
+ Event - Proposals have been evaluated 
+ Function - Best proposal is selected 
+ Event - Contract has been signed 
+ Function - Purchase Order is issued 
+ Event - Goods have been delivered 
+ Function - Goods are inspected 
+ Event - Defects have been reported 
+ Function - Goods are replaced 
+
+The final answer is Event - Request has been received Function - Purch
+729: Function -  Supplier is contacted 
+Event -  Request has been approved 
+Function -  Goods are inspected 
+Event -  Goods have been delivered 
+Function -  Documents are verified 
+Event -  Invoice has been paid 
+Function -  Goods are stored 
+Event -  Goods are returned 
+Function -  Supplier is notified 
+Event -  Purchase order has been cancelled 
+
+The final answer is Function  Supplier is contacted 
+Event  Request has been approved 
+Function  Goods are inspected 
+Event
+720: Event - Order has been placed 
+Function - Buyer orders goods 
+Event - Goods have been received 
+Function - Goods are stored 
+Event - Goods have been checked 
+Function - Goods are inspected 
+Event - Goods have been cleared 
+Function - Goods are dispatched 
+Event - Goods have been delivered 
+Function - Goods are unloaded 
+Event - Goods have been unpacked 
+
+The final answer is StartEvent  Purchasing has been authorized 
+Event - Order has been placed 
+Function - Buyer orders goods
+709: Event - Purchase orders have been sent
+Function - Purchase manager verifies purchase orders
+Event - Purchase orders have been verified
+Function - Purchase manager confirms purchase orders
+Event - Purchase orders have been confirmed
+Function - Purchase manager sends purchase orders to suppliers
+Event - Purchase orders have been received
+Function - Suppliers verify purchase orders
+Event - Purchase orders have been verified
+Function - Suppliers confirm purchase orders
+Event - Purchase orders have been confirmed
+Function - Purchase manager receives confirmation from suppliers
+Event -
+696: Event - Purchase order has been sent 
+Function - Purchaser places order 
+Event - Goods have been received 
+Function - Goods are inspected 
+Event - Payment has been made 
+Function - Supplier is paid 
+Event - Order has been cancelled 
+Function - Purchaser cancels order 
+Event - Goods are returned 
+Function - Goods are returned to supplier 
+Event - Order has been fulfilled 
+Function - Purchaser confirms order 
+
+The final answer is Event - Purchase order has been sent 
+Function - Purch
+685: Event - Order has been placed 
+Function - Manager orders goods 
+Event - Goods have been received 
+Function - Clerk unpacks goods 
+Event - Goods have been inspected 
+Function - Inspector checks quality 
+Event - Goods have been approved 
+Function - Manager authorizes payment 
+Event - Payment has been made 
+Function - Accountant pays supplier 
+Event - Goods have been delivered 
+
+The final answer is Event  Order has been placed 
+Function  Manager orders goods 
+Event  Goods have been received
+674: Event - Purchase order has been created 
+ Function - Buyer places order 
+ Event - Goods have been received 
+ Function - Warehouse staff checks goods 
+ Event - Payment has been processed 
+ Function - Accountant settles payment 
+ Event - Warranty has been registered 
+ Function - Customer support handles warranty 
+ Event - Return has been initiated 
+ Function - Logistics team handles return 
+ Event - Claim has been made 
+ Function - Insurance company handles claim 
+
+The final answer is Event - Purchase order has been created 
+ Function - Buyer
+663: Event -  Invoice has been sent 
+ Function -  Payment officer verifies 
+ Event -  Goods are stored 
+ Function -  Warehouse staff handles 
+ Event -  Warranty claims are filed 
+ Function -  Customer support team resolves 
+ Event -  Products are returned 
+ Function -  Logistics team receives 
+ Event -  Claims are processed 
+ Function -  Accounting department manages 
+ Event -  Credits are issued 
+ Function -  Financial officer approves 
+
+The final answer is Event -  Invoice has been sent
+523: Function - Request for quotation is sent 
+ Event - The quotation has been received 
+ Function - The quotation is evaluated 
+ Event - The quotation has been approved 
+ Function - The contract is awarded 
+ Event - The contract has been signed 
+ Function - The goods are delivered 
+ Event - The goods have been received 
+ Function - The payment is made 
+ Event - The payment has been received 
+ Function - The quality is checked 
+ Event - The quality has been confirmed 
+ Function - The order is closed 
+ Event
+513: Event - Goods are received 
+ Function - Purchaser verifies the goods 
+ Event - Payment request is sent 
+ Function - Accounting department processes the payment request 
+ Event - Invoice is verified 
+ Function - Financial controller checks the invoice 
+ Event - Goods are stored 
+ Function - Warehouse manager receives the goods 
+ Event - Warranty period is defined 
+ Function - Purchaser defines the warranty period 
+ Event - Goods are returned 
+ Function - Purchaser returns the goods 
+ Event - Payment is made 
+ Function - Accounting department makes
+436: Event - Purchase order has been sent 
+ Function - Purchase order is created 
+ Event - Request for quotation has been received 
+ Function - Request for quotation is sent 
+ Event - Goods have been delivered 
+ Function - Goods are transported 
+ Event - Goods have been inspected 
+ Function - Goods are stored 
+ Event - Invoice has been received 
+ Function - Invoice is paid 
+ Event - Payment has been confirmed 
+ Function - Payment is verified 
+ Event - Goods have been returned 
+ Function - Goods are returned 
+ Event -
+437: Subprocess 1 - Purchase Order Preparation 
+Subprocess 2 - Payment Processing 
+Subprocess 3 - Subcontractor Selection 
+Subprocess 4 - Goods Receipt 
+Subprocess 5 - Subcontractor Management 
+Subprocess 6 - Contract Negotiation 
+Subprocess 7 - Supplier Evaluation 
+Subprocess 8 - Invoice Verification 
+Subprocess 9 - Delivery Management 
+Subprocess 10 - Subcontractor Qualification 
+Subprocess 11 - Subcontractor Monitoring
+392: Event - Invoice has been sent 
+ Function - Invoice is processed by clerk 
+ Event - Payment has been received 
+ Function - Payment is verified by accountant 
+ Event - Invoice is confirmed 
+ Function - Invoice is updated 
+ Event - Payment is processed 
+ Function - Payment is recorded 
+ Event - Payment details have been verified 
+ Function - Payment details are updated 
+ Event - Invoice is paid 
+ Function - Invoice is archived 
+ Event - Payment is confirmed 
+ Function - Payment is settled 
+ Event - Payment status is updated
+393: Subprocess 1 - Request for quotation 
+ Subprocess 2 - Request for offer 
+
+The final answer is Subprocess 1 - Request for quotation 
+ Subprocess 2 - Request for offer 
+ Subprocess 1 - Request for quotation 
+ Subprocess 2 - Request for offer 
+ Subprocess LOOP - Request for quotation 
+
+The final answer is Subprocess 1 - Request for quotation 
+ Subprocess 2 - Request for offer 
+ Subprocess 1 - Request for quotation 
+ Subprocess
+377: Event - Payment has been cleared
+Function - Invoice is created
+Event - Goods have been received
+Function - Warehouse is updated
+Event - Purchase order has been placed
+Function - Supplier is contacted
+Event - Goods are being transported
+Function - Package is tracked
+Event - Delivery has been confirmed
+Function - Product is released
+Event - Product has been inspected
+Function - Quality is checked
+Event - Return has been processed
+Function - Refund is issued
+Event - Dispute has been
+394: Event - Contract has been approved The final answer is Event - Contract has been approved. 
+In the context of an event driven process chain about a procurement process of an international company, provide a starting event. The starting event should be made up of concrete instances of the following part-of-speech tags: 'NOUN AUX VERB NOUN', and provide a sentence in passive voice, e.g. 'person has received information' or 'text is displayed'. Prefix your answer with the keyword '
+438: StartEvent - Purchasing has been authorized. The final answer is StartEvent - Purchasing has been authorized. 
+ In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 2 subprocesses, describe the one event of the potentially repeating subprocess Request for quotation  Subprocess 2  Request for offer The final answer is Subprocess 1  Request for quotation  Subprocess 2  Request for offer  Subprocess 1
+365: Function - Order is placed 
+Event - Contract is signed has been verified 
+Function - Goods are received 
+Event - Payment is processed has been received 
+Function - Invoice is created 
+Event - Goods are inspected has been delivered 
+Function - Goods are stored 
+Event - Payment is received has been processed 
+Function - Goods are shipped 
+Event - Goods are received has been stored 
+Function - Goods are returned 
+Event - Invoice is sent has been created 
+Function - Goods are restocked 
+Event -
+351: Function - Goods are verified 
+Event - Goods have been received 
+Function - Documents are prepared 
+Event - Documents have been verified 
+Function - Goods are stored 
+Event - Goods have been inspected 
+Function - Goods are released 
+Event - Goods have been stored 
+
+The final answer is 
+Function  Goods are verified 
+Event  Goods have been received 
+Function  Documents are prepared 
+Event  Documents have been verified 
+Function  Goods are stored 
+Event  Goods have been inspected 
+Function  Goods
+339: Function - Order is placed 
+ Event - Suppliers have been contacted 
+ Function - Products are analyzed 
+ Event - Prices have been compared 
+ Function - Suppliers are informed 
+ Event - Quotations have been received 
+ Function - Documents are verified 
+ Event - Payments have been authorized 
+
+The final answer is 
+Function - Order is placed 
+Event - Suppliers have been contacted 
+Function - Products are analyzed 
+Event - Prices have been compared 
+Function - Suppliers are informed 
+Event - Quotations have been received
+327: Function - Invoice is created 
+ Event - Payment is received 
+ Function - Order is updated 
+ Event - Goods are delivered 
+ Function - Stock is checked 
+ Event - Invoice is verified 
+ Function - Order is cancelled 
+ Event - Goods are returned 
+
+The final answer is 
+Function - Invoice is created 
+Event - Payment is received 
+Function - Order is updated 
+Event - Goods are delivered 
+Function - Stock is checked 
+Event - Invoice is verified 
+Function - Order is cancelled 
+Event - Goods are
+317: Function - Order is placed 
+ Event - Goods have been received 
+ Function - Invoice is verified 
+ Event - Payment has been confirmed 
+ Function - Goods are stored 
+ Event - Invoice has been sent 
+ Function - Goods are shipped 
+ Event - Payment has been processed 
+ Function - Invoice is printed 
+ Event - Goods have been delivered 
+ Function - Invoice is archived 
+ Event - Goods have been returned 
+
+The final answer is Function  Order is placed 
+Event  Goods have been received 
+Function  Invoice is
+303: Function -  Purchasing department verifies supplier information 
+ Event -  Supplier information has been received 
+ Function -  Contract manager reviews purchase order details 
+ Event -  Purchase order details have been sent 
+ Function -  Logistics team prepares shipment 
+ Event -  Shipment has been prepared 
+ Function -  Accounting department verifies payment 
+ Event -  Payment has been verified 
+ Function -  Purchasing department updates procurement system 
+ Event -  System has been updated 
+ Function -  Contract manager reviews contract 
+ Event
+293: Function - Contract is being reviewed 
+Event - Contracts have been received 
+Function - Purchase order is being created 
+Event - Orders have been placed 
+Function - Supplier is being contacted 
+Event - Prices have been compared 
+Function - Payment is being processed 
+Event - Payments have been made 
+Function - Goods are being inspected 
+Event - Goods have been delivered 
+Function - Product is being stored 
+Event - Goods have been received 
+Function - Order is being cancelled 
+Event - Orders have been cancelled
+281: Function - Purchase order is created 
+ Event - Purchase order has been received 
+ Function - Goods are stored 
+ Event - Goods are being delivered 
+ Function - Goods are checked 
+ Event - Goods are being inspected 
+ Function - Goods are released 
+ Event - Goods are being packaged 
+ Function - Goods are shipped 
+ Event - Goods are being tracked 
+ Function - Goods are received 
+ Event - Goods are being verified 
+
+The final answer is Function  Purchase order is created 
+Event  Purchase order has been received
+269: Event - Request for Quotation has been sent 
+ Function - Supplier is contacted 
+ Event - Information is received 
+ Function - Supplier is selected 
+ Event - Quotation is evaluated 
+ Function - Contract is prepared 
+ Event - Contract is signed 
+ Function - Goods are ordered 
+ Event - Goods are received 
+ Function - Goods are inspected 
+ Event - Goods are delivered 
+
+The final answer is Event  Request for Quotation has been sent 
+Function  Supplier is contacted 
+Event  Information is received 
+Function
+138: Function - Budgeting is done by accountant 
+Event - Purchasing has been approved 
+Function - Goods are received from supplier 
+Event - Invoice has been received 
+Function - Goods are stored in warehouse 
+Event - Storage has been confirmed 
+Function - Goods are checked for damage 
+Event - Damage has been reported 
+Function - Damage is repaired by technician 
+Event - Repair has been confirmed 
+Function - Goods are shipped to customer 
+Event - Shipment has been confirmed 
+Function - Goods are checked for
+139: Subprocess 1 - Branch Approval 
+ Subprocess 2 - Contract Review 
+ Subprocess 3 - Vendor Selection 
+ Subprocess 4 - Price Negotiation 
+ Subprocess 5 - Payment Verification 
+
+The final answer is Subprocess 1 - Branch Approval 
+ Subprocess 2 - Contract Review 
+ Subprocess 3 - Vendor Selection 
+ Subprocess 4 - Price Negotiation 
+ Subprocess 5 - Payment Verification 
+ In the context of an event driven process chain about procurement process of
+221: Event - Purchase order has been placed 
+ Function - Manager reviews the offer 
+ Event - Quotation has been received 
+ Function - Supplier is contacted 
+ Event - Supplier has been informed 
+ Function - Payment details are discussed 
+ Event - Contract has been signed 
+ Function - Goods are delivered 
+ Event - Goods have been received 
+ Function - Goods are inspected 
+
+The final answer is Event - Purchase order has been placed 
+Function - Manager reviews the offer 
+Event - Quotation has been received 
+Function - Supplier
+211: Event - Purchase order has been created 
+Function - Supplier is contacted 
+Event - Supplier information has been confirmed 
+Function - Contract is negotiated 
+Event - Contract has been signed 
+Function - Goods are delivered 
+Event - Goods have been received 
+Function - Invoice is paid 
+Event - Invoice has been sent 
+Function - Goods are stored 
+Event - Goods are stored 
+Function - Invoice is verified 
+Event - Invoice has been verified 
+Function - Contract is reviewed 
+
+The final answer is Event - Purchase
+197: Event - Purchase orders have been sent 
+ Function - Purchase manager manages 
+ Event - Quotes have been received 
+ Function - Procurement specialist evaluates 
+ Event - Suppliers have been selected 
+ Function - Logistics coordinator transports 
+ Event - Goods have been delivered 
+ Function - Warehouse manager stores 
+ Event - Documents have been processed 
+ Function - Accountant settles 
+ Event - Payment has been made 
+ Function - Customer service handles 
+ Event - Complaints have been resolved 
+ Function - Quality manager monitors 
+ Event - Goods have been
+185: Event - Purchase order has been received
+Function - Supplier is contacted
+Event - Request for quotation has been sent
+Function - Supplier information has been updated
+Event - Quotation has been received
+Function - Quotation evaluation has been started
+Event - Quotation evaluation has been completed
+Function - Quotation has been selected
+Event - Contract has been signed
+Function - Contract details have been confirmed
+Event - Goods have been delivered
+Function - Goods have been inspected
+Event - Goods have been
+171: Event - Order has been received 
+ Function - Manager is preparing 
+ Event - Quote has been sent 
+ Function - Buyer is evaluating 
+ Event - Proposal has been received 
+ Function - Analyst is analyzing 
+ Event - Review has been completed 
+ Function - Team is deciding 
+ Event - Decision has been made 
+ Function - Coordinator is implementing 
+ Event - Report has been generated 
+ Function - Specialist is reviewing 
+
+The final answer is Event - Order has been received 
+ Function - Manager is preparing 
+ Event - Quote has
+101: Event - Purchase order has been received 
+ Function - Buyer approves supplier 
+ Event - Supplier has been contacted 
+ Function - Buyer has selected products 
+ Event - Supplier has confirmed 
+ Function - Products have been ordered 
+ Event - Order has been processed 
+ Function - Order status has been updated 
+ Event - Products have been shipped 
+ Function - Shipment has been tracked 
+ Event - Shipment has been received 
+ Function - Receipt has been confirmed 
+ Event - Products have been delivered 
+ Function - Delivery has been reported
+125: Function - Purchase order is created 
+Event - Supplier has been selected 
+Function - Payment terms are determined 
+Event - Payment details have been sent 
+Function - Delivery address is verified 
+Event - Goods have been received 
+Function - Quality check is performed 
+Event - Defects have been reported 
+Function - Return goods are arranged 
+Event - Goods are returned 
+Function - Refund is processed 
+Event - Refund has been processed 
+Function - Contract is finalized 
+Event - Contract has been finalized
+111: Function - Invoice is calculated 
+ Event - Payment has been made 
+ Function - Goods are stored 
+ Event - Goods have been received 
+ Function - Supplier is contacted 
+ Event - Supplier has been contacted 
+ Function - Order is confirmed 
+ Event - Order has been confirmed 
+ Function - Goods are inspected 
+ Event - Goods have been inspected 
+ Function - Payment is processed 
+ Event - Payment has been processed 
+
+The final answer is 
+Function  Invoice is calculated 
+Event  Payment has been made 
+Function  Goods
+91: Function - Goods are inspected 
+ Event - Goods have been received 
+ Function - Documents are verified 
+ Event - Documents have been checked 
+ Function - Goods are stored 
+ Event - Goods have been delivered 
+ Function - Goods are prepared 
+ Event - Goods have been processed 
+ Function - Goods are dispatched 
+ Event - Goods have been shipped 
+ Function - Goods are sold 
+ Event - Goods have been transferred 
+ Function - Goods are returned 
+ Event - Goods have been received 
+
+The final answer is Function - Goods are
+79: Function - Approval is granted by manager
+Event - Purchase order has been created
+Function - Supplier is informed about order
+Event - Delivery date has been confirmed
+Function - Payment details are confirmed
+Event - Goods have been received
+Function - Goods are stored in warehouse
+Event - Payment has been made
+Function - Order status is updated
+Event - Delivery has been reported
+Function - Warranty is provided
+Event - Order has been cancelled
+Function - Order status is updated
+Event - Order has
+65: Function - Supplier information is verified 
+ Event - Supplier information has been received 
+ Function - Supplier is registered 
+ Event - Supplier registration has been confirmed 
+ Function - Supplier is approved 
+ Event - Supplier approval has been processed 
+ Function - Supplier is assigned 
+ Event - Supplier assignment has been completed 
+ Function - Supplier is notified 
+ Event - Supplier notification has been sent 
+ Function - Supplier is activated 
+ Event - Supplier activation has been finished 
+
+The final answer is Function  Supplier information is verified 
+ Event  Supplier
+53: Function - Request is created 
+Event - Goods are ordered 
+Function - Purchase order is sent 
+Event - Payment is received 
+Function - Goods are received 
+Event - Information is displayed 
+Function - Goods are stored 
+Event - Goods are checked 
+Function - Goods are delivered 
+Event - Goods are returned 
+Function - Goods are sold 
+Event - Goods are inspected 
+
+The final answer is Function - Request is created 
+Event - Goods are ordered 
+Function - Purchase order is sent 
+Event - Payment
+39: Function -  Purchase Order is created 
+Event -  Quotations have been received 
+Function -  Quotation is evaluated 
+Event -  Supplier has been selected 
+Function -  Contract is signed 
+Event -  Goods have been delivered 
+Function -  Invoice is verified 
+Event -  Payment has been made 
+Function -  Records are updated 
+Event -  Process has been completed 
+
+The final answer is Function  Purchase Order is created 
+Event  Quotations have been received
+136: Function -  Manager is responsible 
+ Event -  Purchasing has been approved 
+ Function -  Budget is verified 
+ Event -  Supplier has been contacted 
+ Function -  List is prepared 
+ Event -  Quote has been received 
+ Function -  Comparison is made 
+ Event -  Best offer has been selected 
+ Function -  Order is confirmed 
+ Event -  Goods have been delivered 
+ Function -  Invoice is processed 
+
+The final answer is Function  Manager is responsible 
+Event  Purchasing has
+1: EndEvent - Order has been confirmed 
+
+The final answer is EndEvent  Order has been confirmed 
+In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following partofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your, provide an end event in the style of the partofspeech tags 'NOUN
