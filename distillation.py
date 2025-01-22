@@ -371,14 +371,14 @@ print(f"[INFO] Using device: {device}")
 
 teacher_model_name = "meta-llama/Llama-3.1-70B-Instruct"  # Beispiel
 teacher_tokenizer = AutoTokenizer.from_pretrained(teacher_model_name)
-teacher_model = AutoModelForCausalLM.from_pretrained(teacher_model_name, trust_remote_code=True)
+teacher_model = AutoModelForCausalLM.from_pretrained(teacher_model_name, trust_remote_code=True,device_map="auto")
 teacher_model.to(device)
 teacher_model.eval()
 
 # 2) Student initialisieren
 student_model_name = "meta-llama/Llama-3.2-3B-Instruct"  # Beispiel: kleineres Modell
 student_tokenizer = AutoTokenizer.from_pretrained(student_model_name)
-student_model = AutoModelForCausalLM.from_pretrained(student_model_name,trust_remote_code=True)
+student_model = AutoModelForCausalLM.from_pretrained(student_model_name,trust_remote_code=True,device_map="auto")
 student_model.to(device)
 
 # Achtung: GPT-2 hat oft keinen pad_token_id -> ggf. setzen:
