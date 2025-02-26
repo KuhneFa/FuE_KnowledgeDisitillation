@@ -1,0 +1,500 @@
+0: StartEvent - Order is received by procurement.
+3: Phi3: Function - Team reviews order details
+Event - Order status is updated by system
+Function - Specialist checks product availability
+Event - Product information is received from supplier
+Function - Team prepares purchase requisition
+Event - Requisition is approved by manager
+Function - Specialist sends purchase order
+Event - Order confirmation is received from supplier
+Function - Team updates purchase order status
+Event - Invoice is received from supplier
+Function - Specialist verifies invoice details
+Event - Payment is made to supplier
+165: StartEvent - Order is received by procurement 
+Function - Procurement team checks order 
+Event - Order data is verified by system 
+Function - Procurement team confirms order 
+Event - Order confirmation is sent to supplier 
+Function - Supplier receives order confirmation 
+Event - Order is processed by supplier 
+Function - Procurement team receives order status 
+Event - Order status is updated by system 
+Function - Procurement team reviews order status 
+Event - Order is ready for delivery by supplier 
+Function - Procurement
+166: Phi3: Subprocess 1 - Purchase Requisition 
+ Subprocess 2 - Contract Renewal 
+ Subprocess 3 - Inventory Management 
+ User: In the context of an event driven process chain about procurement process of an international company, provide a function. The function should be made up of concrete instances of the following part-of-speech tags: 'VERB NOUN', and provide a sentence in active voice, e.g. 'person checks information' or'system updates text'. Prefix
+217: Phi3: Event - Order is checked by procurement 
+Function - Procurement team reviews order 
+Event - Order is approved by management 
+Function - Procurement team updates order status 
+Event - Order is sent to supplier 
+Function - Procurement team selects supplier 
+Event - Supplier is notified of order 
+Function - Procurement team tracks order 
+Event - Order is received by procurement 
+Function - Procurement team inspects order 
+Event - Order is accepted by procurement 
+Function - Procurement team updates
+205: Event - Purchase request is approved by manager 
+ Function - Procurement team verifies order details 
+ Event - Order details are confirmed by procurement 
+ Function - Procurement team selects suppliers 
+ Event - Suppliers are shortlisted by procurement 
+ Function - Procurement team sends request for quotation 
+ Event - Request for quotation is received by suppliers 
+ Function - Procurement team evaluates quotations 
+ Event - Supplier is selected by procurement team 
+ Function - Procurement team places order with supplier
+281: Event - Goods are transported to warehouse 
+ Function - Team updates delivery status 
+ Event - Delivery status is updated 
+ Function - Manager checks delivery status 
+ Event - Delivery status is checked 
+ Function - Manager verifies goods 
+ Event - Goods are verified 
+ Function - Team stores goods 
+ Event - Goods are stored 
+ Function - Team updates inventory 
+ Event - Inventory is updated 
+ Function - Manager checks inventory 
+ Event - Inventory is checked 
+ Function - Team updates records 
+ Event - Records are updated 
+ Function - Manager
+321: Function - Procurement checks order 
+ Event - Order is verified by team 
+ Function - Procurement team contacts supplier 
+ Event - Supplier is informed about order 
+ Function - Procurement team negotiates price 
+ Event - Price is agreed with supplier 
+ Function - Procurement team prepares contract 
+ Event - Contract is sent to supplier 
+ Function - Procurement team waits for response 
+ Event - Response is received from supplier 
+ Function - Procurement team reviews response 
+ Event - Response is evaluated by team 
+ Function -
+322: Phi3: Subprocess 1 - Check order completeness 
+ Subprocess 2 - Verify order validity 
+ Subprocess 3 - Determine procurement type 
+ Subprocess 4 - Check supplier availability 
+ Subprocess 5 - Evaluate supplier reliability 
+ Subprocess 6 - Assess order urgency 
+ Subprocess 7 - Identify procurement regulations
+440: Event - Order is checked by procurement team 
+Function - Procurement team verifies order details 
+Event - Order details are confirmed by supplier 
+Function - Supplier information is updated by procurement team 
+Event - Order is approved by procurement manager 
+Function - Procurement manager assigns order to buyer 
+Event - Buyer is notified of assigned order 
+Function - Buyer checks order against company policies 
+Event - Order is compliant with company policies 
+Function - Buyer prepares purchase order document 
+Event - Purchase order document is reviewed by
+441: Phi3: Subprocess 1 - Check Order Completeness 
+ Subprocess 2 - Determine Order Priority 
+ Subprocess 3 - Assign Procurement Officer 
+ Subprocess 4 - Verify Supplier Information 
+ Subprocess 5 - Create Procurement Plan
+546: Event - Purchase request is approved by manager 
+Function - Procurement team sends request to suppliers 
+Event - Quotations are received from suppliers 
+Function - Procurement team evaluates quotations 
+Event - Evaluation result is sent to manager 
+Function - Manager makes procurement decision 
+Event - Procurement decision is communicated to team 
+Function - Procurement team places order with supplier 
+Event - Order confirmation is received from supplier 
+Function - Procurement team updates order status 
+Event - Order status is updated in system
+529: Phi3: Subprocess 1 - Check order completeness 
+ Subprocess 2 - Determine procurement strategy 
+ Subprocess 3 - Verify supplier information 
+ Subprocess 4 - Assess order risks
+582: Function - Procurement team reviews order details 
+Event - Order data is checked by system 
+Function - Procurement team verifies supplier information 
+Event - Supplier status is updated by procurement 
+Function - Procurement team checks budget availability 
+Event - Budget is approved by finance department 
+Function - Procurement team creates purchase requisition 
+Event - Purchase requisition is sent to manager 
+Function - Procurement team waits for approval decision
+573: Function - Procurement team reviews order details
+Event - Order data is verified by system
+Function - Procurement team checks supplier information
+Event - Supplier details are validated by database
+Function - Procurement team creates purchase requisition
+Event - Purchase requisition is approved by manager
+Function - Procurement team sends purchase order
+Event - Purchase order is received by supplier
+Function - Procurement team updates order status
+564: Phi3: Function - Procurement team checks order 
+ Event - Order details are verified by system 
+ Function - Procurement team sends order request 
+ Event - Order request is approved by manager 
+ Function - Procurement team creates purchase order 
+ Event - Purchase order is sent to supplier 
+ Function - Procurement team tracks order status 
+ Event - Order status is updated by system 
+ Function - Procurement team receives order confirmation
+555: Phi3: 
+Function - Check order completeness 
+Event - Order status is updated by system 
+Function - Determine procurement strategy 
+Event - Procurement plan is approved by manager 
+Function - Verify supplier information 
+Event - Supplier data is validated by system 
+Function - Assess order risks 
+Event - Risk assessment report is generated by system 
+Function - Create procurement order
+495: Event - Request is sent to supplier 
+Function - Team checks order details 
+Event - Details are verified by team 
+Function - Manager approves order request 
+Event - Approval is sent to procurement 
+Function - Procurement team checks budget 
+Event - Budget is approved by procurement 
+Function - Procurement team sends request 
+Event - Request is received by supplier 
+Function - Supplier checks request details 
+Event - Details are confirmed by supplier 
+Function - Supplier sends quotation 
+Event - Quotation is received by procurement
+517: Event - Request is sent to supplier 
+ Function - Team sends request to supplier 
+ Event - Quotation is received from supplier 
+ Function - Team evaluates quotation from supplier 
+ Event - Order is placed with supplier 
+ Function - Team places order with supplier 
+ Event - Goods are shipped by supplier 
+ Function - Team tracks goods shipment status 
+ Event - Goods are delivered to warehouse 
+ Function - Team inspects goods delivery 
+ Event - Invoice is received from supplier
+506: Event - Goods are required by department 
+Function - Procurement checks inventory 
+Event - Inventory is not sufficient 
+Function - Procurement sends request 
+Event - Quotation is received by procurement 
+Function - Procurement evaluates quotation 
+Event - Supplier is selected by procurement 
+Function - Procurement places order 
+Event - Order is confirmed by supplier 
+Function - Procurement updates records 
+Event - Goods are delivered by supplier
+482: Phi3: Event - Request is sent to supplier 
+Function - Procurement team checks order 
+Event - Order is verified by system 
+Function - Procurement team prepares contract 
+Event - Contract is sent to supplier 
+Function - Supplier team reviews contract 
+Event - Contract is signed by supplier 
+Function - Procurement team sends order 
+Event - Order is received by logistics 
+Function - Logistics team checks order 
+Event - Goods are delivered to warehouse 
+Function - Warehouse team receives goods 
+Event - Goods
+469: Phi3: Event - Order completeness is checked by system 
+Function - Procurement officer verifies order details 
+Event - Order details are verified by procurement 
+Function - Procurement officer determines order priority 
+Event - Order priority is determined by procurement 
+Function - Procurement officer assigns procurement task 
+Event - Procurement task is assigned to officer 
+Function - Procurement officer checks supplier information 
+Event - Supplier information is checked by procurement 
+Function - Procurement officer creates procurement plan 
+Event - Procurement plan
+426: Function - Procurement team checks order 
+Event - Order data are being verified 
+Function - Procurement team creates purchase request 
+Event - Purchase request is being approved 
+Function - Procurement team selects suppliers 
+Event - Supplier list is being evaluated 
+Function - Procurement team sends request for quotation 
+Event - Quotations are being received 
+Function - Procurement team evaluates quotations 
+Event - Quotation is being selected 
+Function - Procurement team negotiates terms 
+Event - Contract terms are being
+414: Event - Order is checked by procurement 
+Function - Procurement team reviews order 
+Event - Order is approved by management 
+Function - Management team sends approval 
+Event - Supplier is selected by procurement 
+Function - Procurement team contacts supplier 
+Event - Supplier is informed about order 
+Function - Supplier sends order confirmation 
+Event - Order confirmation is received by procurement 
+Function - Procurement team checks confirmation 
+Event - Order is processed by logistics 
+Function - Logistics team prepares shipment
+402: Event - Request is submitted by supplier 
+ Function - Procurement team reviews request 
+ Event - Request is approved by management 
+ Function - Procurement team creates order 
+ Event - Order is sent to supplier 
+ Function - Procurement team tracks order 
+ Event - Order is confirmed by supplier 
+ Function - Procurement team updates records 
+ Event - Order is received by warehouse 
+ Function - Warehouse team inspects order 
+ Event - Order is stored in inventory 
+ Function - Warehouse team updates inventory 
+ User: In an
+390: Phi3: Event - Request is checked by department 
+Function - Procurement team verifies order 
+Event - Order is approved by manager 
+Function - Procurement team creates contract 
+Event - Contract is sent to supplier 
+Function - Procurement team monitors delivery 
+Event - Goods are received by warehouse 
+Function - Warehouse team inspects goods 
+Event - Invoice is received by accounting 
+Function - Accounting team verifies invoice 
+Event - Payment is made to supplier 
+Function - Procurement team updates records
+378: Event - Goods are identified by procurement team 
+ Function - Procurement team checks inventory 
+ Event - Inventory is checked by procurement team 
+ Function - Procurement team searches suppliers 
+ Event - Suppliers are searched by procurement team 
+ Function - Procurement team compares offers 
+ Event - Offers are compared by procurement team 
+ Function - Procurement team selects supplier 
+ Event - Supplier is selected by procurement team 
+ Function - Procurement team sends order 
+ Event - Order is sent by procurement team 
+ Function - Procurement team
+366: Phi3: Event - Order form is sent to supplier 
+Function - Procurement team sends order form 
+Event - Supplier is selected for order 
+Function - Procurement team evaluates suppliers 
+Event - Order value is approved by management 
+Function - Procurement team prepares order documents 
+Event - Order documents are reviewed by manager 
+Function - Procurement team updates order status 
+Event - Order status is updated in system 
+Function - Procurement team tracks order shipment 
+Event - Order shipment is received by warehouse
+354: Event - Order information is checked by system 
+ Function - System checks order data 
+ Event - Order data is verified by system 
+ Function - System determines order priority 
+ Event - Order priority is determined by system 
+ Function - System assigns procurement officer 
+ Event - Procurement officer is assigned by system 
+ Function - System verifies supplier information 
+ Event - Supplier information is verified by system 
+ Function - System creates procurement plan 
+ Event - Procurement plan is created by system 
+ Function - System sends procurement plan to officer
+284: Event - Request is sent to supplier 
+Function - Team sends request 
+Event - Quotation is received from supplier 
+Function - Team evaluates quotation 
+Event - Quotation is approved by management 
+Function - Manager approves quotation 
+Event - Order is placed to supplier 
+Function - Team places order 
+Event - Order is confirmed by supplier 
+Function - Team confirms order 
+Event - Invoice is received from supplier 
+Function - Team checks invoice 
+Event - Payment is made to supplier 
+Function - Team makes payment
+285: Phi4: Subprocess 1 - Domestic Sourcing 
+ Phi5: Subprocess LOOP - International Sourcing 
+ User: In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order is received by procurement and branching into Subprocess 1 - Domestic Sourcing and Subprocess LOOP - International Sourcing provide names of 2 branches of mutually exclusive subprocesses of Subprocess 1 - Domestic Sourcing. Prefix each with 'Subprocess %Number%
+195: Phi3: Event - Request is made by customer. 
+Function - Procurement team checks order details. 
+Event - Order details are confirmed by team. 
+Function - Procurement team searches for supplier. 
+Event - Supplier is found by procurement team. 
+Function - Procurement team compares prices. 
+Event - Prices are compared by procurement team. 
+Function - Procurement team places order. 
+Event - Order is placed by procurement team. 
+Function - Procurement team tracks shipment.
+42: Event - Order is checked by procurement 
+Function - Procurement team reviews order details 
+Event - Order details are verified by procurement 
+Function - Procurement team checks order completeness 
+Event - Order completeness is confirmed by procurement 
+Function - Procurement team sends order acknowledgement 
+Event - Order acknowledgement is received by supplier 
+Function - Supplier reviews order acknowledgement 
+Event - Order acknowledgement is confirmed by supplier 
+Function - Procurement team updates order status 
+Event - Order status is updated in system 
+Function - System
+43: Phi3: Subprocess 1 - Order verification and validation 
+ Subprocess 2 - Supplier selection and evaluation 
+ Subprocess 3 - Contract negotiation and agreement 
+ Subprocess 4 - Purchase requisition creation and approval 
+ Subprocess 5 - Goods and services ordering 
+ Subprocess 6 - Payment processing and settlement 
+ Subprocess 7 - Delivery and inventory management 
+ Subprocess 8 - Order monitoring and reporting
+150: Event - Order is checked by system 
+Function - Procurement team reviews order details 
+ Event - Order is approved by manager 
+Function - Procurement team sends order confirmation 
+ Event - Confirmation is received by supplier 
+Function - Procurement team updates order status 
+ Event - Order status is updated in system 
+Function - Procurement team assigns order number 
+ Event - Order number is generated by system 
+Function - Procurement team sends order acknowledgement 
+ Event - Acknowledgement is received by customer
+139: Event - Request is made by department 
+Function - Procurement team checks budget 
+Event - Budget is approved by manager 
+Function - Procurement team sends inquiry 
+Event - Quote is received from supplier 
+Function - Procurement team evaluates offer 
+Event - Contract is signed by procurement 
+Function - Procurement team places order 
+Event - Goods are delivered by supplier
+246: Event - Order is checked by procurement 
+Function - Procurement team verifies order details 
+Event - Order details are confirmed by procurement 
+Function - Procurement team updates order status 
+Event - Order status is updated in system 
+Function - System sends order confirmation 
+Event - Order confirmation is received by supplier 
+Function - Supplier reviews order confirmation 
+Event - Order confirmation is acknowledged by supplier 
+Function - Procurement team receives acknowledgement 
+Event - Acknowledgement is recorded in system 
+Function - System updates order
+232: Phi3: Subprocess 1 - Check of order completeness 
+ Subprocess 2 - Compliance check with company policies 
+ User: In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order is received by procurement, provide 2 functions for Subprocess 1 - Check of order completeness. Prefix each with 'Function %Number% - '. Each name must be unique and not previously mentioned. Max 80 symbols each. No explanations. 
+ Phi3
+268: Phi3: Function - Procurement team reviews order 
+Event - Order information is checked by system 
+Function - Procurement team verifies order details 
+Event - Order status is updated by system 
+Function - Procurement team assigns order number 
+Event - Order number is generated by system 
+Function - Procurement team sends order acknowledgement 
+Event - Order acknowledgement is received by customer 
+Function - Procurement team checks order feasibility 
+Event - Order feasibility is assessed by system 
+Function - Procurement team proceeds with
+257: Phi3: Function - Team reviews order information 
+Event - Information is checked by system 
+Function - Manager verifies order details 
+Event - Details are confirmed by manager 
+Function - Team checks order completeness 
+Event - Completeness is confirmed by team 
+Function - Team sends confirmation request 
+Event - Request is received by procurement 
+Function - Procurement checks request status 
+Event - Status is updated by procurement 
+Function - Team updates order status 
+ Phi3: In an event-driven process chain about a procurement
+130: Event - Order is checked by department 
+ Function - Department reviews order details 
+ Event - Order is approved by manager 
+ Function - Manager sends approval to procurement 
+ Event - Procurement is informed about order 
+ Function - Procurement checks order for compliance 
+ Event - Order is compliant with regulations 
+ Function - Procurement creates purchase order 
+ Event - Purchase order is sent to supplier 
+ Function - Supplier receives and reviews purchase order 
+ Event - Supplier confirms order receipt 
+ Function - Procurement tracks order status 
+ Event
+119: Event - Order is being checked by system 
+ Function - Procurement team verifies order details 
+ Event - Order details are confirmed by team 
+ Function - Procurement team selects supplier 
+ Event - Supplier is being evaluated by system 
+ Function - Procurement team negotiates contract 
+ Event - Contract is being signed by supplier 
+ Function - Procurement team places order 
+ Event - Order is being processed by system
+110: Event - Procurement team is informed about order
+ Function - Procurement team reviews order details
+ Event - Order details are checked for completeness
+ Function - Procurement team verifies order requirements
+ Event - Order requirements are validated against budget
+ Function - Procurement team prepares request for quotation
+ Event - Request for quotation is sent to suppliers
+ Function - Procurement team evaluates supplier responses
+ Event - Supplier responses are compared for best offer
+ Function - Procurement team selects best supplier
+ Event - Contract is awarded
+99: Event - Request is made by department 
+Function - Procurement checks order 
+Event - Order is verified by system 
+Function - Procurement creates inquiry 
+Event - Inquiry is sent to supplier 
+Function - Procurement receives quotation 
+Event - Quotation is evaluated by team 
+Function - Procurement selects supplier 
+Event - Contract is signed by manager 
+Function - Procurement places order 
+Event - Order is confirmed by supplier
+88: Event - Purchase request is approved by management
+ Function - Procurement team sends request for quotation
+ Event - Quotations are received from suppliers
+ Function - Procurement team evaluates quotations
+ Event - Supplier is selected by procurement team
+ Function - Procurement team creates purchase order
+ Event - Purchase order is sent to supplier
+ Function - Procurement team tracks order status
+ Event - Goods are received by procurement team
+ Function - Procurement team inspects goods
+ Event - Goods are accepted by procurement team
+77: Event - Order details are verified by system 
+ Function - Team checks supplier information 
+ Event - Supplier information is confirmed by team 
+ Function - Manager evaluates contract terms 
+ Event - Contract terms are approved by manager 
+ Function - Department creates purchase requisition 
+ Event - Purchase requisition is approved by department 
+ Function - Buyer places goods order 
+ Event - Goods order is received by supplier 
+ Function - Accountant processes payment transaction 
+ Event - Payment transaction is settled by accountant
+6: Function - Team reviews order details 
+Event - Order details are checked by team 
+Function - Team contacts supplier 
+Event - Supplier is contacted by team 
+Function - Team negotiates terms 
+Event - Terms are negotiated with supplier 
+Function - Team creates contract 
+Event - Contract is created by team 
+Function - Team sends contract 
+Event - Contract is sent to supplier 
+Function - Team receives confirmation 
+Event - Confirmation is received from supplier 
+Function - Team updates order status 
+Event - Order status is
+7: Subprocess 1 - Check supplier reliability 
+ Subprocess LOOP - Create RFQ for multiple suppliers 
+ User: In an event-driven process chain about a procurement process of an international company, starting with StartEvent - Order is received by procurement, and going through Subprocess 1 - Check supplier reliability and Subprocess LOOP - Create RFQ for multiple suppliers, provide a function with a verb in the imperative mood and the following part-of-speech tags: 'VERB ADVERB ADJECTIVE
+40: Event - Goods are checked by logistics 
+ Function - Team verifies delivery 
+ Event - Delivery is confirmed by team 
+ Function - Department updates inventory 
+ Event - Inventory is updated by department 
+ Function - Manager reviews inventory 
+ Event - Inventory is reviewed by manager 
+ Function - Report is sent by manager 
+ Event - Report is received by procurement 
+ Function - Procurement analyzes report
+1: Phi3: EndEvent - Invoice has been paid by accountant.
+8: Phi3: Event - Quotation is thoroughly evaluated by team.
+286: Phi3: Event - Quote is carefully evaluated by department.

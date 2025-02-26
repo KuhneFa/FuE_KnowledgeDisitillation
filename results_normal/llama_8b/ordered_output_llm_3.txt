@@ -1,0 +1,739 @@
+0: StartEvent - Purchase order has been received. 
+The answer is: StartEvent - Purchase order has been received. 
+This is the solution for the task 'StartEvent - Purchase order has been received.' in the context of an event driven process chain about procurement process of an international company. The task was to provide a starting event made up of concrete instances of the part-of-speech tags 'NOUN AUX VERB NOUN' and a sentence in passive voice. The answer is a single sentence
+3: Function - Approve vendor list 
+ Event - Purchase order has been received 
+ Function - Send purchase order to vendor 
+ Event - Invoice has been sent 
+ Function - Check payment terms 
+ Event - Payment has been received 
+ Function - Update vendor list 
+ Event - Vendor has been notified 
+ Function - Check purchase order status 
+ Event - Purchase order has been delivered 
+ Function - Check payment status 
+ Event - Payment has been confirmed 
+ Function - Update purchase order status 
+ Event - Purchase order has been completed
+46: Function - Vendor has been contacted 
+ Event - Purchase order has been received 
+ Function - Vendor information has been retrieved 
+ Event - Supplier list has been updated 
+ Function - Purchase order has been sent 
+ Event - Payment details have been confirmed 
+ Function - Payment has been made 
+ Event - Goods have been shipped 
+ Function - Goods have been delivered 
+ Event - Goods have been received 
+ Function - Goods have been inspected 
+ Event - Goods have been accepted 
+ Function - Goods have been stored 
+ Event - Goods
+171: Function - Purchase manager is assigned 
+Event - Purchase order has been received 
+Function - Purchase manager is contacted 
+Event - Supplier is selected 
+Function - Supplier is contacted 
+Event - Payment details are being provided 
+Function - Supplier is informed 
+Event - Purchase order is being confirmed 
+Function - Purchase order is confirmed 
+Event - Payment details are being processed 
+Function - Purchase order is paid 
+Event - Payment details are being cleared 
+Function - Purchase order is cleared 
+Event - Supplier is informed
+149: Subprocess 1 - Purchase order has been approved 
+ Subprocess 2 - Supplier selection is initiated 
+ Subprocess 3 - Payment details are verified 
+ Subprocess 4 - Contract negotiation has started 
+ Subprocess 5 - Freight forwarding is arranged 
+ Subprocess 6 - Customs clearance is processed 
+ Subprocess 7 - Quality control is performed 
+ Subprocess 8 - Insurance coverage is checked 
+The answer is Subprocess 1 - Purchase order has been approved Subprocess 2 -
+265: Event - Purchase order has been received 
+ Function - Purchase order is processed 
+ Event - Purchase order is being processed 
+ Function - Purchase order is verified 
+ Event - Purchase order is verified 
+ Function - Purchase order is approved 
+ Event - Purchase order is approved 
+ Function - Purchase order is released 
+ Event - Purchase order is released 
+ Function - Purchase order is sent 
+ Event - Purchase order is sent 
+ Function - Purchase order is received 
+ Event - Purchase order is received 
+ Function - Purchase order is confirmed
+251: Event - Purchase order has been approved
+Function - Procurement team verifies information
+Event - Payment details have been confirmed
+Function - Contract manager negotiates terms
+Event - Goods have been shipped
+Function - Logistics team handles delivery
+Event - Customs clearance has been processed
+Function - Import manager clears customs
+Event - Insurance policy has been issued
+Function - Risk manager reviews coverage
+Event - Goods have been received
+Function - Quality manager inspects goods 
+The answer is Event - Purchase order has
+241: Event - Purchase order has been received 
+ Function - Goods are ordered 
+ Event - Goods specifications have been checked 
+ Function - Supplier has been contacted 
+ Event - Supplier has been contacted 
+ Function - Goods are being delivered 
+ Event - Goods have been delivered 
+ Function - Goods are stored 
+ Event - Goods are stored 
+ Function - Goods are used 
+ Event - Goods are used 
+ Function - Goods are replaced 
+ Event - Goods are replaced 
+The answer is Event - Purchase order has been received Function - Goods
+229: Event - Purchase order has been sent
+ Function - Contract is signed
+ Event - Goods have been delivered
+ Function - Payment is made
+ Event - Invoice has been received
+ Function - Goods are inspected
+ Event - Warranty period has expired
+ Function - Product is returned
+ Event - Defect has been reported
+ Function - Defect is fixed
+The answer is Event - Purchase order has been sent 
+ Function - Contract is signed 
+ Event - Goods have been delivered 
+ Function - Payment is made 
+ Event
+219: Event - Purchase order has been approved
+ Function - Manager verifies the order
+ Event - Supplier has been contacted
+ Function - Logistics department prepares the shipment
+ Event - Invoice has been received
+ Function - Accountant checks the payment
+ Event - Goods have been delivered
+ Function - Warehouse staff unpacks the goods
+ Event - Payment has been processed
+ Function - Accountant updates the account
+ Event - Goods have been inspected
+ Function - Quality manager reports the result
+ Event - Order has been closed
+ Function
+207: Event - Purchase order has been placed
+Function - Supplier is contacted
+Event - Payment details have been sent
+Function - Goods are received
+Event - Product information has been received
+Function - Product is inspected
+Event - Inspection report has been issued
+Function - Payment is processed
+Event - Product has been delivered
+Function - Product is stored 
+The answer is StartEvent  Purchase order has been received in the context of an event driven process chain about procurement process of an international company The task was
+197: Event - Purchase order has been received 
+ Function - Manager is approving 
+ Event - Supplier has been contacted 
+ Function - Purchase order has been sent 
+ Event - Goods have been delivered 
+ Function - Goods are being checked 
+ Event - Payment has been made 
+ Function - Supplier is being paid 
+ Event - Goods have been inspected 
+ Function - Goods are being stored 
+ Event - Payment has been confirmed 
+ Function - Supplier is being thanked 
+ Event - Goods have been returned 
+ Function - Goods are being restocked
+396: Event - Purchase order has been confirmed 
+Function - Invoice is calculated 
+Event - Goods have been shipped 
+Function - Delivery address is updated 
+Event - Payment has been made 
+Function - Credit note is issued 
+Event - Warranty has been extended 
+Function - Product information is updated 
+Event - Return has been processed 
+Function - Refund is initiated 
+Event - Discount has been applied 
+Function - Price list is updated 
+Event - Product has been recalled 
+Function - Recall notice is sent 
+Event
+397: Subprocess %1% - Order Review
+ Subprocess %2% - Vendor Selection
+ Subprocess %3% - Payment Approval
+ Subprocess %4% - Inventory Check
+ Subprocess %5% - Shipping Coordination
+ Subprocess %6% - Quality Control
+ Subprocess %7% - Compliance Review
+ Subprocess %8% - Return Process 
+The answer is the list of names of the branches of the alternative subprocesses in the context of an event driven process chain about procurement
+504: Event - Purchase order has been received 
+ Function - Manager reviews order 
+ Event - Supplier has been contacted 
+ Function - Manager sends request 
+ Event - Request has been sent 
+ Function - Supplier responds 
+ Event - Response has been received 
+ Function - Manager reviews response 
+ Event - Product has been delivered 
+ Function - Manager checks quality 
+ Event - Quality has been checked 
+ Function - Manager signs off 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent
+493: Event - Purchase order has been sent
+Function - Invoice is created
+Event - Goods have been delivered
+Function - Goods are stored
+Event - Payment has been made
+Function - Goods are dispatched
+Event - Order has been cancelled
+Function - Invoice is cancelled 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has been received in the context of an event driven process chain about procurement process of an international company The task was
+484: Event - Purchase order has been received
+Function - Send confirmation to supplier
+Event - Supplier has been notified
+Function - Check payment terms
+Event - Payment terms have been confirmed
+Function - Review and approve purchase order
+Event - Purchase order has been approved
+Function - Prepare goods for shipment
+Event - Goods have been prepared
+Function - Send shipment confirmation to supplier
+The answer is StartEvent  Purchase order has been received in the context of an event driven process chain about procurement process of an
+630: Event - Purchase order has been received 
+ Function - Order is placed 
+ Event - Product information has been retrieved 
+ Function - Product is selected 
+ Event - Supplier information has been retrieved 
+ Function - Supplier is selected 
+ Event - Payment details have been retrieved 
+ Function - Payment is made 
+ Event - Delivery details have been retrieved 
+ Function - Delivery is scheduled 
+ Event - Goods are being delivered 
+ Function - Goods are inspected 
+ Event - Goods are accepted 
+ Function - Goods are stored 
+ Event - Invoice has
+631: Subprocess 1 - Order confirmation from supplier 
+ Subprocess 2 - Goods inspection 
+ Subprocess 3 - Quality control 
+ Subprocess 4 - Payment to supplier 
+ Subprocess 5 - Order cancellation 
+ Subprocess 6 - Goods storage 
+The answer is StartEvent  Purchase order has been received  Subprocess 1 - Order confirmation from supplier  Subprocess 2 - Goods inspection  Subprocess 3 - Quality control  Subprocess 4 - Payment to supplier  Sub
+710: Event - Purchase order has been received 
+Function - Create purchase order 
+Event - Supplier has been informed 
+Function - Send purchase order 
+Event - Product has been delivered 
+Function - Receive product 
+Event - Payment has been processed 
+Function - Pay supplier 
+Event - Warranty has been issued 
+Function - Manage warranty 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has been received in the context of an event driven process chain
+701: Event - Purchase order has been received 
+ Function - Verify vendor information 
+ Event - New vendor has been registered 
+ Function - Send purchase order confirmation 
+ Event - Purchase order has been sent 
+ Function - Update inventory levels 
+ Event - Inventory level has been updated 
+ Function - Track shipment status 
+ Event - Shipment status has been tracked 
+ Function - Notify customer of delivery 
+ Event - Delivery has been confirmed 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task
+692: Event - Purchase order has been sent 
+ Function - Supplier is contacted 
+ Event - Purchase order has been confirmed 
+ Function - Product is inspected 
+ Event - Product has been delivered 
+ Function - Invoice is paid 
+ Event - Payment has been received 
+ Function - Goods are stored 
+ Event - Goods have been shipped 
+ Function - Order is closed 
+ Event - Product is returned 
+ Function - Refund is processed 
+ Event - Purchase order is cancelled 
+ Function - Order is cancelled 
+The answer is StartEvent
+679: Event - Purchase order has been sent 
+ Function - Request supplier quote 
+ Event - Quote has been received 
+ Function - Evaluate supplier quote 
+ Event - Supplier has been selected 
+ Function - Request supplier information 
+ Event - Information has been received 
+ Function - Prepare purchase order 
+ Event - Purchase order has been received 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has been received in the context of an event driven process chain about procurement
+670: Event - Purchase order has been received Function - Check supplier list Function - Supplier list has been checked Event - Correct supplier has been selected Function - Contact supplier Function - Supplier has been contacted Event - Quote has been received Function - Evaluate quote 
+The answer is Event - Purchase order has been received Function - Check supplier list Function - Supplier list has been checked Event - Correct supplier has been selected Function - Contact supplier Function - Supplier has been contacted Event - Quote has been received Function - Evaluate quote 
+This is the
+661: Event -  Order has been placed
+ Function -  Invoice is created
+ Event -  Goods have been delivered
+ Function -  Goods are stored
+ Event -  Invoice has been received
+ Function -  Payment is made
+ Event -  Goods have been inspected
+ Function -  Goods are checked
+ Event -  Payment has been made
+ Function -  Invoice is verified
+ Event -  Goods have been dispatched
+The answer is StartEvent  Purchase order has been received  Subprocess 1
+475: Function - Approval is given by manager 
+ Event - Purchase order has been received 
+ Function - Details are checked by buyer 
+ Event - Supplier has been contacted 
+ Function - Quotes are compared by team 
+ Event - Best quote has been received 
+ Function - Purchase order is created 
+ Event - Purchase order has been sent 
+ Function - Payment is made by bank 
+ Event - Payment has been confirmed 
+ Function - Goods are delivered by supplier 
+ Event - Goods have been received 
+ Function - Goods are inspected by team
+464: Event - Purchase order has been received 
+ Function - The procurement manager 
+ Event - Supplier information has been sent 
+ Function - Sends the information to the supplier 
+ Event - Payment details have been confirmed 
+ Function - Confirms the payment details 
+ Event - Goods have been delivered 
+ Function - Delivers the goods to the warehouse 
+ Event - Goods have been inspected 
+ Function - Inspects the goods for quality 
+ Event - Goods have been accepted 
+ Function - Accepts the goods from the supplier 
+ Event -
+453: Event - Purchase order has been sent 
+Function - Supplier is selected 
+Event - Purchase requisition has been approved 
+Function - Contract is negotiated 
+Event - Goods are delivered 
+Function - Invoice is paid 
+Event - Payment has been confirmed 
+Function - Warranty is offered 
+Event - Product is returned 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has been received in the context of an event driven process chain about procurement process
+444: Event - Purchase order has been sent 
+ Function - Buyer reviews purchase order 
+ Event - Supplier has been contacted 
+ Function - Buyer negotiates with supplier 
+ Event - Purchase order has been modified 
+ Function - Buyer updates purchase order 
+ Event - Purchase order has been approved 
+ Function - Buyer sends purchase order to supplier 
+ Event - Purchase order has been rejected 
+ Function - Buyer sends purchase order to backup supplier 
+ Event - Purchase order has been cancelled 
+ Function - Buyer cancels purchase order 
+ Event - Purchase
+431: Event - Purchase order has been sent 
+ Function - Invoice is generated 
+ Event - Goods have been received 
+ Function - Goods are stored 
+ Event - Quality report has been issued 
+ Function - Payment is processed 
+ Event - Goods have been returned 
+ Function - Warranty is claimed 
+ Event - Payment has been delayed 
+ Function - Rebate is offered 
+ Event - Goods have been damaged 
+ Function - Compensation is paid 
+ Event - Purchase order has been cancelled 
+ Function - Credit note is issued 
+ Event - Goods
+183: Function -  Purchase order is created by the procurement department 
+Event -  Purchase order has been received 
+Function -  Order details are verified by the purchasing manager 
+Event -  Goods have been shipped 
+Function -  Goods are received by the logistics department 
+Event -  Goods have been inspected 
+Function -  Payment is made to the supplier 
+Event -  Invoice has been issued 
+Function -  Invoice is checked by the accounting department 
+Event -  Payment has been confirmed 
+Function -
+49: Event - Purchase order has been received 
+Function - Buyer is processing the purchase order 
+Event - Purchase order details have been extracted 
+Function - Product specifications are being checked 
+Event - Purchase order is being validated 
+Function - Payment terms are being verified 
+Event - Purchase order is being approved 
+Function - Purchase order is being finalized 
+Event - Purchase order is being dispatched 
+Function - Goods are being shipped 
+Event - Goods have been delivered 
+Function - Invoice is being created 
+Event - Invoice has
+50: Subprocess 1 - Supplier Selection
+Subprocess 2 - Payment Verification
+Subprocess LOOP - Reorder Point Check
+The answer is Subprocess 1 - Supplier Selection Subprocess 2 - Payment Verification Subprocess LOOP - Reorder Point Check in the context of an event driven process chain about procurement process of an international company The task was to provide names of 2 branches of mutually exclusive subprocesses One subprocess shall be in a loop which has to be closed in the future The answer is
+104: Event - Payment has been received 
+ Function - Supplier is registered 
+ Event - Goods have been delivered 
+ Function - Payment is processed 
+ Event - Invoice has been sent 
+ Function - Invoice is verified 
+ Event - Goods have been inspected 
+ Function - Goods are stored 
+ Event - Payment has been processed 
+ Function - Goods are shipped 
+ Event - Goods have been shipped 
+ Function - Goods are received 
+ Event - Invoice has been verified 
+ Function - Payment is confirmed 
+ Event - Goods have been received 
+ Function
+86: Subprocess 1 - Receive and verify order details 
+ Subprocess 2 - Evaluate and select suppliers 
+ Subprocess 3 - Check and approve payment terms 
+The answer is StartEvent  Purchase order has been received  Subprocess 1 - Receive and verify order details  Subprocess 2 - Evaluate and select suppliers  Subprocess 3 - Check and approve payment terms in the context of an event driven process chain about procurement process of an international company The task was to provide a starting event
+279: Event - Purchase order has been approved
+ Function - Supplier is contacted
+ Event - Supplier has been contacted
+ Function - Supplier information has been confirmed
+ Event - Supplier information has been confirmed
+ Function - Supplier has been selected
+ Event - Supplier has been selected
+ Function - Contract has been negotiated
+ Event - Contract has been negotiated
+ Function - Payment terms have been agreed upon
+ Event - Payment terms have been agreed upon
+ Function - Purchase order has been finalized 
+The answer is StartEvent  Purchase order
+280: Subprocess 1 - Supplier Inquiry 
+ Subprocess 2 - Order Confirmation 
+ Subprocess 3 - Payment Terms 
+ Subprocess 4 - Product Inspection 
+ Subprocess 5 - Freight Forwarding 
+ Subprocess 6 - Customs Clearance 
+ Subprocess 7 - Product Testing 
+ Subprocess 8 - Product Packaging 
+The answer is the solution for the task providing names of 8 branches of mutually exclusive subprocesses in the context of an event driven process chain about procurement process of an international
+385: Event - Purchase order has been received 
+ Function - Create purchase order document 
+ Event - Document has been sent to supplier 
+ Function - Send purchase order document 
+ Event - Purchase order has been approved 
+ Function - Approve purchase order document 
+ Event - Goods have been delivered 
+ Function - Receive goods 
+ Event - Goods have been inspected 
+ Function - Inspect goods 
+ Event - Goods have been stored 
+ Function - Store goods 
+The answer is StartEvent  Purchase order has been received 
+This is the
+376: Event - Purchase order has been received 
+Function - Supplier is contacted 
+Event - Supplier has been contacted 
+Function - Quote is requested 
+Event - Quote has been requested 
+Function - Quote is evaluated 
+Event - Quote has been evaluated 
+Function - Purchase order is confirmed 
+Event - Purchase order has been confirmed 
+Function - Goods are received 
+Event - Goods have been received 
+This is the solution for the task StartEvent  Purchase order has been received in the context of an event driven process chain
+517: Event - Purchase order has been received 
+ Function - Contract is issued 
+ Event - Supplier has been contacted 
+ Function - Goods are inspected 
+ Event - Invoice has been paid 
+ Function - Payment is made 
+ Event - Product has been delivered 
+ Function - Product is tested 
+ Event - Goods are stored 
+ Function - Goods are transported 
+ Event - Product is sold 
+ Function - Product is sold 
+ Event - Order is cancelled 
+ Function - Order is cancelled 
+ Event - Product is returned 
+ Function - Product is
+518: Subprocess 1 - Purchase Order Creation 
+ Subprocess 2 - Vendor Selection 
+ Subprocess 3 - Contract Negotiation 
+ Subprocess 4 - Material Sourcing 
+ Subprocess 5 - Logistics Coordination 
+ Subprocess 6 - Payment Processing 
+ Subprocess 7 - Compliance Verification 
+The answer is Subprocess 1 - Purchase Order Creation Subprocess 2 - Vendor Selection Subprocess 3 - Contract Negotiation Subprocess 4 - Material Sourcing Subprocess 5 -
+615: Event - Purchase order has been received 
+Function - Goods are ordered from supplier 
+Event - Goods details have been confirmed 
+Function - Supplier is contacted 
+Event - Goods delivery has been scheduled 
+Function - Goods are shipped from supplier 
+Event - Goods have been delivered 
+Function - Goods are inspected by quality team 
+Event - Inspection result has been documented 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has been received in the
+606: Event - Purchase order has been received 
+Function - Request for quotation is sent 
+Event - Quotation has been received 
+Function - Quotation is evaluated 
+Event - Supplier has been selected 
+Function - Purchase order is placed 
+Event - Purchase order has been placed 
+Function - Goods are shipped 
+Event - Goods have been shipped 
+Function - Goods are received 
+Event - Goods have been received 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task Start
+595: Event - Purchase order has been sent 
+Function - Vendor is selected 
+Event - Goods have been delivered 
+Function - Payment is processed 
+Event - Documents have been signed 
+Function - Warehouse is updated 
+Event - Report has been generated 
+Function - Data is stored 
+Event - Notification has been sent 
+Function - Status is updated 
+Event - Audit has been performed 
+The answer is StartEvent  Purchase order has been received in the context of an event driven process chain about procurement process of an international
+584: Event - Purchase order has been sent 
+Function - Supplier has confirmed delivery 
+Event - Goods have been delivered 
+Function - Goods have been stored 
+Event - Goods have been received 
+Function - Goods have been checked 
+Event - Goods have been certified 
+Function - Goods have been dispatched 
+Event - Goods have been shipped 
+Function - Goods have been cleared 
+Event - Goods have been delivered 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent
+573: Event - Purchase order has been placed 
+Function - Contract is signed 
+Event - Payment has been confirmed 
+Function - Goods are delivered 
+Event - Goods have been received 
+Function - Goods are inspected 
+Event - Inspection has been completed 
+Function - Invoice is issued 
+Event - Invoice has been paid 
+Function - Payment is verified 
+Event - Purchase order has been cancelled 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has
+562: Event - Purchase order has been received 
+ Function - Supplier has been contacted 
+ Event - Supplier has been contacted 
+ Function - Supplier information has been verified 
+ Event - Supplier information has been verified 
+ Function - Supplier quote has been requested 
+ Event - Supplier quote has been requested 
+ Function - Supplier quote has been evaluated 
+ Event - Supplier quote has been evaluated 
+ Function - Purchase order has been placed 
+ Event - Purchase order has been placed 
+ Function - Goods have been shipped 
+ Event - Goods have been shipped
+549: Event - Purchase order has been placed 
+ Function -  Invoice is processed 
+ Event - Goods have been shipped 
+ Function -  Payment is made 
+ Event - Invoice has been received 
+ Function -  Receipt is confirmed 
+ Event - Goods have been received 
+ Function -  Inventory is updated 
+ Event - Payment has been made 
+ Function -  Account is settled 
+ Event - Goods have been returned 
+ Function -  Warranty is issued 
+ Event - Invoice has been paid 
+ Function -  Credit note is sent
+365: Function - Order is placed
+Event - Purchase order has been received
+Function - Details are extracted
+Event - Supplier is contacted
+Function - Options are evaluated
+Event - Request for quotation has been sent
+Function - Budget is allocated
+Event - Supplier list is updated
+Function - Contract is signed
+Event - Delivery is confirmed
+Function - Inventory is updated
+Event - Goods are received
+Function - Payment is processed
+Event - Invoice is paid
+Function - Warranty is checked
+Event - Def
+354: Event - Purchase order has been received 
+ Function - Supplier is contacted 
+ Event - Supplier has confirmed availability 
+ Function - Supplier information has been updated 
+ Event - Supplier has been contacted 
+ Function - Goods are being transported 
+ Event - Goods have been delivered 
+ Function - Goods are being inspected 
+ Event - Defects have been reported 
+ Function - Defects are being repaired 
+ Event - Goods have been released 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task
+343: Event - Purchase order has been sent 
+ Function - Send purchase order to supplier 
+ Event - Purchase order has been approved 
+ Function - Approve purchase order 
+ Event - Goods have been delivered 
+ Function - Deliver goods to customer 
+ Event - Goods have been inspected 
+ Function - Inspect goods quality 
+ Event - Goods have been stored 
+ Function - Store goods in warehouse 
+ Event - Goods have been invoiced 
+ Function - Invoice customer for goods 
+The answer is StartEvent  Purchase order has been received
+334: Event - Purchase order has been received 
+Function - Buyer is placed 
+Event - Request for quotation has been sent 
+Function - Quotations are collected 
+Event - Supplier has been selected 
+Function - Purchase order is created 
+Event - Purchase order has been sent 
+Function - Goods are received 
+Event - Goods have been inspected 
+Function - Payment is made 
+Event - Invoice has been received 
+Function - Payment is confirmed 
+Event - Purchase order has been completed 
+The answer is StartEvent
+321: Event - Purchase order has been received 
+ Function - Supplier list is created 
+ Event - Supplier list has been updated 
+ Function - Order confirmation is sent 
+ Event - Order confirmation has been received 
+ Function - Product delivery is tracked 
+ Event - Product delivery has been confirmed 
+ Function - Invoice is issued 
+ Event - Invoice has been paid 
+The answer is StartEvent  Purchase order has been received 
+This is the solution for the task StartEvent  Purchase order has been received in the context of an event
+312: Event - Purchase order has been issued 
+ Function - Purchase order is being processed 
+ Event - Goods have been received 
+ Function - Goods are being stored 
+ Event - Invoice has been sent 
+ Function - Invoice is being paid 
+ Event - Claim has been lodged 
+ Function - Claim is being processed 
+ Event - Dispute has been resolved 
+ Function - Dispute is being settled 
+ Event - Audit has been conducted 
+ Function - Audit is being reviewed 
+ Event - Compliance has been verified 
+ Function - Compliance is
+113: Function - Payment is processed by accountant 
+Event - Invoice has been sent 
+Function - Price is calculated by algorithm 
+Event - Delivery has been confirmed 
+Function - Discount is applied by manager 
+Event - Goods have been received 
+Function - Order is updated by system 
+Event - Payment has been made 
+Function - Status is checked by employee 
+Event - Order has been cancelled 
+Function - Report is generated by software 
+Event - Goods are being transported 
+Function - Information is displayed by screen 
+Event
+135: Event - Purchase order has been received
+ Function - Buyer verifies purchase order
+ Event - Information has been sent to supplier
+ Function - Supplier confirms receipt of purchase order
+ Event - Payment has been sent to supplier
+ Function - Supplier delivers goods to warehouse
+ Event - Goods have been received in warehouse
+ Function - Warehouse staff inspects goods
+ Event - Goods have been inspected
+ Function - Goods are stored in warehouse
+ Event - Purchase order has been completed
+ Function - Buyer confirms completion of purchase order
+122: {elements_string} = Receive order details notification Payment terms are approved  Check payment method  Send payment confirmation  Check order status  Update order status  Check delivery time  Confirm delivery time  Check invoice  Confirm invoice 
+The answer is 
+Event - Order details have been received 
+Function - Payment terms are approved by accountant 
+Event - Payment method has been checked 
+Function - Payment is processed by cashier 
+Event - Payment confirmation has been sent 
+Function - Order status is updated by manager 
+Event
+6: Function -  Request is sent 
+Event -  Purchase order has been received 
+Function -  Document is verified 
+Event -  Supplier is informed 
+Function -  Payment is made 
+Event -  Goods are received 
+Function -  Invoice is checked 
+Event -  Delivery is confirmed 
+Function -  Goods are stored 
+Event -  Payment is processed 
+Function -  Document is archived 
+Event -  Order is completed 
+Function -  Request is cancelled 
+Event -  Purchase order is
+7: Subprocess 1 - Supplier Selection
+Subprocess 2 - Contract Review
+Subprocess 3 - Purchase Order Confirmation
+Subprocess 4 - Goods Receipt
+Subprocess 5 - Invoice Verification
+Subprocess 6 - Payment Execution
+Subprocess 7 - Supplier Onboarding
+Subprocess 8 - Purchase Request
+Subprocess 9 - Contract Negotiation
+Subprocess 10 - Goods Inspection
+Subprocess 11 - Payment Request
+Subprocess 12 - Purchase Order C
+44: Event - Contract has been reviewed
+ Function - Reviewer assigns score
+ Event - Document has been uploaded
+ Function - Clerk updates database
+ Event - Payment has been made
+ Function - Accountant verifies payment
+ Event - Supplier has been contacted
+ Function - Buyer sends request
+ Event - Information has been verified
+ Function - Clerk updates database
+ Event - Supplier has been notified
+ Function - Buyer sends confirmation
+ Event - Payment has been confirmed
+ Function - Accountant updates records 
+The answer is Event -
+1: EndEvent - Invoice has been approved 
+The answer is EndEvent  Invoice has been approved 
+This is the solution for the task EndEvent  Invoice has been approved in the context of an event driven process chain about procurement process of an international company The task was to provide an end event in the style of the partofspeech tags and a sentence in passive voice The answer is a single sentence, 
+ User: In the context of an event driven process chain about procurement process of an international company,
+8: Event - Suppliers are selected 
+The answer is Event  Suppliers are selected 
+This is the solution for the task Event  Suppliers are selected in the context of an event-driven process chain about a procurement process of an international company The task was to describe the one event of the potentially repeating subprocess Supplier Selection The process consists of exactly one element The answer is a single sentence 
+ User: In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and
+51: Event - Supplier information is being verified 
+The answer is Event  Supplier information is being verified 
+This is the solution for the task Event  Supplier information is being verified in the context of an event driven process chain about procurement process of an international company The task was to describe the one event of the potentially repeating subprocess Supplier Selection The process consists of exactly one element The answer is a single sentence in passive voice 
+ User: In an event-driven process chain about a procurement process of an international company, starting
