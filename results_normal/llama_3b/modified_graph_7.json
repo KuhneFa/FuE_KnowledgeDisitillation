@@ -1,0 +1,3693 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "24db7061-a12d-4c97-8bca-82189e1fc9d5",
+            "label": "StartEvent - ProcurementRequest  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "697c929c-1db8-46bc-a62f-6d07e344bf60",
+            "label": "ENDEVENT - contract has been signed.'",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "7"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "In the order described above, the elements should be separated by a newline character at the end. Here is the requested output:",
+            "id": "9"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Function - ProcurementRequest",
+            "id": "10"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Event - ProcurementRequest",
+            "id": "11"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Function - Procurement",
+            "id": "12"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Event - ProcurementRequest",
+            "id": "13"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Function - ProcurementRequest",
+            "id": "14"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Event - Procurement",
+            "id": "15"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "16"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "17"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "18"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Event - ProcurementRequest",
+            "id": "19"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Function - ProcurementRequest",
+            "id": "20"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Event - ProcurementRequest",
+            "id": "21"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "2 words per element.  In the description, use the present tense and the active voice. The words should be separated by whitespaces. \u2018ProcurementRequest\u2019 is made up of concrete instances of the following part of speech tags \u2018VERB NOUN\u2018 in active voice and present tense. An instance of NOUN must occur atleast once, but can occur arbitrarily often. \u2018Procurement\u2019 is made up of concrete instances of the following part of speech tags \u2018VERB NOUN\u2018 in",
+            "id": "22"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "23"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "24"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "Procurement - ProcurementRequest",
+            "id": "25"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "\u2018Procurement\u2019 is a verb. \u2018ProcurementRequest\u2019 is a noun. \u2018ProcurementRequest\u2019 is a noun. \u2018ProcurementProcess\u2019 is a noun. \u2018ProcurementProcessRequest\u2019 is a noun. \u2018ProcurementRequestStatus\u2019 is a noun. \u2018ProcurementRequestStatus\u2019 is a noun. \u2018ProcurementRequestStatusUpdate\u2019 is a noun. \u2018ProcurementRequestStatusUpdate\u2019 is a noun. \u2018ProcurementRequestStatusUpdateEvent\u2019 is a noun. \u2018",
+            "id": "26"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "27"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "28"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "29"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "30"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "31"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": "StartEvent - ProcurementRequest ProcurementRequest ProcurementRequest ProcurementRequest ProcurementRequest ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement ProcurementProcurement Proc",
+            "id": "32"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "33"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "34"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "35"
+        },
+        {
+            "type": "Event",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "36"
+        },
+        {
+            "type": "Function",
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "37"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "39"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "40"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "42"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "43"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".Event - ProcurementRequest Procurement ProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurement",
+            "id": "44"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "46"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "47"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "48"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "49"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "50"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "StartEvent - ProcurementRequest",
+            "id": "51"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement",
+            "id": "52"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "53"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "54"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "Here is the list of the elements that make up the requested 14 process elements:",
+            "id": "55"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "Event - ProcurementRequest - Procurement - ProcurementRequest - Procurement - ProcurementRequest - ProcurementRequest - Procurement - ProcurementRequest - Procurement - ProcurementRequest - ProcurementRequest - ProcurementRequest - ProcurementRequest",
+            "id": "56"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": "Function - StartEvent - Start - Start - Procurement - ProcurementRequest - Procurement - ProcurementRequest - ProcurementRequest - Procurement - Procurement",
+            "id": "57"
+        },
+        {
+            "type": "Function",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "58"
+        },
+        {
+            "type": "Event",
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "59"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "61"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "62"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "65"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "67"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "68"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "69"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "70"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "71"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "72"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "\u2018ProcurementRequest\u2019 is made up of concrete instances of the following part of speech tags \u2018NOUN+ VERB\u2018 in active voice. An instance of NOUN must occur atleast once, but can occur arbitrarily often. \u2018Procurement\u2019 is made up of concrete instances of the following part of speech tags \u2018VERB NOUN\u2018 in active voice. Prefix your answers with their respective type, e.g. \u2018Procurement - \u2018 OR \u2018ProcurementRequest - \u2018 and separate them with the",
+            "id": "73"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "74"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "75"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "\u2018ProcurementRequest\u2019 is made up of concrete instances of the following part of speech tags \u2018VERB NOUN\u2018 in active voice.",
+            "id": "76"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "ProcurementRequest - ProcurementRequest - ProcurementRequest - ProcurementRequest - ProcurementRequest - ProcurementRequest - ProcurementRequest",
+            "id": "77"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Proc",
+            "id": "78"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "79"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "80"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "81"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "82"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Here are the results:",
+            "id": "83"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Function - ProcurementRequest",
+            "id": "84"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Event - Procurement",
+            "id": "85"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Function - ProcurementRequest",
+            "id": "86"
+        },
+        {
+            "type": "Function",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Event - ProcurementRequest",
+            "id": "87"
+        },
+        {
+            "type": "Event",
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "label": "Function - Procurement",
+            "id": "88"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "90"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "97"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "99"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "100"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "101"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "102"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "103"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "104"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "\u2018.ProcurementRequest\u2019 \u2018Procurement\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019 \u2018ProcurementRequest\u2019",
+            "id": "105"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "106"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "107"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "108"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "109"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Function - ProcurementRequest",
+            "id": "110"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Procurement - ProcurementRequest",
+            "id": "111"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "ProcurementRequest - Procurement",
+            "id": "112"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "StartEvent - ProcurementRequest",
+            "id": "113"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Procurement  Procurement  ProcurementRequest",
+            "id": "114"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Procurement  Procurement  Procurement  Procurement",
+            "id": "115"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Proc",
+            "id": "116"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "117"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Each element should be separated from the next element by a newline character. Here is the requested output:",
+            "id": "118"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Function - ProcurementRequest",
+            "id": "119"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Event - ProcurementRequest",
+            "id": "120"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Function - Procurement",
+            "id": "121"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Event - ProcurementRequest",
+            "id": "122"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "\u2018ProcurementRequest\u2019 should be the first element of the list. \u2018Procurement\u2019 should be the second element. \u2018ProcurementRequest\u2019 should be the third element. \u2018ProcurementRequest\u2019 should be the fourth element. \u2018ProcurementRequest\u2019 should be the fifth element. \u2018ProcurementRequest\u2019 should be the sixth element. \u2018ProcurementRequest\u2019 should be the seventh element. \u2018ProcurementRequest\u2019 should be the eighth element. \u2018ProcurementRequest\u2019 should be the ninth element",
+            "id": "123"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "124"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "125"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "In the output, the elements are separated by the newline character. The final output should be: Function - ProcurementRequest Function - Procurement Event - ProcurementRequest Function - ProcurementRequest",
+            "id": "126"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Here are the descriptions of the 3 process elements:",
+            "id": "127"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Function - ProcurementRequest",
+            "id": "128"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "\u2018",
+            "id": "129"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "StartEvent - ProcurementRequest",
+            "id": "130"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "ProcurementRequest - Procurement",
+            "id": "131"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "Procurement - ProcurementRequest",
+            "id": "132"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "ProcurementRequest - Procurement",
+            "id": "133"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "ProcurementRequest - Procurement",
+            "id": "134"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "patternType": "AND",
+            "label": "ProcurementRequest - Procurement",
+            "id": "135"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "137"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "138"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "140"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "142"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "143"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "144"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "145"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "Please follow the rules specified.",
+            "id": "146"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "Here are the 6 elements for the described process chain:",
+            "id": "147"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "StartEvent ProcurementRequest Procurement ProcurementRequest Procurement Procurement ProcurementProcurement Procurement ProcurementProcurement Procurement Procurement ProcurementProcurement ProcurementProcurementProcurement Procurement Procurement Procurement ProcurementProcurement Procurement ProcurementProcurementProcurement Procurement ProcurementProcurementProcurement Procurement ProcurementProcurementProcurement Procurement Procurement ProcurementProcurement",
+            "id": "148"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "149"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "150"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "151"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "Here is an example: \u201cFunction - verb noun\u201d",
+            "id": "152"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": "\u2018StartEvent ProcurementRequest Procurement ProcurementRequest ProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProc",
+            "id": "153"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "154"
+        },
+        {
+            "type": "Function",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "155"
+        },
+        {
+            "type": "Event",
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "156"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "158"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "159"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "168"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "StartEvent ProcurementRequest Procurement ProcurementRequest Procurement Procurement ProcurementRequest Procurement Procurement ProcurementProcurement Procurement ProcurementProcurement Procurement ProcurementProcurement Procurement ProcurementProcurement Procurement ProcurementProcurement Procurement ProcurementProcurement ProcurementProcurement ProcurementProcurement Procurement Procurement ProcurementProcurement Procurement ProcurementProcurement Procurement ProcurementProcurement ProcurementProcurement Procurement ProcurementProcurement ProcurementProcurement Procurement",
+            "id": "170"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "171"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "172"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "173"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "174"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "Use a reasonable number of words per element. Use proper punctuation.",
+            "id": "175"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "Event - ProcurementRequest",
+            "id": "176"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "177"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "Procurement - ProcurementRequest",
+            "id": "178"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "179"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "Use 40 symbols for the other element. \u2018 ProcurementRequest\u2018 is the first element, \u2018Procurement\u2018 is the second and \u2018ProcurementRequest\u2018 is the third. \u2018 Procurement \u2018 is the first element, \u2018 ProcurementRequest \u2018 is the second and \u2018 Procurement \u2018 is the third. \u2018 ProcurementRequest \u2018 is the first element, \u2018 Procurement \u2018 is the second and \u2018 ProcurementRequest \u2018 is the third. \u2018 Procurement \u2018 is the first element, \u2018 Proc",
+            "id": "180"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "181"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "182"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementRequest  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement",
+            "id": "183"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "184"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "185"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "186"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "187"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "\u2018 ProcurementRequest  Procurement  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest  ProcurementRequest",
+            "id": "188"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "189"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "190"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "191"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "192"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "The elements should be separated by the newline character. \u2018Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  ProcurementRequest  Procurement  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  Proc",
+            "id": "193"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "194"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "195"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "196"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "197"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "The words should be separated by whitespaces. The function should be in the present tense. the events should be in the active voice. The words should be separated by whitespaces.",
+            "id": "198"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "StartEvent ProcurementRequest Procurement ProcurementRequest Procurement Procurement ProcurementRequest Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement Procurement",
+            "id": "199"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "200"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "201"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "202"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "ProcurementRequest - Procurement  Procurement  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement  Procurement",
+            "id": "203"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "204"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "205"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "\u2018 ProcurementRequest\u2019 is the noun. \u2018Procurement\u2019 is the verb. \u2018ProcurementRequest\u2019 is the noun. \u2018Procurement\u2019 is the verb. \u2018ProcurementRequest\u2019 is the noun. \u2018ProcurementRequest\u2019 is the noun. \u2018ProcurementRequest\u2019 is the noun. \u2018ProcurementRequest\u2019 is the noun. \u2018ProcurementRequest\u2019 is the noun. \u2018ProcurementRequest\u2019 is the noun. \u2018ProcurementRequest\u2019 is the noun. \u2018Procurement",
+            "id": "206"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "207"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "208"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementRequestProcurementProcurementRequestProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProc",
+            "id": "209"
+        },
+        {
+            "type": "Event",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "210"
+        },
+        {
+            "type": "Function",
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "211"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "213"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "214"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "216"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "217"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": "The text is written in the present tense. The word \u2018 Procurement \u2018 is repeated 15 times. ProcurementRequest, Procurement, ProcurementRequest, Procurement, Procurement  Procurement  ProcurementRequest  Procurement  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement",
+            "id": "218"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "220"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "221"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "222"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "223"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "224"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": "The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces. The words should be separated by whitespaces.",
+            "id": "225"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "226"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "227"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "228"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "229"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "230"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": "The output should be in lowercase letters. procurementrequest, procurement, startevent, procurementrequest, procurement, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurementrequest, procurement",
+            "id": "231"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "232"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "233"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "234"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "235"
+        },
+        {
+            "type": "Function",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "236"
+        },
+        {
+            "type": "Event",
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "237"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "239"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "240"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "245"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "247"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "248"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "249"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "250"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "ProcurementRequest - Procurement",
+            "id": "251"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "{elements_string}\u2019.",
+            "id": "252"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "StartEvent ProcurementRequest Procurement ProcurementRequest Procurement Procurement ProcurementRequest Procurement Procurement ProcurementRequest Procurement Procurement Procurement ProcurementProcurementProcurementProcurementProcurementProcurementProcurement Procurement Procurement ProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurement Procurement Procurement ProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurement Procurement Procurement",
+            "id": "253"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "254"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "255"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "StartEvent ProcurementRequest ProcurementProcurementRequest ProcurementProcurementProcurementRequest ProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurement",
+            "id": "256"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "257"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "258"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "259"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "260"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "261"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementRequest Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement",
+            "id": "262"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "263"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "264"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "265"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "{elements_string}",
+            "id": "266"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "Event - ProcurementRequest",
+            "id": "267"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "Function - Procure",
+            "id": "268"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "Event - Procurement",
+            "id": "269"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": "\u201cStartEvent - ProcurementRequest\u201d is given as the starting event, and the rest of the process consists of parallel subprocesses. ProcurementRequest is the next event and it is initiated by Procurement. Procurement is the next event and it is initiated by ProcurementRequest. ProcurementRequest is the next event and it is initiated by Procurement. Procurement is the next event and it is initiated by ProcurementRequest. ProcurementRequest is the next event and it is initiated by Proc",
+            "id": "270"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "271"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "272"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "273"
+        },
+        {
+            "type": "Event",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "274"
+        },
+        {
+            "type": "Function",
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "275"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "9",
+            "key": "geid_111595_8"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  ProcurementRequest  ProcurementRequest  Procurement  Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  ProcurementRequest  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  Procurement",
+            "source": "3",
+            "target": "22",
+            "key": "geid_111595_23"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "3",
+            "target": "26",
+            "key": "geid_111595_28"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "3",
+            "target": "170",
+            "key": "geid_111595_201"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "7",
+            "target": "32",
+            "key": "geid_111595_35"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "9",
+            "target": "10",
+            "key": "geid_111595_9"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "10",
+            "target": "11",
+            "key": "geid_111595_10"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "11",
+            "target": "12",
+            "key": "geid_111595_11"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "12",
+            "target": "13",
+            "key": "geid_111595_12"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "13",
+            "target": "14",
+            "key": "geid_111595_13"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "14",
+            "target": "15",
+            "key": "geid_111595_14"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "15",
+            "target": "3",
+            "key": "geid_111595_15"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "16",
+            "target": "46",
+            "key": "geid_111595_50"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "17",
+            "target": "18",
+            "key": "geid_111595_18"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "18",
+            "target": "67",
+            "key": "geid_111595_74"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "19",
+            "target": "20",
+            "key": "geid_111595_20"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "20",
+            "target": "21",
+            "key": "geid_111595_21"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "21",
+            "target": "7",
+            "key": "geid_111595_22"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "22",
+            "target": "220",
+            "key": "geid_111595_261"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "23",
+            "target": "24",
+            "key": "geid_111595_25"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "24",
+            "target": "99",
+            "key": "geid_111595_114"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "25",
+            "target": "247",
+            "key": "geid_111595_293"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "26",
+            "target": "142",
+            "key": "geid_111595_164"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "28",
+            "key": "geid_111595_30"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "28",
+            "target": "29",
+            "key": "geid_111595_31"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "29",
+            "target": "30",
+            "key": "geid_111595_32"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "30",
+            "target": "31",
+            "key": "geid_111595_33"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "31",
+            "target": "7",
+            "key": "geid_111595_34"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "32",
+            "target": "33",
+            "key": "geid_111595_36"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "33",
+            "target": "34",
+            "key": "geid_111595_37"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "34",
+            "target": "35",
+            "key": "geid_111595_38"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "35",
+            "target": "36",
+            "key": "geid_111595_39"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "36",
+            "target": "37",
+            "key": "geid_111595_40"
+        },
+        {
+            "patternId": "800da1b8-091b-4e98-9f55-ba44fe253c35",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "37",
+            "target": "1",
+            "key": "geid_111595_41"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "source": "39",
+            "target": "40",
+            "key": "geid_111595_43"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "40",
+            "target": "51",
+            "key": "geid_111595_56"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "source": "42",
+            "target": "43",
+            "key": "geid_111595_46"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "source": "43",
+            "target": "44",
+            "key": "geid_111595_47"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "43",
+            "target": "55",
+            "key": "geid_111595_61"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "patternType": "LOOP",
+            "source": "44",
+            "target": "40",
+            "key": "geid_111595_49"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "46",
+            "target": "47",
+            "key": "geid_111595_51"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "47",
+            "target": "48",
+            "key": "geid_111595_52"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "48",
+            "target": "49",
+            "key": "geid_111595_53"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "49",
+            "target": "50",
+            "key": "geid_111595_54"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "50",
+            "target": "39",
+            "key": "geid_111595_55"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "51",
+            "target": "52",
+            "key": "geid_111595_57"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "52",
+            "target": "53",
+            "key": "geid_111595_58"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "53",
+            "target": "54",
+            "key": "geid_111595_59"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "54",
+            "target": "42",
+            "key": "geid_111595_60"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "55",
+            "target": "56",
+            "key": "geid_111595_62"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "56",
+            "target": "57",
+            "key": "geid_111595_63"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "57",
+            "target": "58",
+            "key": "geid_111595_64"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "58",
+            "target": "59",
+            "key": "geid_111595_65"
+        },
+        {
+            "patternId": "ca45b5a7-d720-4de0-9f01-4c4b5218bb63",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "59",
+            "target": "17",
+            "key": "geid_111595_66"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "patternType": "OR",
+            "source": "61",
+            "target": "62",
+            "key": "geid_111595_68"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "62",
+            "target": "73",
+            "key": "geid_111595_81"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "62",
+            "target": "76",
+            "key": "geid_111595_85"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "65",
+            "target": "83",
+            "key": "geid_111595_93"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "67",
+            "target": "68",
+            "key": "geid_111595_75"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "68",
+            "target": "69",
+            "key": "geid_111595_76"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "69",
+            "target": "70",
+            "key": "geid_111595_77"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "70",
+            "target": "71",
+            "key": "geid_111595_78"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "71",
+            "target": "72",
+            "key": "geid_111595_79"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "72",
+            "target": "61",
+            "key": "geid_111595_80"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "73",
+            "target": "74",
+            "key": "geid_111595_82"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "74",
+            "target": "75",
+            "key": "geid_111595_83"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "75",
+            "target": "65",
+            "key": "geid_111595_84"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "76",
+            "target": "77",
+            "key": "geid_111595_86"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "77",
+            "target": "78",
+            "key": "geid_111595_87"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "78",
+            "target": "79",
+            "key": "geid_111595_88"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "79",
+            "target": "80",
+            "key": "geid_111595_89"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "80",
+            "target": "81",
+            "key": "geid_111595_90"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "81",
+            "target": "82",
+            "key": "geid_111595_91"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "82",
+            "target": "65",
+            "key": "geid_111595_92"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "83",
+            "target": "84",
+            "key": "geid_111595_94"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "84",
+            "target": "85",
+            "key": "geid_111595_95"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "85",
+            "target": "86",
+            "key": "geid_111595_96"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "86",
+            "target": "87",
+            "key": "geid_111595_97"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "87",
+            "target": "88",
+            "key": "geid_111595_98"
+        },
+        {
+            "patternId": "873bf4ef-0a76-4627-aa5e-52bbcb9e99cd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "88",
+            "target": "19",
+            "key": "geid_111595_99"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  ProcurementRequest  ProcurementRequest  Procurement  Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  ProcurementRequest  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  Procurement",
+            "source": "90",
+            "target": "105",
+            "key": "geid_111595_121"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "90",
+            "target": "110",
+            "key": "geid_111595_127"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "90",
+            "target": "113",
+            "key": "geid_111595_131"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "90",
+            "target": "118",
+            "key": "geid_111595_137"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "90",
+            "target": "123",
+            "key": "geid_111595_143"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "90",
+            "target": "126",
+            "key": "geid_111595_147"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "97",
+            "target": "129",
+            "key": "geid_111595_151"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "99",
+            "target": "100",
+            "key": "geid_111595_115"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "100",
+            "target": "101",
+            "key": "geid_111595_116"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "101",
+            "target": "102",
+            "key": "geid_111595_117"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "102",
+            "target": "103",
+            "key": "geid_111595_118"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "103",
+            "target": "104",
+            "key": "geid_111595_119"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "104",
+            "target": "90",
+            "key": "geid_111595_120"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "105",
+            "target": "106",
+            "key": "geid_111595_122"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "106",
+            "target": "107",
+            "key": "geid_111595_123"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "107",
+            "target": "108",
+            "key": "geid_111595_124"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "108",
+            "target": "109",
+            "key": "geid_111595_125"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "109",
+            "target": "97",
+            "key": "geid_111595_126"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "110",
+            "target": "111",
+            "key": "geid_111595_128"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "111",
+            "target": "112",
+            "key": "geid_111595_129"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "112",
+            "target": "97",
+            "key": "geid_111595_130"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "113",
+            "target": "114",
+            "key": "geid_111595_132"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "114",
+            "target": "115",
+            "key": "geid_111595_133"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "115",
+            "target": "116",
+            "key": "geid_111595_134"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "116",
+            "target": "117",
+            "key": "geid_111595_135"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "117",
+            "target": "97",
+            "key": "geid_111595_136"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "118",
+            "target": "119",
+            "key": "geid_111595_138"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "119",
+            "target": "120",
+            "key": "geid_111595_139"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "120",
+            "target": "121",
+            "key": "geid_111595_140"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "121",
+            "target": "122",
+            "key": "geid_111595_141"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "122",
+            "target": "97",
+            "key": "geid_111595_142"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "123",
+            "target": "124",
+            "key": "geid_111595_144"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "124",
+            "target": "125",
+            "key": "geid_111595_145"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "125",
+            "target": "97",
+            "key": "geid_111595_146"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "126",
+            "target": "127",
+            "key": "geid_111595_148"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "127",
+            "target": "128",
+            "key": "geid_111595_149"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "128",
+            "target": "97",
+            "key": "geid_111595_150"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "129",
+            "target": "130",
+            "key": "geid_111595_152"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "130",
+            "target": "131",
+            "key": "geid_111595_153"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "131",
+            "target": "132",
+            "key": "geid_111595_154"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "132",
+            "target": "133",
+            "key": "geid_111595_155"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "133",
+            "target": "134",
+            "key": "geid_111595_156"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "134",
+            "target": "135",
+            "key": "geid_111595_157"
+        },
+        {
+            "patternId": "8d6cd871-ed0f-47dc-9770-1ca9fed52a62",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "135",
+            "target": "25",
+            "key": "geid_111595_158"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "patternType": "XOR",
+            "source": "137",
+            "target": "138",
+            "key": "geid_111595_160"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement",
+            "source": "138",
+            "target": "146",
+            "key": "geid_111595_169"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "140",
+            "target": "152",
+            "key": "geid_111595_176"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "142",
+            "target": "143",
+            "key": "geid_111595_165"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "143",
+            "target": "144",
+            "key": "geid_111595_166"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "144",
+            "target": "145",
+            "key": "geid_111595_167"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "145",
+            "target": "137",
+            "key": "geid_111595_168"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "146",
+            "target": "147",
+            "key": "geid_111595_170"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "147",
+            "target": "148",
+            "key": "geid_111595_171"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "148",
+            "target": "149",
+            "key": "geid_111595_172"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "149",
+            "target": "150",
+            "key": "geid_111595_173"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "150",
+            "target": "151",
+            "key": "geid_111595_174"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "151",
+            "target": "140",
+            "key": "geid_111595_175"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "152",
+            "target": "153",
+            "key": "geid_111595_177"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "153",
+            "target": "154",
+            "key": "geid_111595_178"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "155",
+            "key": "geid_111595_179"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "155",
+            "target": "156",
+            "key": "geid_111595_180"
+        },
+        {
+            "patternId": "1017230e-9976-4a05-8620-a7124f38258a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "156",
+            "target": "27",
+            "key": "geid_111595_181"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "patternType": "OR",
+            "source": "158",
+            "target": "159",
+            "key": "geid_111595_183"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "175",
+            "key": "geid_111595_207"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "180",
+            "key": "geid_111595_213"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "183",
+            "key": "geid_111595_217"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "188",
+            "key": "geid_111595_223"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "193",
+            "key": "geid_111595_229"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "198",
+            "key": "geid_111595_235"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "203",
+            "key": "geid_111595_241"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "159",
+            "target": "206",
+            "key": "geid_111595_245"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "168",
+            "target": "209",
+            "key": "geid_111595_249"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "170",
+            "target": "171",
+            "key": "geid_111595_202"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "171",
+            "target": "172",
+            "key": "geid_111595_203"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "172",
+            "target": "173",
+            "key": "geid_111595_204"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "173",
+            "target": "174",
+            "key": "geid_111595_205"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "174",
+            "target": "158",
+            "key": "geid_111595_206"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "175",
+            "target": "176",
+            "key": "geid_111595_208"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "176",
+            "target": "177",
+            "key": "geid_111595_209"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "177",
+            "target": "178",
+            "key": "geid_111595_210"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "178",
+            "target": "179",
+            "key": "geid_111595_211"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "179",
+            "target": "168",
+            "key": "geid_111595_212"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "180",
+            "target": "181",
+            "key": "geid_111595_214"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "181",
+            "target": "182",
+            "key": "geid_111595_215"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "182",
+            "target": "168",
+            "key": "geid_111595_216"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "183",
+            "target": "184",
+            "key": "geid_111595_218"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "184",
+            "target": "185",
+            "key": "geid_111595_219"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "185",
+            "target": "186",
+            "key": "geid_111595_220"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "186",
+            "target": "187",
+            "key": "geid_111595_221"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "187",
+            "target": "168",
+            "key": "geid_111595_222"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "188",
+            "target": "189",
+            "key": "geid_111595_224"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "189",
+            "target": "190",
+            "key": "geid_111595_225"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "190",
+            "target": "191",
+            "key": "geid_111595_226"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "191",
+            "target": "192",
+            "key": "geid_111595_227"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "192",
+            "target": "168",
+            "key": "geid_111595_228"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "193",
+            "target": "194",
+            "key": "geid_111595_230"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "194",
+            "target": "195",
+            "key": "geid_111595_231"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "195",
+            "target": "196",
+            "key": "geid_111595_232"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "196",
+            "target": "197",
+            "key": "geid_111595_233"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "197",
+            "target": "168",
+            "key": "geid_111595_234"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "198",
+            "target": "199",
+            "key": "geid_111595_236"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "199",
+            "target": "200",
+            "key": "geid_111595_237"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "200",
+            "target": "201",
+            "key": "geid_111595_238"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "201",
+            "target": "202",
+            "key": "geid_111595_239"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "202",
+            "target": "168",
+            "key": "geid_111595_240"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "203",
+            "target": "204",
+            "key": "geid_111595_242"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "204",
+            "target": "205",
+            "key": "geid_111595_243"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "205",
+            "target": "168",
+            "key": "geid_111595_244"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "206",
+            "target": "207",
+            "key": "geid_111595_246"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "207",
+            "target": "208",
+            "key": "geid_111595_247"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "208",
+            "target": "168",
+            "key": "geid_111595_248"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "209",
+            "target": "210",
+            "key": "geid_111595_250"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "210",
+            "target": "211",
+            "key": "geid_111595_251"
+        },
+        {
+            "patternId": "3c36c376-0480-4006-9d19-4e857db97334",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "211",
+            "target": "16",
+            "key": "geid_111595_252"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "source": "213",
+            "target": "214",
+            "key": "geid_111595_254"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "214",
+            "target": "225",
+            "key": "geid_111595_267"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "source": "216",
+            "target": "217",
+            "key": "geid_111595_257"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "source": "217",
+            "target": "218",
+            "key": "geid_111595_258"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "217",
+            "target": "231",
+            "key": "geid_111595_274"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "patternType": "LOOP",
+            "source": "218",
+            "target": "214",
+            "key": "geid_111595_260"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "220",
+            "target": "221",
+            "key": "geid_111595_262"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "221",
+            "target": "222",
+            "key": "geid_111595_263"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "222",
+            "target": "223",
+            "key": "geid_111595_264"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "223",
+            "target": "224",
+            "key": "geid_111595_265"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "224",
+            "target": "213",
+            "key": "geid_111595_266"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "225",
+            "target": "226",
+            "key": "geid_111595_268"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "226",
+            "target": "227",
+            "key": "geid_111595_269"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "227",
+            "target": "228",
+            "key": "geid_111595_270"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "228",
+            "target": "229",
+            "key": "geid_111595_271"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "229",
+            "target": "230",
+            "key": "geid_111595_272"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "230",
+            "target": "216",
+            "key": "geid_111595_273"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "231",
+            "target": "232",
+            "key": "geid_111595_275"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "232",
+            "target": "233",
+            "key": "geid_111595_276"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "233",
+            "target": "234",
+            "key": "geid_111595_277"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "234",
+            "target": "235",
+            "key": "geid_111595_278"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "235",
+            "target": "236",
+            "key": "geid_111595_279"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "236",
+            "target": "237",
+            "key": "geid_111595_280"
+        },
+        {
+            "patternId": "739dd338-e979-427b-a7fc-13277fb6d6ec",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "237",
+            "target": "23",
+            "key": "geid_111595_281"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "patternType": "XOR",
+            "source": "239",
+            "target": "240",
+            "key": "geid_111595_283"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement  ProcurementRequest  Procurement  Procurement",
+            "source": "240",
+            "target": "252",
+            "key": "geid_111595_299"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "240",
+            "target": "256",
+            "key": "geid_111595_304"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "240",
+            "target": "262",
+            "key": "geid_111595_311"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "240",
+            "target": "266",
+            "key": "geid_111595_316"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "245",
+            "target": "270",
+            "key": "geid_111595_321"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "247",
+            "target": "248",
+            "key": "geid_111595_294"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "248",
+            "target": "249",
+            "key": "geid_111595_295"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "249",
+            "target": "250",
+            "key": "geid_111595_296"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "250",
+            "target": "251",
+            "key": "geid_111595_297"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "251",
+            "target": "239",
+            "key": "geid_111595_298"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "252",
+            "target": "253",
+            "key": "geid_111595_300"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "253",
+            "target": "254",
+            "key": "geid_111595_301"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "254",
+            "target": "255",
+            "key": "geid_111595_302"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "255",
+            "target": "245",
+            "key": "geid_111595_303"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "256",
+            "target": "257",
+            "key": "geid_111595_305"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "257",
+            "target": "258",
+            "key": "geid_111595_306"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "258",
+            "target": "259",
+            "key": "geid_111595_307"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "259",
+            "target": "260",
+            "key": "geid_111595_308"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "260",
+            "target": "261",
+            "key": "geid_111595_309"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "261",
+            "target": "245",
+            "key": "geid_111595_310"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "262",
+            "target": "263",
+            "key": "geid_111595_312"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "263",
+            "target": "264",
+            "key": "geid_111595_313"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "264",
+            "target": "265",
+            "key": "geid_111595_314"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "265",
+            "target": "245",
+            "key": "geid_111595_315"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "266",
+            "target": "267",
+            "key": "geid_111595_317"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "267",
+            "target": "268",
+            "key": "geid_111595_318"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "268",
+            "target": "269",
+            "key": "geid_111595_319"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "269",
+            "target": "245",
+            "key": "geid_111595_320"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "270",
+            "target": "271",
+            "key": "geid_111595_322"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "271",
+            "target": "272",
+            "key": "geid_111595_323"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "272",
+            "target": "273",
+            "key": "geid_111595_324"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "273",
+            "target": "274",
+            "key": "geid_111595_325"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "274",
+            "target": "275",
+            "key": "geid_111595_326"
+        },
+        {
+            "patternId": "8d19d20c-0870-4c00-b5dd-425d0fe061d1",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "275",
+            "target": "7",
+            "key": "geid_111595_327"
+        }
+    ]
+}

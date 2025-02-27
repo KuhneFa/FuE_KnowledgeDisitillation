@@ -1,0 +1,2266 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "4ebdcb33-ecf0-46c3-aad4-271071dd7f42",
+            "label": "In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols \nStartEvent   The company has received information about a new supplier \n\nNote The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure \n\nStartEvent   The procurement team has been informed about the new supplier \n\nNote The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure \n\nStartEvent   The procurement manager has been assigned to lead the supplier selection process \n\nNote",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "6ad2d0e2-a1f6-433f-9e6b-50ab5fad7dbb",
+            "label": "In an event-driven process chain about a procurement process of an international company starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols \nStartEvent   The company has received information about a new supplier \n\nNote The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure \n\nStartEvent   The procurement team has been informed about the new supplier \n\nNote The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure \n\nStartEvent   The procurement manager has been assigned to lead the supplier selection process \n\nNote, provide an end event in the style of the part-of-speech tags 'NOUN AUX VERB NOUN' in passive voice. Example: 'contract has been signed'. Prefix with 'EndEvent - '. Ensure atomicity. The event must be unique and not previously mentioned. The words should be separated by whitespaces.  Do NOT mention NOUN AUX VERB NOUN. Max 80 symbols. No explanations. EndEvent   A contract has been signed with the selected supplier. EndEvent   The procurement process has been completed successfully. EndEvent   The procurement process has been cancelled. EndEvent   The procurement process has been put on hold. EndEvent   The procurement process has been updated. EndEvent   The procurement process has been reviewed. EndEvent   The procurement process has been audited. EndEvent   The procurement process has been certified. EndEvent   The procurement process has been finalized. EndEvent",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "14"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "16"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "17"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "18"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 parallel subprocesses, describe the one event of the subprocess In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "19"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "20"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "21"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "22"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "23"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "24"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "25"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "26"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "27"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "28"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "29"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "30"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "31"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "32"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "33"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "34"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Note The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure",
+            "id": "35"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 parallel subprocesses, describe the one function of the subprocess In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "36"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "38"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "43"
+        },
+        {
+            "type": "Event",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "45"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 parallel subprocesses, describe the one function of the subprocess Supplier Selection. The process consists of exactly one element. \u2018Function\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN VERB NOUN\u2018 in active voice. Prefix your answer with \u2018Function - \u2018. Do NOT generate more than the requested ONE function. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "46"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 parallel subprocesses, describe the one function of the subprocess Contract Negotiation. The process consists of exactly one element. \u2018Function\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN VERB NOUN\u2018 in active voice. Prefix your answer with \u2018Function - \u2018. Do NOT generate more than the requested ONE function. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "47"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 parallel subprocesses, describe the one function of the subprocess Payment Terms. The process consists of exactly one element. \u2018Function\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN VERB NOUN\u2018 in active voice. Prefix your answer with \u2018Function - \u2018. Do NOT generate more than the requested ONE function. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "48"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "49"
+        },
+        {
+            "type": "Function",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 2 alternative parallel subprocesses, describe the one function of the subprocess Warranty Claim. The process consists of exactly one element. \u2018Function\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN VERB NOUN\u2018 in active voice. Prefix your answer with \u2018Function - \u2018. Do NOT generate more than the requested ONE function. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "51"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "52"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "61"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Supplier Selection. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "63"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Contract Negotiation. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "64"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "65"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Payment Terms. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "66"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Logistics. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "67"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Quality Control. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "68"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Risk Management. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "69"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 1 alternative parallel subprocesses, describe the one event of the subprocess Compliance. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "70"
+        },
+        {
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "72"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "73"
+        },
+        {
+            "type": "Function",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "Note The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure",
+            "id": "75"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "76"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 2 subprocesses, describe the one event of the potentially repeating subprocess Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Subprocess 20. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "77"
+        },
+        {
+            "type": "Function",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "79"
+        },
+        {
+            "type": "Function",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "80"
+        },
+        {
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "81"
+        },
+        {
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "82"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Note The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure",
+            "id": "84"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "85"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "96"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "98"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "99"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "100"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "101"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "102"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "103"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "104"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "105"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "106"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "107"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "108"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "109"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "110"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "111"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "112"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "113"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "114"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "115"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "116"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "117"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "118"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "120"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "121"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "131"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "133"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "134"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "135"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "136"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "137"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "138"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "139"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "140"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "141"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "142"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "143"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "144"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "145"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "146"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "147"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "148"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "149"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "150"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "151"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "Note The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure",
+            "id": "153"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "154"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "162"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement team has been informed about the new supplier",
+            "id": "164"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "165"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "166"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "167"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "168"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "169"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "170"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "171"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "172"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "173"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "174"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "175"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "176"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "177"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "178"
+        },
+        {
+            "type": "Event",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "Note The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure",
+            "id": "180"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "181"
+        },
+        {
+            "type": "Function",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "Note The above sentence is in passive voice and follows the NOUN AUX VERB NOUN structure",
+            "id": "183"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "184"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 2 subprocesses, describe the one event of the potentially repeating subprocess Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Subprocess 20. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "185"
+        },
+        {
+            "type": "Function",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 123 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "187"
+        },
+        {
+            "type": "Event",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "StartEvent   The company has received information about a new supplier",
+            "id": "188"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "3",
+            "key": "geid_124195_22"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Supplier Selection ",
+            "source": "3",
+            "target": "18",
+            "key": "geid_124195_26"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Contract Negotiation ",
+            "source": "3",
+            "target": "20",
+            "key": "geid_124195_29"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Payment Terms ",
+            "source": "3",
+            "target": "22",
+            "key": "geid_124195_32"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Logistics Coordination Note: The above subprocesses are parallel subprocesses and each has its own set of nodes. The above subprocesses are not exhaustive and may have their own set of branches. StartEvent   The procurement manager has been assigned to lead the supplier selection process Note: The above sentence is in passive voice and follows the N",
+            "source": "3",
+            "target": "24",
+            "key": "geid_124195_35"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Logistics Coordination ",
+            "source": "3",
+            "target": "26",
+            "key": "geid_124195_38"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Risk Management ",
+            "source": "3",
+            "target": "28",
+            "key": "geid_124195_41"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Compliance Check ",
+            "source": "3",
+            "target": "30",
+            "key": "geid_124195_44"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Insurance Coverage ",
+            "source": "3",
+            "target": "32",
+            "key": "geid_124195_47"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "label": "Warranty Claim ",
+            "source": "3",
+            "target": "51",
+            "key": "geid_124195_95"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "label": "Dispute Resolution Note: The above subprocesses are parallel subprocesses and each has its own set",
+            "source": "3",
+            "target": "79",
+            "key": "geid_124195_121"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "14",
+            "target": "36",
+            "key": "geid_124195_53"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "16",
+            "target": "17",
+            "key": "geid_124195_24"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "17",
+            "target": "14",
+            "key": "geid_124195_25"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "18",
+            "target": "45",
+            "key": "geid_124195_65"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "19",
+            "target": "14",
+            "key": "geid_124195_28"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "20",
+            "target": "21",
+            "key": "geid_124195_30"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "21",
+            "target": "14",
+            "key": "geid_124195_31"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "22",
+            "target": "23",
+            "key": "geid_124195_33"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "23",
+            "target": "14",
+            "key": "geid_124195_34"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "24",
+            "target": "25",
+            "key": "geid_124195_36"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "25",
+            "target": "14",
+            "key": "geid_124195_37"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "26",
+            "target": "27",
+            "key": "geid_124195_39"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "14",
+            "key": "geid_124195_40"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "28",
+            "target": "29",
+            "key": "geid_124195_42"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "29",
+            "target": "14",
+            "key": "geid_124195_43"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "30",
+            "target": "31",
+            "key": "geid_124195_45"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "31",
+            "target": "14",
+            "key": "geid_124195_46"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "32",
+            "target": "33",
+            "key": "geid_124195_48"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "33",
+            "target": "14",
+            "key": "geid_124195_49"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "34",
+            "target": "35",
+            "key": "geid_124195_51"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "35",
+            "target": "14",
+            "key": "geid_124195_52"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "36",
+            "target": "1",
+            "key": "geid_124195_54"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Supplier Selection ",
+            "source": "38",
+            "target": "46",
+            "key": "geid_124195_67"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Contract Negotiation ",
+            "source": "38",
+            "target": "47",
+            "key": "geid_124195_69"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Payment Terms ",
+            "source": "38",
+            "target": "48",
+            "key": "geid_124195_71"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Logistics Coordination Note: The above subprocesses are parallel subprocesses and each has its own set of nodes. The above subprocesses are not exhaustive and may have their own set of branches. StartEvent   The procurement manager has been assigned to lead the supplier selection process Note: The above sentence is in passive voice and follows the N",
+            "source": "38",
+            "target": "49",
+            "key": "geid_124195_73"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "43",
+            "target": "19",
+            "key": "geid_124195_75"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "45",
+            "target": "38",
+            "key": "geid_124195_66"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "46",
+            "target": "43",
+            "key": "geid_124195_68"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "47",
+            "target": "43",
+            "key": "geid_124195_70"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "48",
+            "target": "43",
+            "key": "geid_124195_72"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "49",
+            "target": "98",
+            "key": "geid_124195_151"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "source": "51",
+            "target": "52",
+            "key": "geid_124195_77"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Supplier Selection ",
+            "source": "52",
+            "target": "63",
+            "key": "geid_124195_96"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Contract Negotiation ",
+            "source": "52",
+            "target": "64",
+            "key": "geid_124195_98"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Payment Terms ",
+            "source": "52",
+            "target": "66",
+            "key": "geid_124195_102"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Logistics ",
+            "source": "52",
+            "target": "67",
+            "key": "geid_124195_104"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Quality Control ",
+            "source": "52",
+            "target": "68",
+            "key": "geid_124195_106"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Risk Management ",
+            "source": "52",
+            "target": "69",
+            "key": "geid_124195_108"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Compliance ",
+            "source": "52",
+            "target": "70",
+            "key": "geid_124195_110"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "label": "Communication ",
+            "source": "52",
+            "target": "133",
+            "key": "geid_124195_205"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "61",
+            "target": "16",
+            "key": "geid_124195_112"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "63",
+            "target": "61",
+            "key": "geid_124195_97"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "64",
+            "target": "61",
+            "key": "geid_124195_99"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "65",
+            "target": "61",
+            "key": "geid_124195_101"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "66",
+            "target": "61",
+            "key": "geid_124195_103"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "67",
+            "target": "61",
+            "key": "geid_124195_105"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "68",
+            "target": "61",
+            "key": "geid_124195_107"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "69",
+            "target": "61",
+            "key": "geid_124195_109"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "70",
+            "target": "61",
+            "key": "geid_124195_111"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "source": "72",
+            "target": "73",
+            "key": "geid_124195_114"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "73",
+            "target": "80",
+            "key": "geid_124195_123"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "75",
+            "target": "164",
+            "key": "geid_124195_252"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Subprocess 20 ",
+            "source": "76",
+            "target": "77",
+            "key": "geid_124195_118"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "76",
+            "target": "82",
+            "key": "geid_124195_126"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "source": "77",
+            "target": "73",
+            "key": "geid_124195_120"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "79",
+            "target": "72",
+            "key": "geid_124195_122"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "80",
+            "target": "81",
+            "key": "geid_124195_124"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "81",
+            "target": "75",
+            "key": "geid_124195_125"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "82",
+            "target": "34",
+            "key": "geid_124195_127"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "source": "84",
+            "target": "85",
+            "key": "geid_124195_129"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Supplier Selection ",
+            "source": "85",
+            "target": "99",
+            "key": "geid_124195_153"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Contract Negotiation ",
+            "source": "85",
+            "target": "101",
+            "key": "geid_124195_156"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Payment Terms ",
+            "source": "85",
+            "target": "103",
+            "key": "geid_124195_159"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Logistics ",
+            "source": "85",
+            "target": "105",
+            "key": "geid_124195_162"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Quality Control ",
+            "source": "85",
+            "target": "107",
+            "key": "geid_124195_165"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Risk Management ",
+            "source": "85",
+            "target": "109",
+            "key": "geid_124195_168"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Compliance ",
+            "source": "85",
+            "target": "111",
+            "key": "geid_124195_171"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Communication ",
+            "source": "85",
+            "target": "113",
+            "key": "geid_124195_174"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Documentation ",
+            "source": "85",
+            "target": "115",
+            "key": "geid_124195_177"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Auditing StartEvent   The procurement manager has been assigned to lead the supplier selection process Note The above sentence is in passive",
+            "source": "85",
+            "target": "117",
+            "key": "geid_124195_180"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "96",
+            "target": "43",
+            "key": "geid_124195_183"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "98",
+            "target": "84",
+            "key": "geid_124195_152"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "99",
+            "target": "100",
+            "key": "geid_124195_154"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "100",
+            "target": "96",
+            "key": "geid_124195_155"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "101",
+            "target": "102",
+            "key": "geid_124195_157"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "102",
+            "target": "96",
+            "key": "geid_124195_158"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "103",
+            "target": "104",
+            "key": "geid_124195_160"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "104",
+            "target": "96",
+            "key": "geid_124195_161"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "105",
+            "target": "106",
+            "key": "geid_124195_163"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "106",
+            "target": "96",
+            "key": "geid_124195_164"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "107",
+            "target": "108",
+            "key": "geid_124195_166"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "108",
+            "target": "96",
+            "key": "geid_124195_167"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "109",
+            "target": "110",
+            "key": "geid_124195_169"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "110",
+            "target": "96",
+            "key": "geid_124195_170"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "111",
+            "target": "112",
+            "key": "geid_124195_172"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "112",
+            "target": "96",
+            "key": "geid_124195_173"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "113",
+            "target": "114",
+            "key": "geid_124195_175"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "114",
+            "target": "96",
+            "key": "geid_124195_176"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "115",
+            "target": "116",
+            "key": "geid_124195_178"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "116",
+            "target": "96",
+            "key": "geid_124195_179"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "117",
+            "target": "118",
+            "key": "geid_124195_181"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "118",
+            "target": "96",
+            "key": "geid_124195_182"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "source": "120",
+            "target": "121",
+            "key": "geid_124195_185"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Supplier Selection ",
+            "source": "121",
+            "target": "134",
+            "key": "geid_124195_207"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Contract Negotiation ",
+            "source": "121",
+            "target": "136",
+            "key": "geid_124195_210"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Payment Terms ",
+            "source": "121",
+            "target": "138",
+            "key": "geid_124195_213"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Logistics ",
+            "source": "121",
+            "target": "140",
+            "key": "geid_124195_216"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Quality Control ",
+            "source": "121",
+            "target": "142",
+            "key": "geid_124195_219"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Risk Management ",
+            "source": "121",
+            "target": "144",
+            "key": "geid_124195_222"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Compliance ",
+            "source": "121",
+            "target": "146",
+            "key": "geid_124195_225"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Communication ",
+            "source": "121",
+            "target": "148",
+            "key": "geid_124195_228"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Change Management Note: The above subprocesses are alternative subprocesses and are not part of the main process description. StartEvent   The procurement manager has been assigned",
+            "source": "121",
+            "target": "150",
+            "key": "geid_124195_231"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "131",
+            "target": "65",
+            "key": "geid_124195_234"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "133",
+            "target": "120",
+            "key": "geid_124195_206"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "134",
+            "target": "135",
+            "key": "geid_124195_208"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "135",
+            "target": "131",
+            "key": "geid_124195_209"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "136",
+            "target": "137",
+            "key": "geid_124195_211"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "137",
+            "target": "180",
+            "key": "geid_124195_284"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "138",
+            "target": "139",
+            "key": "geid_124195_214"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "139",
+            "target": "131",
+            "key": "geid_124195_215"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "140",
+            "target": "141",
+            "key": "geid_124195_217"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "141",
+            "target": "131",
+            "key": "geid_124195_218"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "142",
+            "target": "143",
+            "key": "geid_124195_220"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "143",
+            "target": "131",
+            "key": "geid_124195_221"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "144",
+            "target": "145",
+            "key": "geid_124195_223"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "145",
+            "target": "131",
+            "key": "geid_124195_224"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "146",
+            "target": "147",
+            "key": "geid_124195_226"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "147",
+            "target": "131",
+            "key": "geid_124195_227"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "148",
+            "target": "149",
+            "key": "geid_124195_229"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "149",
+            "target": "131",
+            "key": "geid_124195_230"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "150",
+            "target": "151",
+            "key": "geid_124195_232"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "151",
+            "target": "131",
+            "key": "geid_124195_233"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "source": "153",
+            "target": "154",
+            "key": "geid_124195_236"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Supplier Selection ",
+            "source": "154",
+            "target": "165",
+            "key": "geid_124195_254"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Contract Negotiation ",
+            "source": "154",
+            "target": "167",
+            "key": "geid_124195_257"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Payment Terms ",
+            "source": "154",
+            "target": "169",
+            "key": "geid_124195_260"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Logistics ",
+            "source": "154",
+            "target": "171",
+            "key": "geid_124195_263"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Quality Control ",
+            "source": "154",
+            "target": "173",
+            "key": "geid_124195_266"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Risk Management ",
+            "source": "154",
+            "target": "175",
+            "key": "geid_124195_269"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Compliance ",
+            "source": "154",
+            "target": "177",
+            "key": "geid_124195_272"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "162",
+            "target": "76",
+            "key": "geid_124195_275"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "164",
+            "target": "153",
+            "key": "geid_124195_253"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "165",
+            "target": "166",
+            "key": "geid_124195_255"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "166",
+            "target": "162",
+            "key": "geid_124195_256"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "167",
+            "target": "168",
+            "key": "geid_124195_258"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "168",
+            "target": "162",
+            "key": "geid_124195_259"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "169",
+            "target": "170",
+            "key": "geid_124195_261"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "170",
+            "target": "162",
+            "key": "geid_124195_262"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "171",
+            "target": "172",
+            "key": "geid_124195_264"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "172",
+            "target": "162",
+            "key": "geid_124195_265"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "173",
+            "target": "174",
+            "key": "geid_124195_267"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "174",
+            "target": "162",
+            "key": "geid_124195_268"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "175",
+            "target": "176",
+            "key": "geid_124195_270"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "176",
+            "target": "162",
+            "key": "geid_124195_271"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "177",
+            "target": "178",
+            "key": "geid_124195_273"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "178",
+            "target": "162",
+            "key": "geid_124195_274"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "source": "180",
+            "target": "181",
+            "key": "geid_124195_277"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "181",
+            "target": "187",
+            "key": "geid_124195_285"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "source": "183",
+            "target": "184",
+            "key": "geid_124195_280"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Subprocess 20 ",
+            "source": "184",
+            "target": "185",
+            "key": "geid_124195_281"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "184",
+            "target": "131",
+            "key": "geid_124195_288"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "source": "185",
+            "target": "181",
+            "key": "geid_124195_283"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "187",
+            "target": "188",
+            "key": "geid_124195_286"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "188",
+            "target": "183",
+            "key": "geid_124195_287"
+        }
+    ]
+}

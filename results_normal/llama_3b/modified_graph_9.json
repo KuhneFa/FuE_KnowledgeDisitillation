@@ -1,0 +1,2152 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "80a46150-05f6-4459-82d5-07e49ee3d9bb",
+            "label": " Step 1 Identify the starting event for the procurement process of an international company\nThe starting event should be related to the procurement process and involve the organization of the procurement process\n\n Step 2 Determine the concrete instances of the part-ofspeech tags for the starting event\nThe starting event should be made up of concrete instances of the following partofspeech tags NOUN AUX VERB NOUN\n\n Step 3 Provide a sentence in passive voice for the",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "e7fa1cba-de88-48ae-a697-52f4d42fd79e",
+            "label": "EndEvent - contract has been signed. \nStep 4 Provide the event chain, describing each event in detail and including the part-of-speech tags for each event. The part-of-speech tags for each event should be provided in a separate table. \n| Event | Part-of-speech tags |\n| --- | --- |\n| Step 1: Identify the starting event for the procurement process of an international company | NOUN |  |\n| Step 2: Determine the concrete instances of",
+            "id": "1"
+        },
+        {
+            "type": "Function",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Function - The procurement process of an international company starts with the organization of the procurement process. The process consists of exactly one element. The elements cannot be one of the already mentioned ones. The words should be separated by whitespaces.",
+            "id": "3"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "4"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "14"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Function - Procurement",
+            "id": "16"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Step 1 Identify the starting event for the procurement process of an international company",
+            "id": "17"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "E.g. Event - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement",
+            "id": "18"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Here is the input:",
+            "id": "19"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "More than one event can be generated, but the requested format must be followed. Event - Subprocess 11 Event - Subprocess 4",
+            "id": "20"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start Event - Procurement Start",
+            "id": "21"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Use maximum 80 symbols for the other two elements. \u2018. For example, the element \u2018Function - \u2018 should be written as \u2018Function - \u2018. \u2018.  The words should be separated by whitespaces. Use maximum 80 symbols for the other two elements. \u2018.  The words should be separated by whitespaces. Use maximum 80 symbols for the other two elements. \u2018.  The words should be separated by whitespaces. Use maximum 80 symbols for the other two elements.",
+            "id": "22"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": ", 13. ProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurement",
+            "id": "23"
+        },
+        {
+            "type": "Event",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Event - Function - Event",
+            "id": "24"
+        },
+        {
+            "type": "Function",
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "label": "Function - ProcurementProcessStart",
+            "id": "25"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "27"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "35"
+        },
+        {
+            "type": "Event",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Event - Subprocess 14 14 - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Procurement - Proc",
+            "id": "37"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Procurement Officer Procurement Manager Procurement Specialist Procurement Coordinator Procurement Analyst Procurement Consultant Procurement Coordinator Procurement Analyst Procurement Consultant Procurement Specialist Procurement Analyst Procurement Officer Procurement Manager Procurement Specialist Procurement Analyst Procurement Consultant Procurement Coordinator Procurement Analyst Procurement Officer Procurement Manager Procurement Specialist Procurement Analyst Procurement Consultant Procurement Coordinator Procurement Analyst Procurement Manager Procurement Specialist Procurement Analyst Procurement Officer Procurement Manager Procurement Analyst Procurement Consultant Procurement Coordinator Proc",
+            "id": "38"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Function - Start of procurement process.",
+            "id": "39"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Function - Start of procurement process.",
+            "id": "40"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Function - Start of procurement process. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from the client. Procurement process is initiated by an order from",
+            "id": "41"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Function - Start of procurement process. The organization of the procurement process. Procurement of goods and services. Procurement of goods and services in an international company. Procurement of goods and services for the international company. Procurement of goods and services for the company. Procurement of goods and services for the organization. Procurement of goods and services for the company\u2019s international operations. Procurement of goods and services for the company\u2019s international operations in the international market. Procurement of goods and services for",
+            "id": "42"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Function - ProcurementProcessStartEvent",
+            "id": "43"
+        },
+        {
+            "type": "Function",
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "patternType": "AND",
+            "label": "Function - Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement process. Procurement",
+            "id": "44"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Event - Function",
+            "id": "46"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "47"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "57"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "\u2018. The output should be formatted in the requested style.",
+            "id": "59"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "For example, the output of the first element would be  \u2018Event Function \u2018",
+            "id": "60"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Step 4 Provide the description of the subprocesses in the order of the two elements in the output",
+            "id": "61"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Use maximum 80 symbols for the other element",
+            "id": "62"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "\u2018Event\u2019 \u2018Function\u2019",
+            "id": "63"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "For example, \u2018Function - \u2018 OR \u2018Event - \u2018",
+            "id": "64"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Step 4 Provide a sentence in passive voice for the and involving 9 alternative parallel subprocesses, describe the events and functions of the subprocess Subprocess 3. The process consists of exactly 2 elements in this order: \u2018Event, Function\u2019. Provide descriptions for the 2 given process elements in this order: {elements_string}. \u2018Events\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN+",
+            "id": "65"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "\u2018",
+            "id": "66"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Function - \u2018",
+            "id": "67"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Example: \u2018Event, Function\u2019.",
+            "id": "68"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Step 4 Provide a description of the overall process and the main actors involved in the procurement process of an international company",
+            "id": "69"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Use maximum 80 symbols for the other element. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 80 symbols for one element. Use maximum 80 symbols for the other element. \u2018Event, Function\u2019",
+            "id": "70"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Event - Function",
+            "id": "71"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Function - Function",
+            "id": "72"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Step 4 Provide a sentence in passive voice for the described process elements",
+            "id": "73"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "The elements CANNOT contain any extra words.",
+            "id": "74"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "The starting event for the procurement process of an international company is the \u201cPurchase Order Issued\u201d event.",
+            "id": "75"
+        },
+        {
+            "type": "Event",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Use maximum 80 symbols for the other element.",
+            "id": "76"
+        },
+        {
+            "type": "Function",
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "label": "Event Function",
+            "id": "77"
+        },
+        {
+            "type": "Function",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "Event, Function",
+            "id": "79"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "80"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "85"
+        },
+        {
+            "type": "Event",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "Use maximum 80 symbols for the other element.",
+            "id": "87"
+        },
+        {
+            "type": "Event",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "The answers must be in the requested format",
+            "id": "88"
+        },
+        {
+            "type": "Function",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "Event - Function",
+            "id": "89"
+        },
+        {
+            "type": "Event",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "Use maximum 2 symbols for the prefix \u2018. Example output: \u2018Event, Function\u2019 \u2018Start, Procurement\u2019 \u2018Procurement, Initiate\u2019 \u2018Procurement, Receive Order\u2019 \u2018Procurement, Review Order\u2019 \u2018Procurement, Approve Order\u2019 \u2018Procurement, Close Order\u2019 \u2018Procurement, Send Invoice\u2019 \u2018Procurement, Track Invoice\u2019 \u2018Procurement, Send Invoice Receipt\u2019 \u2018Procurement, Track Invoice Receipt\u2019 \u2018Procurement, Close Invoice\u2019 \u2018Procurement",
+            "id": "90"
+        },
+        {
+            "type": "Function",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "91"
+        },
+        {
+            "type": "Event",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "Use maximum 60 symbols for the other element. Use the following format: \u2018Function - \u2018 OR \u2018Event - \u2018",
+            "id": "92"
+        },
+        {
+            "type": "Function",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "\u2018Function - Procurement Process Initiation Event - Procurement Process Initiation Event - Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Initiation Event Procurement Process Init",
+            "id": "93"
+        },
+        {
+            "type": "Event",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": "Function \u2013 \u2013 \u2018Buy \u2013 \u2018  Buy \u2013 \u2018Procurement \u2013 \u2018 Procurement \u2013 \u2018Procure \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018Procure \u2013 \u2018 Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018 Procure \u2013 \u2018 Procurement \u2013 \u2018 Proc",
+            "id": "94"
+        },
+        {
+            "type": "Function",
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "95"
+        },
+        {
+            "type": "Event",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "97"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "98"
+        },
+        {
+            "type": "Function",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "100"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "101"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. Event - Procurement Process  Event - Procurement Start  Event - Procurement Procurement  Event - Procurement Procurement  Event - Procurement Procurement  Event - Procurement Procurement",
+            "id": "102"
+        },
+        {
+            "type": "Function",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "104"
+        },
+        {
+            "type": "Function",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": "Function: \u2018 Procurement\u2019 Event: \u2018Ordering\u2019 Function: \u2018Planning\u2019 Event: \u2018Implementation\u2019 Function: \u2018Monitoring\u2019 Event: \u2018Evaluation\u2019 Function: \u2018Review\u2019 Event: \u2018Certification\u2019 Function: \u2018Compliance\u2019 Event: \u2018Audit\u2019 Function: \u2018Risk\u2019 Event: \u2018Change\u2019 Function: \u2018Communication\u2019 Event: \u2018Feedback\u2019 Function: \u2018Training\u2019 Event: \u2018Quality\u2019 Function: \u2018Audit\u2019 Event: \u2018Compliance\u2019 Function: \u2018Review\u2019",
+            "id": "105"
+        },
+        {
+            "type": "Event",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "106"
+        },
+        {
+            "type": "Event",
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": "The output should be a sentence with the given structure. Event - Procurement Process Start Event - Procurement Process Start Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement Process Procurement",
+            "id": "107"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The starting event for the procurement process of an international company is the'Procurement Request'.",
+            "id": "109"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "110"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "120"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Function - Event",
+            "id": "122"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": ". Procurement process starts with a procurement event, which is the first step in the procurement process. Procurement events are the core of the procurement process and are used to initiate the procurement process. Procurement events are the starting point for the procurement process and are used to trigger the procurement process. Procurement events are the first step in the procurement process and are used to initiate the procurement process. Procurement events are the starting point for the procurement process and are used to trigger the",
+            "id": "123"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The words should be separated by whitespaces. The words should be separated by whitespaces.",
+            "id": "124"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "\u2018Event\u2019 Function",
+            "id": "125"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "1. 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58",
+            "id": "126"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "127"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Use 20 symbols for the second element.  Use the following part of speech tags for each element: NOUN+VERB. The following are the 2 elements:",
+            "id": "128"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Function - \u2018Buy Order\u2019  Function - \u2018Procurement Team\u2019",
+            "id": "129"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Event Function",
+            "id": "130"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Procurement Order  Buy",
+            "id": "131"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The elements CANNOT contain any spaces. The answers should be in the format: \u2018Function - \u2018 + \u2018 Event - \u2018.",
+            "id": "132"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The following are the answers.",
+            "id": "133"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "\u2018. \u201c",
+            "id": "134"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Step 4 Write the output in the requested format",
+            "id": "135"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The output should be in sentence format. The starting event for the procurement process of an international company is the 'Order' of the procurement request.",
+            "id": "136"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The starting event should be related to the procurement process and involve the organization of the procurement process",
+            "id": "137"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The output should be in lowercase. Event Function",
+            "id": "138"
+        },
+        {
+            "type": "Function",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "Event - Supply Chain - Procurement",
+            "id": "139"
+        },
+        {
+            "type": "Event",
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "label": "The answer is Event - Procurement - of - the - organization.",
+            "id": "140"
+        },
+        {
+            "type": "Event",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Procurement - Supply Chain - Procurement",
+            "id": "142"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "143"
+        },
+        {
+            "type": "Function",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Event -  Event, Event, Event",
+            "id": "145"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "146"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Procurement of goods  Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of goods Procurement of",
+            "id": "147"
+        },
+        {
+            "type": "Function",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Procurement - Purchasing - Procurement",
+            "id": "149"
+        },
+        {
+            "type": "Function",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "The elements are separated by a comma and a space.",
+            "id": "150"
+        },
+        {
+            "type": "Event",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Function -  Function, Function, Function",
+            "id": "151"
+        },
+        {
+            "type": "Event",
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Event - Procurement - of - company - international - process - of - procurement - process - of - company - procurement - process - of - company - international - company - procurement - process - of - company - international - company - procurement - process - of - company - procurement - process - of - company - international - company - procurement - process - of - company - procurement - process - of - company - international - company - procurement - process - of - company - procurement - process - of",
+            "id": "152"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "154"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "163"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+            "id": "165"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "166"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "\u2018",
+            "id": "167"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function -",
+            "id": "168"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "For example, function = 3 function = 4",
+            "id": "169"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function - Procurement",
+            "id": "170"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "The words should be separated by whitespaces. Use maximum 80 symbols for one element.",
+            "id": "171"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function - \u2018",
+            "id": "172"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "\u2018",
+            "id": "173"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function - Procurement Process",
+            "id": "174"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "For the function element, the prefix should be in lowercase. The function element should be followed by a comma and a space and then the element name. The element name should be in lowercase. The element name should be followed by a comma and a space and then the element description. The element description should be in lowercase and separated by whitespaces. The element description should be preceded by a colon colon.",
+            "id": "175"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function - Process - Description",
+            "id": "176"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Use maximum 20 symbols for the other element. \u2018 Function - Procurement Process \u2018 Event - Order Confirmation \u2018 Procurement Process - Order Received \u2018 Event - Order Acknowledgement \u2018 Order Received - Procurement Process \u2018 Event - Payment Confirmation \u2018 Payment Confirmation - Procurement Process \u2018 Procurement Process - Order Approved \u2018 Order Approved - Procurement Process \u2018 Event - Order Issued \u2018 Order Issued - Procurement Process \u2018 Event - Order Placed \u2018 Order Placed - Procurement Process \u2018 Procurement Process",
+            "id": "177"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "178"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function -  \u2018The company\u2019s procurement team decides to start the procurement process of the international company\u2019s products.\u2018",
+            "id": "179"
+        },
+        {
+            "type": "Event",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Event - \u2018The procurement team receives a request from the international company to purchase 1000 units of the product.\u2018",
+            "id": "180"
+        },
+        {
+            "type": "Function",
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "patternType": "AND",
+            "label": "Function Event",
+            "id": "181"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "0",
+            "target": "3",
+            "key": "geid_134245_21"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "patternType": "XOR",
+            "source": "3",
+            "target": "4",
+            "key": "geid_134245_1"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 1  Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9",
+            "source": "4",
+            "target": "18",
+            "key": "geid_134245_26"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess",
+            "source": "4",
+            "target": "19",
+            "key": "geid_134245_28"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 11  Subprocess 4",
+            "source": "4",
+            "target": "20",
+            "key": "geid_134245_30"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 12  Subprocess 6",
+            "source": "4",
+            "target": "22",
+            "key": "geid_134245_34"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 13  Subprocess 7",
+            "source": "4",
+            "target": "23",
+            "key": "geid_134245_36"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "label": "Subprocess 14  Subprocess 8",
+            "source": "4",
+            "target": "37",
+            "key": "geid_134245_58"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "label": "Subprocess 15  Subprocess 9",
+            "source": "4",
+            "target": "59",
+            "key": "geid_134245_96"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "4",
+            "target": "87",
+            "key": "geid_134245_137"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "4",
+            "target": "154",
+            "key": "geid_134245_251"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "14",
+            "target": "25",
+            "key": "geid_134245_40"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "16",
+            "target": "14",
+            "key": "geid_134245_23"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "17",
+            "target": "109",
+            "key": "geid_134245_188"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "18",
+            "target": "14",
+            "key": "geid_134245_27"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "19",
+            "target": "14",
+            "key": "geid_134245_29"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "20",
+            "target": "14",
+            "key": "geid_134245_31"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "21",
+            "target": "14",
+            "key": "geid_134245_33"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "22",
+            "target": "104",
+            "key": "geid_134245_160"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "23",
+            "target": "14",
+            "key": "geid_134245_37"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "24",
+            "target": "149",
+            "key": "geid_134245_226"
+        },
+        {
+            "patternId": "beba4306-44d3-410e-974b-c494e53e39c7",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "25",
+            "target": "1",
+            "key": "geid_134245_41"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7 1. Procurement Officer2. Procurement Manager3. Procurement Specialist4. Procurement Coordinator5. Procurement Analyst6. Procurement Consultant7. Procurement CoordinatorNote: Each of the above names should be unique and not previously mentioned. The names should not be related to",
+            "source": "27",
+            "target": "38",
+            "key": "geid_134245_60"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "39",
+            "key": "geid_134245_62"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "40",
+            "key": "geid_134245_64"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "41",
+            "key": "geid_134245_66"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "42",
+            "key": "geid_134245_68"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "43",
+            "key": "geid_134245_70"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "44",
+            "key": "geid_134245_72"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "35",
+            "target": "17",
+            "key": "geid_134245_74"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "37",
+            "target": "27",
+            "key": "geid_134245_59"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "38",
+            "target": "35",
+            "key": "geid_134245_61"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "39",
+            "target": "35",
+            "key": "geid_134245_63"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "40",
+            "target": "35",
+            "key": "geid_134245_65"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "41",
+            "target": "35",
+            "key": "geid_134245_67"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "42",
+            "target": "35",
+            "key": "geid_134245_69"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "43",
+            "target": "35",
+            "key": "geid_134245_71"
+        },
+        {
+            "patternId": "1c9a60e7-3783-4f7c-ac1c-a34bb6b01390",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "44",
+            "target": "35",
+            "key": "geid_134245_73"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "patternType": "OR",
+            "source": "46",
+            "target": "47",
+            "key": "geid_134245_76"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9 ",
+            "source": "47",
+            "target": "60",
+            "key": "geid_134245_98"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9 ",
+            "source": "47",
+            "target": "62",
+            "key": "geid_134245_101"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2",
+            "source": "47",
+            "target": "64",
+            "key": "geid_134245_104"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4",
+            "source": "47",
+            "target": "66",
+            "key": "geid_134245_107"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4",
+            "source": "47",
+            "target": "68",
+            "key": "geid_134245_110"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "47",
+            "target": "70",
+            "key": "geid_134245_113"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "47",
+            "target": "72",
+            "key": "geid_134245_116"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "47",
+            "target": "74",
+            "key": "geid_134245_119"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "47",
+            "target": "76",
+            "key": "geid_134245_122"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "57",
+            "target": "21",
+            "key": "geid_134245_125"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "59",
+            "target": "46",
+            "key": "geid_134245_97"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "60",
+            "target": "61",
+            "key": "geid_134245_99"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "61",
+            "target": "57",
+            "key": "geid_134245_100"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "62",
+            "target": "63",
+            "key": "geid_134245_102"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "63",
+            "target": "57",
+            "key": "geid_134245_103"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "64",
+            "target": "65",
+            "key": "geid_134245_105"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "65",
+            "target": "57",
+            "key": "geid_134245_106"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "66",
+            "target": "67",
+            "key": "geid_134245_108"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "67",
+            "target": "57",
+            "key": "geid_134245_109"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "68",
+            "target": "69",
+            "key": "geid_134245_111"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "69",
+            "target": "57",
+            "key": "geid_134245_112"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "70",
+            "target": "71",
+            "key": "geid_134245_114"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "71",
+            "target": "57",
+            "key": "geid_134245_115"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "72",
+            "target": "73",
+            "key": "geid_134245_117"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "73",
+            "target": "57",
+            "key": "geid_134245_118"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "74",
+            "target": "75",
+            "key": "geid_134245_120"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "75",
+            "target": "57",
+            "key": "geid_134245_121"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "76",
+            "target": "77",
+            "key": "geid_134245_123"
+        },
+        {
+            "patternId": "458a78e7-d656-4d2c-90ba-432c35962b7b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "77",
+            "target": "57",
+            "key": "geid_134245_124"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "patternType": "OR",
+            "source": "79",
+            "target": "80",
+            "key": "geid_134245_127"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9 ",
+            "source": "80",
+            "target": "88",
+            "key": "geid_134245_139"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9 ",
+            "source": "80",
+            "target": "90",
+            "key": "geid_134245_142"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2",
+            "source": "80",
+            "target": "92",
+            "key": "geid_134245_145"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4",
+            "source": "80",
+            "target": "94",
+            "key": "geid_134245_148"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "85",
+            "target": "24",
+            "key": "geid_134245_151"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "87",
+            "target": "79",
+            "key": "geid_134245_138"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "88",
+            "target": "89",
+            "key": "geid_134245_140"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "89",
+            "target": "85",
+            "key": "geid_134245_141"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "90",
+            "target": "91",
+            "key": "geid_134245_143"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "91",
+            "target": "85",
+            "key": "geid_134245_144"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "92",
+            "target": "93",
+            "key": "geid_134245_146"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "93",
+            "target": "85",
+            "key": "geid_134245_147"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "94",
+            "target": "95",
+            "key": "geid_134245_149"
+        },
+        {
+            "patternId": "59c2cb54-e310-462d-8ac0-bc8969bc926b",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "95",
+            "target": "85",
+            "key": "geid_134245_150"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "source": "97",
+            "target": "98",
+            "key": "geid_134245_153"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "98",
+            "target": "105",
+            "key": "geid_134245_162"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "source": "100",
+            "target": "101",
+            "key": "geid_134245_156"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Subprocess 20",
+            "source": "101",
+            "target": "102",
+            "key": "geid_134245_157"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "101",
+            "target": "107",
+            "key": "geid_134245_165"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "patternType": "LOOP",
+            "source": "102",
+            "target": "98",
+            "key": "geid_134245_159"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "104",
+            "target": "97",
+            "key": "geid_134245_161"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "105",
+            "target": "106",
+            "key": "geid_134245_163"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "106",
+            "target": "100",
+            "key": "geid_134245_164"
+        },
+        {
+            "patternId": "8631b248-b093-4ed0-8a33-5a8ae2793f9b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "107",
+            "target": "14",
+            "key": "geid_134245_166"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "patternType": "XOR",
+            "source": "109",
+            "target": "110",
+            "key": "geid_134245_168"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 1  Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9",
+            "source": "110",
+            "target": "122",
+            "key": "geid_134245_189"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess",
+            "source": "110",
+            "target": "124",
+            "key": "geid_134245_192"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 11  Subprocess 4",
+            "source": "110",
+            "target": "126",
+            "key": "geid_134245_195"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 12  Subprocess 6",
+            "source": "110",
+            "target": "128",
+            "key": "geid_134245_198"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 13  Subprocess 7",
+            "source": "110",
+            "target": "130",
+            "key": "geid_134245_201"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 14  Subprocess 8",
+            "source": "110",
+            "target": "132",
+            "key": "geid_134245_204"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 15  Subprocess 9",
+            "source": "110",
+            "target": "134",
+            "key": "geid_134245_207"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "110",
+            "target": "136",
+            "key": "geid_134245_210"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "110",
+            "target": "138",
+            "key": "geid_134245_213"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "120",
+            "target": "140",
+            "key": "geid_134245_216"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "122",
+            "target": "123",
+            "key": "geid_134245_190"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "123",
+            "target": "120",
+            "key": "geid_134245_191"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "124",
+            "target": "125",
+            "key": "geid_134245_193"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "125",
+            "target": "120",
+            "key": "geid_134245_194"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "126",
+            "target": "127",
+            "key": "geid_134245_196"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "127",
+            "target": "120",
+            "key": "geid_134245_197"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "128",
+            "target": "129",
+            "key": "geid_134245_199"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "129",
+            "target": "120",
+            "key": "geid_134245_200"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "130",
+            "target": "131",
+            "key": "geid_134245_202"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "131",
+            "target": "120",
+            "key": "geid_134245_203"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "132",
+            "target": "133",
+            "key": "geid_134245_205"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "133",
+            "target": "120",
+            "key": "geid_134245_206"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "134",
+            "target": "135",
+            "key": "geid_134245_208"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "135",
+            "target": "120",
+            "key": "geid_134245_209"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "136",
+            "target": "137",
+            "key": "geid_134245_211"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "137",
+            "target": "120",
+            "key": "geid_134245_212"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "138",
+            "target": "139",
+            "key": "geid_134245_214"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "139",
+            "target": "120",
+            "key": "geid_134245_215"
+        },
+        {
+            "patternId": "bef53433-e131-4970-bde2-76820f66553a",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "140",
+            "target": "14",
+            "key": "geid_134245_217"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "source": "142",
+            "target": "143",
+            "key": "geid_134245_219"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "143",
+            "target": "150",
+            "key": "geid_134245_228"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "source": "145",
+            "target": "146",
+            "key": "geid_134245_222"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Subprocess 20",
+            "source": "146",
+            "target": "147",
+            "key": "geid_134245_223"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "146",
+            "target": "152",
+            "key": "geid_134245_231"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "patternType": "LOOP",
+            "source": "147",
+            "target": "143",
+            "key": "geid_134245_225"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "149",
+            "target": "142",
+            "key": "geid_134245_227"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "150",
+            "target": "151",
+            "key": "geid_134245_229"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "151",
+            "target": "145",
+            "key": "geid_134245_230"
+        },
+        {
+            "patternId": "3153689a-9347-40cc-88de-d64739a06c3e",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "152",
+            "target": "14",
+            "key": "geid_134245_232"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7 1. Procurement Officer2. Procurement Manager3. Procurement Specialist4. Procurement Coordinator5. Procurement Analyst6. Procurement Consultant7. Procurement CoordinatorNote: Each of the above names should be unique and not previously mentioned. The names should not be related to",
+            "source": "154",
+            "target": "165",
+            "key": "geid_134245_252"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "167",
+            "key": "geid_134245_255"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "169",
+            "key": "geid_134245_258"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "171",
+            "key": "geid_134245_261"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "173",
+            "key": "geid_134245_264"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "175",
+            "key": "geid_134245_267"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "177",
+            "key": "geid_134245_270"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "179",
+            "key": "geid_134245_273"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "163",
+            "target": "181",
+            "key": "geid_134245_276"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "165",
+            "target": "166",
+            "key": "geid_134245_253"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "166",
+            "target": "163",
+            "key": "geid_134245_254"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "167",
+            "target": "168",
+            "key": "geid_134245_256"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "168",
+            "target": "163",
+            "key": "geid_134245_257"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "169",
+            "target": "170",
+            "key": "geid_134245_259"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "170",
+            "target": "163",
+            "key": "geid_134245_260"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "171",
+            "target": "172",
+            "key": "geid_134245_262"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "172",
+            "target": "163",
+            "key": "geid_134245_263"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "173",
+            "target": "174",
+            "key": "geid_134245_265"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "174",
+            "target": "163",
+            "key": "geid_134245_266"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "175",
+            "target": "176",
+            "key": "geid_134245_268"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "176",
+            "target": "163",
+            "key": "geid_134245_269"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "177",
+            "target": "178",
+            "key": "geid_134245_271"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "178",
+            "target": "163",
+            "key": "geid_134245_272"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "179",
+            "target": "180",
+            "key": "geid_134245_274"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "180",
+            "target": "163",
+            "key": "geid_134245_275"
+        },
+        {
+            "patternId": "47897c2d-9789-4cc3-86df-4ee469e3e3fc",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "181",
+            "target": "16",
+            "key": "geid_134245_277"
+        }
+    ]
+}

@@ -1,0 +1,2237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "4ebdcb33-ecf0-46c3-aad4-271071dd7f42",
+            "label": "StartEvent - ProcurementProcessStart \nProcurementProcessStart  ProcurementProcessStart \nProcurementProcessStart  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess \nProcurementProcess  ProcurementProcess",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "6ad2d0e2-a1f6-433f-9e6b-50ab5fad7dbb",
+            "label": "- ProcurementProcessStart \n\nEndEvent - ProcurementContractSigned \nEndEvent - ProcurementProcessEnd \nEndEvent - ProcurementProcessStart \nEndEvent - ProcurementProcessStart \nEndEvent - ProcurementProcessEnd \nEndEvent - ProcurementProcessEnd \nEndEvent - ProcurementProcessStart \nEndEvent - ProcurementProcessStart \nEndEvent - ProcurementProcessEnd \nEndEvent - ProcurementProcessEnd \nEndEvent - ProcurementProcessStart \nEndEvent - Procurement",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "14"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "\u2018",
+            "id": "16"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Function - ProcurementProcessStart",
+            "id": "17"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "For example, if you want to describe the function of the event \u2018ProcurementProcessStart\u2019, you would write: \u2018Function - ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcess",
+            "id": "18"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart",
+            "id": "19"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "\u2018.\u2019",
+            "id": "20"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "id": "21"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Function - ProcurementProcessStart ProcurementProcessStart",
+            "id": "22"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Event - ProcurementProcessStart ProcurementProcessStart",
+            "id": "23"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Function - \u2018ProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProc",
+            "id": "24"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "25"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "26"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart  ProcurementProcessStart",
+            "id": "27"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "\u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcessStart\u201d \u201cProcurementProcess",
+            "id": "28"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "29"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "30"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurement",
+            "id": "31"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Function - ProcurementProcessStart",
+            "id": "32"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "id": "33"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessEnd ProcurementProcessEnd ProcurementProcessEnd ProcurementProcessEnd ProcurementProcessEnd ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProc",
+            "id": "34"
+        },
+        {
+            "type": "Event",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "35"
+        },
+        {
+            "type": "Function",
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "patternType": "AND",
+            "label": "Function - ProcurementProcessStart ProcurementProcessStart ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess",
+            "id": "36"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "38"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "43"
+        },
+        {
+            "type": "Event",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": ".                                             .",
+            "id": "45"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "ProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStart",
+            "id": "46"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart - ProcurementProcessStartProcurementProcessStartProcurementStartProcurementStartProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProcurementProc",
+            "id": "47"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "Function - ProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurement",
+            "id": "48"
+        },
+        {
+            "type": "Function",
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "id": "49"
+        },
+        {
+            "type": "Function",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart ProcurementProcess ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcess",
+            "id": "51"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "52"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "61"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart2 - ProcurementProcessReview2. ProcurementProcessReview2 - ProcurementProcessNegotiate2. ProcurementProcessNegotiate2 - ProcurementProcessReviewRequest2. ProcurementProcessReviewRequest2 - ProcurementProcessOffer2. ProcurementProcessOffer2 - ProcurementProcessAccept2. ProcurementProcessAccept2 - ProcurementProcessReject2. ProcurementProcessReject2 - ProcurementProcessReview2. ProcurementProcessReview2 - ProcurementProcessNeg",
+            "id": "63"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "\u2018ProcurementProcessStart\u2019 should be preceded by a space. ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess Proc",
+            "id": "64"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "The output should be a single sentence with 3 elements separated by whitespaces. ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProc",
+            "id": "65"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcess",
+            "id": "66"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "1. ProcurementProcessStart ProcurementProcessStart ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess Procurement",
+            "id": "67"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "Event - StartEventProcurementProcessStart ProcurementProcessStart ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess ProcurementProcess Proc",
+            "id": "68"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "\u2013 the event is the StartEvent - ProcurementProcessStart. \u2013 the output should be a list of the given words separated by whitespaces. \u2013 the output should be in the format: Event - Event - Event - Event - Event - Event. \u2013 the words should be separated by whitespaces. \u2013 the words should be separated by whitespaces. \u2013 the words should be separated by whitespaces. \u2013 the words should be separated by whitespaces. \u2013 the words should be separated by whitespaces.",
+            "id": "69"
+        },
+        {
+            "type": "Event",
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "label": "Event - ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurementProcess ProcurementProcessProcurement",
+            "id": "70"
+        },
+        {
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart",
+            "id": "72"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "73"
+        },
+        {
+            "type": "Function",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "75"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "76"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "\u2013",
+            "id": "77"
+        },
+        {
+            "type": "Function",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "79"
+        },
+        {
+            "type": "Function",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "\u2018.  ProcurementProcessStart  ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart",
+            "id": "80"
+        },
+        {
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "81"
+        },
+        {
+            "type": "Event",
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "Here is an example: \u2018Event - ProcurementProcessStart \u2018",
+            "id": "82"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "84"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "85"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "96"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart Procurement",
+            "id": "98"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "1 ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart Procurement",
+            "id": "99"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "100"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "In the case of a function, the verb should be the first word. \u2018ProcurementProcessStart\u2019 AND \u2018ProcurementProcessEnd\u2019 are the only two events in the given process chain. ProcurementProcessStart is the starting event of the process chain, ProcurementProcessEnd is the ending event of the process chain. ProcurementProcessStart is the starting event of the process chain, ProcurementProcessEnd is the ending event of the process chain.",
+            "id": "101"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart Event - ProcurementProcess",
+            "id": "102"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Function - \u2018",
+            "id": "103"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStart",
+            "id": "104"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "and keep the first letter of each element capitalized.",
+            "id": "105"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "{elements_string}",
+            "id": "106"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Event - ProcurementProcessStart",
+            "id": "107"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Function - ProcurementProcessStart",
+            "id": "108"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "\u2018. Here is the output:",
+            "id": "109"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Event - ProcurementProcessStart",
+            "id": "110"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Event Function",
+            "id": "111"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart Event ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurement",
+            "id": "112"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Each element is separated from the other by a tab character",
+            "id": "113"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "114"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Use proper grammar and spelling. Here is the input for the first element: ProcurementProcessStart ProcurementProcessStart",
+            "id": "115"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcess",
+            "id": "116"
+        },
+        {
+            "type": "Event",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "Function - \u2018. ProcurementProcessStart - ProcurementProcessStart",
+            "id": "117"
+        },
+        {
+            "type": "Function",
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart Procurement",
+            "id": "118"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "Event - ProcurementProcessStart",
+            "id": "120"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "121"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "131"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "\u2018. The output should be in the requested format.",
+            "id": "133"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "\u2018. Here is the description of the events and functions of ProcurementProcessStart2: ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 ProcurementProcessStart2 Procurement",
+            "id": "134"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "135"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "\u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart \u2018ProcurementProcessStart",
+            "id": "136"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": ".                                             .",
+            "id": "137"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "\u2018",
+            "id": "138"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "139"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "140"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcess",
+            "id": "141"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "142"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcess",
+            "id": "143"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "144"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart",
+            "id": "145"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "\u2018. \u2018",
+            "id": "146"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "Event - ProcurementProcessStart",
+            "id": "147"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "Function - \u2018",
+            "id": "148"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "ProcurementProcessStart - ProcurementProcessStart",
+            "id": "149"
+        },
+        {
+            "type": "Event",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "\u2018. The words should be separated by whitespaces. Use maximum 80 symbols for one element.",
+            "id": "150"
+        },
+        {
+            "type": "Function",
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "151"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "153"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "154"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "162"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": ".                                             .",
+            "id": "164"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "\u2018",
+            "id": "165"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "166"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "167"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart",
+            "id": "168"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "Here is the input data:",
+            "id": "169"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart ProcurementProcessStart Procurement",
+            "id": "170"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "In case of a single word, it should be separated by a hyphen. \u2018.",
+            "id": "171"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "172"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "The words should be separated by whitespaces for the second element.",
+            "id": "173"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "## Step 1: Identify the type of each element",
+            "id": "174"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "\u2018.",
+            "id": "175"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementProcessStart ProcurementProcessStart ProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurementProcessProcurement",
+            "id": "176"
+        },
+        {
+            "type": "Event",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "StartEvent - ProcurementProcessStart",
+            "id": "177"
+        },
+        {
+            "type": "Function",
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart ProcurementProcessStart ProcurementProcess",
+            "id": "178"
+        },
+        {
+            "type": "Event",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": ".                                             .",
+            "id": "180"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "181"
+        },
+        {
+            "type": "Function",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "Event - ProcurementProcessStart - ProcurementProcessStart",
+            "id": "183"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "184"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "Event - ProcurementProcessStart - ProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProcurementProcessStartProc",
+            "id": "185"
+        },
+        {
+            "type": "Function",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "\u201cProcurementProcessStart\u201d is already given in the problem statement, so do not include it again.",
+            "id": "187"
+        },
+        {
+            "type": "Event",
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "ProcurementProcessStart  ProcurementProcessStart  ProcurementProcessStart",
+            "id": "188"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "3",
+            "key": "geid_124195_22"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "18",
+            "key": "geid_124195_26"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "20",
+            "key": "geid_124195_29"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "22",
+            "key": "geid_124195_32"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "24",
+            "key": "geid_124195_35"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "26",
+            "key": "geid_124195_38"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "28",
+            "key": "geid_124195_41"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "30",
+            "key": "geid_124195_44"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "3",
+            "target": "32",
+            "key": "geid_124195_47"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "label": "ProcurementProcess",
+            "source": "3",
+            "target": "51",
+            "key": "geid_124195_95"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "3",
+            "target": "79",
+            "key": "geid_124195_121"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "14",
+            "target": "36",
+            "key": "geid_124195_53"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "16",
+            "target": "17",
+            "key": "geid_124195_24"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "17",
+            "target": "14",
+            "key": "geid_124195_25"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "18",
+            "target": "45",
+            "key": "geid_124195_65"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "19",
+            "target": "14",
+            "key": "geid_124195_28"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "20",
+            "target": "21",
+            "key": "geid_124195_30"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "21",
+            "target": "14",
+            "key": "geid_124195_31"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "22",
+            "target": "23",
+            "key": "geid_124195_33"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "23",
+            "target": "14",
+            "key": "geid_124195_34"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "24",
+            "target": "25",
+            "key": "geid_124195_36"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "25",
+            "target": "14",
+            "key": "geid_124195_37"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "26",
+            "target": "27",
+            "key": "geid_124195_39"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "14",
+            "key": "geid_124195_40"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "28",
+            "target": "29",
+            "key": "geid_124195_42"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "29",
+            "target": "14",
+            "key": "geid_124195_43"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "30",
+            "target": "31",
+            "key": "geid_124195_45"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "31",
+            "target": "14",
+            "key": "geid_124195_46"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "32",
+            "target": "33",
+            "key": "geid_124195_48"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "33",
+            "target": "14",
+            "key": "geid_124195_49"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "34",
+            "target": "35",
+            "key": "geid_124195_51"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "35",
+            "target": "14",
+            "key": "geid_124195_52"
+        },
+        {
+            "patternId": "75eefa0b-a261-49a8-9b9f-c8ca0d20a800",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "36",
+            "target": "1",
+            "key": "geid_124195_54"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "38",
+            "target": "46",
+            "key": "geid_124195_67"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "38",
+            "target": "47",
+            "key": "geid_124195_69"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "38",
+            "target": "48",
+            "key": "geid_124195_71"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "ProcurementProcessStart",
+            "source": "38",
+            "target": "49",
+            "key": "geid_124195_73"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "43",
+            "target": "19",
+            "key": "geid_124195_75"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "45",
+            "target": "38",
+            "key": "geid_124195_66"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "46",
+            "target": "43",
+            "key": "geid_124195_68"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "47",
+            "target": "43",
+            "key": "geid_124195_70"
+        },
+        {
+            "patternId": "58ae4cf6-31e0-48c3-9695-d360ecdf6eed",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "48",
+            "target": "43",
+            "key": "geid_124195_72"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "49",
+            "target": "98",
+            "key": "geid_124195_151"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "patternType": "OR",
+            "source": "51",
+            "target": "52",
+            "key": "geid_124195_77"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "ProcurementProcessStart2. Subprocess 2  ProcurementProcessEnd3. Subprocess 3  ProcurementProcessReview4. Subprocess 4  ProcurementProcessOffer5. Subprocess 5  ProcurementProcessAccept6. Subprocess 6  ProcurementProcessReject7. Subprocess 7  ProcurementProcessReviewRequest8. Subprocess 8  ProcurementProcessNegotiate",
+            "source": "52",
+            "target": "63",
+            "key": "geid_124195_96"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "52",
+            "target": "64",
+            "key": "geid_124195_98"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "52",
+            "target": "66",
+            "key": "geid_124195_102"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "52",
+            "target": "67",
+            "key": "geid_124195_104"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "52",
+            "target": "68",
+            "key": "geid_124195_106"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "52",
+            "target": "69",
+            "key": "geid_124195_108"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "52",
+            "target": "70",
+            "key": "geid_124195_110"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "52",
+            "target": "133",
+            "key": "geid_124195_205"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "61",
+            "target": "16",
+            "key": "geid_124195_112"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "63",
+            "target": "61",
+            "key": "geid_124195_97"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "64",
+            "target": "61",
+            "key": "geid_124195_99"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "65",
+            "target": "61",
+            "key": "geid_124195_101"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "66",
+            "target": "61",
+            "key": "geid_124195_103"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "67",
+            "target": "61",
+            "key": "geid_124195_105"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "68",
+            "target": "61",
+            "key": "geid_124195_107"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "69",
+            "target": "61",
+            "key": "geid_124195_109"
+        },
+        {
+            "patternId": "f11bc8ea-6511-4179-90c6-e49488c50614",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "70",
+            "target": "61",
+            "key": "geid_124195_111"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "source": "72",
+            "target": "73",
+            "key": "geid_124195_114"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "73",
+            "target": "80",
+            "key": "geid_124195_123"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "75",
+            "target": "164",
+            "key": "geid_124195_252"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "label": "ProcurementProcessStart ",
+            "source": "76",
+            "target": "77",
+            "key": "geid_124195_118"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "label": "ProcurementProcessEnd ",
+            "source": "76",
+            "target": "82",
+            "key": "geid_124195_126"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "patternType": "LOOP",
+            "source": "77",
+            "target": "73",
+            "key": "geid_124195_120"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "79",
+            "target": "72",
+            "key": "geid_124195_122"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "80",
+            "target": "81",
+            "key": "geid_124195_124"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "81",
+            "target": "75",
+            "key": "geid_124195_125"
+        },
+        {
+            "patternId": "514371f0-ca66-4b59-a721-68776744e812",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "82",
+            "target": "34",
+            "key": "geid_124195_127"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "patternType": "XOR",
+            "source": "84",
+            "target": "85",
+            "key": "geid_124195_129"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart 2. Subprocess 2  ProcurementProcessStop 3. Subprocess 3  ProcurementProcessCancel 4. Subprocess 4  ProcurementProcessReorder 5. Subprocess 5  ProcurementProcessConfirm 6. Subprocess 6  ProcurementProcessCancel 7. Subprocess 7  ProcurementProcessReorder 8. Subprocess 8  ProcurementProcessConfirm 9",
+            "source": "85",
+            "target": "99",
+            "key": "geid_124195_153"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "101",
+            "key": "geid_124195_156"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "103",
+            "key": "geid_124195_159"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "105",
+            "key": "geid_124195_162"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "107",
+            "key": "geid_124195_165"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "109",
+            "key": "geid_124195_168"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "111",
+            "key": "geid_124195_171"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "113",
+            "key": "geid_124195_174"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "115",
+            "key": "geid_124195_177"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "117",
+            "key": "geid_124195_180"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "96",
+            "target": "43",
+            "key": "geid_124195_183"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "98",
+            "target": "84",
+            "key": "geid_124195_152"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "99",
+            "target": "100",
+            "key": "geid_124195_154"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "100",
+            "target": "96",
+            "key": "geid_124195_155"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "101",
+            "target": "102",
+            "key": "geid_124195_157"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "102",
+            "target": "96",
+            "key": "geid_124195_158"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "103",
+            "target": "104",
+            "key": "geid_124195_160"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "104",
+            "target": "96",
+            "key": "geid_124195_161"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "105",
+            "target": "106",
+            "key": "geid_124195_163"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "106",
+            "target": "96",
+            "key": "geid_124195_164"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "107",
+            "target": "108",
+            "key": "geid_124195_166"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "108",
+            "target": "96",
+            "key": "geid_124195_167"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "109",
+            "target": "110",
+            "key": "geid_124195_169"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "110",
+            "target": "96",
+            "key": "geid_124195_170"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "111",
+            "target": "112",
+            "key": "geid_124195_172"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "112",
+            "target": "96",
+            "key": "geid_124195_173"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "113",
+            "target": "114",
+            "key": "geid_124195_175"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "114",
+            "target": "96",
+            "key": "geid_124195_176"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "115",
+            "target": "116",
+            "key": "geid_124195_178"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "116",
+            "target": "96",
+            "key": "geid_124195_179"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "117",
+            "target": "118",
+            "key": "geid_124195_181"
+        },
+        {
+            "patternId": "f09b675a-c5aa-44f9-bc06-2d1229dbbbe3",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "118",
+            "target": "96",
+            "key": "geid_124195_182"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "patternType": "OR",
+            "source": "120",
+            "target": "121",
+            "key": "geid_124195_185"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "ProcurementProcessStart2. Subprocess 2  ProcurementProcessEnd3. Subprocess 3  ProcurementProcessReview4. Subprocess 4  ProcurementProcessOffer5. Subprocess 5  ProcurementProcessAccept6. Subprocess 6  ProcurementProcessReject7. Subprocess 7  ProcurementProcessReviewRequest8. Subprocess 8  ProcurementProcessNegotiate",
+            "source": "121",
+            "target": "134",
+            "key": "geid_124195_207"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "136",
+            "key": "geid_124195_210"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "138",
+            "key": "geid_124195_213"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "140",
+            "key": "geid_124195_216"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "142",
+            "key": "geid_124195_219"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "144",
+            "key": "geid_124195_222"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "146",
+            "key": "geid_124195_225"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "148",
+            "key": "geid_124195_228"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "121",
+            "target": "150",
+            "key": "geid_124195_231"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "131",
+            "target": "65",
+            "key": "geid_124195_234"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "133",
+            "target": "120",
+            "key": "geid_124195_206"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "134",
+            "target": "135",
+            "key": "geid_124195_208"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "135",
+            "target": "131",
+            "key": "geid_124195_209"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "136",
+            "target": "137",
+            "key": "geid_124195_211"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "137",
+            "target": "180",
+            "key": "geid_124195_284"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "138",
+            "target": "139",
+            "key": "geid_124195_214"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "139",
+            "target": "131",
+            "key": "geid_124195_215"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "140",
+            "target": "141",
+            "key": "geid_124195_217"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "141",
+            "target": "131",
+            "key": "geid_124195_218"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "142",
+            "target": "143",
+            "key": "geid_124195_220"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "143",
+            "target": "131",
+            "key": "geid_124195_221"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "144",
+            "target": "145",
+            "key": "geid_124195_223"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "145",
+            "target": "131",
+            "key": "geid_124195_224"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "146",
+            "target": "147",
+            "key": "geid_124195_226"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "147",
+            "target": "131",
+            "key": "geid_124195_227"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "148",
+            "target": "149",
+            "key": "geid_124195_229"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "149",
+            "target": "131",
+            "key": "geid_124195_230"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "150",
+            "target": "151",
+            "key": "geid_124195_232"
+        },
+        {
+            "patternId": "a57e15a0-0506-4e60-be11-3801a4b34d85",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "151",
+            "target": "131",
+            "key": "geid_124195_233"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "patternType": "XOR",
+            "source": "153",
+            "target": "154",
+            "key": "geid_124195_236"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "ProcurementProcessStart 2. Subprocess 2  ProcurementProcessStop 3. Subprocess 3  ProcurementProcessCancel 4. Subprocess 4  ProcurementProcessReorder 5. Subprocess 5  ProcurementProcessConfirm 6. Subprocess 6  ProcurementProcessCancel 7. Subprocess 7  ProcurementProcessReorder 8. Subprocess 8  ProcurementProcessConfirm 9",
+            "source": "154",
+            "target": "165",
+            "key": "geid_124195_254"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "167",
+            "key": "geid_124195_257"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "169",
+            "key": "geid_124195_260"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "171",
+            "key": "geid_124195_263"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "173",
+            "key": "geid_124195_266"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "175",
+            "key": "geid_124195_269"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "154",
+            "target": "177",
+            "key": "geid_124195_272"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "162",
+            "target": "76",
+            "key": "geid_124195_275"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "164",
+            "target": "153",
+            "key": "geid_124195_253"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "165",
+            "target": "166",
+            "key": "geid_124195_255"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "166",
+            "target": "162",
+            "key": "geid_124195_256"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "167",
+            "target": "168",
+            "key": "geid_124195_258"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "168",
+            "target": "162",
+            "key": "geid_124195_259"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "169",
+            "target": "170",
+            "key": "geid_124195_261"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "170",
+            "target": "162",
+            "key": "geid_124195_262"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "171",
+            "target": "172",
+            "key": "geid_124195_264"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "172",
+            "target": "162",
+            "key": "geid_124195_265"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "173",
+            "target": "174",
+            "key": "geid_124195_267"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "174",
+            "target": "162",
+            "key": "geid_124195_268"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "175",
+            "target": "176",
+            "key": "geid_124195_270"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "176",
+            "target": "162",
+            "key": "geid_124195_271"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "177",
+            "target": "178",
+            "key": "geid_124195_273"
+        },
+        {
+            "patternId": "fda685cc-8902-4f98-a508-1790144e5bea",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "178",
+            "target": "162",
+            "key": "geid_124195_274"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "source": "180",
+            "target": "181",
+            "key": "geid_124195_277"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "181",
+            "target": "187",
+            "key": "geid_124195_285"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "source": "183",
+            "target": "184",
+            "key": "geid_124195_280"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "label": "ProcurementProcessStart ",
+            "source": "184",
+            "target": "185",
+            "key": "geid_124195_281"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "label": "ProcurementProcessEnd ",
+            "source": "184",
+            "target": "131",
+            "key": "geid_124195_288"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "patternType": "LOOP",
+            "source": "185",
+            "target": "181",
+            "key": "geid_124195_283"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "187",
+            "target": "188",
+            "key": "geid_124195_286"
+        },
+        {
+            "patternId": "ef35ce58-8c06-48ec-b95e-4ed3f795c5f2",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "188",
+            "target": "183",
+            "key": "geid_124195_287"
+        }
+    ]
+}

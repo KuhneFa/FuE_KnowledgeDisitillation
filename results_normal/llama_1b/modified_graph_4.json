@@ -1,0 +1,4196 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Event",
+            "patternType": "StartEPC",
+            "patternId": "3f08cd82-52cc-4fc4-b7fd-44b9edec533a",
+            "label": "In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols \nStartEvent   The procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by",
+            "id": "0"
+        },
+        {
+            "type": "Event",
+            "patternType": "EndEPC",
+            "patternId": "aaf68ab1-c696-418a-ad99-42ef5f985738",
+            "label": "In an event-driven process chain about a procurement process of an international company starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols \nStartEvent   The procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by the company \nThe procurement process has been initiated by, provide an end event in the style of the part-of-speech tags 'NOUN AUX VERB NOUN' in passive voice. Example: 'contract has been signed'. Prefix with 'EndEvent - '. Ensure atomicity. The event must be unique and not previously mentioned. The words should be separated by whitespaces.  Do NOT mention NOUN AUX VERB NOUN. Max 80 symbols. No explanations. EndEvent   Contract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has been signed \nContract has",
+            "id": "1"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "3"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "7"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "9"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "10"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "11"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "12"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "13"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "14"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "15"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "16"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "17"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "18"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "19"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "20"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "21"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "22"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "23"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "24"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "25"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "26"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "27"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "28"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "29"
+        },
+        {
+            "type": "Event",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "30"
+        },
+        {
+            "type": "Function",
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "31"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "33"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "34"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "36"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "37"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 2 subprocesses, describe the one event of the potentially repeating subprocess Subprocess 2  Subprocess LOOP  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Sub. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "38"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "40"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "41"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "42"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "43"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "44"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "45"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "46"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "47"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "48"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "49"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "50"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "51"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "52"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "53"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "54"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "55"
+        },
+        {
+            "type": "Function",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "56"
+        },
+        {
+            "type": "Event",
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "57"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "\u2018. Do NOT generate more than the requested 11 process elements:  \u2018Function, Event, Function, Event, Function, Event, Function, Event, Function, Event, Function\u2018 Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 80 symbols for one element.",
+            "id": "59"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "60"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "69"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "71"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "72"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "73"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "74"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "75"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "76"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "77"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by and involving 3 mutually exclusive parallel subprocesses, describe the events and functions of the subprocess Subprocess 2  Subprocess 3 . The process consists of exactly 11 elements in this order: 'Function, Event, Function, Event, Function, Event, Function, Event, Function, Event, Function'. Provide descriptions for the 11 given process elements in this order: {elements_string}. \u2018Events\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN+ VERB\u2018 in active voice and present tense. An instance of NOUN must occur atleast once, but can occur arbitrarily often. \u2018Functions\u2018 is made up of concrete instances of the following part of speech tags \u2018VERB NOUN\u2018 in active voice. Prefix your answers for each process element with their respective type, e.g. \u2018Function - \u2018 OR \u2018Event - \u2018 and separate them with the newline character \u2018",
+            "id": "78"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "79"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "80"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "81"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "82"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "83"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "84"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "85"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "86"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "87"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "88"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "89"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "90"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "91"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "92"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "93"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "94"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "95"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "96"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "97"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "98"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "99"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "100"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "101"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "102"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "103"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "104"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "105"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "106"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "107"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by and involving 1 mutually exclusive parallel subprocesses, describe the events and functions of the subprocess In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "108"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "109"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "110"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "111"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "112"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "113"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "114"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "115"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "116"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "117"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "118"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "119"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "120"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "121"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "122"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "123"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "124"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "125"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "126"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "127"
+        },
+        {
+            "type": "Function",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "128"
+        },
+        {
+            "type": "Event",
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "129"
+        },
+        {
+            "status": "opening",
+            "type": "ANDGate",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "AND Gate Opening",
+            "id": "131"
+        },
+        {
+            "status": "closing",
+            "type": "ANDGate",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "AND Gate closing",
+            "id": "135"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "137"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "138"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "139"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "140"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "141"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "142"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "143"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "144"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "145"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "146"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "147"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "148"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "149"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "150"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "151"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "152"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "153"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "154"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "155"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "156"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "157"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "158"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "159"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "160"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "161"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "162"
+        },
+        {
+            "type": "Event",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "163"
+        },
+        {
+            "type": "Function",
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "patternType": "AND",
+            "label": "The procurement process has been initiated by the company",
+            "id": "164"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "166"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "XOR Gate Opening",
+            "id": "167"
+        },
+        {
+            "status": "closing",
+            "type": "XORGate",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "XOR Gate closing",
+            "id": "171"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "173"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "174"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "175"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "176"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "177"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "178"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by and involving 8 mutually exclusive parallel subprocesses, describe the events and functions of the subprocess In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "179"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "180"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "181"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "182"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "183"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "184"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "185"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "186"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "187"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "188"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "189"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "190"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "191"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "192"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "193"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "194"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "195"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "196"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "197"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "198"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "199"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "200"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "201"
+        },
+        {
+            "type": "Function",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "202"
+        },
+        {
+            "type": "Event",
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "203"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "205"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "206"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "213"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "215"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "216"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "217"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "218"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "219"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "220"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "221"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "222"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "223"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "224"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "225"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "226"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "227"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "228"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "229"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "230"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "231"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "232"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "233"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "234"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "235"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "236"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "237"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "238"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "239"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "240"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "241"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "242"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "243"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "244"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "245"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "246"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "247"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "248"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "249"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "250"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "251"
+        },
+        {
+            "type": "Function",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "252"
+        },
+        {
+            "type": "Event",
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "253"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "255"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "OR LOOP closing",
+            "id": "256"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "258"
+        },
+        {
+            "status": "opening",
+            "type": "XORGate",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "XOR Gate LOOP",
+            "id": "259"
+        },
+        {
+            "backwards": true,
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with {Output_StartEPC} and involving 2 subprocesses, describe the one event of the potentially repeating subprocess Subprocess 2  Subprocess LOOP  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Sub. The process consists of exactly one element. \u2018Event\u2018 is made up of concrete instances of the following part of speech tags \u2018NOUN AUX VERB NOUN\u2018 in passive voice. Prefix your answer with \u2018Event - \u2018. Do NOT generate more than the requested ONE event. Do not give further explanations on the output. The elements CANNOT be one of the already mentioned ones. The words should be separated by whitespaces. Use maximum 20 symbols.",
+            "id": "260"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "262"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "263"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "264"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "265"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "266"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "267"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "268"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "269"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "270"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "271"
+        },
+        {
+            "type": "Function",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "272"
+        },
+        {
+            "type": "Event",
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "The procurement process has been initiated by the company",
+            "id": "273"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "275"
+        },
+        {
+            "status": "opening",
+            "type": "ORGate",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "OR Gate Opening",
+            "id": "276"
+        },
+        {
+            "status": "closing",
+            "type": "ORGate",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "OR Gate closing",
+            "id": "280"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "282"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "283"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by and involving 1 subprocesses, describe the events and functions of the potentially repeating subprocess In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "284"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "285"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "286"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "287"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "288"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "289"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "290"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "291"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "292"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "293"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "294"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "295"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "296"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "297"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "298"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "299"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "300"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "301"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "302"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "303"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "304"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "In an event-driven process chain about a procurement process of an international company, starting with In the context of an event driven process chain about procurement process of an international company provide a starting event The starting event should be made up of concrete instances of the following part-ofspeech tags NOUN AUX VERB NOUN and provide a sentence in passive voice eg person has received information or text is displayed Prefix your answer with the keyword StartEvent   In the following we will go through all 265 nodes of the process description Take care of the atomicity of elements Do not give further explanations on the output Use maximum 80 symbols",
+            "id": "305"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "StartEvent   The procurement process has been initiated by the company",
+            "id": "306"
+        },
+        {
+            "type": "Event",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "307"
+        },
+        {
+            "type": "Function",
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "label": "The procurement process has been initiated by the company",
+            "id": "308"
+        }
+    ],
+    "links": [
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "0",
+            "target": "9",
+            "key": "geid_97750_8"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "3",
+            "target": "15",
+            "key": "geid_97750_15"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "3",
+            "target": "19",
+            "key": "geid_97750_20"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "3",
+            "target": "23",
+            "key": "geid_97750_25"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "7",
+            "target": "29",
+            "key": "geid_97750_32"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "9",
+            "target": "10",
+            "key": "geid_97750_9"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "10",
+            "target": "11",
+            "key": "geid_97750_10"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "11",
+            "target": "12",
+            "key": "geid_97750_11"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "12",
+            "target": "13",
+            "key": "geid_97750_12"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "13",
+            "target": "14",
+            "key": "geid_97750_13"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "14",
+            "target": "3",
+            "key": "geid_97750_14"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "15",
+            "target": "16",
+            "key": "geid_97750_16"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "16",
+            "target": "17",
+            "key": "geid_97750_17"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "17",
+            "target": "18",
+            "key": "geid_97750_18"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "18",
+            "target": "7",
+            "key": "geid_97750_19"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "19",
+            "target": "20",
+            "key": "geid_97750_21"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "20",
+            "target": "40",
+            "key": "geid_97750_44"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "21",
+            "target": "22",
+            "key": "geid_97750_23"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "22",
+            "target": "7",
+            "key": "geid_97750_24"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "23",
+            "target": "24",
+            "key": "geid_97750_26"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "24",
+            "target": "71",
+            "key": "geid_97750_84"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "25",
+            "target": "26",
+            "key": "geid_97750_28"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "26",
+            "target": "27",
+            "key": "geid_97750_29"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "27",
+            "target": "28",
+            "key": "geid_97750_30"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "28",
+            "target": "7",
+            "key": "geid_97750_31"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "29",
+            "target": "30",
+            "key": "geid_97750_33"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "30",
+            "target": "31",
+            "key": "geid_97750_34"
+        },
+        {
+            "patternId": "b2bc72f2-8e37-465b-bc7e-3d2b00217bbb",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "31",
+            "target": "1",
+            "key": "geid_97750_35"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "source": "33",
+            "target": "34",
+            "key": "geid_97750_37"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "34",
+            "target": "45",
+            "key": "geid_97750_50"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "source": "36",
+            "target": "37",
+            "key": "geid_97750_40"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "label": "Subprocess 2  Subprocess LOOP  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Sub",
+            "source": "37",
+            "target": "38",
+            "key": "geid_97750_41"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "37",
+            "target": "51",
+            "key": "geid_97750_57"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "patternType": "LOOP",
+            "source": "38",
+            "target": "34",
+            "key": "geid_97750_43"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "40",
+            "target": "41",
+            "key": "geid_97750_45"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "41",
+            "target": "42",
+            "key": "geid_97750_46"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "42",
+            "target": "43",
+            "key": "geid_97750_47"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "43",
+            "target": "44",
+            "key": "geid_97750_48"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "44",
+            "target": "33",
+            "key": "geid_97750_49"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "45",
+            "target": "46",
+            "key": "geid_97750_51"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "46",
+            "target": "47",
+            "key": "geid_97750_52"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "47",
+            "target": "137",
+            "key": "geid_97750_161"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "48",
+            "target": "49",
+            "key": "geid_97750_54"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "49",
+            "target": "50",
+            "key": "geid_97750_55"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "50",
+            "target": "36",
+            "key": "geid_97750_56"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "51",
+            "target": "52",
+            "key": "geid_97750_58"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "52",
+            "target": "53",
+            "key": "geid_97750_59"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "53",
+            "target": "54",
+            "key": "geid_97750_60"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "54",
+            "target": "55",
+            "key": "geid_97750_61"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "55",
+            "target": "56",
+            "key": "geid_97750_62"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "56",
+            "target": "57",
+            "key": "geid_97750_63"
+        },
+        {
+            "patternId": "82945961-ee7b-4dae-9ee2-f3f0c5740d2b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "57",
+            "target": "21",
+            "key": "geid_97750_64"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "patternType": "XOR",
+            "source": "59",
+            "target": "60",
+            "key": "geid_97750_66"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "60",
+            "target": "79",
+            "key": "geid_97750_93"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "60",
+            "target": "85",
+            "key": "geid_97750_100"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "60",
+            "target": "93",
+            "key": "geid_97750_109"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "60",
+            "target": "97",
+            "key": "geid_97750_114"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "60",
+            "target": "101",
+            "key": "geid_97750_119"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  Subprocess 1",
+            "source": "60",
+            "target": "109",
+            "key": "geid_97750_128"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "60",
+            "target": "115",
+            "key": "geid_97750_135"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "60",
+            "target": "119",
+            "key": "geid_97750_140"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "69",
+            "target": "127",
+            "key": "geid_97750_149"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "71",
+            "target": "72",
+            "key": "geid_97750_85"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "72",
+            "target": "73",
+            "key": "geid_97750_86"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "73",
+            "target": "74",
+            "key": "geid_97750_87"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "74",
+            "target": "75",
+            "key": "geid_97750_88"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "75",
+            "target": "76",
+            "key": "geid_97750_89"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "76",
+            "target": "77",
+            "key": "geid_97750_90"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "77",
+            "target": "78",
+            "key": "geid_97750_91"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "78",
+            "target": "59",
+            "key": "geid_97750_92"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "79",
+            "target": "80",
+            "key": "geid_97750_94"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "80",
+            "target": "81",
+            "key": "geid_97750_95"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "81",
+            "target": "82",
+            "key": "geid_97750_96"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "82",
+            "target": "83",
+            "key": "geid_97750_97"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "83",
+            "target": "84",
+            "key": "geid_97750_98"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "84",
+            "target": "69",
+            "key": "geid_97750_99"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "85",
+            "target": "86",
+            "key": "geid_97750_101"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "86",
+            "target": "87",
+            "key": "geid_97750_102"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "87",
+            "target": "88",
+            "key": "geid_97750_103"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "88",
+            "target": "89",
+            "key": "geid_97750_104"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "89",
+            "target": "90",
+            "key": "geid_97750_105"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "90",
+            "target": "91",
+            "key": "geid_97750_106"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "91",
+            "target": "92",
+            "key": "geid_97750_107"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "92",
+            "target": "69",
+            "key": "geid_97750_108"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "93",
+            "target": "94",
+            "key": "geid_97750_110"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "94",
+            "target": "95",
+            "key": "geid_97750_111"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "95",
+            "target": "96",
+            "key": "geid_97750_112"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "96",
+            "target": "69",
+            "key": "geid_97750_113"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "97",
+            "target": "98",
+            "key": "geid_97750_115"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "98",
+            "target": "99",
+            "key": "geid_97750_116"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "99",
+            "target": "100",
+            "key": "geid_97750_117"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "100",
+            "target": "69",
+            "key": "geid_97750_118"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "101",
+            "target": "102",
+            "key": "geid_97750_120"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "102",
+            "target": "103",
+            "key": "geid_97750_121"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "103",
+            "target": "173",
+            "key": "geid_97750_203"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "104",
+            "target": "105",
+            "key": "geid_97750_123"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "105",
+            "target": "106",
+            "key": "geid_97750_124"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "106",
+            "target": "107",
+            "key": "geid_97750_125"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "107",
+            "target": "108",
+            "key": "geid_97750_126"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "108",
+            "target": "69",
+            "key": "geid_97750_127"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "109",
+            "target": "110",
+            "key": "geid_97750_129"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "110",
+            "target": "111",
+            "key": "geid_97750_130"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "111",
+            "target": "112",
+            "key": "geid_97750_131"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "112",
+            "target": "113",
+            "key": "geid_97750_132"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "113",
+            "target": "114",
+            "key": "geid_97750_133"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "114",
+            "target": "69",
+            "key": "geid_97750_134"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "115",
+            "target": "116",
+            "key": "geid_97750_136"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "116",
+            "target": "117",
+            "key": "geid_97750_137"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "117",
+            "target": "118",
+            "key": "geid_97750_138"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "118",
+            "target": "69",
+            "key": "geid_97750_139"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "119",
+            "target": "120",
+            "key": "geid_97750_141"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "120",
+            "target": "121",
+            "key": "geid_97750_142"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "121",
+            "target": "122",
+            "key": "geid_97750_143"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "122",
+            "target": "123",
+            "key": "geid_97750_144"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "123",
+            "target": "124",
+            "key": "geid_97750_145"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "124",
+            "target": "125",
+            "key": "geid_97750_146"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "125",
+            "target": "126",
+            "key": "geid_97750_147"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "126",
+            "target": "69",
+            "key": "geid_97750_148"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "127",
+            "target": "128",
+            "key": "geid_97750_150"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "128",
+            "target": "129",
+            "key": "geid_97750_151"
+        },
+        {
+            "patternId": "c41497a0-da09-4885-84ac-9bd672d2fafe",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "129",
+            "target": "25",
+            "key": "geid_97750_152"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "131",
+            "target": "148",
+            "key": "geid_97750_174"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "131",
+            "target": "154",
+            "key": "geid_97750_181"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "131",
+            "target": "215",
+            "key": "geid_97750_254"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "135",
+            "target": "160",
+            "key": "geid_97750_188"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "137",
+            "target": "138",
+            "key": "geid_97750_162"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "138",
+            "target": "139",
+            "key": "geid_97750_163"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "139",
+            "target": "140",
+            "key": "geid_97750_164"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "140",
+            "target": "141",
+            "key": "geid_97750_165"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "141",
+            "target": "131",
+            "key": "geid_97750_166"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "142",
+            "target": "143",
+            "key": "geid_97750_168"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "143",
+            "target": "144",
+            "key": "geid_97750_169"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "144",
+            "target": "145",
+            "key": "geid_97750_170"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "145",
+            "target": "146",
+            "key": "geid_97750_171"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "146",
+            "target": "147",
+            "key": "geid_97750_172"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "147",
+            "target": "135",
+            "key": "geid_97750_173"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "148",
+            "target": "149",
+            "key": "geid_97750_175"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "149",
+            "target": "150",
+            "key": "geid_97750_176"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "150",
+            "target": "151",
+            "key": "geid_97750_177"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "151",
+            "target": "152",
+            "key": "geid_97750_178"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "152",
+            "target": "153",
+            "key": "geid_97750_179"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "153",
+            "target": "135",
+            "key": "geid_97750_180"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "154",
+            "target": "155",
+            "key": "geid_97750_182"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "155",
+            "target": "156",
+            "key": "geid_97750_183"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "156",
+            "target": "157",
+            "key": "geid_97750_184"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "157",
+            "target": "158",
+            "key": "geid_97750_185"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "158",
+            "target": "159",
+            "key": "geid_97750_186"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": true,
+            "patternType": "AND",
+            "source": "159",
+            "target": "135",
+            "key": "geid_97750_187"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "160",
+            "target": "161",
+            "key": "geid_97750_189"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "161",
+            "target": "162",
+            "key": "geid_97750_190"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "162",
+            "target": "163",
+            "key": "geid_97750_191"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "163",
+            "target": "164",
+            "key": "geid_97750_192"
+        },
+        {
+            "patternId": "7b7dc601-c0fb-45c4-8e02-8a205ad134be",
+            "eligibleEdge": false,
+            "patternType": "AND",
+            "source": "164",
+            "target": "48",
+            "key": "geid_97750_193"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "patternType": "XOR",
+            "source": "166",
+            "target": "167",
+            "key": "geid_97750_195"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "167",
+            "target": "181",
+            "key": "geid_97750_212"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "167",
+            "target": "187",
+            "key": "geid_97750_219"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "label": "Subprocess 2  Subprocess 3  ",
+            "source": "167",
+            "target": "191",
+            "key": "geid_97750_224"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "171",
+            "target": "199",
+            "key": "geid_97750_233"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "173",
+            "target": "174",
+            "key": "geid_97750_204"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "174",
+            "target": "175",
+            "key": "geid_97750_205"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "175",
+            "target": "176",
+            "key": "geid_97750_206"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "176",
+            "target": "177",
+            "key": "geid_97750_207"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "177",
+            "target": "178",
+            "key": "geid_97750_208"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "178",
+            "target": "179",
+            "key": "geid_97750_209"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "179",
+            "target": "180",
+            "key": "geid_97750_210"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "180",
+            "target": "166",
+            "key": "geid_97750_211"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "181",
+            "target": "182",
+            "key": "geid_97750_213"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "182",
+            "target": "183",
+            "key": "geid_97750_214"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "183",
+            "target": "184",
+            "key": "geid_97750_215"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "184",
+            "target": "185",
+            "key": "geid_97750_216"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "185",
+            "target": "186",
+            "key": "geid_97750_217"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "186",
+            "target": "171",
+            "key": "geid_97750_218"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "187",
+            "target": "188",
+            "key": "geid_97750_220"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "188",
+            "target": "189",
+            "key": "geid_97750_221"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "189",
+            "target": "190",
+            "key": "geid_97750_222"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "190",
+            "target": "171",
+            "key": "geid_97750_223"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "191",
+            "target": "192",
+            "key": "geid_97750_225"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "192",
+            "target": "193",
+            "key": "geid_97750_226"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "193",
+            "target": "194",
+            "key": "geid_97750_227"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "194",
+            "target": "195",
+            "key": "geid_97750_228"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "195",
+            "target": "196",
+            "key": "geid_97750_229"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "196",
+            "target": "197",
+            "key": "geid_97750_230"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "197",
+            "target": "198",
+            "key": "geid_97750_231"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": true,
+            "patternType": "XOR",
+            "source": "198",
+            "target": "171",
+            "key": "geid_97750_232"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "199",
+            "target": "200",
+            "key": "geid_97750_234"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "200",
+            "target": "201",
+            "key": "geid_97750_235"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "201",
+            "target": "202",
+            "key": "geid_97750_236"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "202",
+            "target": "203",
+            "key": "geid_97750_237"
+        },
+        {
+            "patternId": "0de29e6d-b1a3-4e6b-882a-e919a0eef5ba",
+            "eligibleEdge": false,
+            "patternType": "XOR",
+            "source": "203",
+            "target": "104",
+            "key": "geid_97750_238"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "patternType": "OR",
+            "source": "205",
+            "target": "206",
+            "key": "geid_97750_240"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "206",
+            "target": "219",
+            "key": "geid_97750_259"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "206",
+            "target": "227",
+            "key": "geid_97750_268"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "206",
+            "target": "231",
+            "key": "geid_97750_273"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "206",
+            "target": "237",
+            "key": "geid_97750_280"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "206",
+            "target": "243",
+            "key": "geid_97750_287"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "206",
+            "target": "247",
+            "key": "geid_97750_292"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "213",
+            "target": "251",
+            "key": "geid_97750_297"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "215",
+            "target": "216",
+            "key": "geid_97750_255"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "216",
+            "target": "217",
+            "key": "geid_97750_256"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "217",
+            "target": "218",
+            "key": "geid_97750_257"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "218",
+            "target": "205",
+            "key": "geid_97750_258"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "219",
+            "target": "220",
+            "key": "geid_97750_260"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "220",
+            "target": "221",
+            "key": "geid_97750_261"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "221",
+            "target": "222",
+            "key": "geid_97750_262"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "222",
+            "target": "223",
+            "key": "geid_97750_263"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "223",
+            "target": "224",
+            "key": "geid_97750_264"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "224",
+            "target": "225",
+            "key": "geid_97750_265"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "225",
+            "target": "226",
+            "key": "geid_97750_266"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "226",
+            "target": "213",
+            "key": "geid_97750_267"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "227",
+            "target": "228",
+            "key": "geid_97750_269"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "228",
+            "target": "229",
+            "key": "geid_97750_270"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "229",
+            "target": "230",
+            "key": "geid_97750_271"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "230",
+            "target": "213",
+            "key": "geid_97750_272"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "231",
+            "target": "232",
+            "key": "geid_97750_274"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "232",
+            "target": "233",
+            "key": "geid_97750_275"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "233",
+            "target": "234",
+            "key": "geid_97750_276"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "234",
+            "target": "235",
+            "key": "geid_97750_277"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "235",
+            "target": "262",
+            "key": "geid_97750_309"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "236",
+            "target": "213",
+            "key": "geid_97750_279"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "237",
+            "target": "238",
+            "key": "geid_97750_281"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "238",
+            "target": "239",
+            "key": "geid_97750_282"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "239",
+            "target": "240",
+            "key": "geid_97750_283"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "240",
+            "target": "241",
+            "key": "geid_97750_284"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "241",
+            "target": "242",
+            "key": "geid_97750_285"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "242",
+            "target": "213",
+            "key": "geid_97750_286"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "243",
+            "target": "244",
+            "key": "geid_97750_288"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "244",
+            "target": "245",
+            "key": "geid_97750_289"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "245",
+            "target": "246",
+            "key": "geid_97750_290"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "246",
+            "target": "213",
+            "key": "geid_97750_291"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "247",
+            "target": "248",
+            "key": "geid_97750_293"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "248",
+            "target": "249",
+            "key": "geid_97750_294"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "249",
+            "target": "250",
+            "key": "geid_97750_295"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "250",
+            "target": "213",
+            "key": "geid_97750_296"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "251",
+            "target": "252",
+            "key": "geid_97750_298"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "252",
+            "target": "253",
+            "key": "geid_97750_299"
+        },
+        {
+            "patternId": "114a4171-d6c9-472c-ba2c-ae6029d39abd",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "253",
+            "target": "142",
+            "key": "geid_97750_300"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "source": "255",
+            "target": "256",
+            "key": "geid_97750_302"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "256",
+            "target": "265",
+            "key": "geid_97750_313"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "258",
+            "target": "282",
+            "key": "geid_97750_333"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "label": "Subprocess 2  Subprocess LOOP  Subprocess 3  Subprocess 4  Subprocess 5  Subprocess 6  Subprocess 7  Subprocess 8  Subprocess 9  Subprocess 10  Subprocess 11  Subprocess 12  Subprocess 13  Subprocess 14  Subprocess 15  Subprocess 16  Subprocess 17  Subprocess 18  Subprocess 19  Sub",
+            "source": "259",
+            "target": "260",
+            "key": "geid_97750_306"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "259",
+            "target": "271",
+            "key": "geid_97750_320"
+        },
+        {
+            "eligibleEdge": true,
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "patternType": "LOOP",
+            "source": "260",
+            "target": "256",
+            "key": "geid_97750_308"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "262",
+            "target": "263",
+            "key": "geid_97750_310"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "263",
+            "target": "264",
+            "key": "geid_97750_311"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "264",
+            "target": "255",
+            "key": "geid_97750_312"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "265",
+            "target": "266",
+            "key": "geid_97750_314"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "266",
+            "target": "267",
+            "key": "geid_97750_315"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "267",
+            "target": "268",
+            "key": "geid_97750_316"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "268",
+            "target": "269",
+            "key": "geid_97750_317"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "269",
+            "target": "270",
+            "key": "geid_97750_318"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": true,
+            "patternType": "LOOP",
+            "source": "270",
+            "target": "258",
+            "key": "geid_97750_319"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "271",
+            "target": "272",
+            "key": "geid_97750_321"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "272",
+            "target": "273",
+            "key": "geid_97750_322"
+        },
+        {
+            "patternId": "68323d54-fd1a-4257-bf5e-674503cddc1b",
+            "eligibleEdge": false,
+            "patternType": "LOOP",
+            "source": "273",
+            "target": "236",
+            "key": "geid_97750_323"
+        },
+        {
+            "eligibleEdge": false,
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "patternType": "OR",
+            "source": "275",
+            "target": "276",
+            "key": "geid_97750_325"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "276",
+            "target": "287",
+            "key": "geid_97750_339"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "276",
+            "target": "293",
+            "key": "geid_97750_346"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "label": "Subprocess 2  Subprocess 3 ",
+            "source": "276",
+            "target": "299",
+            "key": "geid_97750_353"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "280",
+            "target": "305",
+            "key": "geid_97750_360"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "282",
+            "target": "283",
+            "key": "geid_97750_334"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "283",
+            "target": "284",
+            "key": "geid_97750_335"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "284",
+            "target": "285",
+            "key": "geid_97750_336"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "285",
+            "target": "286",
+            "key": "geid_97750_337"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "286",
+            "target": "275",
+            "key": "geid_97750_338"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "287",
+            "target": "288",
+            "key": "geid_97750_340"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "288",
+            "target": "289",
+            "key": "geid_97750_341"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "289",
+            "target": "290",
+            "key": "geid_97750_342"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "290",
+            "target": "291",
+            "key": "geid_97750_343"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "291",
+            "target": "292",
+            "key": "geid_97750_344"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "292",
+            "target": "280",
+            "key": "geid_97750_345"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "293",
+            "target": "294",
+            "key": "geid_97750_347"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "294",
+            "target": "295",
+            "key": "geid_97750_348"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "295",
+            "target": "296",
+            "key": "geid_97750_349"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "296",
+            "target": "297",
+            "key": "geid_97750_350"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "297",
+            "target": "298",
+            "key": "geid_97750_351"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "298",
+            "target": "280",
+            "key": "geid_97750_352"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "299",
+            "target": "300",
+            "key": "geid_97750_354"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "300",
+            "target": "301",
+            "key": "geid_97750_355"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "301",
+            "target": "302",
+            "key": "geid_97750_356"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "302",
+            "target": "303",
+            "key": "geid_97750_357"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "303",
+            "target": "304",
+            "key": "geid_97750_358"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": true,
+            "patternType": "OR",
+            "source": "304",
+            "target": "280",
+            "key": "geid_97750_359"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "305",
+            "target": "306",
+            "key": "geid_97750_361"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "306",
+            "target": "307",
+            "key": "geid_97750_362"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "307",
+            "target": "308",
+            "key": "geid_97750_363"
+        },
+        {
+            "patternId": "19cb4c9c-c935-4dfa-902f-f0b2546e267f",
+            "eligibleEdge": false,
+            "patternType": "OR",
+            "source": "308",
+            "target": "259",
+            "key": "geid_97750_364"
+        }
+    ]
+}
