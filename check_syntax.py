@@ -338,7 +338,7 @@ def plot_matching_tags(matching_tags,POS_NAME):
     # Plot anzeigen
     #plt.show()
 
-with open('llama_1b_dist/modified_graph_0.json') as file:
+with open('llama_1b/modified_graph_9.json') as file: # Users/fabiankassner/Documents/3 Semester/FuE_2/llama_1b/sharding_2/results/
     data = json.load(file)
 
 
