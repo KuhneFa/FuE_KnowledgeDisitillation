@@ -448,7 +448,7 @@ device = torch.device(f"cuda:{local_rank}")
 
 print(f"[INFO] Using device: {device}")
 # 1) Teacher initialisieren
-teacher_model_name = "meta-llama/Llama-3.2-3B-Instruct" #tiiuae/Falcon3-10B-Instruct #"deepseek-ai/DeepSeek-V3"  # Beispiel
+teacher_model_name = "meta-llama/Llama-3.1-8B-Instruct" #tiiuae/Falcon3-10B-Instruct #"deepseek-ai/DeepSeek-V3"  # Beispiel
 teacher_model, teacher_tokenizer = load_fsdp_teacher(teacher_model_name)
 
 lora_config = LoraConfig(
@@ -460,7 +460,7 @@ lora_config = LoraConfig(
 )
 
 # 2) Student initialisieren
-student_model_name =   "meta-llama/Llama-3.1-1B-Instruct"  #"microsoft/phi-4" Beispiel: kleineres Modell
+student_model_name =   "meta-llama/Llama-3.2-3B-Instruct"  #"microsoft/phi-4" Beispiel: kleineres Modell
 student_model, student_tokenizer = load_fsdp_student(student_model_name)
 student_model = get_peft_model(student_model, lora_config)
 student_model.config.use_cache = False
@@ -998,8 +998,8 @@ for epoch in range(num_epochs):
 
         # Calculate the time needed to create the epc
         elapsed_time = time.time() - start_time
-    student_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/student_models/3_2_1B_llama_student_{num_epochs}")
-    teacher_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/models_cache/3_2_13B_llama_teacher_{num_epochs}")
+    student_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/student_models/3_2_3B_llama_student_{num_epochs}")
+    teacher_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/models_cache/3_1_8B_llama_teacher_{num_epochs}")
 
     print(f"Die Ausführungsdauer für EPK Nummer {iteration} betrug {elapsed_time} Sekunden.")
 

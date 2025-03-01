@@ -38,7 +38,7 @@ amount_of_epk = 50 #int(input("Wie viele EPK's sollen generiert werden? "))
 
 # User can choose which model to use
 # Please run in your terminal 'ollama list' before to make sure you have the model you want to use
-saving_directory = "distill_llama" #input("Zur Auswahl stehen: phi3, phi3more qwen, phi, mistral, llama3. Welches LLM Model soll verwendet werden? ")
+saving_directory = "distill_llama_small" #input("Zur Auswahl stehen: phi3, phi3more qwen, phi, mistral, llama3. Welches LLM Model soll verwendet werden? ")
 
 # Theme of the EPK's can be set here. For the comparability it is always the same theme here
 theme = "procurement process of an international company" # input("Please insert a theme for the EPK: ")
@@ -999,7 +999,7 @@ for epoch in range(num_epochs):
         # Calculate the time needed to create the epc
         elapsed_time = time.time() - start_time
     student_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/student_models/3_2_1B_llama_student_{num_epochs}")
-    teacher_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/models_cache/3_2_13B_llama_teacher_{num_epochs}")
+    teacher_model.save_pretrained(f"/data/horse/ws/faku637g-specimen/models_cache/3_2_3B_llama_teacher_{num_epochs}")
 
     print(f"Die Ausführungsdauer für EPK Nummer {iteration} betrug {elapsed_time} Sekunden.")
 
